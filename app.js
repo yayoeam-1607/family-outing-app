@@ -21,11 +21,11 @@ import {
   fishingFields,
   saunaFields,
   emptyDetails,
-  tagsFor,
   effectiveTags,
 } from "./taxonomy.js";
 import { upgradeSpot } from "./spot-schema.js";
 import { regions } from "./spots.js";
+import { searchFacets } from "./search-facets.js";
 const $ = (id) => document.getElementById(id),
   esc = (v) =>
     String(v ?? "").replace(
@@ -278,10 +278,17 @@ function renderHierarchy() {
     $("hierarchy").innerHTML = "";
     return;
   }
-  let html = `<section class="hierarchy-section"><h3>${cat.label}で何をする？ <small>複数選択はOR</small></h3><div class="chips">${cat.subs.map((s) => `<button class="chip ${criteria.subcategories.includes(s) ? "active" : ""}" data-subcategory="${s}">${s}</button>`).join("")}</div></section>`;
+  const facets = searchFacets(state, criteria);
+  const facetButtons = (items, attribute) =>
+    items
+      .map(
+        ({ value, count, selected }) =>
+          `<button class="chip ${selected ? "active" : ""}" data-${attribute}="${esc(value)}" ${count === 0 && !selected ? "disabled" : ""}>${esc(value)} (${count})</button>`,
+      )
+      .join("");
+  let html = `<section class="hierarchy-section"><h3>${cat.label}で何をする？ <small>複数選択はOR</small></h3><div class="chips">${facetButtons(facets.subcategories, "subcategory")}</div></section>`;
   if (criteria.subcategories.length) {
-    const tags = tagsFor(criteria.mainCategory, criteria.subcategories);
-    html += `<section class="hierarchy-section"><h3>気になること <small>タグはOR</small></h3><div class="chips">${tags.map((t) => `<button class="chip ${criteria.tags.includes(t) ? "active" : ""}" data-tag="${t}">${t}</button>`).join("")}</div></section>`;
+    html += `<section class="hierarchy-section"><h3>気になること <small>タグはOR</small></h3><div class="chips">${facetButtons(facets.tags, "tag")}</div></section>`;
   }
   const groups = [];
   if (
@@ -755,10 +762,8 @@ function showEditor(id) {
 }
 function refreshSearch({ controls = true } = {}) {
   limit = 30;
-  if (controls) {
-    renderHierarchy();
-    renderCommon();
-  }
+  renderHierarchy();
+  if (controls) renderCommon();
   renderResults();
 }
 $("query").addEventListener("input", (e) => {
@@ -973,7 +978,7 @@ document.addEventListener("change", (e) => {
     const [g, k] = input.dataset.feature.split(".");
     if (input.checked) criteria[g][k] = true;
     else delete criteria[g][k];
-    renderResults();
+    refreshSearch({ controls: false });
   }
   if (input.dataset.path === "mainCategory" && captureEditor()) {
     editDraft.subcategories = [];

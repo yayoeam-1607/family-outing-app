@@ -1,3 +1,4 @@
+import { mergeSearchClassification } from "./catalog-search-repairs.js";
 import { upgradeSpot } from "./spot-schema.js";
 // 保存データを破壊せず、ユーザーの編集・非表示を優先する。
 export function migrateCatalogue(state, catalogue, revision) {
@@ -38,12 +39,14 @@ export function migrateCatalogue(state, catalogue, revision) {
         archivedSpots.push(structuredClone(s));
       else active.push(structuredClone(s));
     }
+  const latest = new Map(catalogue.map((s) => [s.id, s]));
+  const update = (s) => mergeSearchClassification(s, latest.get(s.id));
   return {
     ...state,
     version: 3,
     catalogRevision: revision,
-    spots: active,
-    archivedSpots,
+    spots: active.map(update),
+    archivedSpots: archivedSpots.map(update),
     removedBuiltinIds,
     favorites: [...state.favorites],
     visits: structuredClone(state.visits),

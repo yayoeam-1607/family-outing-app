@@ -1,12 +1,13 @@
 import { verifiedSpots as previous } from "./catalog-v2.js";
 import { additionalSpots } from "./catalog-additions.js";
+import { repairSearchClassification } from "./catalog-search-repairs.js";
 import { upgradeSpot } from "./spot-schema.js";
 const unknownPriceIds = new Set([
   "place-tokyo-yumenoshima-botanicalhall",
   "place-matsudo-komorebi",
   "place-kidzania",
 ]);
-export const catalogRevision = 5;
+export const catalogRevision = 6;
 export const expectedCatalogSize = 350;
 export const verifiedSpots = [
   ...previous.map((s) => {
@@ -47,7 +48,7 @@ export const verifiedSpots = [
     return upgraded;
   }),
   ...additionalSpots,
-];
+].map(repairSearchClassification);
 export const catalogReady =
   verifiedSpots.length === expectedCatalogSize &&
   new Set(verifiedSpots.map((s) => s.id)).size === expectedCatalogSize;

@@ -1,0 +1,293 @@
+{
+  "revision": 5,
+  "spots": [
+    {
+      "id": "place-mitsui-toyosu",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-tokyo-bay",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-shinmisato",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-kashiwa",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-fujimi",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-ebina",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-tachikawa",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-mitsui-yokohama",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-kisarazu-outlet",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-makuhari-aeon",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-laketown",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-minamiosawa",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-iruma",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-shonan-hiratsuka",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-yokohama-outlet",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-sakeya",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-laketown-outlet",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["アウトレット"]
+    },
+    {
+      "id": "place-aeon-kawaguchi",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-aeon-musashimurayama",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-northport",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-vinawalk",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-lala-hiratsuka",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-lala-sagamihara",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-aeon-narita",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-lala-yokosuka",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-terrace-tsujido",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-shonan-mall",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-hinode",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["ショッピングモール"]
+    },
+    {
+      "id": "place-added-2af7e42b4c15",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-138e423f61ea",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-baf0472c5d3a",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-e7121f95379f",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-0ec4adabf5f1",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-33e02e66ba4c",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-c7e1085140cb",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-e5f4bc0aa4ed",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-89dd8a35a650",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-362838edeaa5",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-2fdc32ab8675",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-a9746bead9bf",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-c86d96a63f86",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-e4a4f86d57fd",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-15669cf406ca",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-dbd1093400e9",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-5394b5ebbbe7",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-371139a8f229",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-484051286eee",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    },
+    {
+      "id": "place-added-15a45a24de42",
+      "mainCategory": "shopping",
+      "subcategories": ["施設タイプ"],
+      "tags": ["大型商業施設"]
+    }
+  ]
+}
