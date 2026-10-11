@@ -1,0 +1,3280 @@
+[
+  {
+    "id": "place-tokyo-ukita",
+    "name": "宇喜田公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区北葛西三丁目、宇喜田町。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      25,
+      55
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/ukita/index.html",
+        "title": "宇喜田公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "b4dac4afe834d7fd157f281092f3e138fc2c9c2a212e54c7a3e571feb4ccd1f2"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-ojima-komatsugawa",
+    "name": "大島小松川公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江東区大島九丁目、江戸川区小松川一丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      15,
+      45
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/ojima-komatsugawa/index.html",
+        "title": "大島小松川公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "0e0cfe458a2d18630c0ce2b0cd013f860de784daea916cfaafed688ede5a529f"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kasaikaihin",
+    "name": "葛西海浜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区臨海町六丁目地先。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kasaikaihin/index.html",
+        "title": "葛西海浜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "37cbffbf9cd5a4b8351038e9863927876fc3d67ea6f04995ff0396fa5f38747a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kasairinkai",
+    "name": "葛西臨海公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区臨海町六丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kasairinkai/index.html",
+        "title": "葛西臨海公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "c255ff6eef30875d51cfa08e2ed4889954ea7c89cd511ba43538c984ce6baca2"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kasairinkai/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "76e1acc0a8b54466c33203485e4d7a81ee04c6cd683ab2373d91329f3a7f75df"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kasai-rinkai-suizokuen",
+    "name": "葛西臨海水族園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江戸川区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人700円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kasai-rinkai-suizokuen/index.html",
+        "title": "葛西臨海水族園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "7647d4fb437006b37815abde054697c9e1c84a2137b7eb11703241565affdb45"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-zoo.net/kasai/visitor-info/tickets/index.html",
+        "title": "開園時間・休園日・入園料 | 葛西臨海水族園",
+        "httpStatus": 200,
+        "sha256": "a6ab3e263f5a79f316716a234dc99409eb0795cbf4a1a94651e32997c843e856"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kameido-chuo",
+    "name": "亀戸中央公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kameido-chuo/index.html",
+        "title": "亀戸中央公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "00a3ace979230acd0efc159cec7a4fe7ba654b5f5572e3e82cb6f109f37009cf"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kiba",
+    "name": "木場公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江東区木場四・五丁目・平野四丁目・三好四丁目・東陽六丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      40,
+      70
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kiba/index.html",
+        "title": "木場公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "a2a87b904259e67dda597aaa0acd30c69f57c1d872965335d60fada779bc5e75"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kiba/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "1ba78e328152aba1d6528930113649e8eb857f44bc025db513004b729ed8a4a4"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-sarue",
+    "name": "猿江恩賜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/sarue/index.html",
+        "title": "猿江恩賜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "57e424b8abfaf111b0b997c32a64453041b77a135556909dab48256fcbb6cf55"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-shinozaki",
+    "name": "篠崎公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区上篠崎一・四・八丁目、篠崎町六・七・八丁目、西篠崎一・二丁目、谷河内二丁目、南篠崎町四丁目、鹿骨町。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      10,
+      25
+    ],
+    "publicTransportRange": [
+      20,
+      50
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shinozaki/index.html",
+        "title": "篠崎公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "71dfc2a4801d02177cf1b192c03c195a0f78f03a9a169e93729545e72f28cf2e"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shinozaki/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "e39264c8fe3e4fea8f212900d76f3f729688dbf79b62ea6289b32e53d2a074ac"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-mizumoto",
+    "name": "水元公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：葛飾区水元公園・水元猿町・東金町五、八丁目・埼玉県三郷市高洲三丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      70,
+      100
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/mizumoto/index.html",
+        "title": "水元公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "4b2f94171111ceb8a841571573e28ec0b8ad9406d04c9d16fa0f4e9a60873dfd"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/mizumoto/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "b8cf73319e3270dd4b303b6815728a191e9b8851121e33c88738258d68209b4e"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-higashi-shirahige",
+    "name": "東白鬚公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：墨田区堤通二丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/higashi-shirahige/index.html",
+        "title": "東白鬚公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "01e4f023286a5b0794b3c31160e7a71063ff375e10f348432394c76b318e3875"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-shioiri",
+    "name": "汐入公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：荒川区南千住八丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shioiri/index.html",
+        "title": "汐入公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "4fee98eb28e8389de061a5a30da199cb8f5205906d900521cbb0cf26cbb38498"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shioiri/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "dcfc6a14a304b20c98dc5ec559dd11a782bb5caa13e9b9a6723870913deb5251"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-ueno",
+    "name": "上野恩賜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：台東区上野公園・池之端三丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/ueno/index.html",
+        "title": "上野恩賜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "77c921384b4ad3f3fb70f42d9352b9dca5d04fae9d5f6439c41a7b656669dfa3"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-ueno-zoological-gardens",
+    "name": "恩賜上野動物園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 台東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人600円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/ueno-zoological-gardens/index.html",
+        "title": "恩賜上野動物園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "76cce341b10655307e205dc5bc0988a77d79b69453ee9309943083985c0aa9d9"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-zoo.net/ueno/visitor-info/tickets/index.html",
+        "title": "開園時間・休園日・入園料 | 上野動物園",
+        "httpStatus": 200,
+        "sha256": "3e66304ea8360b8f200dd45c7f73d6680195b1cf21c6ee656bd714aaa26a164c"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-inokashira",
+    "name": "井の頭恩賜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：武蔵野市御殿山一丁目、。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      65,
+      105
+    ],
+    "publicTransportRange": [
+      75,
+      105
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/inokashira/index.html",
+        "title": "井の頭恩賜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "1c921818e5147da20f504c7b5cf95de7380812f61c30fe2a6cf263bebaef86c9"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-inokashira-park-zoo",
+    "name": "井の頭自然文化園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 武蔵野市。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人400円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      65,
+      105
+    ],
+    "publicTransportRange": [
+      80,
+      110
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/inokashira-park-zoo/index.html",
+        "title": "井の頭自然文化園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "85d9270bf110f8f20fb040c69297882a5e18c57eaa8850ad768cb80c44fafdff"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-zoo.net/inokashira/visitor-info/tickets/index.html",
+        "title": "開園時間・休園日・入園料 | 井の頭自然文化園",
+        "httpStatus": 200,
+        "sha256": "8962cd229139dfa4d48f9daf6f8b2a994b9082725099f0563f85e2aa4ce19efc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-tama-zoological-park",
+    "name": "多摩動物公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 日野市。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人600円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      85,
+      125
+    ],
+    "publicTransportRange": [
+      100,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/tama-zoological-park/index.html",
+        "title": "多摩動物公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "896e1dad14f6647899cb4ad41a1c98d01f6e6b12887f30e6ae0040c558e8a696"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-zoo.net/tama/visitor-info/tickets/index.html",
+        "title": "開園時間・休園日・入園料 | 多摩動物公園",
+        "httpStatus": 200,
+        "sha256": "a2aea80c78743a05cc4ac9950d0621be21975babb2dce5e68112aaf291515825"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-toneri",
+    "name": "舎人公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：足立区舎人公園、西伊興町ほか。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      35,
+      75
+    ],
+    "publicTransportRange": [
+      75,
+      105
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/toneri/index.html",
+        "title": "舎人公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "33f9bc0e12ccc9f61f0273bbee97b11008529b9812a6f805e9e595835f1635eb"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/toneri/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "35a0b019be32a1e77c66cf9f310c63cb0c9322903a4bd0f75ebdfc3fbd37e9ab"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-nakagawa",
+    "name": "中川公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：足立区中川五丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      65,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/nakagawa/index.html",
+        "title": "中川公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "1a6da796a9a28ecb30cc1e73ca6c0d38f2086adfbfadc0dda25497e47d0ba3f3"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-higashi-ayase",
+    "name": "東綾瀬公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：足立区東綾瀬一・二・三丁目、綾瀬三・五・六丁目、谷中一丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      60,
+      90
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/higashi-ayase/index.html",
+        "title": "東綾瀬公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "d283fc30d7cc32d54540f87218c766f0ea8c92c75863abb5760fc3dfb5e19439"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-yumenoshima",
+    "name": "夢の島公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江東区夢の島一、二丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/yumenoshima/index.html",
+        "title": "夢の島公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "431348fc5fe26c9e6ea3c52a8d6b68cee21e02d3e1eb170cac9f1bd3b536f3fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-yumenoshima-botanicalhall",
+    "name": "夢の島熱帯植物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "入館予算の仮置き500〜1,000円。最新料金は指定管理者に要確認。",
+    "budgetVerification": "estimate",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/yumenoshima-botanicalhall/index.html",
+        "title": "夢の島熱帯植物館｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "d47fd67842e7e2dbc88726dcc9ca7304c80afdb4c8cc40fb7f538ff508fc0976"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-wakasu-kaihin",
+    "name": "若洲海浜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      70,
+      100
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/wakasu-kaihin/index.html",
+        "title": "若洲海浜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "633429a663a5fee341cc0b4ce6be52d2414681f5f1df78282e5bf855106704b2"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-tatsuminomori-kaihin",
+    "name": "辰巳の森海浜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/tatsuminomori-kaihin/index.html",
+        "title": "辰巳の森海浜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "6d121849b4882d60f26bf40a3adac373bb6265af8dbe7c04c367ef988b83d20e"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-tatsuminomori-ryokudo",
+    "name": "辰巳の森緑道公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      40,
+      70
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/tatsuminomori-ryokudo/index.html",
+        "title": "辰巳の森緑道公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "85ab5d45ab5384987272128bc18de3460841ae5609e44d393060b34b2a32ffd0"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-odaiba-kaihin",
+    "name": "お台場海浜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 港区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      60,
+      90
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/odaiba-kaihin/index.html",
+        "title": "お台場海浜公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "d86e13ce4db5ee2b80bd8ba6db8c9df8900a61e4c0bb8614b8562856b1d62a64"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-shiokaze",
+    "name": "潮風公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：品川区東八潮。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      65,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shiokaze/index.html",
+        "title": "潮風公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "bbab0affc3a5d6fdc4e91a1f40d1d25b05eb6365bcbfd6ec316828437b10fbec"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shiokaze/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "1a99ae7e3317926e7e8a6b9758ca53ee5637d0bd5dc583abfd85888f446dcf4e"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-daiba",
+    "name": "台場公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 港区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      70,
+      100
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/daiba/index.html",
+        "title": "台場公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "4fe6d50f593f0df657521334a7466a3032c8e823215b6d97a7c01a103582e6ef"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-shinkiba",
+    "name": "新木場公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都 江東区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shinkiba/index.html",
+        "title": "新木場公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "d34b1b9b76586a86e11ee838fe173c5cc6e869cd5e19d60e9284519f24b2ce28"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-tokyo-rinkai-koikibosai",
+    "name": "東京臨海広域防災公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江東区有明三丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      55,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/tokyo-rinkai-koikibosai/index.html",
+        "title": "東京臨海広域防災公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "25874647abd1782693095d2cc4306eebdd90cbcd4d8fa41deca5ef14088b0180"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-matsudo-komorebi",
+    "name": "木もれ陽の森（21世紀の森と広場）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県松戸市千駄堀269番地（21世紀の森と広場内）。",
+    "activityNotes": "BBQは指定区画のみ。予約や器具・食材の費用は別途確認。",
+    "budgetBasis": "BBQ予算の仮置き6,000〜10,000円（場所・器具・食材）。運営会社の現行見積りは要確認。",
+    "budgetVerification": "estimate",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      70,
+      100
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.matsudo.chiba.jp/shisetsu-guide/kouen_ryokuka/top/shisetuannnai/komorebi-bbq/index.html",
+        "title": "木もれ陽の森(バーベキュー場，野外キャンプ場)　21世紀の森と広場｜松戸市",
+        "httpStatus": 200,
+        "sha256": "d1be2547d483618ed6e5a72c5d2fef55c38404ac8815b3e24473ab3aa7c5bec1"
+      },
+      {
+        "url": "https://www.city.matsudo.chiba.jp/shisetsu-guide/kouen_ryokuka/top/riyouannnai/riyouannnai.html",
+        "title": "21世紀の森と広場ご利用案内　21世紀の森と広場｜松戸市",
+        "httpStatus": 200,
+        "sha256": "2b0246ce37b40bbc39e12824768b419a642c3d8178ab417d4a0b79def52c6376"
+      },
+      {
+        "url": "https://www.city.matsudo.chiba.jp/shisetsu-guide/kouen_ryokuka/top/shisetuannnai/komorebi-bbq/bbq.html",
+        "title": "バーベキュー場、キャンプ場の予約について　21世紀の森と広場｜松戸市",
+        "httpStatus": 200,
+        "sha256": "32ac217e76a7d1ad3250ec44f00d8e982be666463800a879777bb982aed128cb"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-siba",
+    "name": "芝公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：港区芝公園一・二・三・四丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      55,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/siba/index.html",
+        "title": "芝公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "ada4c5b0d3d1662474369685bb8dbbedecf0bd788333c26f69177c770ca76485"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-hibiya",
+    "name": "日比谷公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千代田区日比谷公園。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/hibiya/index.html",
+        "title": "日比谷公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "caf08d4b72ecee533ca84c7df49faad8119b23ad8194e09511bf1df48741e399"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-yoyogi",
+    "name": "代々木公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：渋谷区代々木神園町(A地区)、神南一丁目・神南二丁目(B地区)。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      45,
+      85
+    ],
+    "publicTransportRange": [
+      55,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/yoyogi/index.html",
+        "title": "代々木公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "f3ecf3aef1795b0ac942f21f88fc3ea07e9264c1dd628da74f0a138c8f7de3e5"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-rinshinomori",
+    "name": "林試の森公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：目黒区下目黒五丁目、品川区小山台二丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      45,
+      85
+    ],
+    "publicTransportRange": [
+      70,
+      100
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/rinshinomori/index.html",
+        "title": "林試の森公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "6ffbe3a051b10cb53ffb9c74baa5c325bcd33a34bf1789ce4aa72505bf01742a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-komazawa-olympic",
+    "name": "駒沢オリンピック公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：世田谷区駒沢公園、目黒区東が丘二丁目・八雲五丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      55,
+      95
+    ],
+    "publicTransportRange": [
+      75,
+      105
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/komazawa-olympic/index.html",
+        "title": "駒沢オリンピック公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "9e0e04a9738a033af529dd95b43882c7490bb59d86981388a09dcf121ad15261"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kinuta",
+    "name": "砧公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：世田谷区砧公園・大蔵一丁目・岡本一丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      60,
+      100
+    ],
+    "publicTransportRange": [
+      80,
+      110
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kinuta/index.html",
+        "title": "砧公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "bcc4278ef8eb7b850558a8dd7703ea0debbe4a01c7f61b39a2a7f5b1ad630a11"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-shakujii",
+    "name": "石神井公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：練馬区石神井台一・二丁目、石神井町五丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      65,
+      105
+    ],
+    "publicTransportRange": [
+      80,
+      110
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/shakujii/index.html",
+        "title": "石神井公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "bf5921936fda1bb754c2c1518a1b7aeadcf80470eed4fbc2aed0926117553227"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-hikarigaoka",
+    "name": "光が丘公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：練馬区光が丘二・四丁目、旭町二丁目、板橋区赤塚新町三丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      60,
+      100
+    ],
+    "publicTransportRange": [
+      75,
+      105
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/hikarigaoka/index.html",
+        "title": "光が丘公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "5214f13f8dec960ac08f89dbca8d358648b57950b3add2ba33db0d2f31adf175"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/hikarigaoka/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "1338bb83adbe34cfe75262aa0adfe1e6403fd115ad80c05ea58165a21c952eca"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-koganei",
+    "name": "小金井公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：小金井市桜町三丁目、関野町一・二丁目、小平市花小金井南町三丁目、西東京市向台町六丁目、武蔵野市桜堤三丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      75,
+      115
+    ],
+    "publicTransportRange": [
+      85,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/koganei/index.html",
+        "title": "小金井公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "33c8ebacf8328bbfa390162f7ecc81794106b7bc3e1bd4fba971fad3da775301"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park/koganei/facility/",
+        "title": "施設について｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "7c889c41d97145c810b738532dc2599dc4aace4a79b03c3f60c429224ebae157"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-nogawa",
+    "name": "野川公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：調布市野水一・二丁目、小金井市東町一丁目、三鷹市大沢二・三・六丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      75,
+      115
+    ],
+    "publicTransportRange": [
+      90,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/nogawa/index.html",
+        "title": "野川公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "d2a77320b24bc25fdbcbbc343c04f872de22d2a2f20c39ed351c14cb918b73a9"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-fuchunomori",
+    "name": "府中の森公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：府中市浅間町一丁目・緑町二丁目・天神町二丁目。",
+    "activityNotes": "BBQは指定広場のみ。予約・持込・レンタル・営業日を要確認。散策予算にBBQ費用は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      75,
+      115
+    ],
+    "publicTransportRange": [
+      85,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/fuchunomori/index.html",
+        "title": "府中の森公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "6dfc7bcd0502ce3ce7874a4745c368f661de8d7ff7d935de214ff09c43c7fe80"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/special/bbq/index.html",
+        "title": "バーベキューをしよう！｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "81b809e1464ae7deb116e9cf77061c76593213ad748b9396756940e6d52e5b6a"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-musashino-no-mori",
+    "name": "武蔵野の森公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：府中市朝日町三丁目、調布市西町、三鷹市大沢五・六丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      75,
+      115
+    ],
+    "publicTransportRange": [
+      85,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/musashino-no-mori/index.html",
+        "title": "武蔵野の森公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "cd6bf58d4e0b61084974fbc63cc1101d2a2f4abc57c05c805df57fbf6a91a746"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kyu-iwasaki-tei",
+    "name": "旧岩崎邸庭園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：台東区池之端1-3-45。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般400円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kyu-iwasaki-tei/index.html",
+        "title": "旧岩崎邸庭園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "20f07b1a1a9d0115c3c971fff3b15509e95c799de841085b4945a50be3455185"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kyu-shiba-rikyu",
+    "name": "旧芝離宮恩賜庭園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：港区海岸1-4-1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般150円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      55,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kyu-shiba-rikyu/index.html",
+        "title": "旧芝離宮恩賜庭園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "c794cea0048e1094855cf9bcd11e8e9b867aa12480596b9d26f1cb0ce6c475e9"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kyu-furukawa",
+    "name": "旧古河庭園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都北区西ヶ原一丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般150円×2、小学生以下無料。洋館見学は別料金。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      35,
+      75
+    ],
+    "publicTransportRange": [
+      60,
+      90
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kyu-furukawa/index.html",
+        "title": "旧古河庭園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "9b6af515e8652a2f10295accef7ff381d51f5e967e84ae20b478a116095600d5"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-kiyosumi",
+    "name": "清澄庭園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江東区清澄3-3-9。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般150円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      35,
+      65
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/kiyosumi/index.html",
+        "title": "清澄庭園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "0da74ab7354fc3d6f9d2f622b64ed12f8f5977e12ad918e201abe0b1c006a44a"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-koishikawakorakuen",
+    "name": "小石川後楽園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：文京区後楽1-6-6。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般300円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/koishikawakorakuen/index.html",
+        "title": "小石川後楽園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "3d89487dd6c1d57b7ca1a545a28da8e05e3d9394a67499d068439c9f182cbf45"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-hama-rikyu",
+    "name": "浜離宮恩賜庭園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都中央区浜離宮庭園1-1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般300円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/hama-rikyu/index.html",
+        "title": "浜離宮恩賜庭園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "833ceb9d931ec313902d9b897b63f8628a0d78988fa22ffb44814504cca62b1e"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-mukojima-hyakkaen",
+    "name": "向島百花園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：墨田区東向島3-18-3。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般150円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/mukojima-hyakkaen/index.html",
+        "title": "向島百花園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "7d8585dd820ebdbc20587c3bae2a8de9386a6ff439e99f412366b7f26ac09038"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-rikugien",
+    "name": "六義園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：文京区本駒込6-16-3。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般300円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      35,
+      75
+    ],
+    "publicTransportRange": [
+      55,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/rikugien/index.html",
+        "title": "六義園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "9258ac184581a8164e5236be7cae12577abb01a85611c4ed249fd45a59dfc3da"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-tokyo-jindai",
+    "name": "神代植物公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：調布市深大寺元町5-31-10（神代植物公園サービスセンター）。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般500円×2、小学生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      75,
+      115
+    ],
+    "publicTransportRange": [
+      90,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-park.or.jp/park/jindai/index.html",
+        "title": "神代植物公園｜公園へ行こう！",
+        "httpStatus": 200,
+        "sha256": "0a861416664cb0a507436e1d58f1ed8913f7168dea97ec729fc2a771f1c9e04b"
+      },
+      {
+        "url": "https://www.tokyo-park.or.jp/park_list/",
+        "title": "公園・庭園・植物園一覧",
+        "httpStatus": 200,
+        "sha256": "a6a69c849492b200176235a8e677559232d921d1c5815726904c95b2526c07fc"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-komatsugawa2",
+    "name": "小松川境川親水公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区中央四丁目・本一色一丁目から西小松川町。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      25,
+      55
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/komatsugawa2.html",
+        "title": "小松川境川親水公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "325d38c09936bf47ed7b1c505592eb29cdd5036a9568bf5e8ac159b81f6de6e1"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-ichinoe2",
+    "name": "一之江境川親水公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区一之江1丁目から船堀7丁目。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      10,
+      25
+    ],
+    "publicTransportRange": [
+      15,
+      45
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/ichinoe2.html",
+        "title": "一之江境川親水公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "610c39e8b0a33e2a177d72e73ad25bd5ba2d7e47406042affdac0ebdf20d4989"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-makkou",
+    "name": "一之江抹香亭（一之江境川親水公園）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区一之江五丁目13番16号。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      10,
+      25
+    ],
+    "publicTransportRange": [
+      20,
+      50
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/makkou.html",
+        "title": "一之江抹香亭（一之江境川親水公園）　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "8c88019e20e97c96c8766125f2ed09cd4d98f3b7edbe2290106fc4b857c196bb"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-senbonsakura",
+    "name": "小松川千本桜",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区小松川1から3丁目地先。",
+    "activityNotes": "BBQは指定区画のみ。予約や器具・食材の費用は別途確認。 テント・タープは予約区画内に収まり、地面に大きな穴を開けないもののみ。BBQ区画2,100円、3歳以上5名まで、3〜11月。散策予算に区画料金は含まない。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      20,
+      50
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/senbonsakura.html",
+        "title": "小松川千本桜　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "9bdeb5eda84f67d3ad906f938c3aa6466f0b89875072b2bef04fd4678feb9c6c"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-shinkawasenbonzakura",
+    "name": "新川千本桜",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都江戸川区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/shinkawasenbonzakura/index.html",
+        "title": "新川千本桜　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "24d9d86e4b4d66c9ef94cf9394ad584c1c29c204451964bfaa3f3fb4c5df5d11"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-c_recreation",
+    "name": "総合レクリエーション公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都江戸川区。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      40,
+      70
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/c_recreation/index.html",
+        "title": "総合レクリエーション公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "13112a985b1ab8b4432ecdc3b91575560c3a0f8d8ed157f9609acb37cbd6df90"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-nagisaponyland",
+    "name": "なぎさポニーランド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区南葛西7丁目3番（なぎさ公園内）。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/nagisaponyland.html",
+        "title": "なぎさポニーランド　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "df4a2ef95f10b75113dd8e9b50343e802bf2a7ba29e033dd69b4cc8d1dc82887"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-gyosen",
+    "name": "行船公園（平成庭園・源心庵）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区北葛西3丁目2番1号。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/gyosen.html",
+        "title": "行船公園（平成庭園・源心庵）　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "527e6b34b8214678146838500a5e304e6584ab2c619812d206c3ce461491d4e4"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-shizen",
+    "name": "自然動物園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区北葛西3丁目2番1号行船公園内。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/shizen.html",
+        "title": "自然動物園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "c09e657eeff4bdfb50b41885a25e04a9ab03dc624bcc0204230c17f74420ca50"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-furukawa",
+    "name": "古川親水公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区江戸川6丁目内。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      10,
+      25
+    ],
+    "publicTransportRange": [
+      25,
+      55
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/furukawa.html",
+        "title": "古川親水公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "6328c7b2d3124dae933027a3f62444f73b1c48d3e51e612470a482c1d674ce77"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-shincho",
+    "name": "新長島川親水公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区清新町2丁目8番・9番・10番先。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      40,
+      70
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/shincho.html",
+        "title": "新長島川親水公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "90d888a470fed7e33eedd918bc19198d2742e4472ee99ed7c029d933368feab8"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-shinsakon",
+    "name": "新左近川親水公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都江戸川区。",
+    "activityNotes": "BBQは指定区画のみ。予約や器具・食材の費用は別途確認。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      40,
+      70
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/shinsakon.html",
+        "title": "新左近川親水公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "8835870ae36e6fc1ceadbc1f3b7119509b71c9b62c06742d5504ced10fa963f3"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-kowatei",
+    "name": "小岩公園（甲和亭）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区北小岩6丁目43番1号。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kowatei.html",
+        "title": "小岩公園（甲和亭）　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "78912157fc2ea12166acf2ba809aae8b36ba343eaf413f08c447930432bc7c4f"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-koiwa",
+    "name": "小岩菖蒲園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区北小岩4丁目先（江戸川河川敷）。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/koiwa.html",
+        "title": "小岩菖蒲園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "a771b94a8bee5c1a3f7dda52a76c0258a72dece4c0676c5ca88a68d4da5a24a5"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-shinozakiponyland",
+    "name": "篠崎ポニーランド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区篠崎町3丁目12番17号。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      10,
+      25
+    ],
+    "publicTransportRange": [
+      25,
+      55
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/shinozakiponyland.html",
+        "title": "篠崎ポニーランド　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "638b67ac1b00c6829058f29cb13414343789bef468fb24d23c8862015d1789e8"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-edogawa-toubukoutuu",
+    "name": "東部交通公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：江戸川区江戸川2丁目28番1号。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      5,
+      20
+    ],
+    "publicTransportRange": [
+      10,
+      40
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/toubukoutuu.html",
+        "title": "東部交通公園　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "4b6357efdea4e59fe0a3c294d4de65267edfb48084736c96c94802171cfb9497"
+      },
+      {
+        "url": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/riyou.html",
+        "title": "公園の利用ルール　江戸川区ホームページ",
+        "httpStatus": 200,
+        "sha256": "47fafad942c17dba6c4a351b3979e8a1b004ba5dbb2b6db3d1a708553a6b910a"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-3087",
+    "name": "万葉植物園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市大野町2-1857。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      55,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/3087.html",
+        "title": "万葉植物園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "bcda3fa17f747930f0ff1bb85c065030587c0b9ac227cb9676bae1033cc42df0"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4330",
+    "name": "大洲防災公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市大洲1-18。",
+    "activityNotes": "BBQは指定区画のみ。予約や器具・食材の費用は別途確認。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      35,
+      65
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4330.html",
+        "title": "大洲防災公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "f9cabea11d63c8ff227d460988fbefbea6f9b9648e134cdf803173ad9bb0bd9f"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-7810",
+    "name": "里見公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市国府台3-9。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/7810.html",
+        "title": "里見公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "2bffe47fbffda0419d1a7c674b0d5b837909718724693e0e4960cebbe35a903e"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-2453",
+    "name": "じゅん菜池緑地",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市中国分4-27。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/2453.html",
+        "title": "じゅん菜池緑地 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "dd394b15e7f11a0c2ad0a5357bad3b07b639db1bc1e1178c47d862d81348c6ad"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4473",
+    "name": "小塚山公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市北国分1-26。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4473.html",
+        "title": "小塚山公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "6e8945ba7173a6ea858f049ee5a4c651cc762a5a548f119f8685411a1e815730"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4472",
+    "name": "小塚山フィールドアスレチック",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市北国分1-1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4472.html",
+        "title": "小塚山フィールドアスレチック - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "f856bd7e130a6ad878034c8620381357103ea0154fd8f29a87871d8871fd197c"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-3934",
+    "name": "市川児童交通公園（東菅野）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県市川市東菅野2－23－3。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/3934.html",
+        "title": "児童交通公園 - 市川市公式Webサイト（交通計画課）",
+        "httpStatus": 200,
+        "sha256": "a32a6cd177d6b43cc6136af4c74074b67441219c8087245ea5ecde92f83129e3"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4262",
+    "name": "堀之内貝塚公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市堀之内2-2899。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4262.html",
+        "title": "堀之内貝塚公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "7b9157e102c2c6eb7e7e973882edd88f6abae8a46e6d8d9457ff2e070b55a4f0"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-7915",
+    "name": "須和田公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市須和田2-34。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      35
+    ],
+    "publicTransportRange": [
+      35,
+      65
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/7915.html",
+        "title": "須和田公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "62bfc9d9f8edbbb5c78321b60279810785c8687752d1fa29eac9ec3dd3a3491b"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-7440",
+    "name": "行徳中央公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市富浜3-10。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/7440.html",
+        "title": "行徳中央公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "c1b3148329818e5abc244fcee184658f09310f91e2d64159735ef770d4fd49e8"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-8014",
+    "name": "駅前公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市湊新田2-4。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/8014.html",
+        "title": "駅前公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "7da056409ea689eb04f6442ff641d8039d3997d98356dd0ad44f041b0dd87104"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4083",
+    "name": "南沖公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市行徳駅前3-4。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      35,
+      65
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4083.html",
+        "title": "南沖公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "03b9f2b02be804fcdfb2b7efbb8edf97a013a00f7c5b30a428e58776786bceb1"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4363",
+    "name": "妙典公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市妙典6丁目1-1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4363.html",
+        "title": "妙典公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "22dc7307a5418832e2cddd30be169ab2545c721d5c13a2a2e0880b90f9c77431"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-4084",
+    "name": "南行徳公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市相之川4-1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      30,
+      60
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/4084.html",
+        "title": "南行徳公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "c19a6a7ad2a99cfaec65d634da1032a5a04acf4ef99bbfae0347c6267f967749"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-7474",
+    "name": "行徳水辺の杜公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：市川市加藤新田202-13。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      30
+    ],
+    "publicTransportRange": [
+      35,
+      65
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/7474.html",
+        "title": "行徳水辺の杜公園 - 市川市公式Webサイト（公園緑地課）",
+        "httpStatus": 200,
+        "sha256": "a3787a460ce68661b67f882613ebef028a516f5f838823ba2c5dc29c82edf9ab"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-zoo",
+    "name": "市川市動植物園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県市川市大町284番地1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人440円×2、小人110円×2。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      25,
+      65
+    ],
+    "publicTransportRange": [
+      65,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/site/zoo/index.html",
+        "title": "市川市動植物園サイト - 市川市公式Webサイト",
+        "httpStatus": 200,
+        "sha256": "9d3650a8c7851ec33e6893aa9f33d3e303f52732a3925b6f47d3c75bacde7ec0"
+      },
+      {
+        "url": "https://www.city.ichikawa.lg.jp/site/zoo/7829.html",
+        "title": "開園時間・料金 - 市川市動植物園サイト - 市川市公式Webサイト（動植物園課）",
+        "httpStatus": 200,
+        "sha256": "e883c5079ac7dc9ea2fd688c7ff0fd3f5c672d4acc4666aa5a25010249cb36f3"
+      },
+      {
+        "url": "https://www.city.ichikawa.lg.jp/site/zoo/4209.html",
+        "title": "園内マップ - 市川市動植物園サイト - 市川市公式Webサイト（動植物園課）",
+        "httpStatus": 200,
+        "sha256": "5b2aaccc5a66353c15c80d78e8a43e07cfa61cfeb410b39d83bc829cebb665b7"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-toyosu",
+    "name": "アーバンドック ららぽーと豊洲",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都江東区豊洲2-4-9。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/toyosu/",
+        "title": "アーバンドック ららぽーと豊洲",
+        "httpStatus": 200,
+        "sha256": "dd78ed4946c2be0f5a75a3af233a9f3ac74ced7a5c39cbe25c2590f64224e736"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/toyosu/access/",
+        "title": "アクセス | アーバンドック ららぽーと豊洲",
+        "httpStatus": 200,
+        "sha256": "79570493bf43bb3fd0a25f45360a9d66db77d59359cbe101b18a21edb4e54d50"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-tokyo-bay",
+    "name": "ららぽーとTOKYO-BAY",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県船橋市浜町 2-1-1。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/tokyo-bay/",
+        "title": "ららぽーとTOKYO-BAY",
+        "httpStatus": 200,
+        "sha256": "60b39dd968abb068eaf50f292f1a6c0a16d712e3fd7c75d49805869fb942e553"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/tokyo-bay/access/",
+        "title": "アクセス | ららぽーとTOKYO-BAY",
+        "httpStatus": 200,
+        "sha256": "28eecff2e2c33fbfdd4027763bb4ce78cb24f638314af7401bcf76b01deaa1be"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-shinmisato",
+    "name": "ららぽーと新三郷",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：埼玉県三郷市新三郷ららシティ3-1-1。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      35,
+      75
+    ],
+    "publicTransportRange": [
+      85,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/shinmisato/",
+        "title": "ららぽーと新三郷",
+        "httpStatus": 200,
+        "sha256": "6584ee77bf1b6512001bd05262b6c2cd3fcd8b79683877c1a94102eed598f424"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/shinmisato/access/",
+        "title": "アクセス | ららぽーと新三郷",
+        "httpStatus": 200,
+        "sha256": "3b54c199807b79c6f7f461ce2e5dd1355c6520b86e398c8d3862cdb1e02359ff"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-kashiwa",
+    "name": "ららぽーと柏の葉",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県柏市若柴175。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      45,
+      85
+    ],
+    "publicTransportRange": [
+      90,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/kashiwa/",
+        "title": "ららぽーと柏の葉",
+        "httpStatus": 200,
+        "sha256": "e939eb6c8aa7b98b1733b500c81c4275cf4af78f45a280d4c0ac07eca396f337"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/kashiwa/access/",
+        "title": "アクセス | ららぽーと柏の葉",
+        "httpStatus": 200,
+        "sha256": "a57c5f8dd776c9c3d9de0c7f483ce91b55b880be8307bf1d9679c1b33f5a43aa"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-fujimi",
+    "name": "ららぽーと富士見",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：埼玉県富士見市山室1-1313。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      70,
+      110
+    ],
+    "publicTransportRange": [
+      100,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/fujimi/",
+        "title": "ららぽーと富士見",
+        "httpStatus": 200,
+        "sha256": "e36d4075d1630339b62c73ef34d5df388b2cad21074b70a00f350f8ca25129e9"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/fujimi/access/",
+        "title": "アクセス | ららぽーと富士見",
+        "httpStatus": 200,
+        "sha256": "4b8b377f49251f1809bef0cb8165bf05464d22553d6ef7e4dbfada3bf1611ca8"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-ebina",
+    "name": "ららぽーと海老名",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：神奈川県海老名市扇町13-1。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      95,
+      135
+    ],
+    "publicTransportRange": [
+      105,
+      135
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/ebina/",
+        "title": "ららぽーと海老名",
+        "httpStatus": 200,
+        "sha256": "9331502e098b62f7b960a44e5c8d5eaff2707d898aceeb79b95b01c91fe85932"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/ebina/access/",
+        "title": "アクセス | ららぽーと海老名",
+        "httpStatus": 200,
+        "sha256": "58909cde95be4b38ab2eeb8156a19df525e26b3bcc2ec80361090405c5575458"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-tachikawa",
+    "name": "ららぽーと立川立飛",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都立川市泉町935番地の1。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      85,
+      125
+    ],
+    "publicTransportRange": [
+      90,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/tachikawa/",
+        "title": "ららぽーと立川立飛",
+        "httpStatus": 200,
+        "sha256": "f66b6b56fdf667cf09845b5799e7bbbba5f9066c0842430b7dbe11284f1e7665"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/tachikawa/access/",
+        "title": "アクセス | ららぽーと立川立飛",
+        "httpStatus": 200,
+        "sha256": "dddc7e4bff79f667ccdb7cf27a3dbbbca8b92b01fb5b68341acf0ab07ecc0b9c"
+      }
+    ]
+  },
+  {
+    "id": "place-mitsui-yokohama",
+    "name": "ららぽーと横浜",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：神奈川県横浜市都筑区池辺町4035-1。公式アクセスページも確認。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      75,
+      115
+    ],
+    "publicTransportRange": [
+      100,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/yokohama/",
+        "title": "ららぽーと横浜",
+        "httpStatus": 200,
+        "sha256": "9a875c1f4e248836bc95391912fde23688eabdaa685350eddd674727e3f1cece"
+      },
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/yokohama/access/",
+        "title": "アクセス | ららぽーと横浜",
+        "httpStatus": 200,
+        "sha256": "1ce1300a13100e5be87a016908b28fc8a5f22144ca520260312a90f0c96d8472"
+      }
+    ]
+  },
+  {
+    "id": "place-kahaku",
+    "name": "国立科学博物館（上野本館）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都台東区上野公園。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "常設展一般630円×2、高校生以下無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      30,
+      70
+    ],
+    "publicTransportRange": [
+      50,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.kahaku.go.jp/",
+        "title": "国立科学博物館　National Museum of Nature and Science,Tokyo",
+        "httpStatus": 200,
+        "sha256": "281c6f71a15879477e254a0c93d8324aa5ad3551dc555512c2602239d48c32b9"
+      },
+      {
+        "url": "https://www.kahaku.go.jp/riyou/nyukan-annai/",
+        "title": "入館案内（上野本館） | 国立科学博物館　National Museum of Nature and Science,Tokyo",
+        "httpStatus": 200,
+        "sha256": "d3c0b9e93846eca9be81135cbb43016d3889f865af9108a5dac66fff7338ca1d"
+      },
+      {
+        "url": "https://www.kahaku.go.jp/riyou/access.html",
+        "title": "交通アクセス | 国立科学博物館　National Museum of Nature and Science,Tokyo",
+        "httpStatus": 200,
+        "sha256": "7fbc1cfd8c8e59a5624e47e34dfd83420fdd8249d0b4741d9a156fd5282100a0"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-camp",
+    "name": "いちかわ市民キャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県市川市柏井町2丁目992番地1。",
+    "activityNotes": "テントは予約したサイトのみ。コンロ持込BBQは禁止、炊事場のかまど使用は予約時に確認。施設無料。食材・装備は別予算。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      65,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/page/1807.html",
+        "title": "いちかわ市民キャンプ場 - 市川市公式Webサイト（スポーツ施設課）",
+        "httpStatus": 200,
+        "sha256": "15eb7cf27d269b5f7bab020f853f56141dd458ecfe247cc9a62916e8219eb14a"
+      },
+      {
+        "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/2628.pdf",
+        "title": "いちかわ市民キャンプ場 利用の手引き（2025.02.06版）",
+        "httpStatus": 200,
+        "sha256": "729f0445c938601c930453a6cedd203a16dcbfacaff5d070ebd0c6d434461833"
+      }
+    ]
+  },
+  {
+    "id": "place-sumida",
+    "name": "すみだ水族館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都墨田区押上。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人2,700円×2、小学生1,400円×2。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      40,
+      70
+    ],
+    "sources": [
+      {
+        "url": "https://www.sumida-aquarium.com/",
+        "title": "東京スカイツリータウン®にある「すみだ水族館」【公式】",
+        "httpStatus": 200,
+        "sha256": "c3718ff5782540555cbe01d5d7a44c6655bb3e39ce2d26af594d0d675c576c64"
+      },
+      {
+        "url": "https://www.sumida-aquarium.com/about/price/",
+        "title": "ご利用料金・年間パスポート | 東京スカイツリータウン®にある「すみだ水族館」【公式】",
+        "httpStatus": 200,
+        "sha256": "acdc865369bb556f171f5aaf74d732985463fcf0cb8c866eaeb2a720964473a9"
+      },
+      {
+        "url": "https://www.sumida-aquarium.com/about/access/",
+        "title": "営業時間・アクセス | 東京スカイツリータウン®にある「すみだ水族館」【公式】",
+        "httpStatus": 200,
+        "sha256": "2e319d6e3dceb5e2b38f62fc7d05a2117014111bd6812b87b90c6de2eff7852d"
+      }
+    ]
+  },
+  {
+    "id": "place-kidzania",
+    "name": "キッザニア東京",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都江東区豊洲。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "家族予算の仮置き12,000〜24,000円。料金表はセッションエラーで数値を確認できず、予約日・プランで要確認。",
+    "budgetVerification": "estimate",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.kidzania.jp/tokyo",
+        "title": "キッザニア東京 | キッザニア",
+        "httpStatus": 200,
+        "sha256": "3f7daa1020b2266721f3970e0af9f34e09a6987afbd55bb9810e2b3bbc488224"
+      },
+      {
+        "url": "https://www.kidzania.jp/tokyo/access",
+        "title": "電車・車でのアクセス、駐車場のご案内｜キッザニア東京",
+        "httpStatus": 200,
+        "sha256": "c7bf76e9a42c7d7d7a4dd5cc2501011190287c07b76b8c7a21a4761d66b3faee"
+      }
+    ]
+  },
+  {
+    "id": "place-sunshine-aqua",
+    "name": "サンシャイン水族館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都豊島区東池袋。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人2,600〜3,200円×2、小学生1,300円×2で7,800〜9,000円。検索は上限の9,000円。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      45,
+      85
+    ],
+    "publicTransportRange": [
+      60,
+      90
+    ],
+    "sources": [
+      {
+        "url": "https://sunshinecity.jp/aquarium/",
+        "title": "池袋・サンシャイン水族館",
+        "httpStatus": 200,
+        "sha256": "c0fc927d9e9dbfaf29c3004bfa072c2a3991915334cdddc38c108c9a4af7eaa4"
+      },
+      {
+        "url": "https://sunshinecity.jp/aquarium/ticket/",
+        "title": "営業時間・料金・チケット | 池袋・サンシャイン水族館",
+        "httpStatus": 200,
+        "sha256": "ab287bef1f66fa543e039bf1f0a709e9af7ea50cd97a961fd389e0918f3d4146"
+      }
+    ]
+  },
+  {
+    "id": "place-sunshine-observatory",
+    "name": "サンシャイン60展望台 てんぼうパーク",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：東京都豊島区東池袋。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "大人700〜1,200円×2、小学生500〜800円×2で2,400〜4,000円。検索は上限の4,000円。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      45,
+      85
+    ],
+    "publicTransportRange": [
+      60,
+      90
+    ],
+    "sources": [
+      {
+        "url": "https://sunshinecity.jp/observatory/",
+        "title": "池袋 ・サンシャイン60展望台 てんぼうパーク",
+        "httpStatus": 200,
+        "sha256": "bfdf182df4878e575c733a60f7f450e42bbb9ecf6ff767747e6004a21ef43621"
+      },
+      {
+        "url": "https://sunshinecity.jp/observatory/ticket/",
+        "title": "チケット・料金\n\t | 池袋 ・サンシャイン60展望台 てんぼうパーク",
+        "httpStatus": 200,
+        "sha256": "d76573d4ba0b36da9af261bfbc3aa149c46760b2ae64a360914631dee708469d"
+      }
+    ]
+  },
+  {
+    "id": "place-ichikawa-museum",
+    "name": "市立市川考古博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県市川市堀之内2-26-1。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "通常の公園散策・見学または入館のみ0円。飲食・買い物・駐車場・有料体験は含まない。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      15,
+      55
+    ],
+    "publicTransportRange": [
+      45,
+      75
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ichikawa.lg.jp/site/edu14/5235.html",
+        "title": "考古・歴史博物館ご利用案内 - 市立市川考古博物館 市立市川歴史博物館 - 市川市公式Webサイト（文化財課）",
+        "httpStatus": 200,
+        "sha256": "4c799180283e1d1ec099f68fa64f6c04c7398c70a713ed0af6d13cf2ab617f6e"
+      }
+    ]
+  },
+  {
+    "id": "place-funabashi-sanbanze",
+    "name": "ふなばし三番瀬環境学習館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式施設案内で名称・施設の実在を確認。所在地・エリア：千葉県船橋市潮見町40。",
+    "activityNotes": "テント・BBQの許可を確認できない場合はnull。屋内施設のfalseは当該おでかけプランの対象外。",
+    "budgetBasis": "一般400円×2、小学生100円×2の有料展示1,000円。船橋市内在住・在学の小中学生は無料。",
+    "budgetVerification": "admission",
+    "travelBasis": "瑞江駅からの計画用推定。公式の最寄駅・地域を参考に移動と徒歩・乗換・待ち時間を想定。経路API・実測なし。",
+    "carRange": [
+      20,
+      60
+    ],
+    "publicTransportRange": [
+      65,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.funabashi.lg.jp/machi/kankyou/002/p051395.html",
+        "title": "ふなばし三番瀬環境学習館｜船橋市公式ホームページ",
+        "httpStatus": 200,
+        "sha256": "6bb949cce983e8fe541eb4a48ceec1fed32aacdd1b4284b07df5bf0e1a5e3f43"
+      }
+    ]
+  }
+]

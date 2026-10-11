@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {initialState,validateState,collection,visitCount,deleteSpot} from '../store.js';
+import {validateState,collection,visitCount,deleteSpot} from '../store.js';
+import {legacyState as initialState} from './legacy-fixture.js';
 import {filterSpots} from '../spots.js';
 test('バックアップが往復し不正な参照や重複を拒否する',()=>{
  const state=validateState(initialState());assert.deepEqual(validateState(JSON.parse(JSON.stringify(state))),state);

@@ -1,11 +1,18 @@
 import { categories, filterSpots } from './spots.js';
-import { storageKey, initialState, validateState, visitCount, collection, deleteSpot, recommended, sortedVisits } from './store.js';
+import { storageKey, initialState, validateState, visitCount, collection, deleteSpot, recommended, sortedVisits, prepareState, allSpots, searchResults } from './store.js';
 const $ = s => document.querySelector(s);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let storageUnreadable = false;
 let state = validateState(initialState()), view = 'search', searched = false, editingId = null, visitingId = null;
 function notice(message) { $('#notice').textContent = message; }
-try { const saved = localStorage.getItem(storageKey); if (saved) state = validateState(JSON.parse(saved)); }
+try { const saved = localStorage.getItem(storageKey); if (saved) {
+    const original = JSON.parse(saved); state = prepareState(original);
+    if (original.version !== state.version || original.catalogRevision !== state.catalogRevision) {
+      if (localStorage.getItem(storageKey + '-before-v2') === null) localStorage.setItem(storageKey + '-before-v2', saved);
+      localStorage.setItem(storageKey, JSON.stringify(state));
+      notice('おすすめスポットを更新しました。旧架空施設のお気に入り・訪問記録は保管しています。');
+    }
+  } }
 catch { storageUnreadable = true; notice('保存データを読み込めませんでした。元の保存データは上書きしていません。バックアップを読み込むか、ブラウザの保存設定を確認してください。'); }
 function save(next, restoring = false) {
   if (storageUnreadable && !restoring) { notice('元の保存データを保護しています。正常なバックアップを読み込んでから操作してください。'); return false; }
@@ -27,16 +34,16 @@ function render() {
   $('#results-heading').textContent = titles[view];
   document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
   const criteria = Object.fromEntries(new FormData($('#search-form')));
-  const items = view === 'history' ? sortedVisits(state,$('#history-sort').value) : view === 'search' && searched ? recommended(filterSpots(criteria,state.spots)) : view === 'search' ? recommended(state.spots) : collection(state,view);
+  const items = view === 'history' ? sortedVisits(state,$('#history-sort').value) : view === 'search' ? searchResults(state,criteria,searched) : collection(state,view);
   $('#result-count').textContent = `${items.length} 件${view==='frequent' ? '（訪問回数順）' : ''}`;
   $('#empty').hidden = items.length > 0;
   $('#results').innerHTML = items.map(item => {
     if (view === 'history') {
-      const spot = state.spots.find(s=>s.id===item.spotId);
+      const spot = allSpots(state).find(s=>s.id===item.spotId);
       return `<article class="card history-card"><h3>${escape(spot.name)}</h3><p>${escape(item.date)} · 訪問 ${visitCount(state,item.spotId)} 回 · ${'★'.repeat(item.rating)}</p><span class="pill">${escape(item.intention)}</span><p class="comment">${escape(item.comment) || '感想は未記入です。'}</p><button data-action="visit-delete" data-id="${escape(item.id)}" class="secondary">記録を削除</button></article>`;
     }
     const s = item, favorite = state.favorites.includes(s.id);
-    return `<article class="card"><div class="card-art ${s.type==='indoor'?'blue':'green'}"><span class="type-badge">${s.type==='indoor'?'☂ 屋内':'☀ 屋外'} · ${s.sample?'サンプル':'登録スポット'}</span><span class="spot-icon" aria-hidden="true">${s.type==='indoor'?'🏠':'🌳'}</span></div><div class="card-body"><span class="pill">${escape(s.category)}</span><h3>${escape(s.name)}</h3><p class="area">📍 ${escape(s.area) || (s.sample ? '架空のエリア（サンプル）' : 'エリア未登録')}</p><p class="description">${escape(s.description)}</p>${s.website ? `<a class="official-link" href="${escape(s.website)}" target="_blank" rel="noopener noreferrer">公式サイト ↗</a>` : ''}<div class="card-facts"><span>👛 ${s.cost===0?'無料':s.cost.toLocaleString('ja-JP')+'円'}</span><span>${criteria.transport==='car'?'🚗 車':'🚃 電車'} 約${s.travel[criteria.transport]}分</span></div><p class="features">${s.rainy ? '☂ 雨の日向き' : '☀ 晴れの日向き'}<br>瑞江駅からの目安（サンプルは架空）<br>テント ${s.tent?'OK':'不可'} / BBQ ${s.bbq?'OK':'不可'}<br>滞在：${s.stays.map(n=>({2:'2時間',4:'半日',8:'1日'}[n])).join('・')}</p><div class="rating"><span>子ども向け度</span><span aria-label="5段階中${s.rating}" class="stars">${'★'.repeat(s.rating)}</span></div><p class="visit-count">訪問 ${visitCount(state,s.id)} 回</p><div class="card-actions"><button data-action="favorite" data-id="${escape(s.id)}" aria-pressed="${favorite}" class="secondary">${favorite?'♥ 解除':'♡ お気に入り'}</button><button data-action="visit" data-id="${escape(s.id)}">行った！</button><button data-action="edit" data-id="${escape(s.id)}" class="text-button">編集</button><button data-action="delete" data-id="${escape(s.id)}" class="text-button">削除</button></div></div></article>`;
+    return `<article class="card"><div class="card-art ${s.type==='indoor'?'blue':'green'}"><span class="type-badge">${s.type==='indoor'?'☂ 屋内':'☀ 屋外'} · ${s.source==='builtin'?'おすすめスポット':s.source==='legacy' && state.version===2?'旧施設の保管記録':s.sample?'旧架空施設':'登録スポット'}</span><span class="spot-icon" aria-hidden="true">${s.type==='indoor'?'🏠':'🌳'}</span></div><div class="card-body"><span class="pill">${escape(s.category)}</span><h3>${escape(s.name)}</h3><p class="area">📍 ${escape(s.area) || (s.sample ? '架空のエリア（旧施設）' : 'エリア未登録')}</p><p class="description">${escape(s.description)}</p>${s.website ? `<a class="official-link" href="${escape(s.website)}" target="_blank" rel="noopener noreferrer">公式サイト ↗</a>` : ''}<div class="card-facts"><span>👛 目安 ${s.cost===0?'無料':s.cost.toLocaleString('ja-JP')+'円'}</span><span>${criteria.transport==='car'?'🚗 車':'🚃 公共交通'} 約${s.travel[criteria.transport]}分</span></div><p class="features">${s.rainy ? '☂ 雨の日向き' : '☀ 晴れの日向き'}<br>瑞江駅からの目安（混雑・経路で変動）<br>テント ${s.tent===null?'公式確認が必要':s.tent?'条件付きOK':s.type==='indoor'?'対象外':'不可'} / BBQ ${s.bbq===null?'公式確認が必要':s.bbq?'条件付きOK':s.type==='indoor'?'対象外':'不可'}<br>滞在：${s.stays.map(n=>({2:'2時間',4:'半日',8:'1日'}[n])).join('・')}</p><div class="rating"><span>子ども向け度（目安）</span><span aria-label="5段階中${s.rating}" class="stars">${'★'.repeat(s.rating)}</span></div><p class="visit-count">訪問 ${visitCount(state,s.id)} 回</p><div class="card-actions"><button data-action="favorite" data-id="${escape(s.id)}" aria-pressed="${favorite}" class="secondary">${favorite?'♥ 解除':'♡ お気に入り'}</button><button data-action="visit" data-id="${escape(s.id)}">行った！</button><button data-action="edit" data-id="${escape(s.id)}" class="text-button">編集</button><button data-action="delete" data-id="${escape(s.id)}" class="text-button">削除</button></div></div></article>`;
   }).join('');
 }
 function setView(next) { view=next; render(); }
@@ -49,7 +56,8 @@ function openEditor(spot) {
   if(spot) {
     for(const key of ['name','type','category','cost','rating','description','area','website']) form.elements[key].value=spot[key];
     for(const key of ['car','train']) form.elements[key].value=spot.travel[key];
-    for(const key of ['tent','bbq','rainy']) form.elements[key].checked=spot[key];
+    form.elements.rainy.checked=spot.rainy;
+    for(const key of ['tent','bbq']) form.elements[key].value=spot[key]===null?'unknown':spot[key]?'yes':'no';
     form.querySelectorAll('[name=stays]').forEach(b=>b.checked=spot.stays.includes(Number(b.value)));
   }
   $('#editor').showModal();
@@ -60,14 +68,16 @@ $('#spot-form').addEventListener('submit',e=>{
   e.preventDefault(); const f=new FormData(e.target), stays=f.getAll('stays').map(Number);
   if(!stays.length){ alert('滞在時間を1つ以上選んでください。'); return; }
   const old=state.spots.find(s=>s.id===editingId);
-  const spot={id:editingId ?? crypto.randomUUID(),name:f.get('name').trim(),description:f.get('description').trim(),area:f.get('area').trim(),website:f.get('website').trim(),rainy:f.has('rainy'),type:f.get('type'),category:f.get('category'),cost:Number(f.get('cost')),rating:Number(f.get('rating')),travel:{car:Number(f.get('car')),train:Number(f.get('train'))},stays,tent:f.has('tent'),bbq:f.has('bbq'),sample:old?.sample ?? false};
+  const feature=key=>f.get(key)==='unknown'?null:f.get(key)==='yes';
+  const spot={id:editingId ?? crypto.randomUUID(),name:f.get('name').trim(),description:f.get('description').trim(),area:f.get('area').trim(),website:f.get('website').trim(),rainy:f.has('rainy'),type:f.get('type'),category:f.get('category'),cost:Number(f.get('cost')),rating:Number(f.get('rating')),travel:{car:Number(f.get('car')),train:Number(f.get('train'))},stays,tent:feature('tent'),bbq:feature('bbq'),sample:old?.sample ?? false,source:old?.source ?? 'user'};
   if(save({...state,spots:old?state.spots.map(s=>s.id===editingId?spot:s):[...state.spots,spot]})) { $('#editor').close(); searched=false; setView('search'); notice('スポットを保存しました。'); }
 });
 $('#results').addEventListener('click',e=>{
   const button=e.target.closest('[data-action]'); if(!button)return;
   const {action}=button.dataset;
   if(action==='visit-delete') { const visit=state.visits.find(v=>String(v.id)===button.dataset.id); if(confirm('この訪問記録を削除しますか？') && save({...state,visits:state.visits.filter(v=>v.id!==visit.id)})) notice('訪問記録を削除しました。'); return; }
-  const spot=state.spots.find(s=>String(s.id)===button.dataset.id); if(!spot)return;
+  const spot=allSpots(state).find(s=>String(s.id)===button.dataset.id); if(!spot)return;
+  if ((action==='edit' || action==='visit') && spot.source==='legacy' && state.version===2) { notice('旧架空施設は記録保管用です。実在する場所を追加してご利用ください。'); return; }
   if(action==='edit')openEditor(spot);
   if(action==='favorite') save({...state,favorites:state.favorites.includes(spot.id)?state.favorites.filter(i=>i!==spot.id):[...state.favorites,spot.id]});
   if(action==='delete' && confirm(`「${spot.name}」と関連する訪問記録・お気に入りを削除しますか？`)) { if(save(deleteSpot(state,spot.id)))notice('スポットを削除しました。'); }
@@ -90,7 +100,7 @@ $('#import').addEventListener('change',async e=>{
   const file=e.target.files[0];if(!file)return;
   try {
     if(file.size>10000000)throw Error('ファイルは10MB以内にしてください。');
-    const next=validateState(JSON.parse(await file.text()));
+    const next=prepareState(JSON.parse(await file.text()));
     if(confirm(`${next.spots.length}件のスポットと${next.visits.length}件の訪問記録を読み込みます。現在のデータを置き換えますか？`)) {
       if(save(next, true)){ searched=false;setView('search');notice('バックアップを読み込みました。'); }
     }
@@ -101,3 +111,5 @@ render();
 
 $('#history-sort').addEventListener('change',render);
 $('#home-lists').addEventListener('click',e=>{const b=e.target.closest('[data-home-view]');if(b)setView(b.dataset.homeView);});
+
+for (const field of ['focus','sort']) $('#search-form').elements[field].addEventListener('change',render);
