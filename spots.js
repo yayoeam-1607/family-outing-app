@@ -13,17 +13,38 @@ export const spots = [
   { id: 10, name: 'さざなみ海浜公園', type: 'outdoor', cost: 0, travel: { car: 80, train: 110 }, stays: [2, 4, 8], rating: 4, icon: '🏖️', color: 'blue', description: '海辺の散歩や砂遊びを楽しめる公園。お弁当を持ってのんびり過ごそう。' },
 ];
 
-export const categories = ['ショッピングモール', '大型公園', 'キャンプ・デイキャンプ', 'BBQ', 'テントOK', 'アスレチック', '屋内遊び場', '水族館・動物園', '科学館・博物館', 'スポーツ', 'その他'];
+export const legacyCategories = ['ショッピングモール', '大型公園', 'キャンプ・デイキャンプ', 'BBQ', 'テントOK', 'アスレチック', '屋内遊び場', '水族館・動物園', '科学館・博物館', 'スポーツ', 'その他'];
 const sampleCategories = [1, 8, 7, 7, 10, 6, 10, 10, 8, 1];
-spots.forEach((spot, index) => Object.assign(spot, { sample: true, category: categories[sampleCategories[index]], tent: false, bbq: false }));
+spots.forEach((spot, index) => Object.assign(spot, { sample: true, category: legacyCategories[sampleCategories[index]], tent: false, bbq: false }));
 
+export const categories = ['ショッピングモール','アウトレット','大型公園','キャンプ／デイキャンプ','BBQ','アスレチック','屋内遊び場','テーマパーク／遊園地','動物園','水族館','科学館／博物館','体験施設／工場見学','農業／牧場','海／水遊び','温泉／スパ','スポーツ／アクティビティ','観光スポット'];
+export const regions = ['近場（江戸川・市川・浦安周辺）','東京23区','東京都下','千葉県','埼玉県','神奈川県'];
+export function canonicalCategory(spot) {
+  const aliases = {'キャンプ・デイキャンプ':'キャンプ／デイキャンプ','科学館・博物館':'科学館／博物館','スポーツ':'スポーツ／アクティビティ','その他':'観光スポット','テントOK':'キャンプ／デイキャンプ'};
+  if (spot.category === '水族館・動物園') return /水族館|水族園/.test(spot.name ?? '') ? '水族館' : '動物園';
+  return aliases[spot.category] ?? spot.category;
+}
+export function matchesRegion(spot, region) {
+  if (!region || region === 'any') return true;
+  if (region === regions[0]) return /江戸川区|市川市|浦安市/.test(spot.area);
+  if (region === '東京23区') return spot.prefecture === '東京都' && /(?:区|お台場)/.test(spot.area);
+  if (region === '東京都下') return spot.prefecture === '東京都' && !/(?:区|お台場)/.test(spot.area);
+  return spot.prefecture === region;
+}
+export function matchesCategory(spot, category) {
+  if (!category || category === 'any') return true;
+  const actual = canonicalCategory(spot);
+  if (category === '水族館・動物園') return ['水族館','動物園'].includes(actual);
+  return actual === canonicalCategory({category});
+}
 export function filterSpots(conditions, source = spots) {
   return source.filter((spot) =>
     (conditions.weather !== 'rainy' || (spot.rainy ?? (spot.type === 'indoor'))) &&
-    spot.travel[conditions.transport] <= Number(conditions.travel) &&
-    (conditions.budget === 'any' || spot.cost <= Number(conditions.budget)) &&
+    (conditions.travel === 'any' || spot.travel[conditions.transport] <= Number(conditions.travel)) &&
+    (conditions.budget === 'any' || (spot.cost !== null && spot.cost <= Number(conditions.budget))) &&
     (conditions.stay === 'any' || spot.stays.includes(Number(conditions.stay))) &&
-    (!conditions.category || conditions.category === 'any' || spot.category === conditions.category) &&
+    matchesCategory(spot,conditions.category) &&
+    matchesRegion(spot,conditions.region) &&
     (!conditions.tent || conditions.tent === 'any' || spot.tent === (conditions.tent === 'yes')) &&
     (!conditions.bbq || conditions.bbq === 'any' || spot.bbq === (conditions.bbq === 'yes'))
   );

@@ -3276,5 +3276,4933 @@
         "sha256": "6bb949cce983e8fe541eb4a48ceec1fed32aacdd1b4284b07df5bf0e1a5e3f43"
       }
     ]
+  },
+  {
+    "id": "place-tdl",
+    "name": "東京ディズニーランド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗東京ディズニーランド | 東京ディズニーランド",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "1デーパスポート大人8,900円～×2＋小人5,300円～×2＝28,400円～。日付変動・追加サービス別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県浦安市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      15,
+      60
+    ],
+    "publicTransportRange": [
+      40,
+      85
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyodisneyresort.jp/tdl/",
+        "title": "〖公式〗東京ディズニーランド | 東京ディズニーランド",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b009b6ea5bddf1906f0d25ed31bb09d10ac40b99f875942940949b951110b2d6",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/ticket/index.html?park=tdl",
+        "title": "〖公式〗パークチケット|東京ディズニーリゾート",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4a1c354fd406d01050f0bd46be59c1c80bfdbda10d8b89790bbd04f11c34c00e",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-tds",
+    "name": "東京ディズニーシー",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗東京ディズニーシー | 東京ディズニーシー",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "1デーパスポート大人8,900円～×2＋小人5,300円～×2＝28,400円～。日付変動・追加サービス別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県浦安市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      20,
+      65
+    ],
+    "publicTransportRange": [
+      50,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyodisneyresort.jp/tds/",
+        "title": "〖公式〗東京ディズニーシー | 東京ディズニーシー",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1a8004c9f2889bee50b44a117b89537535775f21dfeb339faf260b911582a6b2",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/ticket/index.html?park=tdl",
+        "title": "〖公式〗パークチケット|東京ディズニーリゾート",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4a1c354fd406d01050f0bd46be59c1c80bfdbda10d8b89790bbd04f11c34c00e",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-german",
+    "name": "東京ドイツ村",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "東京ドイツ村 | 千葉県袖ケ浦市にある花と緑のテーマパーク",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年10月30日まで大人1,000円×2＋小人500円×2＝3,000円。10月31日以降4,600円。駐車場・遊具別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県袖ケ浦市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      65,
+      110
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://t-doitsumura.co.jp/",
+        "title": "東京ドイツ村 | 千葉県袖ケ浦市にある花と緑のテーマパーク",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "e1ed82d759aa600cd6b9a08287d0a9d591d73e9bfa72ac4bc74a008cd7057c07",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://t-doitsumura.co.jp/hour-fee",
+        "title": "営業時間・料金 | 東京ドイツ村 | 千葉県袖ケ浦市にある花と緑のテーマパーク",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "94de46878c979d1ed82d5005c507560073fe625852c43a1eec2fb540961f59fd",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-mother",
+    "name": "マザー牧場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "マザー牧場｜花と動物たちのエンターテイメントファーム",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人1,800円×2＋小人900円×2＝5,400円。ファームツアー・遊園地・駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県富津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      155,
+      200
+    ],
+    "sources": [
+      {
+        "url": "https://www.motherfarm.co.jp/",
+        "title": "マザー牧場｜花と動物たちのエンターテイメントファーム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "45b312c4a72fffbb779842debf445c2cf9f112bea912bcc4b1aa387e88c74e6c",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.motherfarm.co.jp/ticket/index.php?id=anc_entrance",
+        "title": "料金│マザー牧場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c83606d5519594ec049089865a32582169e71ca203f8d6a2c8ca6cb4dc731741",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kamogawa",
+    "name": "鴨川シーワールド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "水族館TOP｜鴨川シーワールド-東京・千葉の水族館テーマパーク",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人3,300円×2＋小中学生2,000円×2＝10,600円。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県鴨川市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://www.kamogawa-seaworld.jp/",
+        "title": "水族館TOP｜鴨川シーワールド-東京・千葉の水族館テーマパーク",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "939569ab141dd37348dcf835e6dfe346fd5952370a613eef12d9ecca7473ea7f",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.kamogawa-seaworld.jp/price_ticket/admission/",
+        "title": "入館料｜鴨川シーワールド-東京・千葉の水族館テーマパーク",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6b76118cc534411675c976ae48eb8c946f2bf28b9479b0349967b4bfec74573a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-andersen",
+    "name": "ふなばしアンデルセン公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ふなばしアンデルセン公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般900円×2＋小中学生200円×2＝2,200円。有料遊戯・駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県船橋市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      45,
+      90
+    ],
+    "publicTransportRange": [
+      80,
+      125
+    ],
+    "sources": [
+      {
+        "url": "https://www.park-funabashi.or.jp/and/",
+        "title": "ふなばしアンデルセン公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "0f5bbf89cb848495b24cdf601d4bf2ee26580470fd28d294c1a6e7f958dbe778",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.park-funabashi.or.jp/and/guide.html",
+        "title": "ご利用案内｜ふなばしアンデルセン公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4ea53fba61e9e9e0a4ac157c3b75a0cfd01ab718f80a37f2c40a57d1c314fe01",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.park-funabashi.or.jp/and/faq",
+        "title": "よくある質問｜ふなばしアンデルセン公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4e266265c0e777000cb0bdd824ce6d818b1228dfb2555f639c48fe5de275294b",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-shimizu",
+    "name": "清水公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "アスレチックの料金と営業案内 - 清水公園 公式ホームページ | 千葉・野田市",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "公式公開パンフレットのアスレチック通常大人1,500円×2＋小学生1,000円×2。季節料金・最新区分は予約時確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県野田市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.shimizu-kouen.com/public-price-athletic",
+        "title": "アスレチックの料金と営業案内 - 清水公園 公式ホームページ | 千葉・野田市",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "7d6c744a729e2e8f12aa65067c36b0cb43f7f9620701b4bed9fe1dbfac0e4303",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.shimizu-kouen.com/camp",
+        "title": "キャンプ・バーベキュー - 清水公園 公式ホームページ | 千葉・野田市",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6d5422c5eddb15d3862b4ee806e4c8790a6ac1558902209540d4def54d83be3d",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.shimizu-kouen.com/main/wp-content/uploads/2024/12/2024_12_brochure.pdf",
+        "title": "フィールドアスレチック　予約制",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ac9e46c062c8eea802015ed1351b44eb5cdd81ec2fd7f3ac2d819402091d7895",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kisarazu-outlet",
+    "name": "三井アウトレットパーク 木更津",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "三井アウトレットパーク 木更津",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県木更津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      110,
+      155
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/mop/kisarazu/",
+        "title": "三井アウトレットパーク 木更津",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "e7c6397bd22b29f4372c64ff4c24d14cfa74765aa6c59b3f995cfe274ba780f3",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-makuhari-aeon",
+    "name": "イオンモール幕張新都心",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンモール幕張新都心",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市美浜区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      35,
+      80
+    ],
+    "publicTransportRange": [
+      65,
+      110
+    ],
+    "sources": [
+      {
+        "url": "https://makuharishintoshin-aeonmall.com/",
+        "title": "イオンモール幕張新都心",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "75f8c91edbd17da42f5bb627b1e3dc293a3ae99d4f1a84625cfb4c7511c92bf5",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-yume",
+    "name": "成田ゆめ牧場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ゆめ牧場 - 日本一オイシイ乳製品をつくる観光牧場「成田ゆめ牧場」へようこそ！",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "土日祝の大人1,800円×2＋子供900円×2＝5,400円。平日は4,800円。駐車場・遊戯別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県成田市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.yumebokujo.com/",
+        "title": "ゆめ牧場 - 日本一オイシイ乳製品をつくる観光牧場「成田ゆめ牧場」へようこそ！",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "3d3cbaad048fe2de546c52f2c5cf191b0f18025b86e62dbe193d063359c78d8d",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.yumebokujo.com/access.html",
+        "title": "営業時間・アクセス・料金 - ゆめ牧場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b8edca25adaee01c1e29b27878b22b1701a6b3f0fbd8ee8f7bb4436220544fb3",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-yomiuri",
+    "name": "よみうりランド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "よみうりランド遊園地",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "通常ワンデーパス大人5,900円×2＋小学生4,100円×2＝20,000円。オンライン価格は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都稲城市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      65,
+      110
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.yomiuriland.com/",
+        "title": "よみうりランド遊園地",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "159b10b31bd748404bf21354d4fb5a5a61ba20fe2cd495c580c386d7054bba0b",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.yomiuriland.com/charge/",
+        "title": "料金・チケット | よみうりランド遊園地",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8d9f6234dc54d8c6f746469cbb3125f0bd70628e37790eaff247d233437fc319",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-puroland",
+    "name": "サンリオピューロランド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "www.puroland.jp",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年8月以降デイパスポート最安区分大人3,900円×2＋小人2,800円×2＝13,400円～。日付により変動。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都多摩市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.puroland.jp/",
+        "title": "www.puroland.jp",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c3d719253642ba8cd22f57f854ebcba865b82966dc7f6d208f6573882e6f13c6",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.puroland.jp/news/passport_information_2026/",
+        "title": "www.puroland.jp",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "47b3c83908d63e0490cbd527e147e81f44fd08bd22c1a15c5201cdcdd28addcf",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-dome",
+    "name": "東京ドームシティ",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "東京ドームシティ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都文京区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      30,
+      75
+    ],
+    "publicTransportRange": [
+      35,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokyo-dome.co.jp/",
+        "title": "東京ドームシティ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "094ecbb3cf7bac72cfebfe86257e857367f50924c75a463dea264a9bb13f2e36",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-showa",
+    "name": "国営昭和記念公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "国営昭和記念公園公式ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人450円×2。中学生以下無料。駐車場・有料施設別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都立川市・昭島市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      95,
+      140
+    ],
+    "sources": [
+      {
+        "url": "https://www.showakinen-koen.jp/",
+        "title": "国営昭和記念公園公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "91fd84ecbf778ebfcc5c884425cd72b4ba1c6f69e4f1b1a0141be0327a22b857",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.showakinen-koen.jp/park-information/price/",
+        "title": "各種料金 – 国営昭和記念公園公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6938356b66dc1b1837ca2929f25dcd733a289dfb8fc4a312a31734cc5015fe3a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-legoland",
+    "name": "レゴランド・ディスカバリー・センター東京",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗レゴランド®・ディスカバリー・センター東京",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "オンラインチケット2,350円～×4＝9,400円～。日時・券種で変動。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都港区台場方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      25,
+      70
+    ],
+    "publicTransportRange": [
+      50,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://www.legolanddiscoverycenter.com/tokyo/",
+        "title": "〖公式〗レゴランド®・ディスカバリー・センター東京",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "35734cf439629fa2d97912dbf547f591a2b4dc0f59f59acf4cdbc493cc1f2ebe",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.legolanddiscoverycenter.com/tokyo/tickets-passes/",
+        "title": "チケット＆年間パス｜レゴランド®・ディスカバリー・センター東京",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "92e329e0d1be7a385bfe38a2c2696b21cf4d1ad72c44a0d34767b8625e4ce5f6",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-joypolis",
+    "name": "東京ジョイポリス",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "東京ジョイポリス - お台場で遊ぶならジョイポリスに決まり！",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "公式掲載Webパスポート大人5,700円×2＋小中高生4,700円×2＝20,800円。券種・キャンペーンで変動。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都港区台場方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      25,
+      70
+    ],
+    "publicTransportRange": [
+      50,
+      95
+    ],
+    "sources": [
+      {
+        "url": "https://tokyo-joypolis.com/",
+        "title": "東京ジョイポリス - お台場で遊ぶならジョイポリスに決まり！",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6f52b895773148990e41b8076480099e798f0d05ee68d9c3c001427809db589b",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-planets",
+    "name": "チームラボプラネッツ TOKYO",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "teamLab Planets TOKYO Official Ticket Store - Entrance tickets sales",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人3,800円～×2＋4～12歳1,500円×2＝10,600円～。日時指定・変動料金。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都江東区豊洲方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      20,
+      65
+    ],
+    "publicTransportRange": [
+      35,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://teamlabplanets.dmm.com/",
+        "title": "teamLab Planets TOKYO Official Ticket Store - Entrance tickets sales",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "69cdbd9b6838d9fd0f295b132306ae753138859dddb30310134cba456d4382ef",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-tobu",
+    "name": "東武動物公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "東武動物公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "現行日本語料金表の入園大人2,300円×2＋小人1,000円×2。遊園地パス・プール別。公式サイトの一時障害時は公式チケット案内を確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県宮代町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      70,
+      115
+    ],
+    "publicTransportRange": [
+      95,
+      140
+    ],
+    "sources": [
+      {
+        "url": "https://www.tobuzoo.com/",
+        "title": "東武動物公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5f4a0861d3b1251d3ab95d5ac2fdbc58483c30331dec2fd1d78db82e2161032a",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.tobuzoo.com/ticket/chargelist/",
+        "title": "料金一覧｜ ハイブリッド・レジャーランド東武動物公園公式Webサイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d1f1c485f004b4ff85972079a2e4d082830fafdffea7e4d7a708a5bd9069a0b7",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-seibuen",
+    "name": "西武園ゆうえんち",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗西武園ゆうえんち",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "1日券通常大人4,900円×2＋子ども3,600円×2＝17,000円。追加有料サービス別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県所沢市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      105,
+      150
+    ],
+    "sources": [
+      {
+        "url": "https://www.seibuen-amusement-park.jp/",
+        "title": "〖公式〗西武園ゆうえんち",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "12265367c4ef383faa3583c259ee82191e9d05ff875147329294fa8ff5312225",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.seibuen-amusement-park.jp/ticket/",
+        "title": "料金・WEBチケット | 西武園ゆうえんち",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "da373b03145e4c581b2f6e891fc881345bfab5e88922b4434a813f5761f49859",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-moomin",
+    "name": "ムーミンバレーパーク",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗ムーミンバレーパーク・メッツァビレッジ｜metsa（メッツァ）",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "当日1デーパス大人4,300円×2＋子供1,300円×2＝11,200円。前売は9,800円。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県飯能市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      105,
+      150
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://metsa-hanno.com/",
+        "title": "〖公式〗ムーミンバレーパーク・メッツァビレッジ｜metsa（メッツァ）",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1a4ee01e70949316e1b5867d534c5163dc426dddfbf8df2f3bcae7cb5d4c8b8f",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-railway",
+    "name": "鉄道博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "鉄道博物館 - THE RAILWAY MUSEUM -",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "当日大人1,600円×2＋小中高生600円×2＝4,400円。前売4,000円。体験別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県さいたま市大宮区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      75,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://www.railway-museum.jp/",
+        "title": "鉄道博物館 - THE RAILWAY MUSEUM -",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "48ab83b4956d2a67b1e4a9fc102d014dad11e95ce1f1db36f6dcac4891156ed2",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.railway-museum.jp/information/",
+        "title": "利用案内｜鉄道博物館 - THE RAILWAY MUSEUM -",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "73389d320108fafa51e635cc5525903c47d6312f3b1b491aa401623da4ba851a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-shinrin",
+    "name": "国営武蔵丘陵森林公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "www.shinrinkoen.jp",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "町公式の入園料金改定資料：大人450円×2、中学生以下無料。駐車場・有料体験別、最新区分は公園公式確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県滑川町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.shinrinkoen.jp/",
+        "title": "www.shinrinkoen.jp",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "60989648c357d94aed68e2926f735814a9acbb065e02f327ac3ee879b7dfdf09",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.town.namegawa.saitama.jp/material/files/group/2/596.pdf",
+        "title": "広報なめがわ No.596",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "adf107e4ccdf4341f132e229bde245e35736868237ff9d2a17c81a553dc51394",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-saitama-zoo",
+    "name": "埼玉県こども動物自然公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "埼玉県こども動物自然公園 | 公益財団法人埼玉県公園緑地協会",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人900円×2＋小中学生200円×2＝2,200円。駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県東松山市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.parks.or.jp/sczoo/",
+        "title": "埼玉県こども動物自然公園 | 公益財団法人埼玉県公園緑地協会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "16dc4acb713cb9937218d9cfd006b2a332d04cd602c1a370d8a8288e76c0051e",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.parks.or.jp/sczoo/guide/000/000194.html",
+        "title": "開園時間・休園日・入園料 | 埼玉県こども動物自然公園 | 公益財団法人埼玉県公園緑地協会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "cf4b3c7182bfa900e72acd0e257e27cecc3abdf6a09f2c6d3e35f2c2abab5e49",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-laketown",
+    "name": "イオンレイクタウン",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンレイクタウン",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県越谷市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      45,
+      90
+    ],
+    "publicTransportRange": [
+      60,
+      105
+    ],
+    "sources": [
+      {
+        "url": "https://www.aeon-laketown.jp/",
+        "title": "イオンレイクタウン",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b85fd0830360bf70660074dc4e87915ea77f4f32d6b5630c2b6fcced41711a81",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakkeijima",
+    "name": "横浜・八景島シーパラダイス",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "海・島・生きもののテーマパーク｜横浜・八景島シーパラダイス - YOKOHAMA HAKKEIJIMA SEA PARADISE",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "アクアリゾーツパス通常料金：大人3,500円×2＋小中学生2,200円×2＝11,400円。遊園地別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市金沢区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      115,
+      160
+    ],
+    "sources": [
+      {
+        "url": "https://www.seaparadise.co.jp/",
+        "title": "海・島・生きもののテーマパーク｜横浜・八景島シーパラダイス - YOKOHAMA HAKKEIJIMA SEA PARADISE",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "9b584e949cbcfa75e437dbd098ba4d86651ea881609201facf27dd80654eef2d",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.seaparadise.co.jp/price/passport/doukousha.html",
+        "title": "シーパラプレミアムパス特典　 ご家族・ご友人のチケット割引〈前売券（直チケ）〉｜横浜・八景島シーパラダイス - YOKOHAMA HAKKEIJIMA SEA PARADISE",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d28cd543ae3c463ab1bb2f2f5488ccc3ce2c857254966d06263e7b9fa4a349bc",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-zoorasia",
+    "name": "よこはま動物園ズーラシア",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "よこはま動物園ズーラシア公式サイト｜公益財団法人 横浜市緑の協会",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人800円×2＋小中学生200円×2＝2,000円。小中高生は土曜無料。駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市旭区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/",
+        "title": "よこはま動物園ズーラシア公式サイト｜公益財団法人 横浜市緑の協会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "bc604000cb975e8ffb56c307dbae4889a46ae7c492d32c996e18f7b3120206bb",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/fee.php",
+        "title": "開園時間・入園料||よこはま動物園ズーラシア公式サイト｜公益財団法人 横浜市緑の協会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d4760cb8b2ae65f95a8a468a3d70458401fe7985097c3ec328c2b13946d224ed",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-anpanman",
+    "name": "横浜アンパンマンこどもミュージアム",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "横浜アンパンマンこどもミュージアム",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "1歳以上2,200～2,800円×4＝8,800～11,200円。1F無料エリアとは区別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市西区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.yokohama-anpanman.jp/",
+        "title": "横浜アンパンマンこどもミュージアム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1d5d143db484a9a76f2c1fae0e0a00439694113c7919985016fd1df4c852f944",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.yokohama-anpanman.jp/guide/",
+        "title": "チケット・営業時間｜横浜アンパンマンこどもミュージアム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5d42980d96ca2be148d6b559b64adfac35db5ee8d3aaa8c69245d8c2fe8ef36e",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-cupnoodles",
+    "name": "カップヌードルミュージアム 横浜",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "カップヌードルミュージアム 横浜",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人500円×2、高校生以下無料。マイカップヌードル等の体験料は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市中区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.cupnoodles-museum.jp/ja/yokohama/",
+        "title": "カップヌードルミュージアム 横浜",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "074fd7421754bc09aa43185ddfc18a651a9a0b59711fda7d9660f88401effd64",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kodomonokuni",
+    "name": "こどもの国",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "こどもの国｜子どもが今やりたいことをして遊ぶ場所｜神奈川県横浜市",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年4月改定：大人800円×2＋小学生300円×2＝2,200円。駐車場・有料遊具別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市青葉区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      115,
+      160
+    ],
+    "sources": [
+      {
+        "url": "https://www.kodomonokuni.org/",
+        "title": "こどもの国｜子どもが今やりたいことをして遊ぶ場所｜神奈川県横浜市",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "812b9a692f0ec89e6f597e5ea56dedd221e51f3e503344ba86d76b5d6211aee0",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.kodomonokuni.org/price/",
+        "title": "営業日時・料金｜こどもの国（神奈川県横浜市）",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4e5750ab5c5f4569c0f9808e876da1a79e2368a3c79740da54e0cf3ba219866e",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-morimori",
+    "name": "さがみ湖MORI MORI",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "さがみ湖ＭＯＲＩ ＭＯＲＩ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "フリーパス大人4,700円×2＋小人3,700円×2＝16,800円。一部アトラクション別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県相模原市緑区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      105,
+      150
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.sagamiko-resort.jp/",
+        "title": "さがみ湖ＭＯＲＩ ＭＯＲＩ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "a53bec98042b6dce340c51e6a16f6628beaf147587258a991cf607a54f794ca7",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.sagamiko-resort.jp/calender/charge.html",
+        "title": "各区分の料金 | さがみ湖ＭＯＲＩ ＭＯＲＩ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c404aee1cb41dfffa77a9eb5d6645494d7f49073a376d2243033a37867301d0b",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-enoshima-aqua",
+    "name": "新江ノ島水族館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "新江ノ島水族館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人2,800円×2＋小学生1,300円×2＝8,200円。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県藤沢市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://www.enosui.com/",
+        "title": "新江ノ島水族館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "27334756b3ae04eb10bb268947f875b3fcd0f974a7b8edeb7ade93a1ea326ac7",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.enosui.com/basicinfo.php",
+        "title": "営業時間・料金・交通 | 新江ノ島水族館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "762f3ed4dcab54fc29a7f28f5efbb5b492b2bf56c720b29de30acc024cbeeaa4",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-minamiosawa",
+    "name": "三井アウトレットパーク 多摩南大沢",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "三井アウトレットパーク 多摩南大沢",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都八王子市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      90,
+      135
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/mop/tama/",
+        "title": "三井アウトレットパーク 多摩南大沢",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ee4c86daecbaa4c0fbbf9fa909c1577775bdf0d65282fb530d94e7823d939c67",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-iruma",
+    "name": "三井アウトレットパーク 入間",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "三井アウトレットパーク 入間",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県入間市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/mop/iruma/",
+        "title": "三井アウトレットパーク 入間",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "05fd256487e16624d4116ab581d70fa7b91269183e63806386a992b5930429fa",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-shonan-hiratsuka",
+    "name": "THE OUTLETS SHONAN HIRATSUKA",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ジ アウトレット湘南平塚",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県平塚市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      145,
+      190
+    ],
+    "sources": [
+      {
+        "url": "https://the-outlets-shonan-hiratsuka.aeonmall.com/",
+        "title": "ジ アウトレット湘南平塚",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "873f7d062019b7f39aa99f26845be83188f7540269da23c1d130f8ce382796be",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-yokohama-outlet",
+    "name": "三井アウトレットパーク 横浜ベイサイド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "三井アウトレットパーク 横浜ベイサイド",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市金沢区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      110,
+      155
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/mop/yokohama/",
+        "title": "三井アウトレットパーク 横浜ベイサイド",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "617f687854c28a14b6728d1116cddb0cc3a3e883897b3ff6ec38ec4fb8d51de9",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sakeya",
+    "name": "酒々井プレミアム・アウトレット",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "酒々井プレミアム・アウトレット - PREMIUM OUTLETS®",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県酒々井町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      65,
+      110
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://www.premiumoutlets.co.jp/shisui/",
+        "title": "酒々井プレミアム・アウトレット - PREMIUM OUTLETS®",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8b7405288d4d9e2fc82cafb55f509bfc9610b907a21d7997a26c72a5865781f2",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-laketown-outlet",
+    "name": "レイクタウンアウトレット",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンレイクタウン",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県越谷市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      50,
+      95
+    ],
+    "publicTransportRange": [
+      65,
+      110
+    ],
+    "sources": [
+      {
+        "url": "https://laketown-outlet.jp/",
+        "title": "イオンレイクタウン",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d2eec56f249e4654200e735d8fe006f65ec8f33152c35edd64419cddc4880bfb",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-aeon-kawaguchi",
+    "name": "イオンモール川口",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンモール川口",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県川口市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      50,
+      95
+    ],
+    "publicTransportRange": [
+      70,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://kawaguchi-aeonmall.com/",
+        "title": "イオンモール川口",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "af51bb247627cf4a5b67d6ff58aefcacea8e40d5fd9b408d55aed6af6f4bebc9",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-aeon-musashimurayama",
+    "name": "イオンモールむさし村山",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンモールむさし村山",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都武蔵村山市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://musashimurayama-aeonmall.com/",
+        "title": "イオンモールむさし村山",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "bc3747a99afb77251222d1215fca1aec1e0634b8e030b915540c51aff92e769a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-northport",
+    "name": "ノースポート・モール",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ノースポート・モール",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市都筑区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      75,
+      120
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://www.northport.jp/",
+        "title": "ノースポート・モール",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c218bdbfde3b842e3f547bb1ba97dac408835b104e9731298f5733eb405ae561",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-vinawalk",
+    "name": "ビナウォーク",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ViNAWALK - ビナウォーク │ 海老名駅前、おもしろタウン! │ OdakyuSCポータル",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県海老名市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      110,
+      155
+    ],
+    "sources": [
+      {
+        "url": "https://www.odakyu-sc.com/vinawalk/",
+        "title": "ViNAWALK - ビナウォーク │ 海老名駅前、おもしろタウン! │ OdakyuSCポータル",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "42b78b01bcf54e8b4683a116885fa6559b8529f292fbc70b5be0793ec948c103",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-lala-hiratsuka",
+    "name": "ららぽーと湘南平塚",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ららぽーと湘南平塚",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県平塚市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      130,
+      175
+    ],
+    "sources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/hiratsuka/",
+        "title": "ららぽーと湘南平塚",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "df8a3f8d7e5d9827a4bce847262082b59ed876e03f8bfe78dd10174cd1ac5f9d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-lala-sagamihara",
+    "name": "アリオ橋本",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "アリオ橋本｜橋本のショッピングモール",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県相模原市緑区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      115,
+      160
+    ],
+    "sources": [
+      {
+        "url": "https://hashimoto.ario.jp/",
+        "title": "アリオ橋本｜橋本のショッピングモール",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4f5a7a477897fe82c3437bc2e0937a3eb38dffae95eaefbebf35527b8ea2c85f",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-aeon-narita",
+    "name": "イオンモール成田",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンモール成田",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県成田市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      70,
+      115
+    ],
+    "publicTransportRange": [
+      105,
+      150
+    ],
+    "sources": [
+      {
+        "url": "https://narita-aeonmall.com/",
+        "title": "イオンモール成田",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "805dad76ba1eebf78deccd75623f0684cd80950bc6c0f91368d39e183618bf8c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-lala-yokosuka",
+    "name": "コースカ ベイサイド ストアーズ",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "Coaska Bayside Stores（コースカ ベイサイド ストアーズ）",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横須賀市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      120,
+      165
+    ],
+    "sources": [
+      {
+        "url": "https://coaska.jp/",
+        "title": "Coaska Bayside Stores（コースカ ベイサイド ストアーズ）",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "def12f620531b410f07bc861de6ae782e2717039e1670129ee9aa8a37a074d16",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-terrace-tsujido",
+    "name": "テラスモール湘南",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "テラスモール湘南",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県藤沢市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://shonan.terracemall.com/",
+        "title": "テラスモール湘南",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "df5d54d9cd8f287a5c5c01b25f91b99843d400e8b4451c2a63c299632fa3ccce",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-shonan-mall",
+    "name": "湘南モールフィル",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "湘南モールフィル - 神奈川県藤沢市のショッピングモール",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県藤沢市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.shonan-fill.com/",
+        "title": "湘南モールフィル - 神奈川県藤沢市のショッピングモール",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "3a5f4f932e6b6cf57f7084ef2a04e553108feb0b5be104aa6ed4e05d6ffd30c5",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-aqua-line",
+    "name": "海ほたる",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "海ほたる～東京湾に浮かぶパーキングエリア",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県木更津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      50,
+      95
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://www.umihotaru.com/",
+        "title": "海ほたる～東京湾に浮かぶパーキングエリア",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1844c62690dada7cbfffd1762c5b1d0586c3caf0a1b5193889e7c945d273c558",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chiba-zoo",
+    "name": "千葉市動物公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "千葉市：千葉市動物公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人800円×2。中学生以下無料。駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市若葉区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      45,
+      90
+    ],
+    "publicTransportRange": [
+      75,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.chiba.jp/zoo/",
+        "title": "千葉市：千葉市動物公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "039507b7fdea8a7f482eae183dc5ed325b45e711d4f6cc26f3c617983e3cc3f2",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.city.chiba.jp/zoo/guide/",
+        "title": "千葉市：千葉市動物公園　ご利用案内",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "f948ad959b5d9a910ee2f572479a50d690006277f30a50c34e34772e45f37bd0",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hodosan-zoo",
+    "name": "宝登山小動物公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "宝登山小動物公園 | 宝登山ロープウェイ | 秩父郡長瀞 | 関東有数の臘梅園、梅百花園、桜や小動物公園。秩父の町並み、武甲山・両神山など抜群の眺望。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人500円×2＋3歳以上小人250円×2＝1,500円。ロープウェイ別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県長瀞町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://hodosan-ropeway.co.jp/zoo",
+        "title": "宝登山小動物公園 | 宝登山ロープウェイ | 秩父郡長瀞 | 関東有数の臘梅園、梅百花園、桜や小動物公園。秩父の町並み、武甲山・両神山など抜群の眺望。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "287dbae44ba8224ba770426ef33a12b276cececebe8743390d09fcb8480fcfab",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-oi-bbq",
+    "name": "大井ふ頭中央海浜公園 はぜつき磯バーベキュー場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "利用登録・申請関係・様式 – 東京都立海上公園 南部地区グループ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "公式掲載BBQ機材レンタル昼2,200円×4の目安。食材別、年齢・区画・夜間プランで変動。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都品川区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      35,
+      80
+    ],
+    "publicTransportRange": [
+      70,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://tokyo-south-seaside-parks.com/application-forms/",
+        "title": "利用登録・申請関係・様式 – 東京都立海上公園 南部地区グループ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "01a237a2a02238b8cc2dcdf2fa5eee5ba5e470501a92fa03001baecb728c248d",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://tokyo-south-seaside-parks.com/news/7%E6%9C%8818%E6%97%A5%E3%81%8B%E3%82%89%E3%80%8C%E3%81%AF%E3%81%9C%E3%81%A4%E3%81%8D%E7%A3%AF%E3%83%90%E3%83%BC%E3%83%99%E3%82%AD%E3%83%A5%E3%83%BC%E5%A0%B4%E3%80%8D%E3%81%93%E3%81%AE%E5%A4%8F",
+        "title": "7月18日から「はぜつき磯バーベキュー場」この夏、夜間営業を開始します！ - 東京都立海上公園 南部地区グループ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "72a0d506273fd30b27a1e8163810f8fbe9aadf53d912955916e6fe3c946345a3",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-jonan-camp",
+    "name": "城南島海浜公園キャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "城南島海浜公園 – キャンプ場 – 東京都立海上公園 南部地区グループ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "公式園内ガイドの一般日帰り大人300円×2＋小中学生150円×2。オート区画・器材・食材・駐車別、新運営者の予約料金を確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都大田区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      35,
+      80
+    ],
+    "publicTransportRange": [
+      70,
+      115
+    ],
+    "sources": [
+      {
+        "url": "https://tokyo-south-seaside-parks.com/jonanjima-campground/",
+        "title": "城南島海浜公園 – キャンプ場 – 東京都立海上公園 南部地区グループ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "da0fa2b2ca533fe06a93b21ba3d55423269658a6477554f6c59e673a747c2e60",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://tokyo-south-seaside-parks.com/common/images/jonanjima/jonanjima-pdf01_parkmap.pdf",
+        "title": "城南島海浜公園ご利用案内",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b6e7afa1f7aeb99fc95391d2d028103982850dc753d13417327899b6e6ba0d5c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-heiwa-camp",
+    "name": "平和島公園キャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "大田区ホームページ：平和島公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大田区外A・B区画1,200円、C区画960円。予約制、器材・食材・交通費別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都大田区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      35,
+      80
+    ],
+    "publicTransportRange": [
+      60,
+      105
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.ota.tokyo.jp/shisetsu/park/heiwajima.html",
+        "title": "大田区ホームページ：平和島公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d63cd62f63d77bea73d4d603e5f5ce4ee0645ace489f840aea91e87675a84e62",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.city.ota.tokyo.jp/shisetsu/sports/camp/heiwajima_camp.html",
+        "title": "大田区ホームページ：平和島公園キャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6d9abfc8a1cf0a6f7c70dd600952e18e5c4f69b9d0688deec5451ebd4ca0352c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hikawa-camp",
+    "name": "氷川キャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "氷川キャンプ場 | 氷川キャンプ場は都心から2時間半で、奥多摩の大自然を満喫できるキャンプ場です。 敷地内には大きな巨木がたくさんあり、 マイナスイオンをあびながら奥多摩の大自然を気軽に満喫できます。 氷川キャンプ場近くでのカヌー・カヤックの体験教室もあるので是非挑戦してみてください。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "公式デイキャンプ1名1,500円～×4＝6,000円～。駐車場・レンタル別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都奥多摩町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://www.okutamas.co.jp/hikawa/",
+        "title": "氷川キャンプ場 | 氷川キャンプ場は都心から2時間半で、奥多摩の大自然を満喫できるキャンプ場です。 敷地内には大きな巨木がたくさんあり、 マイナスイオンをあびながら奥多摩の大自然を気軽に満喫できます。 氷川キャンプ場近くでのカヌー・カヤックの体験教室もあるので是非挑戦してみてください。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c7b79b77d935b7d66184a80e55001923fef5202468f19afcc99920d40b1a8c65",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.okutamas.co.jp/hikawa/price/",
+        "title": "氷川キャンプ場 | - 氷川キャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "96def1e0d3009efebb950ed8c66d58e832260ac66cbe391e433e5ca115a7eec1",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kawai-camp",
+    "name": "川井キャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "川井キャンプ場 | 川井キャンプは、都心から約2時間で気軽にアウトドアライフが楽しめる、とても広い河原が自慢のキャンプ場です。川遊び、釣り、バーベキュー、ボルダリング、体験プログラムなど楽しみ方はいろいろ。家族や気の合う仲間と一緒に思いっきり自然を満喫してください。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "河原日帰り1,500円×4。土曜・連休・7～8月7,200円、器材・車1,200円別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都奥多摩町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      155,
+      200
+    ],
+    "sources": [
+      {
+        "url": "https://www.okutamas.co.jp/kawai/",
+        "title": "川井キャンプ場 | 川井キャンプは、都心から約2時間で気軽にアウトドアライフが楽しめる、とても広い河原が自慢のキャンプ場です。川遊び、釣り、バーベキュー、ボルダリング、体験プログラムなど楽しみ方はいろいろ。家族や気の合う仲間と一緒に思いっきり自然を満喫してください。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "255784a20d3aa63ca894ce291a51a22354250e363ce58ed0842cd8ea13e307f9",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.okutamas.co.jp/kawai/day-camp",
+        "title": "川井キャンプ場 | デイキャンプ - 川井キャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ba1f4b237a9c9c97004e003f4ba71d52abd18d52f3ff3101902111d66815aef4",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-america-camp",
+    "name": "アメリカキャンプ村",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗アメリカキャンプ村",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "日帰り入場大人1,600円×2＋小学生800円×2＝4,800円。BBQ卓・食材・駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都奥多摩町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      170,
+      215
+    ],
+    "sources": [
+      {
+        "url": "https://www.americacampmura.jp/",
+        "title": "〖公式〗アメリカキャンプ村",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "08967b93183650ea92200516fb86a0f9f440df32c35e11747ff7c17b84eb7b53",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.americacampmura.jp/daycamp/",
+        "title": "〖公式〗アメリカキャンプ村｜デイキャンプ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2a1be874ecf0515aa4e6b9e7bda46473cd9375f997dbba17de12167e73334412",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-akigawa-bbq",
+    "name": "秋川橋河川公園バーベキューランド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "2026秋｜都心から60分の大自然「秋川渓谷」｜あきる野観光協会〖公式〗ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年4月改定Cセット（炉・網・薪・炭）6,000円、7～9月6,500円。食材・駐車別。器材の持込制限あり。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都あきる野市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      120,
+      165
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.akirunokanko.com/",
+        "title": "2026秋｜都心から60分の大自然「秋川渓谷」｜あきる野観光協会〖公式〗ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "113f22e11546290cd0663b6df90f6fc4c3c6e6302409482753df6d22133eed2a",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.akirunokanko.com/?p=307br+%2F",
+        "title": "秋川橋河川公園バーベキューランド　｜都心から60分の大自然「秋川渓谷」｜あきる野観光協会〖公式〗ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "85d5ec410f2ef60cef2ca70fba1b42203203c1f5abaf0bdfe9bd077916902a8c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-morimaki",
+    "name": "森のまきばオートキャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ご利用・ご予約について | 森のまきばオートキャンプ場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "日帰り大人1,000円×2＋小人800円×2＝3,600円の区分。低料金区分は3,200円。車200円、レンタル別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県袖ケ浦市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      70,
+      115
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.morimaki-camp.com/guide/",
+        "title": "ご利用・ご予約について | 森のまきばオートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "e3fd0e54b4afdef8da34beece08057433076d74733292fa3b07daef6e6f709da",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.morimaki-camp.com/",
+        "title": "森のまきばオートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "cf1ada5001dd897ab70056af8999b1c68ec7d49255e9e698bd384010b496ffbc",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.morimaki-camp.com/facility/",
+        "title": "施設のご案内 | 森のまきばオートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5f2b59c2bba19b33e1526a1caaef0b609fd0aec392ea40d10aa7b77c57bdd929",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-arisunomori",
+    "name": "有野実苑オートキャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "有野実苑",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "オートサイト日帰り3～5人平日4,500円。通常5,300円、ミドル5,800円。混雑日は日帰り販売なし。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県山武市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.arinomi.co.jp/",
+        "title": "有野実苑",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "bda05c52532fea59d8e32657ec47e63e439007f4ad46cdedd757892e6c22b9eb",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://arinomi.co.jp/rates/",
+        "title": "料金一覧 – 有野実苑",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8ec95823796263b7e1a8943ee9f4d6bc92596be42931f594728fbbddc8f120cc",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-narita-camp",
+    "name": "成田ゆめ牧場ファミリーオートキャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "キャンプ - ゆめ牧場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "通常日帰り：大人1,500円×2＋小人1,000円×2＝5,000円。車1台の日帰り駐車1,000円、牧場入場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県成田市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.yumebokujo.com/camp.html",
+        "title": "キャンプ - ゆめ牧場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "35cb13543ef6ce411094881d944ade689f2b673f05a0f02670ac8a2c396f3018",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kazusa-camp",
+    "name": "かずさオートキャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "かずさオートキャンプ場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "税抜サイト1,000円＋大人700円×2＋小人400円×2、税込3,520円。繁忙期別料金。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県君津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      90,
+      135
+    ],
+    "publicTransportRange": [
+      155,
+      200
+    ],
+    "sources": [
+      {
+        "url": "https://www.kazusa-autocamp.com/index2.htm",
+        "title": "かずさオートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "e6369fc3a5380d06729b98627cf8019f67d97aeb6613089adf19e71c8da1a5fe",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://kazusa-autocamp.com/guide2022.pdf",
+        "title": "http://www.kazusa-autocamp.com/",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5d18a061b9c94dd342366e01fc14b2850345c9ce9646f4661cbffe60e958bfcf",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-uchiura-camp",
+    "name": "内浦山県民の森",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公式サイト | アウトドア・キャンプ・合宿 | 千葉県立 内浦山県民の森",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "日帰りBBQ1区画1回1,560円。予約制、食材・器材別。宿泊テント料金と区別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県鴨川市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.uchiurayama.jp/",
+        "title": "公式サイト | アウトドア・キャンプ・合宿 | 千葉県立 内浦山県民の森",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "da8c5f3f026699a7cea54972f7d1d871c0b6774f9cecf8f1abbc901b5297d9a9",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.uchiurayama.jp/bbq",
+        "title": "バーベキュー場 | 千葉県立 内浦山県民の森",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5d39abad480234d6de21907e0adb58351ae624614e8bdcb557bda877baa85462",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-tateyama-onsen",
+    "name": "南総城山温泉 里見の湯",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "南総城山温泉　里見の湯　公式サイト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "土日祝大人1,700円×2＋4歳～小学生600円×2＝4,600円。特定日は変動。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県館山市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.satominoyu.com/",
+        "title": "南総城山温泉　里見の湯　公式サイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "be02ee3e3374e10b6e0b84af5a54541eee04ea079ffc6b6c813c76aa1141b0c0",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-splash-garden",
+    "name": "スプラッシュガーデン秩父",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "スプラッシュガーデン秩父オートキャンプ場 | 日帰り温泉施設やドッグラン、犬用温泉もあります",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "デイキャンプ1グループ最大5名3,740円。車1台の河原乗り入れ含む。器材・食材別。日帰りテント不可。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://www.sg-chichibu.co.jp/",
+        "title": "スプラッシュガーデン秩父オートキャンプ場 | 日帰り温泉施設やドッグラン、犬用温泉もあります",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "12b947c4a370a106d5ba5b3ba9b78ad41a4c4ba3916082523f5522def6e4f7ef",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.sg-chichibu.co.jp/daycamp/",
+        "title": "デイキャンプのご案内 | スプラッシュガーデン秩父オートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8653701f212e58bd8500e642cb9b17450e28789012a200a0a5b839dac17c52a7",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-nagatoro-camp",
+    "name": "長瀞オートキャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "リバーサイド長瀞オートキャンプ場 | 初心者・女性のみ・家族連れ大歓迎！！",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "持ち込みデイキャンプサイト2,500～4,000円（時期区分）。屋根付きBBQや手ぶらプランは別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県長瀞町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://www.nagatoro-camp.com/",
+        "title": "リバーサイド長瀞オートキャンプ場 | 初心者・女性のみ・家族連れ大歓迎！！",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5dbb79f1f3a25d3d5a3990e367ef2b95c04eba5863249a5ef75839c2f292ebf3",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.nagatoro-camp.com/daycamp/",
+        "title": "デイキャンプ | リバーサイド長瀞オートキャンプ場 | 初心者・家族連れ大歓迎！！",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b1f3539ffd5c774dc8bbecd07bc4c79925ddc11d8714fd893abaac0189709a56",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-woodroof",
+    "name": "ウッドルーフ奥秩父オートキャンプ場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ウッドルーフ奥秩父オートキャンプ場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "らくらく日帰りパック2～4人1区画税込10,450円。タープ・BBQ器材・車1台含む、食材別。混雑日は利用不可。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      160,
+      205
+    ],
+    "publicTransportRange": [
+      215,
+      260
+    ],
+    "sources": [
+      {
+        "url": "https://www.woodroof.jp/",
+        "title": "ウッドルーフ奥秩父オートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1e6d7a1ed98dd9bc881bb3367b022c91ccfe8bad5603b15f2720678f455fac4a",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.woodroof.jp/fee_en/",
+        "title": "Usage Fees - ウッドルーフ奥秩父オートキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "9e7fe46b0bfed927d83243e2fc25af94d7089a9fb40c266aedb60907812aa65d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-pica-chichibu",
+    "name": "PICA秩父",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "PICA秩父",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "食材なし日帰り大人1,500円×2＋4歳～小学生800円×2。食材付きBBQは大人3,500円・子供2,500円から。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.pica-resort.jp/chichibu/",
+        "title": "PICA秩父",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "0b923f87cbb2bf9d27d890fe64769f0a58944e90c7677169261d1212ac6bf9c2",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.pica-resort.jp/chichibu/stay/site/day_bbq.html",
+        "title": "DAY BBQ - PICA秩父",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4ca6cb8b82ecfad3d49ad98afb49f2e9d184323e0574c7fc98e76261bbc001cf",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-pica-sagamiko",
+    "name": "PICAさがみ湖 ワイルドクッキングガーデン",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "PICAさがみ湖",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "食材持込予約大人2,500円×2＋小人2,000円×2。遊園地入場券含む、食材・器材別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県相模原市緑区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      105,
+      150
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.pica-resort.jp/sagamiko/",
+        "title": "PICAさがみ湖",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ce051d5e260784733409f8d6b9474c45b65eb4f178bd9bb5f44617a5526ebfc9",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.pica-resort.jp/sagamiko/bbq/charge/index.html",
+        "title": "料金一覧 - PICAさがみ湖",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1005ff9d99325a378ccde802646f5f671742d9e507e51bea1ef596865239fd6c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-well-camp",
+    "name": "ウェルキャンプ西丹沢",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ウェルキャンプ西丹沢 - 公式ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "デイキャンプ基本料金オフ4,500円、オン5,000円、ハイ5,500円。人数上限・追加料金・レンタルは公式確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県山北町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      150,
+      195
+    ],
+    "publicTransportRange": [
+      225,
+      270
+    ],
+    "sources": [
+      {
+        "url": "https://well-camp.com/",
+        "title": "ウェルキャンプ西丹沢 - 公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6bb770069dbe56f903e38c241ca410e9dd07070829b7813fa3d378b4b97993a1",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://well-camp.com/price/",
+        "title": "料金 - ウェルキャンプ西丹沢 - 公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c06c83b33b1ed998fba468f2e07f97160738d8483ee26f226e86f74fe315090c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-bosco",
+    "name": "BOSCO Auto Camp Base",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "BOSCO ご利用料金",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "10時開始デイキャンプ1台用（最大6名）4,000～8,000円。レンタル別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県秦野市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      205,
+      250
+    ],
+    "sources": [
+      {
+        "url": "https://www.moroto.co.jp/bosco/list.html",
+        "title": "BOSCO ご利用料金",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "be3e289bd76ce54739037dd19aec33001d0eb6df2b4f8898d26908fc94f60f66",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kanotoen",
+    "name": "神戸園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "神戸園 | 檜原村観光協会",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "デイキャンプ大人770円×2＋小人550円×2＝2,640円。駐車・器材・釣り別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都檜原村方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      180,
+      225
+    ],
+    "sources": [
+      {
+        "url": "https://hinohara-kankou.jp/spot/kanotoen/",
+        "title": "神戸園 | 檜原村観光協会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d085ae2562407ea9055fcc6d33a0618ef2e56f0164239f0b1de86234a32ec28c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-wildmagic",
+    "name": "WILD MAGIC",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "WILD MAGIC -The Rainbow Farm – | 東京・豊洲で手ぶらBBQならワイルドマジック",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人2名の6,000円～プランで12,000円～。公式予約ページの中学生未満入場無料プランは席・食材なし、子ども食事・席の追加料金別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都江東区豊洲方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      20,
+      65
+    ],
+    "publicTransportRange": [
+      35,
+      80
+    ],
+    "sources": [
+      {
+        "url": "https://wildmagic.jp/",
+        "title": "WILD MAGIC -The Rainbow Farm – | 東京・豊洲で手ぶらBBQならワイルドマジック",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "7ad44d9a8c1387159091b42f402752904504eda85a69c4bc8a46dda55afd9b53",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://wildmagic.jp/wp/wp-content/themes/wildmagic_v2.2/bbq",
+        "title": "BBQ | WILD MAGIC -The Rainbow Farm –",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "0010268947fdec3475567b63ac1f16f5a5d0819ec9281a31c22d9b26d2501c2a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-soramen",
+    "name": "THE BBQ BEACH in TOYOSU",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "THE BBQ BEACH in TOYOSU",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "カジュアルゾーン土日祝大人1,300円～×2＋小学生500円×2＝3,600円～。食材・飲料は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都江東区豊洲方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      25,
+      70
+    ],
+    "publicTransportRange": [
+      45,
+      90
+    ],
+    "sources": [
+      {
+        "url": "https://digiq.jp/toyosuc25",
+        "title": "THE BBQ BEACH in TOYOSU",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "3801d3bf0bc8c0a718c21d472e8a22b5634ea31f87ea24cb3eedb617552a920d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-akigawakeikoku",
+    "name": "秋川渓谷 瀬音の湯",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "秋川渓谷瀬音の湯（日帰り温浴施設）｜都心から60分の大自然「秋川渓谷」｜あきる野観光協会〖公式〗ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "市公式掲載3時間大人1,000円×2＋小学生500円×2。延長・食事別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都あきる野市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      125,
+      170
+    ],
+    "publicTransportRange": [
+      150,
+      195
+    ],
+    "sources": [
+      {
+        "url": "https://www.akirunokanko.com/?p=337",
+        "title": "秋川渓谷瀬音の湯（日帰り温浴施設）｜都心から60分の大自然「秋川渓谷」｜あきる野観光協会〖公式〗ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2053ca471b9fe02cf59e3c9a2ca9f4a4530f9c8a47d3c5760988b61bf81213ec",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.city.akiruno.tokyo.jp/kanko/0000008755.html",
+        "title": "観光スポットを紹介します。 | あきる野市",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4a7aee09d30bf81423d3a89b3640192d2cf7cb3315db61b08f237db2a95da6cd",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-moeginoyu",
+    "name": "奥多摩温泉 もえぎの湯",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "奥多摩温泉　もえぎの湯 | もえぎの湯は奥多摩の地下深く日本最古の地層といわれる古生層より湧き出る奥多摩温泉の源泉100%の温泉でJR奥多摩駅より徒歩10分の好立地にあります。登山や行楽の帰りに是非お立ち寄りください。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "3時間大人1,200円×2＋小学生600円×2。超過料金別。足湯停止中。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都奥多摩町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://www.okutamas.co.jp/moegi/",
+        "title": "奥多摩温泉　もえぎの湯 | もえぎの湯は奥多摩の地下深く日本最古の地層といわれる古生層より湧き出る奥多摩温泉の源泉100%の温泉でJR奥多摩駅より徒歩10分の好立地にあります。登山や行楽の帰りに是非お立ち寄りください。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "fe15c7dbe084da381e1dd59f95dee60afda5acbe6cea5f699c7c74c8f9524bef",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.okutamas.co.jp/moegi/price/info/",
+        "title": "奥多摩温泉　もえぎの湯 | 営業時間・料金 - 奥多摩温泉　もえぎの湯",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "755c893b8684e2c77f13031f3c5fce3eef3a440c424f52100de31e0af23e793f",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sururu",
+    "name": "天然温泉 満天の湯",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "天然温泉 満天の湯｜横浜市保土ケ谷区｜相鉄線上星川駅前のお手軽で高品質なスーパー銭湯",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "土日祝の一般大人1,200円×2＋小学生400円×2＝3,200円。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市保土ケ谷区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://mantennoyu.com/",
+        "title": "天然温泉 満天の湯｜横浜市保土ケ谷区｜相鉄線上星川駅前のお手軽で高品質なスーパー銭湯",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ba9856e425d31ba4dcc9523c4d20f434436a61a2d06232aa9649a7fcd3c0ad32",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-ryugu",
+    "name": "龍宮城スパホテル三日月",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗龍宮城スパホテル三日月",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "公式掲載1DAY基本大人2,000円×2＋子供1,300円×2。日付・プランで変動、駐車・レンタル別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県木更津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      65,
+      110
+    ],
+    "publicTransportRange": [
+      115,
+      160
+    ],
+    "sources": [
+      {
+        "url": "https://www.mikazuki.co.jp/ryugu/",
+        "title": "〖公式〗龍宮城スパホテル三日月",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "a6c47a84bfce9897c0ec1c1946b796c7a986142bcc5f6bca69be6743aab1e1d2",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.mikazuki.co.jp/ryugujo/yutoasobi/price/",
+        "title": "ご利用料金 | 湯と遊び | 〖公式〗龍宮城スパ／ホテル三日月",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "575f1668309d37e606a2a787825bfa316b0fd3cd8a21e9d08e874d6c16389121",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-spa-herbs",
+    "name": "美楽温泉 SPA-HERBS",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "SPA HERBS 美楽温泉‐大宮の新感覚温泉施設",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "土日祝の入浴大人1,520円×2＋小人780円×2＝4,600円。岩盤浴・レンタル別。おむつ着用者は浴場不可。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県さいたま市北区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      65,
+      110
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://spa-herbs.jp/",
+        "title": "SPA HERBS 美楽温泉‐大宮の新感覚温泉施設",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c27b61a872ff2c0f33b82dc478297266e47de675d359583a6c0d7bb9a4c8484f",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://spa-herbs.jp/guide/flow.html",
+        "title": "ご利用の手順・料金・営業時間|SPA HERBS 美楽温泉‐大宮の新感覚温泉施設",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "94eb12356310838572dfeace9e612a9785039d152b81f630dc57f6a240805d99",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-ogawa-hanawa",
+    "name": "おがわ温泉 花和楽の湯",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "おがわ温泉花和楽の湯",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "土日祝の基本入浴大人1,400円×2＋小人700円×2＝4,200円。岩盤浴等は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県小川町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      145,
+      190
+    ],
+    "sources": [
+      {
+        "url": "https://www.kawaranoyu.jp/",
+        "title": "おがわ温泉花和楽の湯",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "a1c5d0e1bce726c1b09a04a0309d4e24852b773bddfec32e0ea82e3df5507412",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://kawaranoyu.jp/price/",
+        "title": "料金 - おがわ温泉花和楽の湯",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "716dfff214e5a1344726732a4e8aa35180ad49881105fc805a7eb983972140b8",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-yuryo",
+    "name": "箱根湯寮",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "箱根湯寮 観光に最適の箱根湯本の日帰り温泉",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大浴場土休日大人2,000円～×2＋小学生1,000円×2＝6,000円～。未就学児は大浴場利用不可、貸切風呂は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://www.hakoneyuryo.jp/",
+        "title": "箱根湯寮 観光に最適の箱根湯本の日帰り温泉",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "006fe2216b3227f966f6b765393afc297ed5ca6e6ddc7fd2b08c7166ca773241",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.hakoneyuryo.jp/price/",
+        "title": "料金・営業時間｜箱根湯寮 観光に最適の箱根湯本の日帰り温泉",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6e36d2b072aea86d3f4e86a0651c398cffb9868a37e595d3a9d243c1a300a44c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-yunessun",
+    "name": "箱根小涌園ユネッサン",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗箱根温泉・箱根旅行なら箱根小涌園ユネッサン",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "水着エリアA料金：大人2,500円×2＋子供1,400円×2＝7,800円。日付区分や森の湯セットで変動。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      155,
+      200
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.yunessun.com/",
+        "title": "〖公式〗箱根温泉・箱根旅行なら箱根小涌園ユネッサン",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2a2591464fa3ee9b7de324e8e24bbf27c72dc6c95c83d32183596499df84a593",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.yunessun.com/service/price/",
+        "title": "料金案内・営業時間 | ご利用案内・ご利用ガイド | 箱根小涌園 ユネッサン",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b7aa5b1cc9d749e1891bee04674fb239a5af08991d6288482b4b37f1e5419faa",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-marinepark",
+    "name": "勝浦海中公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "かつうら海中公園 - 勝浦市公式ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "県公式観光サイト掲載の海中展望塔：大人980円×2＋小中学生480円×2。海況による割引・駐車料金別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県勝浦市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      115,
+      160
+    ],
+    "publicTransportRange": [
+      150,
+      195
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.katsuura.lg.jp/map/4462.html",
+        "title": "かつうら海中公園 - 勝浦市公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1e0e50391fafe354d839dcd9dffdf665639b465ce9ef9b19e84b6d19bedfb4b0",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://maruchiba.jp/spot/detail_10392.html",
+        "title": "かつうら海中公園｜スポット・体験｜千葉県公式観光サイト ちば観光ナビ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8a24dddaf70bf6a3da835f71b593ff5d6761ec20353a54d803f1aa6e7fa5be35",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-tateyama-castle",
+    "name": "館山城・館山市立博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "博物館 | 館山市役所",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "市外通常共通券大人400円×2＋小中学生200円×2。特別展中1,600円。未就学児無料。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県館山市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.tateyama.chiba.jp/hakubutukan/",
+        "title": "博物館 | 館山市役所",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2fefec134438d9688df6e30130967768889e1eef0d4b4eef045ff45627805826",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.city.tateyama.chiba.jp/hakubutukan/page000653.html",
+        "title": "観覧料 | 館山市役所",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "83961cc389c568267269f482bd5a078c922a558776740931acdaacb14a02eb32",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kamogawa-oyama",
+    "name": "大山千枚田",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "NPO法人 大山千枚田保存会-公式サイト – 棚田の保全と都市農村交流による共生",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "周辺の舗装道路からの棚田見学。農地・畦への立入りや撮影は会員登録・申請が必要で別料金。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県鴨川市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://senmaida.com/",
+        "title": "NPO法人 大山千枚田保存会-公式サイト – 棚田の保全と都市農村交流による共生",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "0ecd0509d96361255ba70b57b8382bdbc61e5ca93e85a54c0955467589e296ae",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://senmaida.com/access/",
+        "title": "アクセス – NPO法人 大山千枚田保存会-公式サイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "e78198d540cafad8286f6a892687e550a4bc7ad90329a5c5410201c9f5759310",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kujukuri",
+    "name": "九十九里海釣りセンター",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "営業案内 - 釣り堀、九十九里海釣りセンター",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "1日コース大人10,500円×2＋子供5,500円×2＝32,000円。女性区分・短時間券・竿等は公式確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県九十九里町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www2.hp-ez.com/hp/hashimotomisaki/page9",
+        "title": "営業案内 - 釣り堀、九十九里海釣りセンター",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "9b61dc64b3828339e602b17dcb9dd96cb6f9159362fb90deeedb08121bcaf5be",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-forest-chichibu",
+    "name": "フォレストアドベンチャー・秩父",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "フォレストアドベンチャー・秩父 | フォレストアドベンチャー",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年9月改定60分3,300円×4。繁忙期変動・レンタル別。身長・学年条件あり。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://foret-aventure.jp/park/fa-chichibu/",
+        "title": "フォレストアドベンチャー・秩父 | フォレストアドベンチャー",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6e2277fee8406d67e43584f2b7d8aa32c418a53beb14902e264df159a84bc9b1",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-forest-odawara",
+    "name": "フォレストアドベンチャー・小田原",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "フォレストアドベンチャー・小田原 | フォレストアドベンチャー",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "アドベンチャー4,000円～×4。身長・学年条件あり。キッズコース別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県小田原市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      155,
+      200
+    ],
+    "sources": [
+      {
+        "url": "https://foret-aventure.jp/park/fa-odawara/",
+        "title": "フォレストアドベンチャー・小田原 | フォレストアドベンチャー",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "f242717ed237ffa8df7a91ffe936a98ba2d3a80ceb4edf8bf6b0cf90e16c8614",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-forest-yokohama",
+    "name": "フォレストアドベンチャー・よこはま",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "フォレストアドベンチャー・よこはま | フォレストアドベンチャー",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "トレック60分3,200円×4。予約割引・キッズコース別料金、利用条件あり。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市旭区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      120,
+      165
+    ],
+    "sources": [
+      {
+        "url": "https://foret-aventure.jp/park/fa-yokohama/",
+        "title": "フォレストアドベンチャー・よこはま | フォレストアドベンチャー",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "136c16a7bdd492b4f6655d552011d07b38e569acaf08687c48268be851e5c985",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-shonan-athletic",
+    "name": "県立あいかわ公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "公園ガイド｜神奈川県立あいかわ公園（公式ホームページ）",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県愛川町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://www.aikawa-park.jp/publics/index/3/index.html",
+        "title": "公園ガイド｜神奈川県立あいかわ公園（公式ホームページ）",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "7ba52aeda63be91c19f51dd69dbaaefe7272de901b7cbbbea7c65801fc05c2ae",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sagamihara-park",
+    "name": "県立相模原公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "相模原公園　公式サイト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県相模原市南区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://www.kanagawa-park.or.jp/sagamihara/index.html",
+        "title": "相模原公園　公式サイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "62b3d529a36f4541fbd969718291c1d79cbfe7d4862d1336aaa0486e99c63a93",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-izumi-park",
+    "name": "千葉市泉自然公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "泉自然公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "県公式観光サイト掲載の公園入園無料。駐車場・アスレチック・BBQなど有料利用は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市若葉区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://izumi-park.city.chiba.jp/",
+        "title": "泉自然公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "363f34b9321e9c7125f3be095d1d9fe4e5c16236b97e4d0e6c6794b6b404da3b",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://maruchiba.jp/spot/detail_10573.html",
+        "title": "泉自然公園｜スポット・体験｜千葉県公式観光サイト ちば観光ナビ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "857f64d9a32fe07a5015b83eb07d99b6f4fd81a5a47c65388214d307748d123d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chichibu-muse",
+    "name": "秩父ミューズパーク",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "埼玉トヨペット秩父グリーンミューズパーク（秩父ミューズパーク）",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      170,
+      215
+    ],
+    "sources": [
+      {
+        "url": "https://www.muse-park.com/",
+        "title": "埼玉トヨペット秩父グリーンミューズパーク（秩父ミューズパーク）",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6570d36503418c06843335ec060133da40cdff0d8c2ea62dc245d570c46df98d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-musashi-kyuryo",
+    "name": "県営彩の森入間公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "埼玉県営 彩の森入間公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県入間市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      120,
+      165
+    ],
+    "sources": [
+      {
+        "url": "https://www.seibu-green.co.jp/sainomori/",
+        "title": "埼玉県営 彩の森入間公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "106a10047b4b996c8606c0022c240eb488ec65282bc65cd0bcb7c1b207cece80",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-adventurefarm",
+    "name": "むさしの村",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗緑の中のファミリーランド むさしの村(遊園地)",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "入園大人1,200円×2＋3歳～小学生650円×2。のりもの・収穫体験別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県加須市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      130,
+      175
+    ],
+    "sources": [
+      {
+        "url": "https://www.musashinomura.co.jp/",
+        "title": "〖公式〗緑の中のファミリーランド むさしの村(遊園地)",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "a8051c6ce400166e92556d8dc24157e1dbaa426bc87db3e4034e861679de1387",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.musashinomura.co.jp/charge/",
+        "title": "料金案内｜むさしの村は遊園地だけじゃない!",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ba8c72b943ad6c92ddaa92c4f0ecc15d72e2092e6553567754664f5c9a891d4f",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-saitama-farm",
+    "name": "彩の国ふれあい牧場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "埼玉県秩父高原牧場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県東秩父村方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      215,
+      260
+    ],
+    "sources": [
+      {
+        "url": "https://www.pref.saitama.lg.jp/kogen-bokujo/",
+        "title": "埼玉県秩父高原牧場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "03a006ba4d27accfe6926852cf79ed658ed38a88399d7de1eb490b6c8b4376a8",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hattori",
+    "name": "服部牧場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "服部牧場オフィシャルサイト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県愛川町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://kanagawa-hattoribokujou.com/",
+        "title": "服部牧場オフィシャルサイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "42f413d7b3339a6b946f244aa36392b6e1bf591212c8081a4ce2591265f17a59",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-soleil",
+    "name": "長井海の手公園 ソレイユの丘",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "[公式] 長井海の手公園 ソレイユの丘",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横須賀市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      150,
+      195
+    ],
+    "sources": [
+      {
+        "url": "https://soleil-park.jp/",
+        "title": "[公式] 長井海の手公園 ソレイユの丘",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "39b797b8314f56e693a910e971be5c2dd3f78d6750acec1e9562efee2a63f4ec",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-seiwa",
+    "name": "清和県民の森",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "千葉県立 清和県民の森",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "日帰り屋根付きBBQ8名まで1サイト1,500円、持込サイト1,200円。食材・燃料・ゴミ袋等別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県君津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      105,
+      150
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://www.seiwanomori.jp/",
+        "title": "千葉県立 清和県民の森",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "671c7488f3146834084bb9d479b994a00c7f5e79c7007a4438467f7410db17c3",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.seiwanomori.jp/%E5%90%84%E6%96%BD%E8%A8%AD%E3%81%AE%E7%89%B9%E5%BE%B4%E3%81%A8%E3%81%94%E6%A1%88%E5%86%85/",
+        "title": "各施設の特徴とご案内 – 千葉県立 清和県民の森",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "fde4f29544d21fd99e55a70f59ea44494feef8c710466328f965fbad0d42cda6",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chiba-farm",
+    "name": "千葉ウシノヒロバ",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "千葉ウシノヒロバ | 牛が暮らすキャンプ場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般見学入場のみ大人550円×2＋小学生330円×2。キャンプ料金・駐車別。日帰りは宿泊予約後17時までに退場する方式。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市若葉区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      105,
+      150
+    ],
+    "sources": [
+      {
+        "url": "https://ushinohiroba.com/",
+        "title": "千葉ウシノヒロバ | 牛が暮らすキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8fb8fc96b63beca9e55767d36ef2e97e602d67550585c0e87c775e763f597dc8",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://ushinohiroba.com/user-guide/",
+        "title": "ご利用ガイド　トップ – 千葉ウシノヒロバ | 牛が暮らすキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "031ca47a32d5ecba697351ef7cc8b974d23359af19a8a03fc08aafa18109c9e4",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://ushinohiroba.com/%E3%83%87%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E3%81%B8%E3%81%AE%E3%81%94%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+        "title": "デイキャンプのご利用について – 千葉ウシノヒロバ | 牛が暮らすキャンプ場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "e6645464e639d18a01b2a358ec477f33bd2773080e7797bd6f742becc3f43747",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kakiyamada",
+    "name": "柿山田オートキャンプガーデン",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "柿山田オートキャンプガーデン　トップページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "予約制日帰りファミリー大人2人・小人2人3,500円、ごみ処理含む。レンタル・食材別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県君津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.kakiyamada.jp/",
+        "title": "柿山田オートキャンプガーデン　トップページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "25689608c749fa628ce526e6787d0b7e59b24d83db206b3f9db54720db0210b5",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chiba-science",
+    "name": "千葉市科学館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "千葉市科学館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "常設展示大人600円×2＋小中学生100円×2＝1,400円。プラネタリウム・企画展別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市中央区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      50,
+      95
+    ],
+    "publicTransportRange": [
+      75,
+      120
+    ],
+    "sources": [
+      {
+        "url": "https://www.kagakukanq.com/",
+        "title": "千葉市科学館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ddc38d9de20838cb07316d980f11b93a0328f52ebc6fd725a97d51284214099f",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.kagakukanq.com/guide",
+        "title": "ご利用案内 | 千葉市科学館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "9bcba975ada027c400baa4993d26d20f8bb2d8bbe83ee6ddb8e7394a37d1a26b",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chiba-museum",
+    "name": "千葉県立中央博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "千葉県立中央博物館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "通常期間の一般300円×2、中学生以下無料。企画展・特別展期間の入場料は増額。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市中央区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      55,
+      100
+    ],
+    "publicTransportRange": [
+      85,
+      130
+    ],
+    "sources": [
+      {
+        "url": "https://www.chiba-muse.or.jp/NATURAL/",
+        "title": "千葉県立中央博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "25209038153d733d6817a2318d9d6b5af4778998ee96bed40f4bf3a8ddd5e3fc",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.chiba-muse.or.jp/NATURAL/visit/",
+        "title": "ご利用案内 - 千葉県立中央博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "81f39a1a3abc7a1608acbe38d6254b7d219ef759e758eecbd76fea27b7bbea20",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sakura-history",
+    "name": "国立歴史民俗博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "大学共同利用機関法人 人間文化研究機構 | 国立歴史民俗博物館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "総合展示一般900円×2、高校生以下無料。企画展は別料金。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県佐倉市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      70,
+      115
+    ],
+    "publicTransportRange": [
+      90,
+      135
+    ],
+    "sources": [
+      {
+        "url": "https://www.rekihaku.ac.jp/",
+        "title": "大学共同利用機関法人 人間文化研究機構 | 国立歴史民俗博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "aab3afe01a2b5097fc9f58b9e874652d18715d4d7fe19a4a2ccca485eb870e9f",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.rekihaku.ac.jp/information/basicinfo/",
+        "title": "開館時間・入館料 | 国立歴史民俗博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "7b6d747455a6ec7f07d9c3ef33c5ac746153a491c5726aed047859d40d2e8621",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-aviation",
+    "name": "航空科学博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "航空科学博物館│楽しみながら学べる成田空港隣接の体験・探求型ミュージアム",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人900円×2＋4歳以上子供300円×2＝2,400円。体験の追加料金別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県芝山町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://www.aeromuseum.or.jp/",
+        "title": "航空科学博物館│楽しみながら学べる成田空港隣接の体験・探求型ミュージアム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4f6462eb7687a4a392d2ea327f5abd12830998e8888ed3a5d92e418cf73b749a",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.aeromuseum.or.jp/guide/",
+        "title": "ご利用案内 | 航空科学博物館 楽しみながら学べる成田空港隣接の体験・探求型ミュージアム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b24d458c3eef2144596a36a9b7ff8ea9a68688af5edb92b3808da62f136326b2",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hoki",
+    "name": "ホキ美術館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ホキ美術館 HOKI MUSEUM",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般2,100円×2。保護者1人につき小学生2人まで無料。未就学児の入場条件を公式で確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県千葉市緑区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      75,
+      120
+    ],
+    "publicTransportRange": [
+      105,
+      150
+    ],
+    "sources": [
+      {
+        "url": "https://www.hoki-museum.jp/",
+        "title": "ホキ美術館 HOKI MUSEUM",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d7e5b62049fa5ef17e0af9862c33ba310b2c1f01cff1e87b09e225d82ec34c53",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.hoki-museum.jp/about/open_close/",
+        "title": "開館時間・料金｜ホキ美術館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4ee7b1c9de34ee344a169950b3f7c392d0ea10541dce69fc9c96906df5cf2962",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kikkoman",
+    "name": "キッコーマンもの知りしょうゆ館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "キッコーマンもの知りしょうゆ館 | キッコーマングループ 企業情報サイト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県野田市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      60,
+      105
+    ],
+    "publicTransportRange": [
+      90,
+      135
+    ],
+    "sources": [
+      {
+        "url": "https://www.kikkoman.com/jp/shokuiku/factory/noda/",
+        "title": "キッコーマンもの知りしょうゆ館 | キッコーマングループ 企業情報サイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "21a882cc97032a8a3ba1d9966288b54c9aa3bd6c1b4df8c38ec06782092af9f9",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-glico",
+    "name": "グリコピア・イースト",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "＜工場見学＞グリコピア・イースト（埼玉） | 〖公式〗江崎グリコ(Glico)",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県北本市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      110,
+      155
+    ],
+    "sources": [
+      {
+        "url": "https://www.glico.com/jp/enjoy/experience/glicopia/east/",
+        "title": "＜工場見学＞グリコピア・イースト（埼玉） | 〖公式〗江崎グリコ(Glico)",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "59ee6d5410fb7e0d16aea26213f7fbcc6acba21ce6e612272151247976433bd9",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-meiji",
+    "name": "明治なるほどファクトリー坂戸",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "明治なるほどファクトリー坂戸｜ようこそ明治の工場見学へ｜株式会社 明治 - Meiji Co., Ltd.",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県坂戸市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      120,
+      165
+    ],
+    "sources": [
+      {
+        "url": "https://www.meiji.co.jp/learned/factory/sakado/",
+        "title": "明治なるほどファクトリー坂戸｜ようこそ明治の工場見学へ｜株式会社 明治 - Meiji Co., Ltd.",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "aee43606cef7c58a7dcd1d85b68d37afb4126f50c37591adca55760eae3f7680",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-nissan-engine",
+    "name": "日産エンジンミュージアム",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "日産横浜工場｜工場の紹介｜ようこそ、日産の工場へ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横浜市神奈川区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      65,
+      110
+    ],
+    "publicTransportRange": [
+      95,
+      140
+    ],
+    "sources": [
+      {
+        "url": "https://www.nissan-global.com/JP/PLANT/YOKOHAMA/",
+        "title": "日産横浜工場｜工場の紹介｜ようこそ、日産の工場へ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "34c6830e839e8b0030f65800636afe40ad852a4c8f66ec9aefe946ca84012b74",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kawasaki-science",
+    "name": "かわさき宙と緑の科学館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "かわさき宙(そら）と緑の科学館(川崎市青少年科学館)サイエンスプリン",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "展示室の入館は無料。プラネタリウムは大人400円×2、中学生以下無料。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県川崎市多摩区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      105,
+      150
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature-kawasaki.jp/",
+        "title": "かわさき宙(そら）と緑の科学館(川崎市青少年科学館)サイエンスプリン",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "67fe2c78f8c2707531ffcc42cbe800d68714d0b11d24ce2251508e789f9fe329",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.nature-kawasaki.jp/introduction.html",
+        "title": "利用案内｜かわさき宙(そら）と緑の科学館(川崎市青少年科学館)サイエンスプリン",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "db21aaebdff86e047fc64ac633372e69475add272cf05c157e03e97e6aa8adad",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-oiso-pool",
+    "name": "大磯ロングビーチ",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "大磯ロングビーチ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年1日券下限大人4,400円×2＋小学生2,400円×2。高料金日15,000円。2026営業終了、次季営業・料金は別途発表。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県大磯町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.princehotels.co.jp/pool/oiso/",
+        "title": "大磯ロングビーチ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "7e3e7b25ce488bf3940585456937eecd9df5f1272e5c0da2e39524cda0ffc27d",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.princehotels.co.jp/pool/oiso//charge/",
+        "title": "時間・料金｜大磯ロングビーチ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ac1cebb2a88fc12f2a503dc35cf6255b406093954767ded13afb4e53b59e5437",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kanagawa-life",
+    "name": "神奈川県立生命の星・地球博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "神奈川県立 生命の星・地球博物館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "常設展20～64歳一般520円×2、中学生以下無料。特別展は別料金。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県小田原市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      150,
+      195
+    ],
+    "sources": [
+      {
+        "url": "https://nh.kanagawa-museum.jp/",
+        "title": "神奈川県立 生命の星・地球博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "f78fe8fd1627b05b875dc751372ebae496109a2774febd1abb16c7480d36a3ef",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://nh.kanagawa-museum.jp/visit/information.html",
+        "title": "基本情報 | 神奈川県立 生命の星・地球博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b34d52960951eb105942daae55d0fda5cc11d258cb8e018192ec6b08ca061c2e",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-odawara-castle",
+    "name": "小田原城",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "〖公式〗小田原城 難攻不落の城",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "天守閣大人1,000円×2＋小中学生300円×2＝2,600円。NINJA館等は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県小田原市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      145,
+      190
+    ],
+    "sources": [
+      {
+        "url": "https://odawaracastle.com/",
+        "title": "〖公式〗小田原城 難攻不落の城",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1e991b2a915a35ca8411601817ebf64278db6a115e855a0f9e09ce70e9952eeb",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://odawaracastle.com/info/",
+        "title": "ご利用案内 | 小田原城〖公式〗",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "28f59844b1e068a6bb1bf2a26fb99ee7b28b7f587702144d0306b5488d49d3f1",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-openair",
+    "name": "彫刻の森美術館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "箱根 彫刻の森美術館　THE HAKONE OPEN-AIR MUSEUM",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "当日窓口一般2,000円×2＋小中学生800円×2＝5,600円。WEB券・駐車場は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      155,
+      200
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.hakone-oam.or.jp/",
+        "title": "箱根 彫刻の森美術館　THE HAKONE OPEN-AIR MUSEUM",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "da5dff7bbd7355eb512a12665c64dcfff4eba22b6cfa7c0d75a3101679587483",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.hakone-oam.or.jp/info/",
+        "title": "利用のご案内 - 箱根 彫刻の森美術館　THE HAKONE OPEN-AIR MUSEUM",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b2ee809828c2fb727025868041e3eeb1a83317a3d7e8d8d24ba556ddfd4c45b7",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-pirate",
+    "name": "箱根海賊船",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "箱根海賊船｜箱根ナビ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2025年10月改定往復普通船室大人3,000円×2＋小学生1,300円×2。特別船室別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      160,
+      205
+    ],
+    "publicTransportRange": [
+      195,
+      240
+    ],
+    "sources": [
+      {
+        "url": "https://www.hakonenavi.jp/hakone-kankosen/",
+        "title": "箱根海賊船｜箱根ナビ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "de503b5aa3bb53bd3f80fc4abf90a11185f7fb5aa59ff1302439f3aa4dff70cb",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-ropeway",
+    "name": "箱根ロープウェイ",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "箱根ロープウェイ｜箱根ナビ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2025年10月改定往復大人3,000円×2＋小学生1,000円×2。強風・定期点検時は運休。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      160,
+      205
+    ],
+    "publicTransportRange": [
+      195,
+      240
+    ],
+    "sources": [
+      {
+        "url": "https://www.hakonenavi.jp/hakone-ropeway/",
+        "title": "箱根ロープウェイ｜箱根ナビ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "fd17baa30a8c2de658c7f32b8e5653a515496d39ec82b4e604a4253327c7c039",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.hakonenavi.jp/transportation/ticket_info/fee/",
+        "title": "運賃｜箱根ナビ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2ff4e6c19d8e9312601193be7bec929d5a8fbf455c7994bf15be3438b6a2686c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-aqua",
+    "name": "箱根園水族館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "箱根園水族館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人1,600円×2＋4歳～小学生800円×2。駐車場・周辺施設別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      160,
+      205
+    ],
+    "publicTransportRange": [
+      195,
+      240
+    ],
+    "sources": [
+      {
+        "url": "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/",
+        "title": "箱根園水族館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "13da10930d8f0dc547cea2da841d1997103cda52fb0e7d0fb1a2d4436b61486a",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/eigyou/",
+        "title": "営業のご案内｜箱根園水族館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "59e66a6a8fdeb63362934bf800cd8edaa8e2cc1d836b2437756fbaf63c50fe81",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-park",
+    "name": "箱根強羅公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "時間・入園料・ご案内｜箱根強羅公園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人650円×2、小学生以下無料。有料体験・食事別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      155,
+      200
+    ],
+    "publicTransportRange": [
+      175,
+      220
+    ],
+    "sources": [
+      {
+        "url": "https://www.hakonenavi.jp/gorapark/intro/",
+        "title": "時間・入園料・ご案内｜箱根強羅公園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "80228e95b33403c4a2b0207e709d16681afc3bbf06342cc6dc5c78d7641d7098",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sagami-science",
+    "name": "相模原市立博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "相模原市立博物館 | 自然・歴史・宇宙を学ぶ総合博物館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "常設展は無料。プラネタリウム一般席大人500円×2＋小中学生200円×2＝1,400円、企画展等は別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県相模原市中央区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://sagamiharacitymuseum.jp/",
+        "title": "相模原市立博物館 | 自然・歴史・宇宙を学ぶ総合博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "d9418b6053063afd142e670d2c2cd5d0652be8a54f8af51bf5c96cf55dbdf527",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://sagamiharacitymuseum.jp/information/guide/",
+        "title": "ご利用案内 – 相模原市立博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4cb7dc5ac6548c495f96194348e41ca94495c8ed78a2119fda0a9ff01d9d8a0d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-jaxa",
+    "name": "JAXA相模原キャンパス",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "宇宙科学探査交流棟 | 宇宙航空研究開発機構 JAXA",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県相模原市中央区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://www.isas.jaxa.jp/visit/",
+        "title": "宇宙科学探査交流棟 | 宇宙航空研究開発機構 JAXA",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "3c08566ad9c3d6bcd97da6bf169cfb8e0aa1666faf095a095b8729b665070746",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-romancecar",
+    "name": "ロマンスカーミュージアム",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ロマンスカーミュージアム | 小田急電鉄",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "通常大人1,100円×2＋小学生400円×2＝3,000円。体験・キッズ遊び場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県海老名市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      110,
+      155
+    ],
+    "sources": [
+      {
+        "url": "https://www.odakyu.jp/romancecarmuseum/",
+        "title": "ロマンスカーミュージアム | 小田急電鉄",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "bf06c06c7368b21cfff1d450f3906cdceba55ee4ff410497f8008a7b58689420",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.odakyu.jp/romancecarmuseum/guide/fee/",
+        "title": "料金について | ロマンスカーミュージアム | 小田急電鉄",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4dd523fe351405a7d55858661d8bc543d3d5b507d36d9606619befdf8061afe5",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-yokosuka-art",
+    "name": "横須賀美術館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "横須賀美術館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "所蔵品展一般450円×2、中学生以下無料。企画展は別料金。2026年4月改定。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横須賀市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      105,
+      150
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.yokosuka-moa.jp/",
+        "title": "横須賀美術館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "7bfb71c81e8d5e0b125eb80fd3c2ac7785f6b95b90b5534063a4c74e874eb45e",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.yokosuka-moa.jp/outline/",
+        "title": "開館時間・観覧料（User Guide） ｜ ご利用案内 ｜ 横須賀美術館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "27dbafa9906ad053d62db3638cf40a83825f70f3bc02202043edbaaf0a1ac62a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sarushima",
+    "name": "猿島",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "無人島 猿島",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年A料金の往復船＋入園大人2,500円×2＋小学生1,250円×2。B・C料金日あり、BBQ・ツアー別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県横須賀市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      115,
+      160
+    ],
+    "publicTransportRange": [
+      150,
+      195
+    ],
+    "sources": [
+      {
+        "url": "https://sarushima.jp/",
+        "title": "無人島 猿島",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "df85cae099df9e9d2fb161fa86934d808525d4ea1ab714c3237ae29e9e216f07",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://sarushima.jp/information/",
+        "title": "フェリー時刻・料金・アクセス・島内施設・注意事項｜無人島 猿島",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2c5de3e83d61c78179f7211d769cc06e0c8ab5e05b5c4c55fd4713133b0b78e3",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-urari",
+    "name": "うらりマルシェ",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "三崎マグロ 三浦市の産直品売り場 うらり",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県三浦市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      120,
+      165
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://www.umigyo.co.jp/",
+        "title": "三崎マグロ 三浦市の産直品売り場 うらり",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2dc9d8d1a678ce2702b55adfb00d8a868caeb74e438047b5bb017aa60554b059",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-saitama-river",
+    "name": "埼玉県立川の博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "埼玉県立川の博物館（かわはく）",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般410円×2、中学生以下無料。わくわくランド・駐車場別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県寄居町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      155,
+      200
+    ],
+    "sources": [
+      {
+        "url": "https://www.river-museum.jp/",
+        "title": "埼玉県立川の博物館（かわはく）",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5990afd757fa803c45a32e5b702cc352a8b57bd659477da7a2018d487f42d819",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-saitama-nature",
+    "name": "埼玉県立自然の博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "トップページ - 埼玉県立自然の博物館",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般200円×2、中学生以下無料。体験・特別展示等の条件は公式案内確認。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県長瀞町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://shizen.spec.ed.jp/",
+        "title": "トップページ - 埼玉県立自然の博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "9e4426c1d89139989c584515eee38a5f831219db3f1a4862bb95628c5cf08682",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://shizen.spec.ed.jp/%E9%96%8B%E9%A4%A8%E6%99%82%E9%96%93---%E4%BC%91%E9%A4%A8%E6%97%A5---%E8%A6%B3%E8%A6%A7%E6%96%99",
+        "title": "開館時間 / 休館日 / 観覧料 - 埼玉県立自然の博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "496cf5f2f888cee59e5cd6ceb5c3c0a85c3a5fde46dbd981fc47ab2991718130",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chichibu-festival",
+    "name": "秩父まつり会館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "秩父まつり会館｜いつでも見られる秩父夜祭",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般500円×2＋小中学生250円×2。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      155,
+      200
+    ],
+    "sources": [
+      {
+        "url": "https://www.chichibu-matsuri.jp/",
+        "title": "秩父まつり会館｜いつでも見られる秩父夜祭",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6fe8c48b56d46f800616b947b99f53ae22ddd59ea7cf0b353deb423fdd54739d",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.chichibu-matsuri.jp/riyo/",
+        "title": "ご利用案内 - 秩父まつり会館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "767dc2c5afad20997d8b0298456692bd434f2bf6cd79c434e0bba39ca200a39d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-nagatoro-boat",
+    "name": "長瀞ラインくだり",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "長瀞ラインくだり | 長瀞で遊ぶ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "A・B各コース通常大人2,000円×2＋3歳以上子供1,000円×2。2026繁忙期6,600円、渇水時は別コース・料金。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県長瀞町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://www.chichibu-railway.co.jp/nagatoro/boat.html",
+        "title": "長瀞ラインくだり | 長瀞で遊ぶ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6f489fd1b23673c92e15b9a6ef7347e7db782926b18b7d3bdb21d5d8df3909ae",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.chichibu-railway.co.jp/assets/newsrelease/20260305_linekudari.pdf",
+        "title": "秩父鉄道 長瀞ラインくだり＜2026年 乗船料金＞",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "a8743a881d8906d998238ca8b68eca3f11408f22c227c1917f501169340dd48e",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.chichibu-railway.co.jp/nagatoro/news/230222/",
+        "title": "〖長瀞ラインくだり〗料金改定のお知らせ | 長瀞で遊ぶ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "f9f738ca12540a966d49c1c29f5b7cf9243c24ef38ff1a238f5b63426bf7358b",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-chichibu-forest",
+    "name": "秩父滝沢サイクルパーク",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "About us | 秩父滝沢サイクルパーク - 埼玉県秩父市 オフロード自転車専用フィールド",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2時間使用料大人1,100円×2＋中学生以下880円×2。自転車レンタル1時間1,100円別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県秩父市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      160,
+      205
+    ],
+    "publicTransportRange": [
+      215,
+      260
+    ],
+    "sources": [
+      {
+        "url": "https://chichibu-cyclepark.localinfo.jp/pages/1592777/profile",
+        "title": "About us | 秩父滝沢サイクルパーク - 埼玉県秩父市 オフロード自転車専用フィールド",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "9c2dcbed73b2debfdafa578c8d6225ffe2a2a7164806e987f3e8ec8f79747550",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sayama-ski",
+    "name": "狭山スキー場",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "所沢にある屋内型スキー場 | 狭山スキー場",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "掲載中の平日入場大人1,500円×2＋3歳～小学生1,300円×2。土日6,000円、特定日7,200円。冬季スキー券・レンタルは別案内。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県所沢市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      85,
+      130
+    ],
+    "publicTransportRange": [
+      105,
+      150
+    ],
+    "sources": [
+      {
+        "url": "https://sayamaski.jp/",
+        "title": "所沢にある屋内型スキー場 | 狭山スキー場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "184ab138370518628181b0ad5f2d1ce6cb89296e1bc4354b41fd130ede827ae1",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://sayamaski.jp/price.html",
+        "title": "各種料金 | 狭山スキー場",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "510983af2d6807f10d56f9dfe9541dd8e514a8f40d2c89cc9b627b82f0f01edd",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-ogano-boulder",
+    "name": "クライミングパーク神怡舘",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "クライミングパーク神怡舘 - 埼玉県小鹿野町",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "2026年4月改定町外1日大人1,800円×2＋小中学生500円×2。初回登録1,000円・レンタル別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県小鹿野町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      150,
+      195
+    ],
+    "publicTransportRange": [
+      215,
+      260
+    ],
+    "sources": [
+      {
+        "url": "https://www.town.ogano.lg.jp/crimeshin2/",
+        "title": "クライミングパーク神怡舘 - 埼玉県小鹿野町",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "55e2989574d1f651cbe7e466d5f171a566200877bd0cee599e1447a4452f6cc9",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-aloha",
+    "name": "アロハガーデンたてやま",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "アロハガーデンたてやま",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人1,300円×2＋小人800円×2。幼児500円、食事・体験別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県館山市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      135,
+      180
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://www.aloha-garden-t.com/",
+        "title": "アロハガーデンたてやま",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "3666355ec9f6d3b4450bf5179df7296dba2c2f6baf91ae992c839b3132fedd53",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-boso-mura",
+    "name": "千葉県立房総のむら",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "体験博物館 千葉県立房総のむら - 体験博物館 千葉県立房総のむらの公式サイトです。県内各地から出土した考古遺物や、武家・商家・農家などの展示を通して歴史を学んでいただくことを目的とする博物館です。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般300円×2、中学生以下無料。体験参加料別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県栄町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      75,
+      120
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://www.chiba-muse.or.jp/MURA/",
+        "title": "体験博物館 千葉県立房総のむら - 体験博物館 千葉県立房総のむらの公式サイトです。県内各地から出土した考古遺物や、武家・商家・農家などの展示を通して歴史を学んでいただくことを目的とする博物館です。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "6c89ce0bd628bbf85746227f2c1a61a129db47412af9fe3aeed18b0ad0a89ca8",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.chiba-muse.or.jp/MURA/visit/",
+        "title": "ご利用案内 - 体験博物館 千葉県立房総のむら",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "3b00d3a2bc5a75a19a37e54b3c54cf544efbdad4aad3b9ab86c44f4ecab0f8af",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sawara",
+    "name": "水郷佐原山車会館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "利用案内：香取市ウェブサイト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人400円×2＋小中学生200円×2＝1,200円。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県香取市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.katori.lg.jp/sightseeing/sawaradashikaikan/guide.html",
+        "title": "利用案内：香取市ウェブサイト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "4aa44fc573a03176a9aff6bfd5be640b064cf524481b7d0c98ea748a0b104412",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-boso-ocean",
+    "name": "千葉県立中央博物館分館 海の博物館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "千葉県立中央博物館分館 海の博物館 - 千葉県立中央博物館分館 海の博物館の公式サイトです。房総の海と自然をテーマとした自然史博物館です。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "一般200円×2、中学生以下無料。隣接駐車場・企画参加費別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県勝浦市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      120,
+      165
+    ],
+    "publicTransportRange": [
+      150,
+      195
+    ],
+    "sources": [
+      {
+        "url": "https://www.chiba-muse.or.jp/UMIHAKU/",
+        "title": "千葉県立中央博物館分館 海の博物館 - 千葉県立中央博物館分館 海の博物館の公式サイトです。房総の海と自然をテーマとした自然史博物館です。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "427590f9b31d6c485b9a65f9df5b3246e0e6d62d39096f9c141f63a16d7a846b",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.chiba-muse.or.jp/UMIHAKU/visit/",
+        "title": "ご利用案内 - 千葉県立中央博物館分館 海の博物館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b3c97fd7810e614338e926aaf11f62a10294221708bcab479ce1011ec867808d",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kamogawa-history",
+    "name": "鴨川市郷土資料館・文化財センター",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "文化財センター - 鴨川市公式ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県鴨川市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.kamogawa.lg.jp/map/4605.html",
+        "title": "文化財センター - 鴨川市公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "353c9ae7d59ee174416de9404f399885deaca6b459ac0452fd53518e6be8706a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-nomizo",
+    "name": "濃溝の滝・亀岩の洞窟",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "清水渓流広場（濃溝の滝・亀岩の洞窟）へのアクセス方法 - 君津市公式ホームページ",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県君津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      105,
+      150
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.kimitsu.lg.jp/soshiki/24/2123.html",
+        "title": "清水渓流広場（濃溝の滝・亀岩の洞窟）へのアクセス方法 - 君津市公式ホームページ",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "daf99c7ad83b489fd4979957f09ee38e32a4d44e180bd0f81ff2ced0607ed20c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-nojima",
+    "name": "野島埼灯台",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "野島埼灯台（のじまさき） | 「灯台のことなら」　公益社団法人　燈光会",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "参観寄付金中学生以上300円×2。小学生以下は不要。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県南房総市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      145,
+      190
+    ],
+    "publicTransportRange": [
+      205,
+      250
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokokai.org/tourlight/tourlight04/",
+        "title": "野島埼灯台（のじまさき） | 「灯台のことなら」　公益社団法人　燈光会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c1eb63c0a3ef7d7d578dc34f58e09df44f8f920719756ed0148019a5ab1a853a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-inubosaki",
+    "name": "犬吠埼灯台",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "犬吠埼灯台（いぬぼうさき） | 「灯台のことなら」　公益社団法人　燈光会",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "参観寄付金中学生以上300円×2。小学生以下は不要。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県銚子市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      170,
+      215
+    ],
+    "sources": [
+      {
+        "url": "https://www.tokokai.org/tourlight/tourlight03/",
+        "title": "犬吠埼灯台（いぬぼうさき） | 「灯台のことなら」　公益社団法人　燈光会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5501b755ca413335694d07f3d61342e8cc91296f0e14fbe51ada40cb7307bb14",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-choshiocean",
+    "name": "銚子海洋研究所",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "銚子の海で感動体験、イルカクジラウォッチング | 時には5,000頭ものイルカの群れに出会うことも！イルカ、クジラ、オットセイ、渡り鳥…どんな生き物に出会えるかはお楽しみ。どこまでも続く水平線、波に揺られながらその時だけの旅が始まります。",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "沿岸イルカコース大人4,500円×2＋小中学生3,500円×2。3歳未満不可。沖合コースは別料金、海況で欠航。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県銚子市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://www.choshi-iruka-watching.co.jp/",
+        "title": "銚子の海で感動体験、イルカクジラウォッチング | 時には5,000頭ものイルカの群れに出会うことも！イルカ、クジラ、オットセイ、渡り鳥…どんな生き物に出会えるかはお楽しみ。どこまでも続く水平線、波に揺られながらその時だけの旅が始まります。",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "71d87faaa4a32660cfb0dab6797f1e83d05365cc21d3162998ce45cbfe6418c9",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://choshi-iruka-watching.co.jp/watching",
+        "title": "ウォッチング | 銚子の海で感動体験、イルカクジラウォッチング",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b72ab90b3ac63cb0c0e8ab08b4e6c72549c10990b9b5cc74361519222c61d489",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-kamogawa-herb",
+    "name": "大多喜有用植物苑（OTAKI HERB GARDEN）",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "OTAKI HERB GARDEN（大多喜有用植物苑） | VISIT 施設概要",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "土日祝大人900円×2＋小中学生500円×2。夏季平日半額、未就学児無料。キャッシュレスのみ。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県大多喜町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      165,
+      210
+    ],
+    "sources": [
+      {
+        "url": "https://www.otaki-herbgarden.jp/visit/",
+        "title": "OTAKI HERB GARDEN（大多喜有用植物苑） | VISIT 施設概要",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "877f80fb8cec968a02b5dc4a4125ae3bc3c2bf19718689e45dc7563447e0f633",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://kankouotaki.com/Midokoro.html",
+        "title": "見どころ - 大多喜町観光協会",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ee35e3690928f2f53f04fb9d7362cf6ab953a326bb7838507ae591ea74f26cf0",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-ichihara-elephant",
+    "name": "市原ぞうの国",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "市原ぞうの国・サユリワールド／アニマルワンダーリゾウト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人2,400円×2＋小人900円×2。ふれあい・乗象・駐車別。雨の日券は別条件。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県市原市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://zounokuni.com/",
+        "title": "市原ぞうの国・サユリワールド／アニマルワンダーリゾウト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "29597047ce1c7f942d3a03be84caf83a243812e8211b1c6dea2121242794f34c",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://zounokuni.com/info/",
+        "title": "営業時間・料金 | 市原ぞうの国・サユリワールド／アニマルワンダーリゾウト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c67eab591692a23c648cc1eba077b0c00f0182282406b1f1e84c6249b8efbb02",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-sayuri",
+    "name": "サユリワールド",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "サユリワールド｜究極のふれあい動物園｜アニマルワンダーリゾウト",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "大人1,500円×2＋小人800円×2。餌・駐車別、小学生以下は保護者同伴。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県市原市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      135,
+      180
+    ],
+    "sources": [
+      {
+        "url": "https://sayuri-world.com/",
+        "title": "サユリワールド｜究極のふれあい動物園｜アニマルワンダーリゾウト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "b9dd3d5faa0f19da64f9bb7f616d89bb63ce5134f1caaf0fac40b573bf7abbf3",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://zounokuni.com/info/",
+        "title": "営業時間・料金 | 市原ぞうの国・サユリワールド／アニマルワンダーリゾウト",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "c67eab591692a23c648cc1eba077b0c00f0182282406b1f1e84c6249b8efbb02",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-nokogiriyama",
+    "name": "鋸山ロープウェー",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "鋸山ロープウェー株式会社",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "往復大人1,200円×2＋小学生600円×2。日本寺拝観料・交通費別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から千葉県富津市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      95,
+      140
+    ],
+    "publicTransportRange": [
+      140,
+      185
+    ],
+    "sources": [
+      {
+        "url": "https://www.mt-nokogiri.co.jp/",
+        "title": "鋸山ロープウェー株式会社",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "8308fd28167db30f00fa6a744927eb22fa5fa012c95d12e086fc71f9fe10e952",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.mt-nokogiri.co.jp/pc/p040000.php",
+        "title": "鋸山ロープウェー　料金・営業時間",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "89a1b20adda5718bbae0b3f2371de038e4d098207e11bca2f35c182386df0ac8",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-fujiko",
+    "name": "藤子・F・不二雄ミュージアム",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "川崎市 藤子・F・不二雄ミュージアム",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "日時指定予約大人1,000円×2＋4歳以上500円×2。3歳以下無料。交通・飲食別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県川崎市多摩区方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      80,
+      125
+    ],
+    "publicTransportRange": [
+      100,
+      145
+    ],
+    "sources": [
+      {
+        "url": "https://fujiko-museum.com/",
+        "title": "川崎市 藤子・F・不二雄ミュージアム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "ebfcdaa57f2a748150ac563dc1196a41fbc7936028017e0e1a436e3a2d63834a",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://fujiko-museum.com/access.html",
+        "title": "来館のご案内 ｜ 川崎市 藤子・F・不二雄ミュージアム",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2faf0dbae5ed8ea5b739732478ada6df36d12ab54083ccfb97f82845d7aec0af",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-komatsuzawa",
+    "name": "小松沢レジャー農園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "秩父 小松沢レジャー農園｜いちご狩り、ぶどう狩り、しいたけ狩りが楽しめる体験型レジャー農園",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "通年マス釣り1匹900円×4匹（焼き代含む）。収穫・季節体験は別料金・実施期間。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県横瀬町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      130,
+      175
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://www.komatsuzawa.co.jp/",
+        "title": "秩父 小松沢レジャー農園｜いちご狩り、ぶどう狩り、しいたけ狩りが楽しめる体験型レジャー農園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "15a25e0cca0ef2e40e4b14bc55baebacd7fb6756c95ce8e9759c45bab73a0efd",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.komatsuzawa.co.jp/sp/exp.html",
+        "title": "体験：小松沢レジャー農園",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "1d7296fe1e0f621ea12d0203d7a172964131a43bd9be72cdd2fdcb0fb08f0f63",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hakone-forest",
+    "name": "フォレストアドベンチャー・箱根",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "フォレストアドベンチャー・箱根 | フォレストアドベンチャー",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "アドベンチャー4,500円×4。身長・学年条件あり。キャノピー3,500円別。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から神奈川県箱根町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      160,
+      205
+    ],
+    "sources": [
+      {
+        "url": "https://foret-aventure.jp/park/fa-hakone/",
+        "title": "フォレストアドベンチャー・箱根 | フォレストアドベンチャー",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "937d7d76845116be0644a9be5ebbd54c2b02a2c39b88c05072daa9b01d03c6ea",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-seibu-nature",
+    "name": "トーベ・ヤンソンあけぼの子どもの森公園",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "ご利用案内｜トーベ・ヤンソンあけぼの子どもの森公園｜飯能市-Hanno city-／飯能市-Hanno City-",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から埼玉県飯能市方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      100,
+      145
+    ],
+    "publicTransportRange": [
+      130,
+      175
+    ],
+    "sources": [
+      {
+        "url": "https://www.city.hanno.lg.jp/akebono/annai/2113.html",
+        "title": "ご利用案内｜トーベ・ヤンソンあけぼの子どもの森公園｜飯能市-Hanno city-／飯能市-Hanno City-",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "763a838fe130205901766ba9816cdc014759226a3f774c83b2310777e540636c",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hinohara-toy",
+    "name": "檜原 森のおもちゃ美術館",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "檜原 森のおもちゃ美術館｜檜原村-Tokyo",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "村外一般大人1,200円×2＋小学生900円×2＝4,200円。2026年4月改定。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都檜原村方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      140,
+      185
+    ],
+    "publicTransportRange": [
+      185,
+      230
+    ],
+    "sources": [
+      {
+        "url": "https://www.hinohara-toymuseum.com/",
+        "title": "檜原 森のおもちゃ美術館｜檜原村-Tokyo",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "5d876e38c8c30699f68f1143d028d9dfab700922690230f33bf037eaa62bbd58",
+        "hashType": "retrieved-text"
+      },
+      {
+        "url": "https://www.hinohara-toymuseum.com/info",
+        "title": "入館案内 | 檜原 森のおもちゃ美術館",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "2f56f100cb3bd7b401aad992d5f57d3457715773a139650e79f6247b40fa973a",
+        "hashType": "retrieved-text"
+      }
+    ]
+  },
+  {
+    "id": "place-hinode",
+    "name": "イオンモール日の出",
+    "checkedOn": "2026-10-11",
+    "officialFacts": "イオンモール日の出",
+    "activityNotes": "テント・BBQのnullは公式で可否の確認が必要。",
+    "budgetBasis": "無料の基本入場。買い物・食事等は含まない。",
+    "budgetVerification": "verified",
+    "travelBasis": "瑞江駅発。車：都内首都高から東京都日の出町方面の幹線・高速道路と現地アクセス。公共交通：都営新宿線から目的地域の鉄道・バス・徒歩を含む片道編集推定。実測や経路検索結果ではない。",
+    "carRange": [
+      110,
+      155
+    ],
+    "publicTransportRange": [
+      125,
+      170
+    ],
+    "sources": [
+      {
+        "url": "https://hinode-aeonmall.com/",
+        "title": "イオンモール日の出",
+        "method": "official-web-retrieval",
+        "retrievedOn": "2026-10-11",
+        "sha256": "a4dced35d0cfb68a00599c4a7385b379872b06cdca91e2407a81b9ca922a428c",
+        "hashType": "retrieved-text"
+      }
+    ]
   }
 ]

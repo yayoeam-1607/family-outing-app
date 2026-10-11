@@ -2,8 +2,8 @@
 // 架空施設の記録を実在施設へ付け替えることはしない。
 export function migrateCatalogue(state, catalogue, revision) {
   const ids = new Set(catalogue.map(spot => spot.id));
-  if (catalogue.length !== 100 || ids.size !== 100 || catalogue.some(s => typeof s.id !== 'string' || !s.id.startsWith('place-'))) {
-    throw Error('公式確認済みの固定ID付き100件が揃うまで移行できません。');
+  if (catalogue.length < 100 || ids.size !== catalogue.length || catalogue.some(s => typeof s.id !== 'string' || !s.id.startsWith('place-'))) {
+    throw Error('公式確認済みの固定ID付き100件以上が揃うまで移行できません。');
   }
   const removedBuiltinIds = state.removedBuiltinIds ?? [];
   const archivedSpots = [...(state.archivedSpots ?? [])];
