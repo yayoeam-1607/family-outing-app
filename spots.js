@@ -13,11 +13,18 @@ export const spots = [
   { id: 10, name: 'さざなみ海浜公園', type: 'outdoor', cost: 0, travel: { car: 80, train: 110 }, stays: [2, 4, 8], rating: 4, icon: '🏖️', color: 'blue', description: '海辺の散歩や砂遊びを楽しめる公園。お弁当を持ってのんびり過ごそう。' },
 ];
 
-export function filterSpots(conditions) {
-  return spots.filter((spot) =>
+export const categories = ['ショッピングモール', '大型公園', 'キャンプ・デイキャンプ', 'BBQ', 'テントOK', 'アスレチック', '屋内遊び場', '水族館・動物園', '科学館・博物館', 'スポーツ', 'その他'];
+const sampleCategories = [1, 8, 7, 7, 10, 6, 10, 10, 8, 1];
+spots.forEach((spot, index) => Object.assign(spot, { sample: true, category: categories[sampleCategories[index]], tent: false, bbq: false }));
+
+export function filterSpots(conditions, source = spots) {
+  return source.filter((spot) =>
     (conditions.weather !== 'rainy' || spot.type === 'indoor') &&
     spot.travel[conditions.transport] <= Number(conditions.travel) &&
     (conditions.budget === 'any' || spot.cost <= Number(conditions.budget)) &&
-    spot.stays.includes(Number(conditions.stay))
+    (conditions.stay === 'any' || spot.stays.includes(Number(conditions.stay))) &&
+    (!conditions.category || conditions.category === 'any' || spot.category === conditions.category) &&
+    (!conditions.tent || conditions.tent === 'any' || spot.tent === (conditions.tent === 'yes')) &&
+    (!conditions.bbq || conditions.bbq === 'any' || spot.bbq === (conditions.bbq === 'yes'))
   );
 }
