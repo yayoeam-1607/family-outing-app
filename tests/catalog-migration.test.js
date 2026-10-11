@@ -9,13 +9,13 @@ function fixtureCatalogue() {
   const template = validateState(initialState()).spots[0];
   return Array.from({length:100},(_,i)=>({...structuredClone(template),id:`place-test-${i}`,name:`移行テスト ${i}`,sample:false,source:'builtin'}));
 }
-test('v1→v2:ユーザー・お気に入り・履歴を維持し旧施設を通常候補から除く',()=>{
+test('v1→v3:ユーザー・お気に入り・履歴を維持し旧施設を通常候補から除く',()=>{
  const state=initialState();
  const user={...state.spots[0],id:'user-123',name:'家族の登録場所',sample:false};state.spots.push(user);
  state.favorites=[1,'user-123'];state.visits=[{id:'visit-a',spotId:1,date:'2026-01-01',rating:5,comment:'旧施設の記録',intention:'また行きたい'},{id:'visit-b',spotId:'user-123',date:'2026-01-02',rating:4,comment:'実際の思い出',intention:'どちらでも'}];
  const before=JSON.stringify(state);
  const migrated=validateState(migrateCatalogue(validateState(state),fixtureCatalogue(),1));
- assert.equal(migrated.version,2);assert.equal(migrated.spots.length,101);assert.equal(migrated.archivedSpots.length,10);
+ assert.equal(migrated.version,3);assert.equal(migrated.spots.length,101);assert.equal(migrated.archivedSpots.length,10);
  assert.equal(migrated.spots.find(s=>s.id==='user-123').name,user.name);
  assert.deepEqual(migrated.favorites,state.favorites);assert.deepEqual(migrated.visits,state.visits);
  assert.equal(collection(migrated,'favorites').length,2);
@@ -27,7 +27,7 @@ test('繰り返し移行は編集・削除を復活させず、新しい初期�
  let next=validateState(migrateCatalogue(validateState(initialState()),fixtureCatalogue(),1));
  next=deleteSpot(next,'place-test-0');next.spots[0].description='家族の編集内容';
  const updated=validateState(migrateCatalogue(next,fixtureCatalogue(),2));
- assert.equal(updated.spots.length,99);assert.equal(updated.spots[0].description,'家族の編集内容');assert.equal(updated.archivedSpots.length,10);
+ assert.equal(updated.spots.length,99);assert.equal(updated.spots[0].description,'家族の編集内容');assert.equal(updated.archivedSpots.length,11);
  assert.deepEqual(updated.removedBuiltinIds,['place-test-0']);
  assert.deepEqual(migrateCatalogue(updated,fixtureCatalogue(),2),updated);
 });

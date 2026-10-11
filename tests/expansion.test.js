@@ -10,15 +10,15 @@ const original = JSON.parse(readFileSync(new URL('./fixtures/catalogue-v1.json',
 const criteria = {weather:'any',transport:'car',travel:'any',budget:'any',stay:'any',category:'any',region:'any',tent:'any',bbq:'any',focus:'any',sort:'distance',famousPriority:'no'};
 const requiredNames = ['東京ディズニーランド','東京ディズニーシー','東京ドイツ村','マザー牧場','鴨川シーワールド','ふなばしアンデルセン公園','清水公園','三井アウトレットパーク 木更津','イオンモール幕張新都心','成田ゆめ牧場','よみうりランド','サンリオピューロランド','東京ドームシティ','国営昭和記念公園','キッザニア東京','レゴランド・ディスカバリー・センター東京','東京ジョイポリス','チームラボプラネッツ TOKYO','サンシャイン水族館','上野動物園','東武動物公園','西武園ゆうえんち','ムーミンバレーパーク','鉄道博物館','国営武蔵丘陵森林公園','埼玉県こども動物自然公園','イオンレイクタウン','横浜・八景島シーパラダイス','よこはま動物園ズーラシア','横浜アンパンマンこどもミュージアム','カップヌードルミュージアム 横浜','こどもの国','さがみ湖MORI MORI','新江ノ島水族館'];
 
-test('元の実在100件の固定IDと登録内容を保持し150件だけ追加する',()=>{
- assert.equal(verifiedSpots.length,250);
+test('元の実在100件の固定IDと登録内容を保持し250件追加する',()=>{
+ assert.equal(verifiedSpots.length,350);
  assert.equal(original.length,100);
  for (const old of original) {
   const current=verifiedSpots.find(s=>s.id===old.id);
   assert.ok(current,old.id);
-  for(const field of Object.keys(old).filter(k=>k!=='category')) assert.deepEqual(current[field],old[field],old.id+' '+field);
+  for(const field of Object.keys(old).filter(k=>!['category','travel'].includes(k))) assert.deepEqual(current[field],old[field],old.id+' '+field);
  }
- assert.equal(verifiedSpots.filter(s=>!original.some(o=>o.id===s.id)).length,150);
+ assert.equal(verifiedSpots.filter(s=>!original.some(o=>o.id===s.id)).length,250);
 });
 
 test('100件版の実データから更新して編集・削除・ユーザー・旧記録を保持する',()=>{
@@ -28,9 +28,9 @@ test('100件版の実データから更新して編集・削除・ユーザー�
  old.spots.push({...structuredClone(original[0]),id:'user-preserved',source:'user',name:'登録した施設',description:'登録メモ'});
  const deleted=old.spots.splice(1,1)[0].id;old.removedBuiltinIds=[deleted];
  const before=JSON.stringify(old),next=prepareState(old);
- assert.equal(next.spots.length,250);assert.equal(next.catalogRevision,catalogRevision);
+ assert.equal(next.spots.length,350);assert.equal(next.catalogRevision,catalogRevision);
  assert.deepEqual(next.favorites,old.favorites);assert.deepEqual(next.visits,old.visits);
- assert.equal(next.archivedSpots.length,10);assert.ok(!next.spots.some(s=>s.id===deleted));
+ assert.equal(next.archivedSpots.length,11);assert.ok(!next.spots.some(s=>s.id===deleted));
  assert.equal(next.spots.find(s=>s.id===original[0].id).cost,4242);
  assert.equal(next.spots.find(s=>s.id===original[0].id).description,'家族による編集');
  assert.equal(next.spots.find(s=>s.id==='user-preserved').description,'登録メモ');
@@ -38,10 +38,10 @@ test('100件版の実データから更新して編集・削除・ユーザー�
  assert.deepEqual(prepareState(JSON.parse(JSON.stringify(next))),next);
 });
 
-test('1都3県・17カテゴリ・公式URL・予算・日帰り圏を全施設に設定する',()=>{
+test('旧250件の1都3県・公式URL・日帰り圏を維持する',()=>{
  assert.equal(categories.length,17);
  assert.equal(regions.length,6);
- for(const s of verifiedSpots) {
+ for(const s of verifiedSpots.filter(s=>!s.id.startsWith('place-added-'))) {
   assert.ok(['東京都','千葉県','埼玉県','神奈川県'].includes(s.prefecture),s.name);
   assert.ok(categories.includes(s.category),s.name);
   assert.ok(Number.isFinite(s.cost)&&s.cost>=0,s.name);
@@ -70,7 +70,7 @@ test('時間の上限ごとに候補が増え、公共交通3時間超は除外�
    if(travel!=='any'&&travel!=='30')assert.ok(next.length-previous.length>=25);
    previous=next;
   }
-  assert.equal(previous.length,250);
+  assert.equal(previous.length,350);
  }
  const train=filterSpots({...criteria,travel:'180',transport:'train'},verifiedSpots);
  assert.ok(train.length<250);

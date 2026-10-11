@@ -1,28 +1,51 @@
-// localStorageや既存オブジェクトを書き換えず、新しい状態を返す。
-// 架空施設の記録を実在施設へ付け替えることはしない。
+import { upgradeSpot } from "./spot-schema.js";
+// 保存データを破壊せず、ユーザーの編集・非表示を優先する。
 export function migrateCatalogue(state, catalogue, revision) {
-  const ids = new Set(catalogue.map(spot => spot.id));
-  if (catalogue.length < 100 || ids.size !== catalogue.length || catalogue.some(s => typeof s.id !== 'string' || !s.id.startsWith('place-'))) {
-    throw Error('公式確認済みの固定ID付き100件以上が揃うまで移行できません。');
+  const ids = new Set(catalogue.map((s) => s.id));
+  if (
+    catalogue.length < 100 ||
+    ids.size !== catalogue.length ||
+    catalogue.some(
+      (s) => typeof s.id !== "string" || !s.id.startsWith("place-"),
+    )
+  )
+    throw Error("固定ID付き100件以上が揃うまで移行できません。");
+  const removedBuiltinIds = [...(state.removedBuiltinIds ?? [])],
+    archivedSpots = (state.archivedSpots ?? []).map(upgradeSpot),
+    active = [];
+  for (const s of state.spots) {
+    const spot = upgradeSpot(s);
+    if (s.sample || s.source === "legacy" || removedBuiltinIds.includes(s.id)) {
+      if (!archivedSpots.some((x) => x.id === s.id))
+        archivedSpots.push({
+          ...spot,
+          source: s.sample ? "legacy" : spot.source,
+          sample: false,
+        });
+    } else active.push({ ...spot, sample: false });
   }
-  const removedBuiltinIds = state.removedBuiltinIds ?? [];
-  const archivedSpots = [...(state.archivedSpots ?? [])];
-  const active = [];
-  for (const spot of state.spots) {
-    if (spot.sample === true || spot.source === 'legacy') {
-      if (!archivedSpots.some(s => s.id === spot.id)) archivedSpots.push({ ...spot, source: 'legacy', sample: false });
-    } else {
-      // ユーザー登録・編集した内容とIDはそのまま残す。
-      active.push({ ...spot, source: spot.source ?? 'user', sample: false });
+  for (const spot of [...active, ...archivedSpots])
+    if (ids.has(spot.id) && spot.source !== "builtin")
+      throw Error(
+        "初期スポットと登録スポットのIDが衝突しています。元データは変更していません。",
+      );
+  for (const s of catalogue)
+    if (
+      !active.some((x) => x.id === s.id) &&
+      !archivedSpots.some((x) => x.id === s.id)
+    ) {
+      if (removedBuiltinIds.includes(s.id))
+        archivedSpots.push(structuredClone(s));
+      else active.push(structuredClone(s));
     }
-  }
-  for (const spot of active) {
-    if (ids.has(spot.id) && spot.source !== 'builtin') throw Error('初期スポットと登録スポットのIDが衝突しています。元データは変更していません。');
-  }
-  for (const spot of catalogue) {
-    if (!active.some(s => s.id === spot.id) && !removedBuiltinIds.includes(spot.id)) active.push({ ...structuredClone(spot), source: 'builtin', sample: false });
-  }
-  // 同じ改訂を再読込しても、削除や編集を戻さない。
-  return { ...state, version: 2, catalogRevision: revision, spots: active, archivedSpots,
-    removedBuiltinIds: [...removedBuiltinIds], favorites: [...state.favorites], visits: structuredClone(state.visits) };
+  return {
+    ...state,
+    version: 3,
+    catalogRevision: revision,
+    spots: active,
+    archivedSpots,
+    removedBuiltinIds,
+    favorites: [...state.favorites],
+    visits: structuredClone(state.visits),
+  };
 }

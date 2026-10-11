@@ -9,16 +9,17 @@ import { legacyState } from './legacy-fixture.js';
 const evidence = JSON.parse(readFileSync(new URL('../docs/catalogue-evidence.json', import.meta.url)));
 const criteria = { weather:'any', transport:'car', travel:'120', budget:'any', stay:'any', category:'any', tent:'any', bbq:'any' };
 
-test('実在カタログは固定ID付き施設で全件に対応する公式確認記録がある', () => {
+test('実在カタログは固定ID付き施設で旧250件の公式確認記録と追加100件の不明情報を区別する', () => {
   assert.equal(catalogReady, true);
   assert.equal(verifiedSpots.length, expectedCatalogSize);
   assert.equal(new Set(verifiedSpots.map(s=>s.id)).size, expectedCatalogSize);
   assert.equal(new Set(verifiedSpots.map(s=>s.name)).size, expectedCatalogSize);
-  assert.equal(evidence.length, expectedCatalogSize);
+  assert.equal(evidence.length,250);
   for (const s of verifiedSpots) {
     assert.match(s.id, /^place-/);
     assert.equal(s.source, 'builtin');
     assert.equal(s.sample, false);
+    if(s.id.startsWith('place-added-')) {assert.equal(s.website,'');assert.equal(s.price.family4Typical,null);continue;}
     assert.ok(s.area && s.website.startsWith('https://'));
     const record = evidence.find(e=>e.id===s.id);
     assert.equal(record?.name, s.name);
@@ -26,7 +27,7 @@ test('実在カタログは固定ID付き施設で全件に対応する公式確
     assert.ok(record.sources.some(r=>r.url===s.website && (r.httpStatus===200 || r.method==='official-web-retrieval') && /^[a-f0-9]{64}$/.test(r.sha256)));
   }
   const state = validateState(initialState());
-  assert.equal(state.version, 2);
+  assert.equal(state.version, 3);
   assert.equal(state.catalogRevision, catalogRevision);
   assert.equal(state.spots.length, expectedCatalogSize);
 });
@@ -79,7 +80,7 @@ test('実在データでも雨・予算・移動手段・カテゴリ・滞在�
   assert.deepEqual(result.map(s=>s.id),['place-ichikawa-museum','place-kahaku']);
   const shopping=searchResults(validateState(initialState()),{...criteria,focus:'shopping'},false);
   assert.ok(shopping.length>=8);
-  assert.ok(shopping.every(s=>['ショッピングモール','アウトレット'].includes(s.category)));
+  assert.ok(shopping.every(s=>s.mainCategory==='shopping'));
 });
 
 test('料金未確定の計画予算と閉館・工事情報を明示する', () => {

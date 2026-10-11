@@ -17,7 +17,7 @@ test('訪問回数・最新の再訪意向・未訪問・削除の整合性',()=
  assert.deepEqual(collection(state,'frequent').map(s=>s.id),[1,2]);
  assert.deepEqual(collection(state,'again').map(s=>s.id),[2]);
  assert.equal(collection(state,'unvisited').length,8);
- const next=deleteSpot(state,1);assert.equal(next.visits.length,1);assert.equal(next.favorites.length,0);validateState(next);
+ const next=deleteSpot(state,1);assert.equal(next.visits.length,3);assert.equal(next.favorites.length,1);assert.equal(next.archivedSpots.length,1);validateState(next);
 });
 test('カテゴリ・テント・BBQを他の条件と組み合わせる',()=>{
  const s={...initialState().spots[0],tent:true,bbq:true};
