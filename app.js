@@ -1,9 +1,9 @@
 import { categories, filterSpots } from './spots.js';
-import { storageKey, initialState, validateState, visitCount, collection, deleteSpot } from './store.js';
+import { storageKey, initialState, validateState, visitCount, collection, deleteSpot, recommended, sortedVisits } from './store.js';
 const $ = s => document.querySelector(s);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let storageUnreadable = false;
-let state = initialState(), view = 'search', searched = false, editingId = null, visitingId = null;
+let state = validateState(initialState()), view = 'search', searched = false, editingId = null, visitingId = null;
 function notice(message) { $('#notice').textContent = message; }
 try { const saved = localStorage.getItem(storageKey); if (saved) state = validateState(JSON.parse(saved)); }
 catch { storageUnreadable = true; notice('保存データを読み込めませんでした。元の保存データは上書きしていません。バックアップを読み込むか、ブラウザの保存設定を確認してください。'); }
@@ -15,22 +15,28 @@ function save(next, restoring = false) {
 for (const selector of ['#search-category','#edit-category']) {
   $(selector).innerHTML = (selector === '#search-category' ? '<option value="any">すべて</option>' : '') + categories.map(c=>`<option>${escape(c)}</option>`).join('');
 }
-const titles = { search:'今週どこ行く？', favorites:'お気に入り', again:'また行きたいスポット', frequent:'よく行くスポット', unvisited:'まだ行ってないスポット', history:'行った場所・訪問記録' };
+const titles = { search:'今週のおすすめ', favorites:'お気に入り', again:'また行きたいスポット', frequent:'よく行くスポット', unvisited:'まだ行ってないスポット', history:'行った場所・訪問記録' };
 function render() {
   $('#search-panel').hidden = view !== 'search';
+  $('#history-sort-label').hidden = view !== 'history';
+  $('#home-lists').hidden = view !== 'search' || searched;
+  $('#home-lists').innerHTML = [['unvisited','まだ行ったことがない場所'],['again','また行きたい場所'],['frequent','よく行く場所']].map(([key,label]) => {
+    const list=collection(state,key);
+    return `<section><h2>${label}</h2><p>${list.length ? list.slice(0,3).map(s=>escape(s.name)+(key==='frequent'?`（${visitCount(state,s.id)}回）`:'')).join(' / ') : 'まだありません。おでかけを記録してみよう。'}</p><button class="secondary" data-home-view="${key}">一覧を見る →</button></section>`;
+  }).join('');
   $('#results-heading').textContent = titles[view];
   document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
   const criteria = Object.fromEntries(new FormData($('#search-form')));
-  const items = view === 'history' ? [...state.visits].sort((a,b)=>b.date.localeCompare(a.date)) : view === 'search' && searched ? filterSpots(criteria,state.spots) : collection(state,view);
+  const items = view === 'history' ? sortedVisits(state,$('#history-sort').value) : view === 'search' && searched ? recommended(filterSpots(criteria,state.spots)) : view === 'search' ? recommended(state.spots) : collection(state,view);
   $('#result-count').textContent = `${items.length} 件${view==='frequent' ? '（訪問回数順）' : ''}`;
   $('#empty').hidden = items.length > 0;
   $('#results').innerHTML = items.map(item => {
     if (view === 'history') {
       const spot = state.spots.find(s=>s.id===item.spotId);
-      return `<article class="card history-card"><h3>${escape(spot.name)}</h3><p>${escape(item.date)} · ${'★'.repeat(item.rating)}</p><span class="pill">${escape(item.intention)}</span><p class="comment">${escape(item.comment) || '感想は未記入です。'}</p><button data-action="visit-delete" data-id="${escape(item.id)}" class="secondary">記録を削除</button></article>`;
+      return `<article class="card history-card"><h3>${escape(spot.name)}</h3><p>${escape(item.date)} · 訪問 ${visitCount(state,item.spotId)} 回 · ${'★'.repeat(item.rating)}</p><span class="pill">${escape(item.intention)}</span><p class="comment">${escape(item.comment) || '感想は未記入です。'}</p><button data-action="visit-delete" data-id="${escape(item.id)}" class="secondary">記録を削除</button></article>`;
     }
     const s = item, favorite = state.favorites.includes(s.id);
-    return `<article class="card"><div class="card-art ${s.type==='indoor'?'blue':'green'}"><span class="type-badge">${s.type==='indoor'?'☂ 屋内':'☀ 屋外'} · ${s.sample?'サンプル':'登録スポット'}</span><span class="spot-icon" aria-hidden="true">${s.type==='indoor'?'🏠':'🌳'}</span></div><div class="card-body"><span class="pill">${escape(s.category)}</span><h3>${escape(s.name)}</h3><p class="description">${escape(s.description)}</p><div class="card-facts"><span>👛 ${s.cost===0?'無料':s.cost.toLocaleString('ja-JP')+'円'}</span><span>${criteria.transport==='car'?'🚗 車':'🚃 電車'} 約${s.travel[criteria.transport]}分</span></div><p class="features">テント ${s.tent?'OK':'不可'} / BBQ ${s.bbq?'OK':'不可'}<br>滞在：${s.stays.map(n=>({2:'2時間',4:'半日',8:'1日'}[n])).join('・')}</p><div class="rating"><span>子ども向け度</span><span aria-label="5段階中${s.rating}" class="stars">${'★'.repeat(s.rating)}</span></div><p class="visit-count">訪問 ${visitCount(state,s.id)} 回</p><div class="card-actions"><button data-action="favorite" data-id="${escape(s.id)}" aria-pressed="${favorite}" class="secondary">${favorite?'♥ 解除':'♡ お気に入り'}</button><button data-action="visit" data-id="${escape(s.id)}">行った！</button><button data-action="edit" data-id="${escape(s.id)}" class="text-button">編集</button><button data-action="delete" data-id="${escape(s.id)}" class="text-button">削除</button></div></div></article>`;
+    return `<article class="card"><div class="card-art ${s.type==='indoor'?'blue':'green'}"><span class="type-badge">${s.type==='indoor'?'☂ 屋内':'☀ 屋外'} · ${s.sample?'サンプル':'登録スポット'}</span><span class="spot-icon" aria-hidden="true">${s.type==='indoor'?'🏠':'🌳'}</span></div><div class="card-body"><span class="pill">${escape(s.category)}</span><h3>${escape(s.name)}</h3><p class="area">📍 ${escape(s.area) || (s.sample ? '架空のエリア（サンプル）' : 'エリア未登録')}</p><p class="description">${escape(s.description)}</p>${s.website ? `<a class="official-link" href="${escape(s.website)}" target="_blank" rel="noopener noreferrer">公式サイト ↗</a>` : ''}<div class="card-facts"><span>👛 ${s.cost===0?'無料':s.cost.toLocaleString('ja-JP')+'円'}</span><span>${criteria.transport==='car'?'🚗 車':'🚃 電車'} 約${s.travel[criteria.transport]}分</span></div><p class="features">${s.rainy ? '☂ 雨の日向き' : '☀ 晴れの日向き'}<br>瑞江駅からの目安（サンプルは架空）<br>テント ${s.tent?'OK':'不可'} / BBQ ${s.bbq?'OK':'不可'}<br>滞在：${s.stays.map(n=>({2:'2時間',4:'半日',8:'1日'}[n])).join('・')}</p><div class="rating"><span>子ども向け度</span><span aria-label="5段階中${s.rating}" class="stars">${'★'.repeat(s.rating)}</span></div><p class="visit-count">訪問 ${visitCount(state,s.id)} 回</p><div class="card-actions"><button data-action="favorite" data-id="${escape(s.id)}" aria-pressed="${favorite}" class="secondary">${favorite?'♥ 解除':'♡ お気に入り'}</button><button data-action="visit" data-id="${escape(s.id)}">行った！</button><button data-action="edit" data-id="${escape(s.id)}" class="text-button">編集</button><button data-action="delete" data-id="${escape(s.id)}" class="text-button">削除</button></div></div></article>`;
   }).join('');
 }
 function setView(next) { view=next; render(); }
@@ -41,9 +47,9 @@ function openEditor(spot) {
   const form=$('#spot-form'); form.reset();
   $('#editor-title').textContent=spot?'スポットを編集':'スポットを追加';
   if(spot) {
-    for(const key of ['name','type','category','cost','rating','description']) form.elements[key].value=spot[key];
+    for(const key of ['name','type','category','cost','rating','description','area','website']) form.elements[key].value=spot[key];
     for(const key of ['car','train']) form.elements[key].value=spot.travel[key];
-    for(const key of ['tent','bbq']) form.elements[key].checked=spot[key];
+    for(const key of ['tent','bbq','rainy']) form.elements[key].checked=spot[key];
     form.querySelectorAll('[name=stays]').forEach(b=>b.checked=spot.stays.includes(Number(b.value)));
   }
   $('#editor').showModal();
@@ -54,7 +60,7 @@ $('#spot-form').addEventListener('submit',e=>{
   e.preventDefault(); const f=new FormData(e.target), stays=f.getAll('stays').map(Number);
   if(!stays.length){ alert('滞在時間を1つ以上選んでください。'); return; }
   const old=state.spots.find(s=>s.id===editingId);
-  const spot={id:editingId ?? crypto.randomUUID(),name:f.get('name').trim(),description:f.get('description').trim(),type:f.get('type'),category:f.get('category'),cost:Number(f.get('cost')),rating:Number(f.get('rating')),travel:{car:Number(f.get('car')),train:Number(f.get('train'))},stays,tent:f.has('tent'),bbq:f.has('bbq'),sample:old?.sample ?? false};
+  const spot={id:editingId ?? crypto.randomUUID(),name:f.get('name').trim(),description:f.get('description').trim(),area:f.get('area').trim(),website:f.get('website').trim(),rainy:f.has('rainy'),type:f.get('type'),category:f.get('category'),cost:Number(f.get('cost')),rating:Number(f.get('rating')),travel:{car:Number(f.get('car')),train:Number(f.get('train'))},stays,tent:f.has('tent'),bbq:f.has('bbq'),sample:old?.sample ?? false};
   if(save({...state,spots:old?state.spots.map(s=>s.id===editingId?spot:s):[...state.spots,spot]})) { $('#editor').close(); searched=false; setView('search'); notice('スポットを保存しました。'); }
 });
 $('#results').addEventListener('click',e=>{
@@ -92,3 +98,6 @@ $('#import').addEventListener('change',async e=>{
   finally{e.target.value='';}
 });
 render();
+
+$('#history-sort').addEventListener('change',render);
+$('#home-lists').addEventListener('click',e=>{const b=e.target.closest('[data-home-view]');if(b)setView(b.dataset.homeView);});

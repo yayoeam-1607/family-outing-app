@@ -19,7 +19,7 @@ spots.forEach((spot, index) => Object.assign(spot, { sample: true, category: cat
 
 export function filterSpots(conditions, source = spots) {
   return source.filter((spot) =>
-    (conditions.weather !== 'rainy' || spot.type === 'indoor') &&
+    (conditions.weather !== 'rainy' || (spot.rainy ?? (spot.type === 'indoor'))) &&
     spot.travel[conditions.transport] <= Number(conditions.travel) &&
     (conditions.budget === 'any' || spot.cost <= Number(conditions.budget)) &&
     (conditions.stay === 'any' || spot.stays.includes(Number(conditions.stay))) &&
