@@ -7,6 +7,7 @@ import {
   campingFields,
   fishingFields,
   saunaFields,
+  shoppingArrayFields,
 } from "./taxonomy.js";
 import { upgradeSpot } from "./spot-schema.js";
 import { filterAdvanced } from "./search.js";
@@ -87,6 +88,7 @@ export function cleanSpot(s) {
     "camping",
     "fishing",
     "sauna",
+    "shopping",
     "type",
     "category",
     "cost",
@@ -132,6 +134,13 @@ export function cleanSpot(s) {
               : []),
         ].map((k) => [k, s[group][k]]),
       );
+  if (s.shopping)
+    cleaned.shopping = Object.fromEntries(
+      [...shoppingArrayFields, "verifiedAt"].map((k) => [
+        k,
+        structuredClone(s.shopping[k]),
+      ]),
+    );
   return cleaned;
 }
 export function validateState(data) {
@@ -224,6 +233,20 @@ export function validateState(data) {
       !["free", "free-limited", "paid", "none", "unknown"].includes(q.type) ||
       ![q.fee, q.freeMinutes, q.capacity].every((v) => nullableNum(v)) ||
       (q.note !== null && !txt(q.note))
+    )
+      fail();
+    if (
+      s.shopping !== null &&
+      (!s.shopping ||
+        typeof s.shopping !== "object" ||
+        Array.isArray(s.shopping) ||
+        shoppingArrayFields.some((k) => !array(s.shopping[k])) ||
+        (s.shopping.verifiedAt !== null &&
+          (!txt(s.shopping.verifiedAt, 10) ||
+            !/^\d{4}-\d{2}-\d{2}$/.test(s.shopping.verifiedAt) ||
+            !Number.isFinite(Date.parse(s.shopping.verifiedAt)) ||
+            new Date(s.shopping.verifiedAt).toISOString().slice(0, 10) !==
+              s.shopping.verifiedAt)))
     )
       fail();
     for (const [group, fields] of Object.entries({

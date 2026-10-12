@@ -27,6 +27,7 @@ export function matchesSpot(s, c) {
       s.mainCategory,
       ...(s.subcategories ?? []),
       ...effectiveTags(s),
+      ...(s.shopping?.highlights ?? []),
       ...related,
     ].join(" "),
   );

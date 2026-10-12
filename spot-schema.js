@@ -5,6 +5,7 @@ import {
   fishingFields,
   saunaFields,
   emptyDetails,
+  emptyShopping,
 } from "./taxonomy.js";
 const categoryMap = {
   ショッピングモール: ["shopping", "施設タイプ", "ショッピングモール"],
@@ -189,6 +190,12 @@ export function upgradeSpot(s) {
       ...(s.parking ?? facts.parking ?? {}),
     },
     stayDuration: s.stayDuration ?? s.stays ?? [],
+    shopping:
+      s.shopping === undefined
+        ? main === "shopping"
+          ? emptyShopping()
+          : null
+        : s.shopping,
     camping,
     fishing:
       s.fishing === undefined

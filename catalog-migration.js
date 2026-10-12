@@ -1,3 +1,4 @@
+import { mergeInterests } from "./catalog-interests.js";
 import { mergeShopping } from "./catalog-shopping.js";
 import { mergeInformation } from "./catalog-information.js";
 import { mergeSearchClassification } from "./catalog-search-repairs.js";
@@ -49,7 +50,9 @@ export function migrateCatalogue(state, catalogue, revision) {
       updated = mergeSearchClassification(updated, current);
     if ((state.catalogRevision ?? 0) < 7)
       updated = mergeInformation(updated, current);
-    return mergeShopping(updated, current);
+    if ((state.catalogRevision ?? 0) < 8)
+      updated = mergeShopping(updated, current);
+    return mergeInterests(updated, current);
   };
   return {
     ...state,

@@ -30,3 +30,16 @@ export function searchFacets(state, criteria) {
   }));
   return { subcategories, tags };
 }
+
+// 専用条件はANDを維持し、現在の他条件に対して該当するものだけ選べる。
+export function featureFacets(state, criteria, group, fields) {
+  return Object.entries(fields).map(([key, label]) => ({
+    key,
+    label,
+    selected: criteria[group]?.[key] === true,
+    count: searchResults(state, {
+      ...criteria,
+      [group]: { ...criteria[group], [key]: true },
+    }).length,
+  }));
+}

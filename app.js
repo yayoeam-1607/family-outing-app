@@ -1,3 +1,5 @@
+import { shoppingSections } from "./shopping-presentation.js";
+import { emptyShopping } from "./taxonomy.js";
 import {
   initialState,
   prepareState,
@@ -27,7 +29,7 @@ import { upgradeSpot } from "./spot-schema.js";
 import { regions } from "./spots.js";
 import { installPicker } from "./picker-ui.js";
 import { resultPresentation } from "./result-presentation.js";
-import { searchFacets } from "./search-facets.js";
+import { searchFacets, featureFacets } from "./search-facets.js";
 const $ = (id) => document.getElementById(id),
   esc = (v) =>
     String(v ?? "").replace(
@@ -300,6 +302,7 @@ function renderHierarchy() {
   const facets = searchFacets(state, criteria);
   const facetButtons = (items, attribute) =>
     items
+      .filter(({ count, selected }) => count > 0 || selected)
       .map(
         ({ value, count, selected }) =>
           `<button class="chip ${selected ? "active" : ""}" data-${attribute}="${esc(value)}" ${count === 0 && !selected ? "disabled" : ""}>${esc(value)} (${count})</button>`,
@@ -326,12 +329,16 @@ function renderHierarchy() {
   )
     groups.push(["sauna", saunaFields, "サウナの条件"]);
   for (const [group, fields, label] of groups) {
-    html += `<section class="hierarchy-section"><h3>${label} <small>選んだ特徴をすべて満たす</small></h3><div class="feature-grid">${Object.entries(
+    html += `<section class="hierarchy-section"><h3>${label} <small>選んだ特徴をすべて満たす</small></h3><div class="feature-grid">${featureFacets(
+      state,
+      criteria,
+      group,
       fields,
     )
+      .filter(({ count, selected }) => count > 0 || selected)
       .map(
-        ([k, v]) =>
-          `<label><input type="checkbox" data-feature="${group}.${k}" ${criteria[group][k] === true ? "checked" : ""}>${v}</label>`,
+        ({ key: k, label: v, count, selected }) =>
+          `<label><input type="checkbox" data-feature="${group}.${k}" ${selected ? "checked" : ""}>${v} (${count})</label>`,
       )
       .join("")}</div>`;
     if (group === "sauna")
@@ -497,7 +504,11 @@ function showView(next) {
   window.scrollTo({ top: 0, behavior: "instant" });
 }
 function detailsTable(group, fields, data) {
-  return `<h3>${group}</h3><div class="detail-table">${Object.entries(fields)
+  const known = Object.entries(fields).filter(
+    ([key]) => data[key] !== null && data[key] !== undefined,
+  );
+  if (!known.length) return "";
+  return `<h3>${group}</h3><div class="detail-table">${known
     .map(
       ([k, v]) =>
         `<div><span>${v}</span><span>${esc(detailLabel(data[k]))}</span></div>`,
@@ -516,16 +527,21 @@ function showDetail(id) {
     .map((t) => `<span class="chip">${esc(t)}</span>`)
     .join(
       "",
-    )}</div><div class="detail-facts"><p><small>瑞江駅から車の目安</small>${timeLabel(s.travel.carMinutes)}</p><p><small>瑞江駅から電車の目安</small>${timeLabel(s.travel.trainMinutes)}</p><p><small>家族4人の料金目安</small>${priceLabel(s)}</p><p><small>駐車場</small>${parkingLabel(s)}</p><p><small>駐車場の有無</small>${detailLabel(s.parking.available)}</p><p><small>無料時間</small>${s.parking.freeMinutes == null ? "不明" : s.parking.freeMinutes + "分"}</p><p><small>駐車料金</small>${s.parking.fee == null ? "不明（補足をご確認ください）" : yen(s.parking.fee)}</p><p><small>駐車台数</small>${s.parking.capacity == null ? "不明" : "約" + s.parking.capacity + "台"}</p><p><small>天候</small>${weatherLabel(s)}</p><p><small>おすすめの季節</small>${s.seasons.map((x) => seasons[x]).join("・") || "不明"}</p><p><small>滞在時間目安</small>${s.stayDuration.map((x) => ({ 2: "1〜2時間", 4: "半日", 8: "1日" })[x]).join("・") || "不明"}</p><p><small>訪問回数</small>${visitCount(state, s.id)}回</p><p><small>最後に行った日</small>${esc(latest(s.id)?.date ?? "未訪問")}</p></div>${s.price.note ? `<p class="form-note">${esc(s.price.note)}</p>` : ""}${s.parking.note ? `<p class="form-note">駐車場：${esc(s.parking.note)}</p>` : ""}`;
+    )}</div><div class="detail-facts">${s.travel.carMinutes == null ? "" : `<p><small>瑞江駅から車の目安</small>${timeLabel(s.travel.carMinutes)}</p>`}${s.travel.trainMinutes == null ? "" : `<p><small>瑞江駅から電車の目安</small>${timeLabel(s.travel.trainMinutes)}</p>`}${s.price.free === true || [s.price.family4Typical, s.price.family4Min, s.price.family4Max].some((v) => v != null) ? `<p><small>家族4人の料金目安</small>${priceLabel(s)}</p>` : ""}<p><small>駐車場</small>${parkingLabel(s)}</p>${s.parking.available == null ? "" : `<p><small>駐車場の有無</small>${detailLabel(s.parking.available)}</p>`}${s.parking.freeMinutes == null ? "" : `<p><small>無料時間</small>${s.parking.freeMinutes}分</p>`}${s.parking.fee == null ? "" : `<p><small>駐車料金</small>${yen(s.parking.fee)}</p>`}${s.parking.capacity == null ? "" : `<p><small>駐車台数</small>約${s.parking.capacity}台</p>`}${s.weather.length ? `<p><small>天候</small>${weatherLabel(s)}</p>` : ""}${s.seasons.length ? `<p><small>おすすめの季節</small>${s.seasons.map((x) => seasons[x]).join("・")}</p>` : ""}${s.stayDuration.length ? `<p><small>滞在時間目安</small>${s.stayDuration.map((x) => ({ 2: "1〜2時間", 4: "半日", 8: "1日" })[x]).join("・")}</p>` : ""}<p><small>訪問回数</small>${visitCount(state, s.id)}回</p><p><small>最後に行った日</small>${esc(latest(s.id)?.date ?? "未訪問")}</p></div>${s.price.note ? `<p class="form-note">${esc(s.price.note)}</p>` : ""}${s.parking.note ? `<p class="form-note">駐車場：${esc(s.parking.note)}</p>` : ""}`;
+  for (const { title, values } of shoppingSections(s)) {
+    html += `<section class="shopping-detail"><h3>${title}</h3><div class="chips">${values.map((v) => `<span class="chip">${esc(v)}</span>`).join("")}</div></section>`;
+  }
   if (s.camping)
     html +=
       detailsTable("キャンプ・BBQ", campingFields, s.camping) +
-      `<p class="form-note">予約：${detailLabel(s.camping.reservation)}</p>`;
+      (s.camping.reservation && s.camping.reservation !== "unknown"
+        ? `<p class="form-note">予約：${detailLabel(s.camping.reservation)}</p>`
+        : "");
   if (s.fishing) html += detailsTable("釣り", fishingFields, s.fishing);
   if (s.sauna)
     html +=
       detailsTable("サウナ", saunaFields, s.sauna) +
-      `<p class="form-note">家族利用：${detailLabel(s.sauna.familyUse)} / 子ども：${detailLabel(s.sauna.childUse)}<br>年齢条件：${esc(s.sauna.childAgeRule ?? "不明")}</p>`;
+      `<p class="form-note">${[s.sauna.familyUse !== "unknown" ? "家族利用：" + detailLabel(s.sauna.familyUse) : "", s.sauna.childUse !== "unknown" ? "子ども：" + detailLabel(s.sauna.childUse) : "", s.sauna.childAgeRule ? "年齢条件：" + esc(s.sauna.childAgeRule) : ""].filter(Boolean).join(" / ")}</p>`;
   html += s.website
     ? `<p><a href="${esc(s.website)}" target="_blank" rel="noopener noreferrer">公式サイトを見る ↗</a></p>`
     : '<p class="form-note">公式サイト未提供・営業状況未確認</p>';
@@ -680,6 +696,8 @@ function renderEditor() {
       )}`;
   }
   if (editStep === 2) {
+    if (s.mainCategory === "shopping" && !s.shopping)
+      s.shopping = emptyShopping();
     if (
       s.mainCategory === "outdoor" &&
       s.subcategories.some((x) => ["キャンプ", "BBQ"].includes(x)) &&
@@ -726,6 +744,19 @@ function renderEditor() {
       s.parking.type,
     )}${editorInput("parking.fee", "駐車料金（円）", s.parking.fee, { type: "number" })}${editorInput("parking.freeMinutes", "最初の無料時間（分）", s.parking.freeMinutes, { type: "number" })}${editorInput("parking.capacity", "駐車台数", s.parking.capacity, { type: "number" })}${editorInput("parking.note", "駐車場のメモ", s.parking.note)}</div>${editGroup("camping", "キャンプ・BBQ", campingFields)}${editGroup("fishing", "釣り", fishingFields)}${editGroup("sauna", "サウナ", saunaFields)}`;
   }
+  if (editStep === 2 && s.shopping) {
+    html += `<details class="detail-editor"><summary>ショッピングの詳細を編集</summary><div class="form-grid">${[
+      ["buyTags", "買い物"],
+      ["playTags", "遊ぶ"],
+      ["foodTags", "食べる・便利"],
+      ["highlights", "主な店舗"],
+    ]
+      .map(
+        ([key, title]) =>
+          `<label>${title}（カンマ区切り）<input data-path="shopping.${key}" data-kind="array" value="${esc(s.shopping[key].join(", "))}" maxlength="2000"></label>`,
+      )
+      .join("")}</div></details>`;
+  }
   $("editor-content").innerHTML = html;
   $("editor-prev").hidden = editStep === 0;
   $("editor-next").hidden = editStep === 2;
@@ -742,7 +773,7 @@ function captureEditor() {
       value = value === "" ? null : Number(value);
     if (input.dataset.kind === "bool")
       value = value === "null" ? null : value === "true";
-    if (input.dataset.path === "tags")
+    if (input.dataset.path === "tags" || input.dataset.kind === "array")
       value = [
         ...new Set(
           value

@@ -1,0 +1,566 @@
+{
+  "place-added-2af7e42b4c15": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "子ども服", "雑貨", "家具"],
+      "playTags": ["キッズ施設", "カプセルトイ"],
+      "foodTags": ["スーパー", "フードコート"],
+      "highlights": [
+        "西松屋",
+        "あそびにっくパーク",
+        "THREEPPY",
+        "DAISO",
+        "foranew"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-added-138e423f61ea": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "子ども服", "家電", "雑貨"],
+      "playTags": ["ゲームセンター", "コインゲーム", "映画館", "キッズ施設"],
+      "foodTags": ["スーパー"],
+      "highlights": ["イオン", "イオンシネマ"],
+      "verifiedAt": null
+    }
+  },
+  "place-added-baf0472c5d3a": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "子ども服", "おもちゃ", "アウトドア用品"],
+      "playTags": [
+        "ゲームセンター",
+        "映画館",
+        "キッズ施設",
+        "室内アクティビティ"
+      ],
+      "foodTags": ["フードコート", "レストラン"],
+      "highlights": [
+        "トイザらス・ベビーザらス",
+        "ピュアハートキッズランド",
+        "ユニクロ",
+        "GU",
+        "GLOBAL WORK"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-added-e7121f95379f": {
+    "subcategories": ["買い物", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "雑貨"],
+      "playTags": [],
+      "foodTags": ["スーパー", "レストラン"],
+      "highlights": ["無印良品"],
+      "verifiedAt": null
+    }
+  },
+  "place-added-0ec4adabf5f1": {
+    "subcategories": ["買い物", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "子ども服", "雑貨", "書店・文具"],
+      "playTags": [],
+      "foodTags": ["スーパー"],
+      "highlights": ["ユニクロ", "3COINS", "有隣堂"],
+      "verifiedAt": null
+    }
+  },
+  "place-added-33e02e66ba4c": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "雑貨", "家具", "家電", "書店・文具"],
+      "playTags": [
+        "ゲームセンター",
+        "コインゲーム",
+        "クレーンゲーム",
+        "カプセルトイ"
+      ],
+      "foodTags": ["スーパー", "レストラン"],
+      "highlights": [
+        "ニトリ",
+        "ノジマ",
+        "しまむら",
+        "タイトーFステーション",
+        "ガチャガチャの森",
+        "THREEPPY"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-added-c7e1085140cb": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "子ども服", "雑貨", "書店・文具"],
+      "playTags": ["映画館", "キッズ施設"],
+      "foodTags": ["レストラン"],
+      "highlights": [
+        "BEAMS",
+        "URBAN RESEARCH DOORS",
+        "ディズニーストア",
+        "PLAZA",
+        "MARUZEN",
+        "シネマイクスピアリ"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-added-e5f4bc0aa4ed": {
+    "subcategories": ["買い物", "遊ぶ"],
+    "shopping": {
+      "buyTags": [],
+      "playTags": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+      "foodTags": [],
+      "highlights": [],
+      "verifiedAt": null
+    }
+  },
+  "place-added-362838edeaa5": {
+    "subcategories": ["買い物", "遊ぶ"],
+    "shopping": {
+      "buyTags": [],
+      "playTags": ["ゲームセンター", "クレーンゲーム", "映画館"],
+      "foodTags": [],
+      "highlights": [],
+      "verifiedAt": null
+    }
+  },
+  "place-added-2fdc32ab8675": {
+    "subcategories": ["買い物", "遊ぶ"],
+    "shopping": {
+      "buyTags": [],
+      "playTags": ["キッズ施設"],
+      "foodTags": [],
+      "highlights": [],
+      "verifiedAt": null
+    }
+  },
+  "place-added-a9746bead9bf": {
+    "subcategories": ["買い物", "遊ぶ"],
+    "shopping": {
+      "buyTags": [],
+      "playTags": [
+        "ゲームセンター",
+        "コインゲーム",
+        "クレーンゲーム",
+        "キッズ施設"
+      ],
+      "foodTags": [],
+      "highlights": [],
+      "verifiedAt": null
+    }
+  },
+  "place-added-c86d96a63f86": {
+    "subcategories": ["買い物", "遊ぶ"],
+    "shopping": {
+      "buyTags": [],
+      "playTags": ["ゲームセンター", "映画館"],
+      "foodTags": [],
+      "highlights": [],
+      "verifiedAt": null
+    }
+  },
+  "place-added-15669cf406ca": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "子ども服", "雑貨", "スポーツ用品", "アウトドア用品"],
+      "playTags": ["ゲームセンター", "映画館", "キッズ施設"],
+      "foodTags": ["スーパー", "フードコート", "レストラン"],
+      "highlights": ["イオンシネマ", "ABC-MART SPORTS"],
+      "verifiedAt": null
+    }
+  },
+  "place-added-dbd1093400e9": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["スポーツ用品", "アウトドア用品"],
+      "playTags": ["ゲームセンター", "映画館"],
+      "foodTags": ["スーパー", "フードコート", "レストラン"],
+      "highlights": ["メガスポーツ"],
+      "verifiedAt": null
+    }
+  },
+  "place-added-5394b5ebbbe7": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": ["洋服", "雑貨", "家電", "スポーツ用品"],
+      "playTags": [
+        "ゲームセンター",
+        "コインゲーム",
+        "クレーンゲーム",
+        "ボウリング",
+        "キッズ施設"
+      ],
+      "foodTags": ["スーパー", "フードコート", "レストラン"],
+      "highlights": ["ノジマ", "スーパースポーツゼビオ", "GiGO", "GiGO BOWL"],
+      "verifiedAt": null
+    }
+  },
+  "place-added-371139a8f229": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": [
+        "洋服",
+        "子ども服",
+        "おもちゃ",
+        "家電",
+        "スポーツ用品",
+        "ホームセンター"
+      ],
+      "playTags": [
+        "ゲームセンター",
+        "コインゲーム",
+        "クレーンゲーム",
+        "キッズ施設",
+        "カプセルトイ"
+      ],
+      "foodTags": ["スーパー", "フードコート", "レストラン"],
+      "highlights": [
+        "コジマ×ビックカメラ",
+        "カインズ",
+        "スポーツデポ",
+        "トイザらス",
+        "西松屋",
+        "らくがキッズ"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-added-484051286eee": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": [
+        "洋服",
+        "子ども服",
+        "雑貨",
+        "家電",
+        "スポーツ用品",
+        "アウトドア用品"
+      ],
+      "playTags": [
+        "ゲームセンター",
+        "コインゲーム",
+        "クレーンゲーム",
+        "キッズ施設"
+      ],
+      "foodTags": ["スーパー", "フードコート", "レストラン"],
+      "highlights": [
+        "ノジマ",
+        "ムラサキスポーツ",
+        "アカチャンホンポ",
+        "LOFT",
+        "3COINS"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-added-15a45a24de42": {
+    "subcategories": ["買い物", "遊ぶ", "食べる・便利"],
+    "shopping": {
+      "buyTags": [
+        "洋服",
+        "子ども服",
+        "雑貨",
+        "おもちゃ",
+        "家電",
+        "スポーツ用品"
+      ],
+      "playTags": ["クレーンゲーム", "キッズ施設", "カプセルトイ"],
+      "foodTags": ["スーパー", "レストラン"],
+      "highlights": [
+        "トイザらス",
+        "スポーツデポ",
+        "コジマ×ビックカメラ",
+        "Xiaomi Store",
+        "ユニクロ",
+        "BREEZE"
+      ],
+      "verifiedAt": null
+    }
+  },
+  "place-tokyo-kasairinkai": {
+    "tags": ["芝生", "幼児遊具"],
+    "subcategories": ["ピクニック"]
+  },
+  "place-added-ffecf9fb8fa8": {
+    "tags": ["芝生", "レジャーシート", "デイキャンプ", "BBQ可", "食材持込"],
+    "subcategories": ["公園", "ピクニック", "キャンプ", "BBQ"],
+    "camping": {
+      "dayCamp": true,
+      "bbq": true,
+      "bringFood": true
+    }
+  },
+  "place-tokyo-koganei": {
+    "tags": ["サイクリング", "BBQ可", "手ぶらBBQ", "機材レンタル"],
+    "subcategories": ["BBQ"]
+  },
+  "place-tokyo-toneri": {
+    "tags": ["BBQ可", "手ぶらBBQ", "じゃぶじゃぶ池"],
+    "subcategories": ["BBQ", "水遊び"]
+  },
+  "place-added-2388a9f55d77": {
+    "tags": ["フィールドアスレチック", "BBQ可"],
+    "subcategories": ["アスレチック", "BBQ"]
+  },
+  "place-ichikawa-4472": {
+    "tags": ["フィールドアスレチック"],
+    "subcategories": ["アスレチック"]
+  },
+  "place-added-c083f0621f51": {
+    "tags": ["大型遊具", "水遊び"],
+    "subcategories": ["水遊び"]
+  },
+  "place-edogawa-shinsakon": {
+    "tags": ["芝生", "複合遊具", "BBQ可", "デイキャンプ", "カヌー"],
+    "subcategories": ["公園", "ピクニック", "キャンプ", "BBQ"],
+    "camping": {
+      "dayCamp": true,
+      "bbq": true
+    }
+  },
+  "place-shimizu": {
+    "tags": [
+      "フィールドアスレチック",
+      "デイキャンプ",
+      "宿泊キャンプ",
+      "オートキャンプ",
+      "バンガロー",
+      "BBQ可",
+      "手ぶらBBQ",
+      "食材持込"
+    ],
+    "subcategories": ["アスレチック", "キャンプ", "BBQ"],
+    "camping": {
+      "dayCamp": true,
+      "overnight": true,
+      "autoCamp": true,
+      "bbq": true,
+      "handsFreeBbq": true,
+      "bringFood": true
+    }
+  },
+  "place-showa": {
+    "tags": ["大型遊具", "複合遊具"]
+  },
+  "place-andersen": {
+    "tags": ["フィールドアスレチック", "大型遊具"],
+    "subcategories": ["アスレチック"]
+  },
+  "place-sunshine-observatory": {
+    "tags": ["展望台", "夜景", "ランドマーク"],
+    "subcategories": ["景色"]
+  },
+  "place-aqua-line": {
+    "tags": ["展望台", "海景色", "ランドマーク", "富士山"],
+    "subcategories": ["景色"]
+  },
+  "place-odawara-castle": {
+    "tags": ["城", "展望台", "ランドマーク"],
+    "subcategories": ["名所", "景色"]
+  },
+  "place-hakone-pirate": {
+    "tags": ["観光船", "湖景色", "富士山"],
+    "subcategories": ["乗り物観光"]
+  },
+  "place-hakone-ropeway": {
+    "tags": ["ロープウェイ", "湖景色", "富士山"],
+    "subcategories": ["乗り物観光", "景色"]
+  },
+  "place-inubosaki": {
+    "tags": ["灯台", "展望台", "海景色", "ランドマーク", "磯遊び"],
+    "subcategories": ["名所", "景色"]
+  },
+  "place-tokyo-rikugien": {
+    "tags": ["日本庭園", "紅葉"]
+  },
+  "place-edogawa-shinozakiponyland": {
+    "tags": ["ふれあい", "乗馬", "馬車"],
+    "mainCategory": "animals",
+    "subcategories": ["動物ふれあい"]
+  },
+  "place-edogawa-nagisaponyland": {
+    "tags": ["ふれあい", "乗馬"],
+    "mainCategory": "animals",
+    "subcategories": ["動物ふれあい"]
+  },
+  "place-tokyo-yumenoshima-botanicalhall": {
+    "mainCategory": "nature",
+    "subcategories": ["花・植物"]
+  },
+  "place-kidzania": {
+    "tags": ["職業体験", "ものづくり"],
+    "mainCategory": "learning",
+    "subcategories": ["職業体験", "ものづくり"]
+  },
+  "place-tokyo-kasai-rinkai-suizokuen": {
+    "tags": ["ペンギン", "大型水槽"]
+  },
+  "place-chiba-zoo": {
+    "tags": ["大型動物", "小動物", "エサやり", "ふれあい", "乗馬"]
+  },
+  "place-kamogawa": {
+    "tags": ["シャチ", "イルカ", "ペンギン", "水族館ショー"]
+  },
+  "place-hakkeijima": {
+    "tags": ["イルカ", "ペンギン", "水族館ショー"]
+  },
+  "place-tdl": {
+    "tags": [
+      "子ども向け乗り物",
+      "絶叫系",
+      "キャラクター",
+      "ショー",
+      "パレード",
+      "世界観"
+    ]
+  },
+  "place-tds": {
+    "tags": ["子ども向け乗り物", "絶叫系", "キャラクター", "ショー", "世界観"]
+  },
+  "place-moomin": {
+    "tags": ["キャラクター", "ショー", "世界観"]
+  },
+  "place-morimori": {
+    "tags": ["子ども向け乗り物", "絶叫系", "キャラクター", "世界観"]
+  },
+  "place-added-507c0bf76e52": {
+    "tags": [
+      "室内アスレチック",
+      "トランポリン",
+      "クライミング",
+      "ロープアスレチック"
+    ],
+    "subcategories": ["室内遊具", "室内スポーツ"]
+  },
+  "place-added-3cb492ed2fa6": {
+    "tags": [
+      "大型室内遊具",
+      "ボールプール",
+      "トランポリン",
+      "室内アスレチック",
+      "ゴーカート"
+    ]
+  },
+  "place-added-8974f6380b38": {
+    "tags": [
+      "大型室内遊具",
+      "ボールプール",
+      "室内アスレチック",
+      "トランポリン",
+      "ネット遊具",
+      "クライミング"
+    ]
+  },
+  "place-added-52f7da8c43d3": {
+    "tags": [
+      "大型室内遊具",
+      "室内アスレチック",
+      "ネット遊具",
+      "クライミング",
+      "デジタルアート"
+    ]
+  },
+  "place-added-bce64314a901": {
+    "tags": ["AR", "デジタルアート", "ボールプール"],
+    "subcategories": ["デジタル体験"]
+  },
+  "place-railway": {
+    "tags": ["鉄道", "シミュレーター", "運転体験"]
+  },
+  "place-aviation": {
+    "tags": ["航空", "シミュレーター", "飛行体験"]
+  },
+  "place-cupnoodles": {
+    "tags": ["料理", "ものづくり", "食育"],
+    "subcategories": ["ものづくり"]
+  },
+  "place-kikkoman": {
+    "tags": ["食品工場", "食育"],
+    "subcategories": ["工場見学"]
+  },
+  "place-jaxa": {
+    "tags": ["科学", "宇宙"],
+    "subcategories": ["科学"]
+  },
+  "place-added-f353959c935f": {
+    "tags": [
+      "海釣り施設",
+      "初心者向け釣り",
+      "子ども向け釣り",
+      "貸し竿",
+      "エサ販売",
+      "手ぶら釣り"
+    ],
+    "subcategories": ["釣り"],
+    "fishing": {
+      "seaFishingFacility": true,
+      "beginnerFriendly": true,
+      "childFriendly": true,
+      "rodRental": true,
+      "baitSales": true,
+      "handsFree": true
+    }
+  },
+  "place-added-9f9911dde92e": {
+    "tags": ["ハゼ釣り"],
+    "subcategories": ["釣り"],
+    "fishing": {
+      "haze": true
+    }
+  },
+  "place-yunessun": {
+    "tags": [
+      "天然温泉",
+      "露天風呂",
+      "貸切風呂",
+      "サウナ",
+      "家族利用可能",
+      "水着エリア",
+      "男女一緒に利用可",
+      "子ども利用可",
+      "温水プール",
+      "休憩スペース"
+    ],
+    "subcategories": ["温泉", "スパ", "サウナ"],
+    "sauna": {
+      "available": true,
+      "mixedGenderUse": true,
+      "swimwearRequired": true,
+      "privateBath": true,
+      "familyUse": "yes",
+      "childUse": "yes"
+    }
+  },
+  "place-hakone-yuryo": {
+    "tags": [
+      "露天風呂",
+      "貸切風呂",
+      "サウナ",
+      "漫画",
+      "休憩スペース",
+      "食事処",
+      "子ども年齢制限あり"
+    ],
+    "subcategories": ["温泉", "サウナ"],
+    "sauna": {
+      "available": true,
+      "privateBath": true,
+      "childUse": "ageRestricted"
+    }
+  },
+  "place-edogawa-koiwa": {
+    "tags": ["花菖蒲"],
+    "subcategories": ["花・植物"],
+    "seasons": ["spring"]
+  },
+  "place-added-f9aa6436b1a3": {
+    "tags": ["潮干狩り"],
+    "subcategories": ["海"],
+    "seasons": ["spring", "summer"]
+  },
+  "place-added-0079833e7670": {
+    "tags": ["いちご狩り"],
+    "subcategories": ["果物狩り"]
+  }
+}

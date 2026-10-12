@@ -18,7 +18,7 @@ const ids = (spots) => spots.map((s) => s.id).sort();
 const find = (name) => verifiedSpots.find((s) => s.name === name);
 
 test("48施設を個別監査し、公式根拠のあるタグだけを固定350件へ補完する", () => {
-  assert.equal(catalogRevision, 8);
+  assert.equal(catalogRevision, 9);
   assert.equal(verifiedSpots.length, 350);
   assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, 350);
   assert.equal(baseline.length, 48);
@@ -78,11 +78,11 @@ test("ショッピング8検索の全候補で選択した条件がカードに�
     [c({ subcategories: ["遊ぶ"] }), 40],
   ];
   for (const [tag, count] of [
-    ["ゲームセンター", 30],
-    ["コインゲーム", 20],
-    ["クレーンゲーム", 25],
-    ["映画館", 17],
-    ["キッズ施設", 20],
+    ["ゲームセンター", 31],
+    ["コインゲーム", 21],
+    ["クレーンゲーム", 26],
+    ["映画館", 18],
+    ["キッズ施設", 26],
   ])
     cases.push([c({ subcategories: ["遊ぶ"], tags: [tag] }), count]);
   for (const [criteria, count] of cases) {
@@ -194,7 +194,7 @@ test("revision7から8へ補完し、ユーザー編集・削除済みタグ・�
   state.spots.push(user);
   const before = structuredClone(state),
     next = prepareState(state);
-  assert.equal(next.catalogRevision, 8);
+  assert.equal(next.catalogRevision, 9);
   assert.deepEqual(next.favorites, before.favorites);
   assert.deepEqual(next.visits, before.visits);
   assert.deepEqual(next.removedBuiltinIds, before.removedBuiltinIds);

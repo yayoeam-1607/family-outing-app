@@ -29,7 +29,7 @@ test("ショッピングの3中カテゴリは施設データで一致し、未�
       state,
       criteria({ subcategories: ["遊ぶ"], tags: ["コインゲーム"] }),
     ).length,
-    20,
+    21,
   );
   assert.equal(
     searchResults(state, criteria({ tags: ["存在しないタグ"] })).length,

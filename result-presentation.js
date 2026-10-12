@@ -115,10 +115,7 @@ export function resultPresentation(spot, criteria) {
     points.push(taxonomy[spot.mainCategory].label);
   const priority = [...new Set(matched.filter((t) => all.includes(t)))];
   return {
-    tags: [...new Set([...priority, ...all])].slice(
-      0,
-      Math.max(4, priority.length),
-    ),
+    tags: [...new Set([...priority, ...all])].slice(0, 4),
     points: [...new Set(points.filter(Boolean))].slice(0, 4),
   };
 }

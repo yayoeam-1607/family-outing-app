@@ -1,3 +1,4 @@
+import { enrichInterests } from "./catalog-interests.js";
 import { verifiedSpots as previous } from "./catalog-v2.js";
 import { additionalSpots } from "./catalog-additions.js";
 import { enrichShopping } from "./catalog-shopping.js";
@@ -9,7 +10,7 @@ const unknownPriceIds = new Set([
   "place-matsudo-komorebi",
   "place-kidzania",
 ]);
-export const catalogRevision = 8;
+export const catalogRevision = 9;
 export const expectedCatalogSize = 350;
 export const verifiedSpots = [
   ...previous.map((s) => {
@@ -53,7 +54,8 @@ export const verifiedSpots = [
 ]
   .map(repairSearchClassification)
   .map(enrichSpot)
-  .map(enrichShopping);
+  .map(enrichShopping)
+  .map(enrichInterests);
 export const catalogReady =
   verifiedSpots.length === expectedCatalogSize &&
   new Set(verifiedSpots.map((s) => s.id)).size === expectedCatalogSize;

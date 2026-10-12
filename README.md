@@ -67,6 +67,12 @@ localStorageキーは **`family-outing-data-v1` のまま**。version 1 / 2を�
 
 [48施設の監査・出典・修正前後集計](docs/shopping-audit.md) と [集計JSON](docs/shopping-summary.json) を参照してください。`node scripts/shopping-audit-summary.mjs` で再集計できます。revision 7からの補完はユーザー編集や削除済みタグを保護し、お気に入り・訪問履歴・非表示・ユーザー施設を維持します。移動時間は車・電車とも「以内」の上限検索で、おまかせにも同じ条件を使います。
 
+## 全カテゴリの気になること情報（revision 9）
+
+Web調査を行わず、ユーザー提供の事前調査情報65施設を既存350件へ反映しました。[分類変更・taxonomy追加・修正前後の全件集計](docs/interests-update.md) と [集計JSON](docs/interests-summary.json) を参照してください。`node scripts/interests-summary.mjs` で再集計できます。
+
+shoppingの買い物・遊ぶ・食事タグと店舗名を保存・検索・詳細へ接続し、JSONで往復します。タグと専用条件は現在条件の件数を自動計算し、未選択の0件を隠します。半日／1日タグは滞在時間から生成します。revision 8の元データとの比較により、編集・削除済みタグ・分類変更・お気に入り・思い出・非表示・ユーザー施設を保護します。
+
 ## 主なファイル
 
 - `catalog-v2.js`：以前の250件。`catalog-additions.js`：新規100件の固定ID付き候補。
