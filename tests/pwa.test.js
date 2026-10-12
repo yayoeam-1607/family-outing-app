@@ -172,4 +172,6 @@ test("workerは本番だけ正しいscopeで登録し、起動・復帰・再接
   };
   installPwa(dev.win, dev.doc, { production: false, base: appBase });
   assert.equal(registered, false);
+  installPwa(dev.win, dev.doc); // A source-only host has no Vite import.meta.env.
+  assert.equal(registered, false);
 });

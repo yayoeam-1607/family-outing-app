@@ -13,7 +13,10 @@ export function isAppleMobile(nav) {
 export function installPwa(
   win = window,
   doc = document,
-  { production = import.meta.env.PROD, base = import.meta.env.BASE_URL } = {},
+  {
+    production = import.meta.env?.PROD ?? false,
+    base = import.meta.env?.BASE_URL ?? "/family-outing-app/",
+  } = {},
 ) {
   const section = doc.getElementById("pwa-install"),
     button = doc.getElementById("pwa-install-button"),
