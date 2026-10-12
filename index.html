@@ -2,8 +2,26 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <meta name="theme-color" content="#637b67" />
+    <meta
+      name="description"
+      content="家族のおでかけ先を探して、思い出も残せる家族専用おでかけアプリ"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="今日どこ行く？" />
+    <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="%BASE_URL%icons/icon-192.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%BASE_URL%icons/apple-touch-icon.png"
+    />
     <title>今日どこ行く？ — 家族のおでかけと思い出</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -107,6 +125,15 @@
           <summary>非表示の場所</summary>
           <div id="archives"></div>
         </details>
+        <section
+          id="pwa-install"
+          class="pwa-install"
+          aria-labelledby="pwa-install-title"
+        >
+          <h3 id="pwa-install-title">ホーム画面に追加</h3>
+          <p id="pwa-install-help" class="muted"></p>
+          <button id="pwa-install-button" hidden>アプリとして追加</button>
+        </section>
         <p id="storage-status" class="muted"></p>
       </section>
     </main>

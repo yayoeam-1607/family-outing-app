@@ -1,0 +1,33 @@
+{
+  "id": "/family-outing-app/",
+  "name": "今日どこ行く？",
+  "short_name": "今日どこ行く？",
+  "description": "家族のおでかけ先を探して、思い出も残せる家族専用おでかけアプリ",
+  "lang": "ja",
+  "start_url": "/family-outing-app/",
+  "scope": "/family-outing-app/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#637b67",
+  "background_color": "#faf9f5",
+  "icons": [
+    {
+      "src": "/family-outing-app/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/family-outing-app/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/family-outing-app/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

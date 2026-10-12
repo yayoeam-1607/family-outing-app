@@ -1,3 +1,4 @@
+import { installPwa } from "./pwa.js";
 import { shoppingSections } from "./shopping-presentation.js";
 import { emptyShopping } from "./taxonomy.js";
 import {
@@ -1175,3 +1176,5 @@ installPicker({
   renderCard: cardFor,
   showDetail,
 });
+
+installPwa();
