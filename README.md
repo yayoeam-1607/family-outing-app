@@ -98,6 +98,6 @@ shoppingの買い物・遊ぶ・食事タグと店舗名を保存・検索・詳
 
 既存のlocalStorageキーと記録は維持します。iOSや別ブラウザで保存領域が分かれる場合に備え、追加前にJSONを書き出し、必要に応じホーム画面版へ読み込んでください。
 
-GitHub PagesはSettings → Pages → Sourceを「GitHub Actions」に設定し、以降はmainへpushするとテスト・ビルド・公開します。PWAも起動／復帰時に更新を確認し、操作中の強制再読み込みを避け、更新後の次回起動に新しい版を使います。
+公開workflowがGitHub Pagesの公開元をGitHub Actionsに統一し、mainへpushするとテスト・ビルド・公開します。PWAも起動／復帰時に更新を確認し、操作中の強制再読み込みを避け、更新後の次回起動に新しい版を使います。
 
 [PWAの追加ファイル・更新方法・保存保護・検証範囲](docs/pwa.md) を参照してください。
