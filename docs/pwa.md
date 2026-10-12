@@ -11,7 +11,7 @@
 - `pwa.js`：本番でworker登録、更新確認、控えめなインストール導線、iPhone/iPad判定、standalone時の案内非表示。
 - `scripts/pwa-build.js`：Vite出力全体とworkerテンプレートのSHA-256から更新識別子とキャッシュ対象を毎ビルド生成。`dist/sw.js`と`.nojekyll`を出力。
 - `scripts/service-worker.template.js`：一括プリキャッシュ、完全な新ビルドを確保した後の自動activate、同アプリの旧キャッシュ削除、オフライン画面起動。
-- `.github/workflows/pages.yml`：公開元をGitHub Actionsへ統一し、mainのpush → npm ci → test → build → distをGitHub Pagesへ公開。
+- `.github/workflows/pages.yml`：mainのpush → npm ci → test → build → distをGitHub Pagesへ公開。
 - `tests/pwa.test.js`：manifest、PNG寸法、ビルド識別子、インストール案内、scope・更新確認のテスト。
 
 既存の`app.js`、`index.html`、`style.css`、`vite.config.js`、READMEも更新。施設データ、catalogRevision、検索・おまかせのロジック、保存形式を変更していない。
@@ -44,7 +44,7 @@ localStorageキー`family-outing-data-v1`は変更しない。PWAコードはloc
 
 ## GitHub Pages・今後の開発
 
-Viteのbaseとmanifest・worker・アイコンはすべて`/family-outing-app/`に統一。公開workflowが既存Pagesの公開元をGitHub Actionsへ統一する。従来のブランチ公開によるビルド前HTMLの上書きを防ぐ。以降は通常どおり修正・commit・pushするだけでビルドと公開が進み、workerの識別子も自動で変わる。手動のキャッシュバージョン更新は不要。
+Viteのbaseとmanifest・worker・アイコンはすべて`/family-outing-app/`に統一。GitHubのSettings → Pages → Sourceを「GitHub Actions」に設定する。従来のブランチ公開ではビルド前HTMLが配信されるため、PWA公開にはこの切替が必要。設定変更にはリポジトリ管理権限が必要で、GITHUB_TOKENからの自動切替はGitHubに403で拒否されたため行わない。以降は通常どおり修正・commit・pushするだけでビルドと公開が進み、workerの識別子も自動で変わる。手動のキャッシュバージョン更新は不要。
 
 ローカル開発は`npm run dev`で同じサブパスを開く。開発モードでは新しいworkerを登録しない。PWA確認は`npm run build` → `npm run preview` → 表示された`/family-outing-app/`のURL。HTTPSまたはlocalhostが必要。
 
