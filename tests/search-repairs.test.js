@@ -22,7 +22,7 @@ test("ショッピングの3中カテゴリは施設データで一致し、未�
       48,
     );
   const play = searchResults(state, criteria({ subcategories: ["遊ぶ"] }));
-  assert.equal(play.length, 4);
+  assert.equal(play.length, 8);
   assert.ok(play.some((s) => s.name === "ららぽーとTOKYO-BAY"));
   assert.equal(
     searchResults(

@@ -111,7 +111,10 @@ export function cleanSpot(s) {
     ]),
   );
   cleaned.parking = Object.fromEntries(
-    ["available", "type", "fee", "note"].map((k) => [k, s.parking[k]]),
+    ["available", "type", "freeMinutes", "fee", "capacity", "note"].map((k) => [
+      k,
+      s.parking[k],
+    ]),
   );
   for (const [group, fields] of Object.entries({
     camping: campingFields,
@@ -218,8 +221,8 @@ export function validateState(data) {
     if (
       !q ||
       !bool(q.available) ||
-      !["free", "paid", "none", "unknown"].includes(q.type) ||
-      !nullableNum(q.fee) ||
+      !["free", "free-limited", "paid", "none", "unknown"].includes(q.type) ||
+      ![q.fee, q.freeMinutes, q.capacity].every((v) => nullableNum(v)) ||
       (q.note !== null && !txt(q.note))
     )
       fail();

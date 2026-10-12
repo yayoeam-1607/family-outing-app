@@ -55,7 +55,12 @@ export function matchesSpot(s, c) {
     if (minutes == null || minutes < lo || minutes > hi) return false;
   }
   if (!matchesBudget(s, c.budgetMin, c.budgetMax)) return false;
-  if (specified(c.parking) && s.parking?.type !== c.parking) return false;
+  if (specified(c.parking)) {
+    if (c.parking === "available") {
+      if (!["free", "free-limited", "paid"].includes(s.parking?.type))
+        return false;
+    } else if (s.parking?.type !== c.parking) return false;
+  }
   if (specified(c.weather) && !(s.weather ?? []).includes(c.weather))
     return false;
   if (specified(c.stay) && !(s.stayDuration ?? []).includes(Number(c.stay)))

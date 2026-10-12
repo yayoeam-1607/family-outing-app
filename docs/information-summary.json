@@ -1,0 +1,40 @@
+{
+  "catalogRevision": 7,
+  "total": 350,
+  "enriched": 107,
+  "additionalEnriched": 46,
+  "parkingAvailabilityConfirmed": 96,
+  "parkingTypeConfirmed": 89,
+  "parkingTypes": {
+    "free": 13,
+    "free-limited": 6,
+    "paid": 54,
+    "none": 16,
+    "unknown": 261
+  },
+  "location": 288,
+  "carMinutes": 250,
+  "trainMinutes": 250,
+  "website": 296,
+  "weather": 283,
+  "stayDuration": 251,
+  "shoppingDetailedFacilities": 10,
+  "shoppingTagCounts": {
+    "洋服": 2,
+    "子ども服": 1,
+    "雑貨": 0,
+    "おもちゃ": 0,
+    "家電": 1,
+    "家具": 0,
+    "スポーツ用品": 0,
+    "アウトドア用品": 1,
+    "ゲームセンター": 4,
+    "コインゲーム": 2,
+    "クレーンゲーム": 1,
+    "映画館": 5,
+    "キッズ施設": 3
+  },
+  "campingDetails": 57,
+  "fishingDetails": 2,
+  "saunaDetails": 4
+}

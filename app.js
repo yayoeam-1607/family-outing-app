@@ -25,6 +25,7 @@ import {
 } from "./taxonomy.js";
 import { upgradeSpot } from "./spot-schema.js";
 import { regions } from "./spots.js";
+import { resultPresentation } from "./result-presentation.js";
 import { searchFacets } from "./search-facets.js";
 const $ = (id) => document.getElementById(id),
   esc = (v) =>
@@ -139,9 +140,16 @@ function priceLabel(s) {
 }
 const timeLabel = (n) => (n == null ? "時間不明" : "約" + n + "分");
 const parkingLabel = (s) =>
-  ({ free: "無料", paid: "有料", none: "なし", unknown: "不明" })[
-    s.parking?.type
-  ] ?? "不明";
+  ({
+    free: "無料",
+    "free-limited":
+      s.parking.freeMinutes == null
+        ? "一定時間無料（時間不明）"
+        : "最初の" + s.parking.freeMinutes + "分無料",
+    paid: "有料",
+    none: "なし",
+    unknown: s.parking?.available === true ? "あり（料金不明）" : "不明",
+  })[s.parking?.type] ?? "不明";
 const weatherLabel = (s) =>
   s.weather.includes("indoor")
     ? "完全屋内"
@@ -170,8 +178,10 @@ const detailLabel = (v) =>
 function card(s) {
   const v = latest(s.id),
     count = visitCount(state, s.id),
-    tags = effectiveTags(s).slice(0, 4);
-  return `<article class="spot-card" tabindex="0" role="button" aria-label="${esc(s.name)}の詳細" data-detail="${esc(s.id)}"><div class="card-heading"><h3>${esc(s.name)}</h3><button class="favorite ${state.favorites.includes(s.id) ? "selected" : ""}" data-favorite="${esc(s.id)}" aria-label="${esc(s.name)}を${state.favorites.includes(s.id) ? "お気に入り解除" : "お気に入りに追加"}" aria-pressed="${state.favorites.includes(s.id)}">${state.favorites.includes(s.id) ? "♥" : "♡"}</button></div><div class="card-location"><span class="card-category">${esc(taxonomy[s.mainCategory].label)}</span>${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${isArchived(s.id) ? " · 非表示の場所" : ""}</div><div class="card-facts"><span>${criteria.transport === "train" ? "🚃" : "🚗"} ${timeLabel(s.travel[criteria.transport === "train" ? "trainMinutes" : "carMinutes"])}</span><span>家族4人 ${priceLabel(s)}</span><span>🅿 駐車場 ${parkingLabel(s)}</span><span>${weatherLabel(s)}</span></div><div class="card-tags">${tags.map((t) => `<span>#${esc(t)}</span>`).join("")}</div><div class="visit-status">${v ? `<strong>✓ ${esc(v.date.replaceAll("-", "/"))}に行った</strong>　訪問${count}回` : "まだ行っていない"}</div></article>`;
+    minutes =
+      s.travel[criteria.transport === "train" ? "trainMinutes" : "carMinutes"],
+    { tags, points } = resultPresentation(s, criteria);
+  return `<article class="spot-card" tabindex="0" role="button" aria-label="${esc(s.name)}の詳細" data-detail="${esc(s.id)}"><div class="card-heading"><h3>${esc(s.name)}</h3><button class="favorite ${state.favorites.includes(s.id) ? "selected" : ""}" data-favorite="${esc(s.id)}" aria-label="${esc(s.name)}を${state.favorites.includes(s.id) ? "お気に入り解除" : "お気に入りに追加"}" aria-pressed="${state.favorites.includes(s.id)}">${state.favorites.includes(s.id) ? "♥" : "♡"}</button></div><div class="card-location"><span class="card-category">${esc(taxonomy[s.mainCategory].label)}</span>${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${isArchived(s.id) ? " · 非表示の場所" : ""}</div><div class="card-facts"><span title="瑞江駅からの目安">${criteria.transport === "train" ? "🚃" : "🚗"} 瑞江駅から<br>${timeLabel(minutes)}${minutes == null ? "" : "（目安）"}</span><span>家族4人 ${priceLabel(s)}</span><span>${criteria.parking !== "any" ? "<strong>" : ""}🅿 ${parkingLabel(s)}${criteria.parking !== "any" ? "</strong>" : ""}</span><span>${weatherLabel(s)}</span></div><div class="card-tags">${tags.map((t) => `<span>#${esc(t)}</span>`).join("")}</div>${points.length ? `<div class="match-points">${points.map((p) => `<span>✓ ${esc(p)}</span>`).join("")}</div>` : ""}<div class="visit-status">${v ? `<strong>✓ ${esc(v.date.replaceAll("-", "/"))}に行った</strong>　訪問${count}回` : "まだ行っていない"}</div></article>`;
 }
 function renderResults() {
   const result = searchResults(state, criteria);
@@ -230,7 +240,9 @@ function renderCommon() {
     "駐車場",
     [
       ["any", "指定なし"],
+      ["available", "駐車場あり"],
       ["free", "無料"],
+      ["free-limited", "一定時間無料"],
       ["paid", "有料"],
       ["none", "なし"],
     ],
@@ -370,6 +382,8 @@ function renderSelected() {
   const labels = {
     free: "無料",
     paid: "有料",
+    available: "あり",
+    "free-limited": "一定時間無料",
     none: "なし",
     sunny: "晴れ向き",
     rainy: "雨でもOK",
@@ -488,7 +502,7 @@ function showDetail(id) {
     .map((t) => `<span class="chip">${esc(t)}</span>`)
     .join(
       "",
-    )}</div><div class="detail-facts"><p><small>瑞江駅から車</small>${timeLabel(s.travel.carMinutes)}</p><p><small>瑞江駅から公共交通</small>${timeLabel(s.travel.trainMinutes)}</p><p><small>家族4人の料金目安</small>${priceLabel(s)}</p><p><small>駐車場</small>${parkingLabel(s)}${s.parking.fee == null ? "" : " · " + yen(s.parking.fee)}</p><p><small>天候</small>${weatherLabel(s)}</p><p><small>おすすめの季節</small>${s.seasons.map((x) => seasons[x]).join("・") || "不明"}</p><p><small>滞在時間目安</small>${s.stayDuration.map((x) => ({ 2: "1〜2時間", 4: "半日", 8: "1日" })[x]).join("・") || "不明"}</p><p><small>訪問回数</small>${visitCount(state, s.id)}回</p></div>${s.price.note ? `<p class="form-note">${esc(s.price.note)}</p>` : ""}${s.parking.note ? `<p class="form-note">駐車場：${esc(s.parking.note)}</p>` : ""}`;
+    )}</div><div class="detail-facts"><p><small>瑞江駅から車の目安</small>${timeLabel(s.travel.carMinutes)}</p><p><small>瑞江駅から電車の目安</small>${timeLabel(s.travel.trainMinutes)}</p><p><small>家族4人の料金目安</small>${priceLabel(s)}</p><p><small>駐車場</small>${parkingLabel(s)}</p><p><small>駐車場の有無</small>${detailLabel(s.parking.available)}</p><p><small>無料時間</small>${s.parking.freeMinutes == null ? "不明" : s.parking.freeMinutes + "分"}</p><p><small>駐車料金</small>${s.parking.fee == null ? "不明（補足をご確認ください）" : yen(s.parking.fee)}</p><p><small>駐車台数</small>${s.parking.capacity == null ? "不明" : "約" + s.parking.capacity + "台"}</p><p><small>天候</small>${weatherLabel(s)}</p><p><small>おすすめの季節</small>${s.seasons.map((x) => seasons[x]).join("・") || "不明"}</p><p><small>滞在時間目安</small>${s.stayDuration.map((x) => ({ 2: "1〜2時間", 4: "半日", 8: "1日" })[x]).join("・") || "不明"}</p><p><small>訪問回数</small>${visitCount(state, s.id)}回</p><p><small>最後に行った日</small>${esc(latest(s.id)?.date ?? "未訪問")}</p></div>${s.price.note ? `<p class="form-note">${esc(s.price.note)}</p>` : ""}${s.parking.note ? `<p class="form-note">駐車場：${esc(s.parking.note)}</p>` : ""}`;
   if (s.camping)
     html +=
       detailsTable("キャンプ・BBQ", campingFields, s.camping) +
@@ -691,11 +705,12 @@ function renderEditor() {
       [
         ["unknown", "不明"],
         ["free", "無料"],
+        ["free-limited", "一定時間無料"],
         ["paid", "有料"],
         ["none", "なし"],
       ],
       s.parking.type,
-    )}${editorInput("parking.fee", "駐車料金（円）", s.parking.fee, { type: "number" })}${editorInput("parking.note", "駐車場のメモ", s.parking.note)}</div>${editGroup("camping", "キャンプ・BBQ", campingFields)}${editGroup("fishing", "釣り", fishingFields)}${editGroup("sauna", "サウナ", saunaFields)}`;
+    )}${editorInput("parking.fee", "駐車料金（円）", s.parking.fee, { type: "number" })}${editorInput("parking.freeMinutes", "最初の無料時間（分）", s.parking.freeMinutes, { type: "number" })}${editorInput("parking.capacity", "駐車台数", s.parking.capacity, { type: "number" })}${editorInput("parking.note", "駐車場のメモ", s.parking.note)}</div>${editGroup("camping", "キャンプ・BBQ", campingFields)}${editGroup("fishing", "釣り", fishingFields)}${editGroup("sauna", "サウナ", saunaFields)}`;
   }
   $("editor-content").innerHTML = html;
   $("editor-prev").hidden = editStep === 0;

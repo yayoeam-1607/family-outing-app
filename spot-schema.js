@@ -179,13 +179,15 @@ export function upgradeSpot(s) {
             ? null
             : "旧版の家族4人料金目安。最新料金は公式情報でご確認ください。",
       },
-    parking: s.parking ??
-      facts.parking ?? {
-        available: null,
-        type: "unknown",
-        fee: null,
-        note: null,
-      },
+    parking: {
+      available: null,
+      type: "unknown",
+      freeMinutes: null,
+      fee: null,
+      capacity: null,
+      note: null,
+      ...(s.parking ?? facts.parking ?? {}),
+    },
     stayDuration: s.stayDuration ?? s.stays ?? [],
     camping,
     fishing:

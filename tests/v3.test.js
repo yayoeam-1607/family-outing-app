@@ -39,7 +39,14 @@ const specimen = () => ({
     family4Typical: 5000,
     note: null,
   },
-  parking: { available: true, type: "free", fee: 0, note: null },
+  parking: {
+    available: true,
+    type: "free",
+    freeMinutes: null,
+    fee: 0,
+    capacity: null,
+    note: null,
+  },
   camping: {
     ...emptyDetails(campingFields),
     bbq: true,

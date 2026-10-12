@@ -1,0 +1,1333 @@
+[
+  {
+    "id": "place-tokyo-ukita",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-ojima-komatsugawa",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-kasaikaihin",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-kasairinkai",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-shinozaki",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-mizumoto",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-shioiri",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-ueno",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-inokashira",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-toneri",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-nakagawa",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-higashi-ayase",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-yumenoshima",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-shiokaze",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-siba",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-yoyogi",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-rinshinomori",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-komazawa-olympic",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-kinuta",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-shakujii",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-hikarigaoka",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-koganei",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-nogawa",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-fuchunomori",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-musashino-no-mori",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-tokyo-jindai",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-edogawa-komatsugawa2",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-edogawa-ichinoe2",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-edogawa-gyosen",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-edogawa-shizen",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "animals"
+  },
+  {
+    "id": "place-edogawa-shincho",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-3087",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "nature"
+  },
+  {
+    "id": "place-ichikawa-4473",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-4472",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-3934",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-7915",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-7440",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-8014",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-4083",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-4363",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-4084",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-ichikawa-7474",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-sunshine-aqua",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "animals"
+  },
+  {
+    "id": "place-tdl",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "leisure"
+  },
+  {
+    "id": "place-tds",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "leisure"
+  },
+  {
+    "id": "place-german",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "leisure"
+  },
+  {
+    "id": "place-mother",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "animals"
+  },
+  {
+    "id": "place-kamogawa",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "animals"
+  },
+  {
+    "id": "place-andersen",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-yume",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "animals"
+  },
+  {
+    "id": "place-yomiuri",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "leisure"
+  },
+  {
+    "id": "place-puroland",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "leisure"
+  },
+  {
+    "id": "place-kodomonokuni",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-chiba-zoo",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "animals"
+  },
+  {
+    "id": "place-america-camp",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-yunessun",
+    "tags": ["サウナ"],
+    "subcategories": ["温泉", "サウナ"],
+    "sauna": {
+      "available": true,
+      "mixedGenderUse": null,
+      "swimwearRequired": null,
+      "privateSauna": null,
+      "privateBath": true,
+      "familyUse": "unknown",
+      "childUse": "unknown",
+      "childAgeRule": null
+    },
+    "mainCategory": "relax"
+  },
+  {
+    "id": "place-forest-chichibu",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-chiba-science",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "learning"
+  },
+  {
+    "id": "place-glico",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "learning"
+  },
+  {
+    "id": "place-hakone-openair",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "learning"
+  },
+  {
+    "id": "place-saitama-river",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "learning"
+  },
+  {
+    "id": "place-added-67c41db82589",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "tags": [],
+    "subcategories": ["キャンプ"],
+    "camping": {
+      "dayCamp": null,
+      "overnight": null,
+      "autoCamp": null,
+      "cottage": null,
+      "tentStay": null,
+      "carBesideSite": null,
+      "bbq": null,
+      "handsFreeBbq": null,
+      "bringFood": null,
+      "bonfire": null,
+      "rental": null,
+      "shower": null,
+      "bath": null,
+      "poweredSite": null,
+      "beginnerFriendly": null,
+      "familyFriendly": null,
+      "reservation": "unknown"
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-12b3bcfe25e5",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "tags": [],
+    "subcategories": ["キャンプ"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-dbbf6198f943",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "tags": [],
+    "subcategories": ["キャンプ"],
+    "camping": {
+      "dayCamp": null,
+      "overnight": null,
+      "autoCamp": null,
+      "cottage": null,
+      "tentStay": null,
+      "carBesideSite": null,
+      "bbq": null,
+      "handsFreeBbq": null,
+      "bringFood": null,
+      "bonfire": null,
+      "rental": null,
+      "shower": null,
+      "bath": null,
+      "poweredSite": null,
+      "beginnerFriendly": null,
+      "familyFriendly": null,
+      "reservation": "unknown"
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-b42bf83636af",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-8b56df2197db",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-c35bf114f20e",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "tags": ["オートキャンプ"],
+    "camping": {
+      "dayCamp": null,
+      "overnight": null,
+      "autoCamp": null,
+      "cottage": null,
+      "tentStay": null,
+      "carBesideSite": null,
+      "bbq": null,
+      "handsFreeBbq": null,
+      "bringFood": null,
+      "bonfire": null,
+      "rental": null,
+      "shower": null,
+      "bath": null,
+      "poweredSite": null,
+      "beginnerFriendly": null,
+      "familyFriendly": null,
+      "reservation": "unknown"
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-85ef6ba5c1df",
+    "website": "",
+    "weather": [],
+    "tags": ["オートキャンプ"],
+    "subcategories": ["キャンプ"],
+    "camping": {
+      "dayCamp": null,
+      "overnight": null,
+      "autoCamp": null,
+      "cottage": null,
+      "tentStay": null,
+      "carBesideSite": null,
+      "bbq": null,
+      "handsFreeBbq": null,
+      "bringFood": null,
+      "bonfire": null,
+      "rental": null,
+      "shower": null,
+      "bath": null,
+      "poweredSite": null,
+      "beginnerFriendly": null,
+      "familyFriendly": null,
+      "reservation": "unknown"
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-8d5b74c6cf0e",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "tags": ["オートキャンプ"],
+    "subcategories": ["キャンプ"],
+    "camping": {
+      "dayCamp": null,
+      "overnight": null,
+      "autoCamp": null,
+      "cottage": null,
+      "tentStay": null,
+      "carBesideSite": null,
+      "bbq": null,
+      "handsFreeBbq": null,
+      "bringFood": null,
+      "bonfire": null,
+      "rental": null,
+      "shower": null,
+      "bath": null,
+      "poweredSite": null,
+      "beginnerFriendly": null,
+      "familyFriendly": null,
+      "reservation": "unknown"
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-aae3ce8fb0a3",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-97ac17d3a751",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "tags": [],
+    "subcategories": ["キャンプ"],
+    "camping": {
+      "dayCamp": null,
+      "overnight": null,
+      "autoCamp": null,
+      "cottage": null,
+      "tentStay": null,
+      "carBesideSite": null,
+      "bbq": null,
+      "handsFreeBbq": null,
+      "bringFood": null,
+      "bonfire": null,
+      "rental": null,
+      "shower": null,
+      "bath": null,
+      "poweredSite": null,
+      "beginnerFriendly": null,
+      "familyFriendly": null,
+      "reservation": "unknown"
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-2af7e42b4c15",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "tags": ["大型商業施設"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-138e423f61ea",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-baf0472c5d3a",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "tags": ["大型商業施設"],
+    "subcategories": ["施設タイプ", "買い物"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-e7121f95379f",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-0ec4adabf5f1",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-33e02e66ba4c",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "tags": ["大型商業施設"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-c7e1085140cb",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "tags": ["大型商業施設"],
+    "subcategories": ["施設タイプ", "買い物"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-362838edeaa5",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "tags": ["大型商業施設", "ゲームセンター", "クレーンゲーム"],
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-2fdc32ab8675",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "tags": ["大型商業施設"],
+    "subcategories": ["施設タイプ", "買い物"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-e4a4f86d57fd",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-15669cf406ca",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "tags": ["大型商業施設"],
+    "subcategories": ["施設タイプ", "買い物"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-dbd1093400e9",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-5394b5ebbbe7",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-371139a8f229",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-484051286eee",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-15a45a24de42",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "shopping"
+  },
+  {
+    "id": "place-added-1c6092d3eb0a",
+    "website": "",
+    "weather": ["indoor", "rainy"],
+    "tags": [],
+    "subcategories": ["室内遊具"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "indoor",
+    "stayDuration": []
+  },
+  {
+    "id": "place-added-4ec4e6ccc6fc",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": ["indoor", "rainy"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "indoor"
+  },
+  {
+    "id": "place-added-7a72e7e77142",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": ["indoor", "rainy"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "indoor"
+  },
+  {
+    "id": "place-added-33b950395380",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": ["indoor", "rainy"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "indoor"
+  },
+  {
+    "id": "place-added-bce64314a901",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": ["indoor", "rainy"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "indoor"
+  },
+  {
+    "id": "place-added-3cb492ed2fa6",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": ["indoor", "rainy"],
+    "mainCategory": "indoor"
+  },
+  {
+    "id": "place-added-8974f6380b38",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": ["indoor", "rainy"],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "indoor"
+  },
+  {
+    "id": "place-added-f353959c935f",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "tags": ["海釣り施設"],
+    "fishing": {
+      "haze": null,
+      "horseMackerel": null,
+      "sabiki": null,
+      "fishingPond": null,
+      "seaFishingFacility": null,
+      "beginnerFriendly": null,
+      "childFriendly": null,
+      "rodRental": null,
+      "baitSales": null,
+      "handsFree": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "activity"
+  },
+  {
+    "id": "place-added-9f9911dde92e",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "tags": [],
+    "fishing": {
+      "haze": null,
+      "horseMackerel": null,
+      "sabiki": null,
+      "fishingPond": null,
+      "seaFishingFacility": null,
+      "beginnerFriendly": null,
+      "childFriendly": null,
+      "rodRental": null,
+      "baitSales": null,
+      "handsFree": null
+    },
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "activity"
+  },
+  {
+    "id": "place-added-53844d424cf6",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "activity"
+  },
+  {
+    "id": "place-added-28e5e5a45191",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "tags": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "nature"
+  },
+  {
+    "id": "place-added-0079833e7670",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "nature"
+  },
+  {
+    "id": "place-added-ffecf9fb8fa8",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "tags": [],
+    "subcategories": ["公園"],
+    "camping": null,
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-35ca7ab24fa4",
+    "website": "",
+    "weather": [],
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-9e21081a94c6",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-66bfcb52a5bb",
+    "website": "",
+    "weather": [],
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-51902b931ab3",
+    "website": "",
+    "weather": [],
+    "tags": [],
+    "subcategories": ["公園"],
+    "camping": null,
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-c083f0621f51",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-2388a9f55d77",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  },
+  {
+    "id": "place-added-e434409b753a",
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "weather": [],
+    "description": "ユーザー提供の追加候補です。所在地・営業状況・料金・設備は未確認のため、利用前に施設へご確認ください。",
+    "mainCategory": "outdoor"
+  }
+]

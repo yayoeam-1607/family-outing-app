@@ -1,0 +1,1212 @@
+{
+  "place-tokyo-siba": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-shioiri": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-8014": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-kinuta": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 235,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-edogawa-komatsugawa2": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-komazawa-olympic": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-musashino-no-mori": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-nakagawa": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 21,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-edogawa-shincho": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-ukita": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-3087": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-higashi-ayase": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 107,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-4473": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-hikarigaoka": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 251,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-nogawa": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 233,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-fuchunomori": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 110,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-edogawa-gyosen": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-3934": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-ueno": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-4363": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-yoyogi": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 65,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-7474": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-inokashira": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 60,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-7915": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-4083": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-7440": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-4472": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-koganei": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-yumenoshima": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-shiokaze": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-kasaikaihin": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 150,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-toneri": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-mizumoto": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 287,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-kasairinkai": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 182,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-rinshinomori": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-edogawa-shizen": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-edogawa-ichinoe2": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-shinozaki": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-jindai": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-shakujii": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-ichikawa-4084": {
+    "parking": {
+      "available": false,
+      "type": "none",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-tokyo-ojima-komatsugawa": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 97,
+      "note": "以前取得した公式案内で確認。最新の料金・利用条件は公式を確認してください。"
+    }
+  },
+  "place-added-2af7e42b4c15": {
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 120,
+      "fee": null,
+      "capacity": 680,
+      "note": "最初の2時間無料、以降30分220円。24時間770円。税込3,000円以上の購入で追加1時間無料。"
+    },
+    "prefecture": "千葉県",
+    "area": "市川市南行徳2-20-25",
+    "website": "https://minami-gyotoku.socola-sc.jp/access/",
+    "tags": ["洋服", "子ども服"],
+    "weather": ["sunny", "rainy"],
+    "description": "市川市南行徳2-20-25のおでかけスポット。特徴：洋服・子ども服。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-138e423f61ea": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 1192,
+      "note": "立体665台・平面527台。直営売場1,000円以上購入または映画館利用で3時間無料、最大6時間。無料サービス後30分200円。購入条件付きサービスで、無条件の無料時間は未確認。"
+    },
+    "prefecture": "千葉県",
+    "area": "市川市妙典5-3-1",
+    "website": "https://www.aeon.com/store/イオン/イオン市川妙典店/shop_info/hours/",
+    "description": "市川市妙典5-3-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-baf0472c5d3a": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "60分ごと200円。購入金額・映画・対象施設・コルトンクラブ会員による無料サービスあり。区画ごとに最大料金・高さ制限が異なります。"
+    },
+    "subcategories": ["遊ぶ"],
+    "tags": ["アウトドア用品", "洋服", "キッズ施設", "映画館"],
+    "prefecture": "千葉県",
+    "area": "市川市",
+    "website": "https://www.nikke-cp.gr.jp/guide/parking.jsp",
+    "weather": ["sunny", "rainy"],
+    "description": "市川市のおでかけスポット。特徴：アウトドア用品・洋服・キッズ施設・映画館。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-e7121f95379f": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 300,
+      "note": "最初の1時間600円、以降30分250円。当日最大は平日1,000円・土日祝1,300円。購入金額に応じ最大3時間無料。"
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市入船1-5-1",
+    "website": "https://www.e-mona.jp/shop/access.jsp",
+    "description": "浦安市入船1-5-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-0ec4adabf5f1": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 73,
+      "note": "10:00〜24:30は30分200円、深夜は60分100円。最大1,500円（土日祝は最大なし）。購入金額に応じ最大3時間無料。"
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市入船1-1-1",
+    "website": "https://www.atre.co.jp/shin_urayasu/access/",
+    "description": "浦安市入船1-1-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-33e02e66ba4c": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": 930,
+      "note": "施設利用者に限り無料。平置・立体の合計930台。"
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市明海4-1-1",
+    "website": "https://www.newcoast.jp/access/",
+    "tags": ["家電"],
+    "weather": ["sunny", "rainy"],
+    "description": "浦安市明海4-1-1のおでかけスポット。特徴：家電。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-c7e1085140cb": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "基本は最初の1時間800円、以降30分400円。屋外アネックス・R5は最初の1時間無料（12/31除く）。カード・購入・映画利用で割引。屋外限定の無料時間は全区画共通と扱わない。"
+    },
+    "subcategories": ["遊ぶ"],
+    "tags": ["映画館"],
+    "prefecture": "千葉県",
+    "area": "浦安市舞浜1-4",
+    "website": "https://www.ikspiari.com/info/access/",
+    "description": "浦安市舞浜1-4のおでかけスポット。特徴：映画館。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-362838edeaa5": {
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 240,
+      "fee": null,
+      "capacity": 2000,
+      "note": "最初の4時間無料、以降20分100円・上限なし。当面は平日のみ6時間無料。映画とアプリ会員の追加サービスあり。"
+    },
+    "subcategories": ["遊ぶ"],
+    "tags": ["映画館"],
+    "prefecture": "千葉県",
+    "area": "松戸市",
+    "website": "https://terracemall.com/matsudo/access/",
+    "description": "松戸市のおでかけスポット。特徴：映画館。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-2fdc32ab8675": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 4000,
+      "note": "約4,000台の駐車場を確認。駐車料金は未確認。"
+    },
+    "subcategories": ["遊ぶ"],
+    "tags": ["映画館", "ゲームセンター"],
+    "prefecture": "千葉県",
+    "area": "柏市大島田1-6-1",
+    "website": "https://sevenpark-kashiwa.ario.jp/information/access/",
+    "description": "柏市大島田1-6-1のおでかけスポット。特徴：映画館・ゲームセンター。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-e4a4f86d57fd": {
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 180,
+      "fee": null,
+      "capacity": 700,
+      "note": "来店客は入庫から3時間無料。以降の料金は公式の駐車場案内画像をご確認ください。"
+    },
+    "prefecture": "千葉県",
+    "area": "鎌ケ谷市新鎌ヶ谷2-12-1",
+    "website": "https://shinkama.acrossmall.jp/access/",
+    "description": "鎌ケ谷市新鎌ヶ谷2-12-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-dbd1093400e9": {
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 180,
+      "fee": null,
+      "capacity": null,
+      "note": "購入金額によらず最初の3時間無料。税込3,000円以上購入でさらに2時間無料。以降1時間100円。"
+    },
+    "website": "https://www.aeon.jp/sc/yachiyomidorigaoka/access/parking_info.html"
+  },
+  "place-added-15669cf406ca": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "直営・提携駐車場を確認。基本料金・無条件無料時間は本文で確認できず不明。対象店舗利用による無料サービスあり。"
+    },
+    "subcategories": ["遊ぶ"],
+    "tags": ["映画館", "キッズ施設"],
+    "prefecture": "千葉県",
+    "area": "印西市中央北3-2",
+    "website": "https://chibanewtown.aeonmall.jp/access",
+    "description": "印西市中央北3-2のおでかけスポット。特徴：映画館・キッズ施設。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-5394b5ebbbe7": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 1850,
+      "note": "駐車場1,850台。料金は未確認。"
+    },
+    "prefecture": "東京都",
+    "area": "江戸川区東葛西9-3-3",
+    "website": "https://kasai.ario.jp/information/access/",
+    "description": "江戸川区東葛西9-3-3のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-484051286eee": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 2150,
+      "note": "駐車場2,150台。料金は未確認。"
+    },
+    "prefecture": "東京都",
+    "area": "江東区北砂2-17-1",
+    "website": "https://kitasuna.ario.jp/information/access/",
+    "description": "江東区北砂2-17-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-371139a8f229": {
+    "prefecture": "東京都",
+    "area": "江東区新砂3-4-31",
+    "website": "https://www.sunamo.jp/access/",
+    "description": "江東区新砂3-4-31のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-15a45a24de42": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 300,
+      "note": "30分250円。24時間最大は平日1,000円・土日祝1,700円。購入金額による1〜3時間無料サービスあり。"
+    },
+    "website": "https://www.kameidoclock.jp/",
+    "prefecture": "東京都",
+    "area": "江東区亀戸6-31-6",
+    "description": "江東区亀戸6-31-6のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-67c41db82589": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": 50,
+      "note": "約50台無料。満車時は公園内の有料駐車場を利用。"
+    },
+    "camping": {
+      "overnight": true,
+      "bbq": true,
+      "bonfire": true,
+      "shower": true,
+      "bath": true
+    },
+    "tags": ["BBQ可", "焚き火OK", "シャワー", "風呂"],
+    "subcategories": ["BBQ"],
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "千葉市緑区小食土町955",
+    "website": "https://forestvillage.jp/facility/",
+    "description": "千葉市緑区小食土町955のおでかけスポット。特徴：BBQ可・焚き火OK・シャワー・風呂。営業時間や利用条件は公式サイトでご確認ください。BBQ・焚き火は専用スペースでの利用です。予約・料金・利用条件は公式でご確認ください。"
+  },
+  "place-added-12b3bcfe25e5": {
+    "tags": ["フィールドアスレチック"],
+    "subcategories": ["アスレチック"],
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "柏市片山275",
+    "website": "https://www.recamp.co.jp/rcshonan",
+    "description": "柏市片山275のおでかけスポット。特徴：フィールドアスレチック。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-b42bf83636af": {
+    "prefecture": "千葉県",
+    "area": "香取市西田部1309-29",
+    "website": "https://www.thefarm.jp/access/",
+    "description": "香取市西田部1309-29のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-8b56df2197db": {
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "館山市布沼1210",
+    "website": "https://www.recamp.co.jp/recamptateyama",
+    "description": "館山市布沼1210のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-dbbf6198f943": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": 150,
+      "note": "園内・園外合わせて150台無料。園内区画は原則BBQ利用者専用。"
+    },
+    "camping": {
+      "overnight": true,
+      "bbq": true
+    },
+    "subcategories": ["BBQ", "アスレチック"],
+    "tags": ["BBQ可", "フィールドアスレチック"],
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "柏市布瀬89-1",
+    "website": "https://www.yumefarm.jp/facility",
+    "description": "柏市布瀬89-1のおでかけスポット。特徴：BBQ可・フィールドアスレチック。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-8d5b74c6cf0e": {
+    "camping": {
+      "overnight": true,
+      "cottage": true,
+      "shower": true,
+      "bbq": true
+    },
+    "tags": ["コテージ", "シャワー", "BBQ可"],
+    "subcategories": ["BBQ"],
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "君津市栗坪300",
+    "website": "https://www.eleven-camp.com/access",
+    "description": "君津市栗坪300のおでかけスポット。特徴：コテージ・シャワー・BBQ可。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-97ac17d3a751": {
+    "camping": {
+      "overnight": true,
+      "tentStay": true,
+      "bbq": true,
+      "shower": true
+    },
+    "tags": ["宿泊キャンプ", "テント泊", "BBQ可", "シャワー"],
+    "subcategories": ["BBQ"],
+    "weather": ["sunny"],
+    "prefecture": "東京都",
+    "area": "西多摩郡奥多摩町川野1740",
+    "website": "https://www.yamafuru.com/facility/camp/",
+    "description": "西多摩郡奥多摩町川野1740のおでかけスポット。特徴：宿泊キャンプ・テント泊・BBQ可・シャワー。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-85ef6ba5c1df": {
+    "camping": {
+      "dayCamp": true,
+      "overnight": true,
+      "poweredSite": true,
+      "rental": true,
+      "shower": true,
+      "bath": true,
+      "bonfire": true,
+      "bbq": true
+    },
+    "tags": [
+      "デイキャンプ",
+      "電源サイト",
+      "レンタルあり",
+      "シャワー",
+      "風呂",
+      "焚き火OK",
+      "BBQ可"
+    ],
+    "subcategories": ["BBQ"],
+    "weather": ["sunny"],
+    "website": "https://orangemura.com/camp/",
+    "description": "特徴：デイキャンプ・電源サイト・レンタルあり・シャワー・風呂・焚き火OK・BBQ可。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-c35bf114f20e": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "キャンプ区画内に車を駐車可能。別の駐車場はなし。駐車単独の料金区分は未確認。"
+    },
+    "camping": {
+      "autoCamp": true,
+      "carBesideSite": true,
+      "poweredSite": true,
+      "shower": true
+    },
+    "tags": ["オートキャンプ", "車横付け", "電源サイト", "シャワー"],
+    "weather": ["sunny"],
+    "website": "https://www.herb-cool.com/オートキャンプ場/",
+    "description": "特徴：オートキャンプ・車横付け・電源サイト・シャワー。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-aae3ce8fb0a3": {
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "君津市旅名96",
+    "website": "https://fruitsvillage.com/access.html",
+    "description": "君津市旅名96のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-4ec4e6ccc6fc": {
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 60,
+      "fee": null,
+      "capacity": null,
+      "note": "ららぽーとTOKYO-BAY North Gate内。P12・P13は平日4時間、土日祝1時間無料。以降は商業施設の公式料金をご確認ください。"
+    },
+    "weather": ["sunny", "rainy", "indoor"],
+    "prefecture": "千葉県",
+    "area": "船橋市浜町2-2-7",
+    "website": "https://fantasyresort.jp/funabashi/access/",
+    "description": "船橋市浜町2-2-7のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-7a72e7e77142": {
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 240,
+      "fee": null,
+      "capacity": null,
+      "note": "BIG HOP駐車場は平日4時間・土日祝8時間無料。遊び場利用で終日無料サービス。"
+    },
+    "weather": ["sunny", "rainy", "indoor"],
+    "prefecture": "千葉県",
+    "area": "印西市原1-2",
+    "website": "https://fantasyresort.jp/inzai/access/",
+    "description": "印西市原1-2のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-3cb492ed2fa6": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "タイムズビア長池第1（369台）・第2（268台）。遊び場利用者は最大4時間無料。基本料金は駐車場ごとに異なります。"
+    },
+    "weather": ["sunny", "rainy", "indoor"],
+    "website": "https://asobimare.jp/tokyo/access/"
+  },
+  "place-added-8974f6380b38": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "提携第1・第4駐車場。施設利用時に平日のみ2時間無料。基本料金は駐車場運営者の公式をご確認ください。"
+    },
+    "weather": ["sunny", "rainy", "indoor"],
+    "prefecture": "東京都",
+    "area": "日野市程久保3-36-60",
+    "website": "https://www.keio-hughug.jp/access/",
+    "description": "日野市程久保3-36-60のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-bce64314a901": {
+    "weather": ["sunny", "rainy", "indoor"],
+    "prefecture": "東京都",
+    "area": "江東区青海1-1-10",
+    "website": "https://litpla.com/space/litpla_divercity_tokyo/",
+    "description": "江東区青海1-1-10のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-1c6092d3eb0a": {
+    "tags": ["トランポリン"],
+    "subcategories": ["室内スポーツ"],
+    "weather": ["sunny", "rainy", "indoor"],
+    "website": "https://bandainamco-am.co.jp/others/tondemi/heiwajima/",
+    "description": "特徴：トランポリン。営業時間や利用条件は公式サイトでご確認ください。",
+    "stayDuration": [2]
+  },
+  "place-added-9f9911dde92e": {
+    "fishing": {
+      "haze": true
+    },
+    "tags": ["ハゼ釣り"],
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "市川市",
+    "website": "https://www.city.ichikawa.lg.jp/site/edogawa/1238.html",
+    "description": "市川市のおでかけスポット。特徴：ハゼ釣り。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-f353959c935f": {
+    "fishing": {
+      "seaFishingFacility": true,
+      "rodRental": true,
+      "beginnerFriendly": true,
+      "childFriendly": true
+    },
+    "tags": ["海釣り施設", "貸し竿", "初心者向け釣り", "子ども向け釣り"],
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "市原市",
+    "website": "https://ichihara-umizuri.com/",
+    "description": "市原市のおでかけスポット。特徴：海釣り施設・貸し竿・初心者向け釣り・子ども向け釣り。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-ffecf9fb8fa8": {
+    "tags": ["芝生"],
+    "subcategories": ["ピクニック", "キャンプ"],
+    "camping": {
+      "dayCamp": true
+    },
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "浦安市",
+    "website": "https://www.urayasu-kankou.jp/index/1956/",
+    "description": "浦安市のおでかけスポット。特徴：芝生。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-9e21081a94c6": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "第一・第二駐車場を確認。料金・台数は未確認。"
+    },
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "柏市柏の葉4-1",
+    "website": "https://www.cue-net.or.jp/kouen/kasiwa/",
+    "description": "柏市柏の葉4-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-66bfcb52a5bb": {
+    "weather": ["sunny"],
+    "website": "https://kusabue.shiteikanri-sakura.jp/access"
+  },
+  "place-added-51902b931ab3": {
+    "camping": {
+      "overnight": true,
+      "shower": true
+    },
+    "tags": ["大型遊具", "シャワー"],
+    "subcategories": ["キャンプ"],
+    "weather": ["sunny"],
+    "website": "https://www.city.narita.chiba.jp/environment/page187200.html",
+    "description": "特徴：大型遊具・シャワー。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-kamogawa": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 1200,
+      "capacity": 1200,
+      "note": "普通車1日1,200円。現金払い。入館者のみ利用可。"
+    }
+  },
+  "place-puroland": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 1800,
+      "capacity": 80,
+      "note": "地下駐車場は1日1,800円・約80台。正午で入庫案内終了。満車・午後は提携駐車場（別料金）。"
+    }
+  },
+  "place-mother": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 1000,
+      "capacity": null,
+      "note": "乗用車1,000円。現金払い。"
+    }
+  },
+  "place-yomiuri": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "利用駐車場・曜日・対象施設により料金が異なります。遊園地用区画は入庫すると料金発生。詳細は公式料金表をご確認ください。"
+    }
+  },
+  "place-tdl": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "パーク別の有料駐車場。普通車・大型車・二輪で料金区分が異なります。当日の同一車両は再駐車可。最新料金は公式をご確認ください。"
+    }
+  },
+  "place-tds": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "パーク別の有料駐車場。普通車・大型車・二輪で料金区分が異なります。当日の同一車両は再駐車可。最新料金は公式をご確認ください。"
+    }
+  },
+  "place-german": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 3000,
+      "note": "乗用車は2026年10月30日まで1,000円、10月31日〜12月31日は1,500円。季節・特定日で変更。約3,000台。最新料金は公式をご確認ください。"
+    }
+  },
+  "place-sunshine-aqua": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 1800,
+      "note": "サンシャインシティ駐車場を利用。入庫6時間まで30分400円、6〜24時間4,800円。施設・購入による割引あり。"
+    }
+  },
+  "place-yunessun": {
+    "sauna": {
+      "available": true,
+      "mixedGenderUse": true,
+      "swimwearRequired": true,
+      "familyUse": "yes"
+    },
+    "subcategories": ["サウナ"],
+    "tags": ["サウナ", "家族利用可能", "男女一緒に利用可", "水着エリア"]
+  },
+  "place-added-33b950395380": {
+    "weather": ["sunny", "rainy", "indoor"],
+    "prefecture": "東京都",
+    "area": "立川市緑町3-1",
+    "website": "https://play2020.jp/park/",
+    "description": "立川市緑町3-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-53844d424cf6": {
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 8,
+      "note": "駐車場8台。料金は未確認。"
+    },
+    "weather": ["sunny"],
+    "prefecture": "東京都",
+    "area": "新宿区市谷田町1-1",
+    "website": "https://www.ichigaya-fc.com/hp2025/index.html",
+    "description": "新宿区市谷田町1-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-c083f0621f51": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": null,
+      "note": "普通車無料。大型・中型車は1日1台1回1,500円。"
+    },
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "袖ケ浦市飯富2360",
+    "website": "https://www.park-sodegaura.or.jp/access/",
+    "description": "袖ケ浦市飯富2360のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-e434409b753a": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 230,
+      "note": "普通車230台（大型バス利用時211台）。公式料金表をご確認ください。"
+    },
+    "weather": ["sunny"],
+    "prefecture": "千葉県",
+    "area": "千葉市花見川区",
+    "website": "https://www.city.chiba.jp/toshi/koenryokuchi/kanri/hanamigawa-inage/hanasima_access.html",
+    "description": "千葉市花見川区のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-2388a9f55d77": {
+    "weather": ["sunny"],
+    "prefecture": "東京都",
+    "area": "江戸川区南葛西3-17-1",
+    "website": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/c_recreation/fuji.html",
+    "description": "江戸川区南葛西3-17-1のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-35ca7ab24fa4": {
+    "weather": ["sunny"],
+    "website": "https://www.city.chiba.jp/toshi/koenryokuchi/kanri/chuo-mihama/chibakouen.html"
+  },
+  "place-added-0079833e7670": {
+    "prefecture": "千葉県",
+    "area": "館山市山本257-3",
+    "website": "https://www.tateyama-ichigo.com/information/access/",
+    "description": "館山市山本257-3のおでかけスポット。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-added-28e5e5a45191": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": null,
+      "note": "無料駐車場あり。イチゴ農園とブルーベリー農園で所在地が異なります。大型バス可。"
+    },
+    "tags": ["いちご狩り", "ブルーベリー狩り"],
+    "prefecture": "千葉県",
+    "area": "千葉市若葉区小倉町",
+    "website": "https://www.city.chiba.jp/keizainosei/nosei/nosei/dragonfarm-map.html",
+    "description": "千葉市若葉区小倉町のおでかけスポット。特徴：いちご狩り・ブルーベリー狩り。営業時間や利用条件は公式サイトでご確認ください。"
+  },
+  "place-hakone-openair": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "一般車は3時間まで500円、以降1時間500円。入館者向け割引料金のため、入館せず駐車のみの利用はできません。"
+    }
+  },
+  "place-chiba-zoo": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 800,
+      "capacity": null,
+      "note": "普通車800円。大型車3,200円、自転車・二輪無料。"
+    }
+  },
+  "place-andersen": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": "普通車の有料駐車場あり。季節・車種により料金が異なります。公式料金表をご確認ください。"
+    }
+  },
+  "place-kodomonokuni": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 1000,
+      "capacity": null,
+      "note": "普通車・小型車・軽自動車は1,000円（サイズ制限あり）。現金払い。"
+    }
+  },
+  "place-yume": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 1000,
+      "capacity": null,
+      "note": "普通車1,000円、大型車1,500円、二輪600円。"
+    }
+  },
+  "place-chiba-science": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 250,
+      "note": "複合施設Qiballの有料駐車場250台。時間別料金は公式案内をご確認ください。"
+    }
+  },
+  "place-america-camp": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 1000,
+      "capacity": null,
+      "note": "デイキャンプの普通車駐車1台1,000円。宿泊利用は各プランを確認。"
+    }
+  },
+  "place-forest-chichibu": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": null,
+      "note": "無料大型駐車場あり。P4が最寄り。"
+    }
+  },
+  "place-glico": {
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": null,
+      "note": "公式見学案内に無料駐車場ありと記載。"
+    }
+  },
+  "place-saitama-river": {
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": 300,
+      "capacity": null,
+      "note": "普通車300円、バス1,030円。"
+    }
+  }
+}
