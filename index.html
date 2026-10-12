@@ -30,6 +30,9 @@
             autocomplete="off"
           />
         </div>
+        <button id="picker-open" class="picker-entry">
+          🎯 おまかせで決める
+        </button>
         <div id="suggestions" class="chips suggestions"></div>
         <div id="categories" class="category-grid"></div>
         <div id="hierarchy"></div>
@@ -114,6 +117,12 @@
       ><button data-view="add"><span>＋</span>追加</button>
     </nav>
     <div id="notice" role="status" aria-live="polite" hidden></div>
+    <dialog id="picker-dialog" aria-labelledby="picker-title">
+      <button class="close" data-close="picker-dialog" aria-label="閉じる">
+        ×
+      </button>
+      <div id="picker-content"></div>
+    </dialog>
     <dialog id="detail-dialog">
       <button class="close" data-close="detail-dialog" aria-label="閉じる">
         ×

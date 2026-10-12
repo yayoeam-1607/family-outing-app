@@ -25,6 +25,7 @@ import {
 } from "./taxonomy.js";
 import { upgradeSpot } from "./spot-schema.js";
 import { regions } from "./spots.js";
+import { installPicker } from "./picker-ui.js";
 import { resultPresentation } from "./result-presentation.js";
 import { searchFacets } from "./search-facets.js";
 const $ = (id) => document.getElementById(id),
@@ -176,12 +177,18 @@ const detailLabel = (v) =>
         v ??
         "不明");
 function card(s) {
+  return cardFor(s, criteria);
+}
+function cardFor(s, c) {
   const v = latest(s.id),
     count = visitCount(state, s.id),
-    minutes =
-      s.travel[criteria.transport === "train" ? "trainMinutes" : "carMinutes"],
-    { tags, points } = resultPresentation(s, criteria);
-  return `<article class="spot-card" tabindex="0" role="button" aria-label="${esc(s.name)}の詳細" data-detail="${esc(s.id)}"><div class="card-heading"><h3>${esc(s.name)}</h3><button class="favorite ${state.favorites.includes(s.id) ? "selected" : ""}" data-favorite="${esc(s.id)}" aria-label="${esc(s.name)}を${state.favorites.includes(s.id) ? "お気に入り解除" : "お気に入りに追加"}" aria-pressed="${state.favorites.includes(s.id)}">${state.favorites.includes(s.id) ? "♥" : "♡"}</button></div><div class="card-location"><span class="card-category">${esc(taxonomy[s.mainCategory].label)}</span>${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${isArchived(s.id) ? " · 非表示の場所" : ""}</div><div class="card-facts"><span title="瑞江駅からの目安">${criteria.transport === "train" ? "🚃" : "🚗"} 瑞江駅から<br>${timeLabel(minutes)}${minutes == null ? "" : "（目安）"}</span><span>家族4人 ${priceLabel(s)}</span><span>${criteria.parking !== "any" ? "<strong>" : ""}🅿 ${parkingLabel(s)}${criteria.parking !== "any" ? "</strong>" : ""}</span><span>${weatherLabel(s)}</span></div><div class="card-tags">${tags.map((t) => `<span>#${esc(t)}</span>`).join("")}</div>${points.length ? `<div class="match-points">${points.map((p) => `<span>✓ ${esc(p)}</span>`).join("")}</div>` : ""}<div class="visit-status">${v ? `<strong>✓ ${esc(v.date.replaceAll("-", "/"))}に行った</strong>　訪問${count}回` : "まだ行っていない"}</div></article>`;
+    minutes = s.travel[c.transport === "train" ? "trainMinutes" : "carMinutes"],
+    { tags, points } = resultPresentation(s, c);
+  if (c.unvisited && count === 0) points.unshift("まだ行ってない");
+  points.splice(4);
+  if (c.unvisited && count === 0) points.unshift("まだ行ってない");
+  points.splice(4);
+  return `<article class="spot-card" tabindex="0" role="button" aria-label="${esc(s.name)}の詳細" data-detail="${esc(s.id)}"><div class="card-heading"><h3>${esc(s.name)}</h3><button class="favorite ${state.favorites.includes(s.id) ? "selected" : ""}" data-favorite="${esc(s.id)}" aria-label="${esc(s.name)}を${state.favorites.includes(s.id) ? "お気に入り解除" : "お気に入りに追加"}" aria-pressed="${state.favorites.includes(s.id)}">${state.favorites.includes(s.id) ? "♥" : "♡"}</button></div><div class="card-location"><span class="card-category">${esc(taxonomy[s.mainCategory].label)}</span>${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${isArchived(s.id) ? " · 非表示の場所" : ""}</div><div class="card-facts"><span title="瑞江駅からの目安">${c.transport === "train" ? "🚃" : "🚗"} 瑞江駅から<br>${timeLabel(minutes)}${minutes == null ? "" : "（目安）"}</span><span>家族4人 ${priceLabel(s)}</span><span>${c.parking && c.parking !== "any" ? "<strong>" : ""}🅿 ${parkingLabel(s)}${c.parking && c.parking !== "any" ? "</strong>" : ""}</span><span>${weatherLabel(s)}</span></div><div class="card-tags">${tags.map((t) => `<span>#${esc(t)}</span>`).join("")}</div>${points.length ? `<div class="match-points">${points.map((p) => `<span>✓ ${esc(p)}</span>`).join("")}</div>` : ""}<div class="visit-status">${v ? `<strong>✓ ${esc(v.date.replaceAll("-", "/"))}に行った</strong>　訪問${count}回` : "まだ行っていない"}</div></article>`;
 }
 function renderResults() {
   const result = searchResults(state, criteria);
@@ -492,6 +499,7 @@ function detailsTable(group, fields, data) {
     .join("")}</div>`;
 }
 function showDetail(id) {
+  if ($("picker-dialog").open) $("picker-dialog").close();
   const s = spotById(id);
   if (!s) return;
   detailId = s.id;
@@ -1123,3 +1131,10 @@ for (const dialog of document.querySelectorAll("dialog"))
     }
   });
 renderAll();
+
+installPicker({
+  getState: () => state,
+  getCriteria: () => criteria,
+  renderCard: cardFor,
+  showDetail,
+});

@@ -5,10 +5,20 @@ import {
   fishingFields,
   saunaFields,
 } from "./taxonomy.js";
+import { matchesSpot, matchesBudget } from "./search.js";
 export function resultPresentation(spot, criteria) {
   const all = effectiveTags(spot),
     matched = [];
   const points = [];
+  if (criteria.query?.trim() && matchesSpot(spot, criteria))
+    points.push("キーワードに一致");
+  if (
+    [criteria.budgetMin, criteria.budgetMax].some(
+      (v) => v != null && v !== "" && v !== "any",
+    ) &&
+    matchesBudget(spot, criteria.budgetMin, criteria.budgetMax)
+  )
+    points.push("予算条件に一致");
   for (const tag of criteria.tags ?? [])
     if (all.includes(tag)) {
       matched.push(tag);
