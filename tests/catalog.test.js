@@ -1,3 +1,5 @@
+import shoppingInformation from "../catalog-shopping-data.json" with { type: "json" };
+import shoppingAudit from "../docs/shopping-audit.json" with { type: "json" };
 import informationSources from "../docs/information-sources.json" with { type: "json" };
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -20,7 +22,7 @@ test('実在カタログは固定ID付き施設で旧250件の公式確認記録
     assert.match(s.id, /^place-/);
     assert.equal(s.source, 'builtin');
     assert.equal(s.sample, false);
-    if(s.id.startsWith('place-added-')) {assert.ok(s.website === '' || informationSources.some(r => r.id === s.id && r.source === s.website));assert.equal(s.price.family4Typical,null);continue;}
+    if(s.id.startsWith('place-added-')) {assert.ok(s.website === '' || informationSources.some(r => r.id === s.id && r.source === s.website) || (shoppingInformation[s.id]?.website === s.website && shoppingAudit.facilities.some(r => r.id === s.id && r.sources.some(source => source.status === 'reviewed' && source.supports.includes('website')))));assert.equal(s.price.family4Typical,null);continue;}
     assert.ok(s.area && s.website.startsWith('https://'));
     const record = evidence.find(e=>e.id===s.id);
     assert.equal(record?.name, s.name);

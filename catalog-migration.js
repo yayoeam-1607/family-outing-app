@@ -1,3 +1,4 @@
+import { mergeShopping } from "./catalog-shopping.js";
 import { mergeInformation } from "./catalog-information.js";
 import { mergeSearchClassification } from "./catalog-search-repairs.js";
 import { upgradeSpot } from "./spot-schema.js";
@@ -41,11 +42,15 @@ export function migrateCatalogue(state, catalogue, revision) {
       else active.push(structuredClone(s));
     }
   const latest = new Map(catalogue.map((s) => [s.id, s]));
-  const update = (s) =>
-    mergeInformation(
-      mergeSearchClassification(s, latest.get(s.id)),
-      latest.get(s.id),
-    );
+  const update = (s) => {
+    const current = latest.get(s.id);
+    let updated = s;
+    if ((state.catalogRevision ?? 0) < 6)
+      updated = mergeSearchClassification(updated, current);
+    if ((state.catalogRevision ?? 0) < 7)
+      updated = mergeInformation(updated, current);
+    return mergeShopping(updated, current);
+  };
   return {
     ...state,
     version: 3,

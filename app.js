@@ -229,12 +229,12 @@ function renderCommon() {
     "travelRange",
     "片道の移動時間",
     [
-      ["any", "指定なし"],
-      ["0-30", "0〜30分"],
-      ["30-60", "30〜60分"],
-      ["60-90", "60〜90分"],
-      ["90-120", "90〜120分"],
-      ["120-180", "120〜180分"],
+      ["any", "気にしない"],
+      ["0-30", "30分以内"],
+      ["0-60", "1時間以内"],
+      ["0-90", "1時間30分以内"],
+      ["0-120", "2時間以内"],
+      ["0-180", "3時間以内"],
     ],
     criteria.travelRange,
   )}${select("region", "地域", [["any", "指定なし"], ...regions.map((r) => [r, r])], criteria.region)}<label class="budget-label">家族4人の予算<div class="budget-range"><select data-condition="budgetMin" aria-label="予算下限">${prices
@@ -406,7 +406,13 @@ function renderSelected() {
         "",
         prefix +
           (k === "travelRange"
-            ? criteria[k].replace("-", "〜") + "分"
+            ? ({
+                "0-30": "30分以内",
+                "0-60": "1時間以内",
+                "0-90": "1時間30分以内",
+                "0-120": "2時間以内",
+                "0-180": "3時間以内",
+              }[criteria[k]] ?? criteria[k].replace("-", "〜") + "分")
             : k.startsWith("budget")
               ? yen(criteria[k])
               : (labels[criteria[k]] ?? criteria[k])),

@@ -1,0 +1,2081 @@
+{
+  "checkedAt": "2026-10-12",
+  "catalogRevision": 8,
+  "policy": "公式の当該施設・テナント情報だけを採用。未確認はunknown。検索断片、共通メニュー、近隣の別施設、期間限定催事は根拠にしない。",
+  "facilities": [
+    {
+      "id": "place-mitsui-toyosu",
+      "name": "アーバンドック ららぽーと豊洲",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "confirmed",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/toyosu/floor/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.kidzania.jp/tokyo/access",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "子ども向け体験"],
+          "basis": "ららぽーと豊洲1ノースポート3Fの常設子ども職業体験施設。",
+          "sha256": "8e34638e9ce2b7a808993253b35207a6194e6328e440c541d7503af98a307eb8",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.unitedcinemas.jp/toyosu/index.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "348b9ca61edd02df801b3d94358253d574e9bdeca1289185012a0d06f93e50c3",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.kidzania.jp/tokyo/access",
+          "kind": "施設・テナント公式",
+          "supports": ["parking"],
+          "basis": "豊洲1・2駐車場の最初1時間無料、以降30分400円を明記。豊洲3の条件へ一般化しない。",
+          "sha256": "8e34638e9ce2b7a808993253b35207a6194e6328e440c541d7503af98a307eb8",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-mitsui-tokyo-bay",
+      "name": "ららぽーとTOKYO-BAY",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "confirmed",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/tokyo-bay/shopguide/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/llp-tokyo-bay",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム", "コインゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーン・メダルを明記。メダルをコインゲームとして登録。",
+          "sha256": "1b60d9a5a03b1ef4c2cf53fd956debdd371be6ccbef2269deaa042df364ea60a",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/llp-tokyo-bay",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "子ども向け体験"],
+          "basis": "館内のキッズマーケットでゲームのポイントによる買い物体験を明記。",
+          "sha256": "1b60d9a5a03b1ef4c2cf53fd956debdd371be6ccbef2269deaa042df364ea60a",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/018/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "40857db86b2ae50b6b4a90c4a949fdd2209e90866f15cfa43589708533494c14",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/018/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["parking"],
+          "basis": "映画館公式アクセスに施設駐車場約7000台・最初1時間無料を明記。",
+          "sha256": "40857db86b2ae50b6b4a90c4a949fdd2209e90866f15cfa43589708533494c14",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-mitsui-shinmisato",
+      "name": "ららぽーと新三郷",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "confirmed",
+        "スポーツ／アクティビティ": "confirmed",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/shinmisato/floor/?mfintid=footer_floor_0023",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/shinmisato/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "当該店の設置機種一覧を確認。メダル機は未確認のため追加しない。",
+          "sha256": "bc1200976992b1d21b73e8b442516f5307e2715a6a6009b100f286c42a643cb8",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/shinmisato/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "d94861923c0e3ceabfc1b25a22c94910766e33f159103d7df875110427686b7f",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.round1.co.jp/shop/facility/saitama-shinmisato.html",
+          "kind": "施設・テナント公式",
+          "supports": [
+            "クレーンゲーム",
+            "ボウリング",
+            "スポーツ／アクティビティ"
+          ],
+          "basis": "館内ラウンドワンの当該店舗施設一覧にギガクレーン・ボウリング・スポッチャを掲載。",
+          "sha256": "9e517c6d0e7c0dc8bdf100c2f3d0e42e7bd1da90941d2cf1792aea62c35dcfe2",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-mitsui-kashiwa",
+      "name": "ららぽーと柏の葉",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/kashiwa/floor/floor2.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/llp-kashiwanoha",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム", "コインゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーン・メダルを明記。メダルをコインゲームとして登録。",
+          "sha256": "184ad13684d314a41feea5ed5b8233e2ca34972ec5ad8ef6402292d84bcd0df0",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.smt-cinema.com/site/kashiwanoha/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "fc06e109bda449e8bca6d57d2dde7974fbf6dd78b631fbbf2273dbc89b993a7c",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-mitsui-fujimi",
+      "name": "ららぽーと富士見",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/fujimi/floor/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/llp-fujimi",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーンを明記。メダルをコインゲームとして登録。",
+          "sha256": "ffb18ee5dc40eaece41a6e2429c42292ae48f6db2bf4e4c76883987812b8826a",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/075/institution.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "581cba2cb7636e8d5e0e25f428c13d37d6b43f0549167d92e647128b4e785836",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-mitsui-ebina",
+      "name": "ららぽーと海老名",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/ebina/floor/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/kids/asobiparkplus/loc/ebina.html",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "a05bc6425f3c7836e95ccc1b89520ffc4ddeea2e3af8e69b953bc38986bc4b0b",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "TOHOシネマズ海老名はビナウォーク内であり、こちらには混在させない。"
+      ]
+    },
+    {
+      "id": "place-mitsui-tachikawa",
+      "name": "ららぽーと立川立飛",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/tachikawa/floor/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/tachikawatachihi/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "90eefe709b5c4d62575e1ba2627157359408fd28e81beaf145a70e17b6e4b496",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/tachikawatachihi/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "daab3b90204209cfa953fb9ecb56beef17c7c8ca4c873bfb69e82bbe86af2230",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/tachikawatachihi/",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店にアンパンマン景品のクレーンゲーム機設置を明記。",
+          "sha256": "6bb4e31ca5b4b1322b083ce565d52b35b86831b32267645d598e6bcbabb5f3aa",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "近隣のTOHOシネマズ立川立飛は館内施設と確定できないため映画館タグを追加しない。"
+      ]
+    },
+    {
+      "id": "place-mitsui-yokohama",
+      "name": "ららぽーと横浜",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/yokohama/floor/?mfintid=footer_floor_0017",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yokohama-lalaport/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "当該店の設置機種一覧を確認。メダル機は未確認のため追加しない。",
+          "sha256": "f9f5f6c8a9928f9291f6664ef6b366a5f329388112b2fb30608db4e3a792e298",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yokohama-lalaport/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "1e8fd3b11da535ecfdfb503a784985f49c2da3779d3550aeec3c23e9d2a003c0",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/036/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "d08816b3f117b35d9bbd48323111744b2ffa8839356ad0b6e6ba3a205a95b624",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/036/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["parking"],
+          "basis": "施設駐車場4600台、平日無料・土日祝200円/30分、繁忙期例外を明記。",
+          "sha256": "d08816b3f117b35d9bbd48323111744b2ffa8839356ad0b6e6ba3a205a95b624",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-kisarazu-outlet",
+      "name": "三井アウトレットパーク 木更津",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/mop/kisarazu/search/floor1f.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-makuhari-aeon",
+      "name": "イオンモール幕張新都心",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://makuharishintoshin.aeonmall.jp/guide/equipment",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/makuhari-shintoshin/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "81d6b505797dda483bf459dbcab9b455c0a6f0cc47083377a084100bad6d5825",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/makuhari-shintoshin/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "10638b95be9bbc967c6cc46562020ef09cc57813c111bc2f05ff091c7618a924",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/makuhari/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "177c95a499e89e555875f0497eee05d70fe20c1dddac234d95af66da05503a17",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-laketown",
+      "name": "イオンレイクタウン",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://laketown.aeonmall.jp/floormap",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/laketown/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "72249e871e694ff1f45e0ae2a06ea2348d2fda33667f56445f04761a0ade018e",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/laketown/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "8dd6b52514a2a7c1fc33e666c7a339a8bbb953180699b5838fd73618f33bbc96",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/skidsgarden/shoplist/shop5439/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "66640c5ad7d1d2b743488045df24b563e63765f295b3015aa9c0bfdab98022fd",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/koshigaya/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "6c8581c86b20c3e3893ed37842162ae62007e9c66219ec0fa1129b3543df2aca",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-minamiosawa",
+      "name": "三井アウトレットパーク 多摩南大沢",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/mop/tama/search/floor1f.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://mitsui-shopping-park.com/mop/tama/info/child.html",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設"],
+          "basis": "当該施設内の常設子ども向け遊び場を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "b34724e5cfc646c195205756f0bf4b0061a6de8baa417e33cd675e4cafaaadce",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-iruma",
+      "name": "三井アウトレットパーク 入間",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/mop/iruma/search/floor1f.html?mfintid=footer_floor_0107",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "市内の別所在地GiGO入間をアウトレット内テナントとみなさない。",
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-shonan-hiratsuka",
+      "name": "THE OUTLETS SHONAN HIRATSUKA",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://kr.aeonmall.global/mall/theoutletsshonanhiratsuka/shops-entertainment",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-yokohama-outlet",
+      "name": "三井アウトレットパーク 横浜ベイサイド",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/mop/yokohama/search/floor1f.html?mfintid=footer_floor_0113",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "横浜ワールドポーターズ等の別施設の遊びを混在させない。",
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-sakeya",
+      "name": "酒々井プレミアム・アウトレット",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.premiumoutlets.co.jp/shisui/brands/floormap.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-laketown-outlet",
+      "name": "レイクタウンアウトレット",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://laketown-outlet.jp/static/detail/sitemap",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "mori・kazeのnamcoや映画館を別施設のアウトレットへ転記しない。",
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-aeon-kawaguchi",
+      "name": "イオンモール川口",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://kawaguchi.aeonmall.jp/floormap",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/a-kawaguchi",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーンを明記。メダルをコインゲームとして登録。",
+          "sha256": "44d2ba70f4310c41aa69fe2bae8416d01b95e7fb8ff26caeb22cd649708b4791",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/kawaguchi/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "717493e005b73e188f019829f15f3386612f3bc735858abb6d5db957b3efbc09",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/kawaguchi/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["parking"],
+          "basis": "公式アクセスに施設駐車場2800台を明記。料金は未確認。",
+          "sha256": "717493e005b73e188f019829f15f3386612f3bc735858abb6d5db957b3efbc09",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-aeon-musashimurayama",
+      "name": "イオンモールむさし村山",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://musashimurayama.aeonmall.jp/kids",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/a-musashimurayama/games",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "店舗別ゲーム一覧にパワフルプロ野球・桃太郎電鉄などメダル機を掲載。",
+          "sha256": "bd0b4398ee6ae8f9dfd4c46f6dabdc38d85125e3b252f1a55aae3edf4ce9aca4",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/a-musashimurayama/prizes",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗の景品・プライズ掲載を確認。",
+          "sha256": "041c53cb8d429395add97fd8e29801c399780ffd81647321bd439d483ecf6a71",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/skidsgarden/shoplist/shop5437/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "bd902bafbf2a0462631f420c16682c597ac127a13f1aa43f026d28820302d9eb",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/musashino/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "b98b753c10ae4e0ca38a033ac3539a4be9ebd342b4713cc2dfa14e72934e2c6f",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/musashino/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["parking"],
+          "basis": "公式アクセスに館の駐車場4000台・無料と明記。",
+          "sha256": "b98b753c10ae4e0ca38a033ac3539a4be9ebd342b4713cc2dfa14e72934e2c6f",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-northport",
+      "name": "ノースポート・モール",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.northport.jp/shop/floor",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://northport.jp/shop/detail/16911?tenant_cd=16911",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+          "basis": "サープラ横浜あそびタウンの公式館内紹介にクレーン500台以上とメダルコーナーを明記。",
+          "sha256": "5c58c669822033f735c12df6bc0f98c18f9c9e39a453b81d433a6a709a0148cc",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://northport.jp/shop/detail/15201?tenant_cd=15201",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "b919ca62e10f05c86e9c92c2298955baf505aa7c2832e4aac04a697272b0cc52",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-vinawalk",
+      "name": "ビナウォーク",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.odakyu-sc.com/vinawalk/shop/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.taito.co.jp/store/00001748",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "館内タイトーステーションの店舗公式案内を確認。個別メダル・プライズ機種は確認できないので追加しない。",
+          "sha256": "85cf78d3ec8ded54fb5b8e2c24ea6e40bcf54e8afb7b73739b9c0ea464270fb6",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "TOHOシネマズ海老名の休館・再開状況を確定できないため今回映画館タグは追加しない。"
+      ]
+    },
+    {
+      "id": "place-lala-hiratsuka",
+      "name": "ららぽーと湘南平塚",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://mitsui-shopping-park.com/lalaport/hiratsuka/shopguide/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/skidsgarden/shoplist/shop32105/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "89d7388ac3311b7c3cfd3fdf77441638ecb96429e475991615c4e1bc77580ce9",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-lala-sagamihara",
+      "name": "アリオ橋本",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://hashimoto.ario.jp/shop/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/sagamihara-hashimoto/games",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "GiGOアリオ橋本の店舗別設置一覧にメダル分類の機種を掲載。",
+          "sha256": "8c71ae526d2ab2fa06841d81906278fa6a788219cda591b9b545b73a06540c1a",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/sagamihara-hashimoto",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーンを明記。",
+          "sha256": "d8d1bd3e6b36a984d4200f38fcaadfd4241e2c977f3ae08f577fd9d187883131",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-aeon-narita",
+      "name": "イオンモール成田",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://narita.aeonmall.jp/kids",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/molly-fantasy/shoplist/shop5486/",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "モーリーファンタジー成田店の常設店舗と館内所在地を確認。バッジだけでは個別メダル・クレーン設置を確定しない。",
+          "sha256": "5182fcce42ccb0ecaf6c069066504eb0a1da2b8976210325ff722e01803e3d87",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/skidsgarden/shoplist/shop5426/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "95317a95c9fd2f543b3fb33ec7a81c0933c5f04ac4047082caf1a89c8d4f07eb",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-lala-yokosuka",
+      "name": "コースカ ベイサイド ストアーズ",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "confirmed",
+        "スポーツ／アクティビティ": "confirmed",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://main.coaska.jp/shopguide.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yokosuka/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "9b17c611252d19541b9d008384c823a7a68e60c30116997c5876a1b7dc007dc5",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yokosuka/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "238ef69127498896610ef4de75d0eb098a631e1046ae6ba9ac67757977695adb",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://coaska.jp/floorguide.html?f=6",
+          "kind": "施設・テナント公式",
+          "supports": ["ボウリング", "スポーツ／アクティビティ"],
+          "basis": "館内6Fのボウリング王国スポルト（601区画）を施設公式で確認。",
+          "sha256": "93f6e600e7181c1d7c33f7c7221826a638d51a8735d6197ef519adc2e4983858",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-terrace-tsujido",
+      "name": "テラスモール湘南",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://shonan.terracemall.com/shopguide/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://kidokid.bornelund.co.jp/terracemall-shonan/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "ddf228a85e6abf869731a456305e90e8984cecb1656dc479458bfcc81df2f71e",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-shonan-mall",
+      "name": "湘南モールフィル",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.shonan-fill.com/shop/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.shonan-fill.com/shop/158/",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "施設公式にソユーゲームフィールド・店内100台以上のゲーム機を明記。",
+          "sha256": "de7f44e681a94c9e0eb8a3b76a079714f6bc788f9084b3d2e9fdd8bfb5a2be61",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.shonan-fill.com/point/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設"],
+          "basis": "当該施設内の常設子ども向け遊び場を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "19083010d833ee36febf8aa5bcba43da40e15342dceec866b9a575beb4229551",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-hinode",
+      "name": "イオンモール日の出",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "unknown",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://hinode.aeonmall.jp/kids",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/molly-fantasy/shoplist/shop3449/",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "モーリーファンタジー日の出店の常設館内店舗を確認。",
+          "sha256": "a5ba8e663abb6644608a4c473320c565f9369d5f652a923835d0ca46d989d7cf",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://hinode.aeonmall.jp/news/shopnews/615bf2ea-851f-4e7c-a01f-c7ca53c74a74",
+          "kind": "施設・テナント公式",
+          "supports": ["コインゲーム"],
+          "basis": "館内テナント公式ニュースに常設メダルコーナーの曜日サービスを明記。",
+          "sha256": "c68d6a77ee3d4b177deaef5b52147c95b7e6ca5e62cef02a685e90ab1c84bfde",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/hinode/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "c2e876765f83c5b2115ea08864f696571534c24fcb05700e67d2e1c2e21fc6d0",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-2af7e42b4c15",
+      "name": "SOCOLA南行徳",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "confirmed",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown",
+        "トランポリン": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://minami-gyotoku.socola-sc.jp/floorguide/floor/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://ninjapark.net/minami-gyotoku/information/",
+          "kind": "施設・テナント公式",
+          "supports": ["トランポリン", "スポーツ／アクティビティ"],
+          "basis": "SOCOLA南行徳館内のニンジャパーク公式に当該店のトランポリン等の遊具を掲載。",
+          "sha256": "0dd7fdc0783bc07725b4ef6e59615bdddb6dee09b76610b864c9885cec323af9",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-138e423f61ea",
+      "name": "イオン市川妙典店",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E5%B8%82%E5%B7%9D%E5%A6%99%E5%85%B8%E5%BA%97/shop_info/floor_guide/2779549/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://leisurelan.co.jp/store/tf_ichikawa.html",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+          "basis": "イオン市川妙典2番街2F・設置ゲームジャンルにメダルとプライズを明記。",
+          "sha256": "56c99fb0b3a314b73a033cdcf5d19cf7c3ea7a41862e9350dec87172534fd6fc",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/ichikawa/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "d3c3fb3ca90a265fe9d61a1cc700ba7a5a500c074e379787b9c4fbe4b7fb649a",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-baf0472c5d3a",
+      "name": "ニッケコルトンプラザ",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.nikke-cp.gr.jp/shop/floor/floor.jsp",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.nikke-purekids.jp/shop/ichikawa/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "890b04e2ad1fe2f47659bfe79631610a9c2bd65c882d02d75d90f0c31d9f77d0",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/003/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "509389a0b8b501d2fe3ae1e94d8de51cb309fae566358f807dbd8c0241292dc2",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-e7121f95379f",
+      "name": "MONA新浦安",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.e-mona.jp/shop/floor.jsp?fid=2f",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "イオン新浦安内GiGOはMONA内ではない。",
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-added-0ec4adabf5f1",
+      "name": "アトレ新浦安",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.atre.co.jp/index.php/shin_urayasu/floorguide/2/3",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "イオン新浦安内GiGOはアトレ内ではない。",
+        "全対象項目を調査したが常設遊びの公式根拠を確定できず、今回「遊ぶ」は付与しない。unknownは設備が存在しないことを意味しない。"
+      ]
+    },
+    {
+      "id": "place-added-33e02e66ba4c",
+      "name": "ニューコースト新浦安",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.newcoast.jp/shop/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.newcoast.jp/shop/taito/",
+          "kind": "施設・テナント公式",
+          "supports": [
+            "ゲームセンター",
+            "コインゲーム",
+            "クレーンゲーム",
+            "キッズ施設",
+            "室内遊具"
+          ],
+          "basis": "施設公式にクレーン・メダル・アーケード・遊具コーナーを明記。",
+          "sha256": "d44a9b76690c6d90d4444aa97f56ebaf17723f729f6194072cf12d340b8fa886",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-c7e1085140cb",
+      "name": "イクスピアリ",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://ikspiari.com/info/map/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.ikspiari.com/cinema/index.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "71ecf14d0f0289876ab69563af1ded7366fa3c939f8b29e18419d5821d9716a1",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-e5f4bc0aa4ed",
+      "name": "イオンモール船橋",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.aeon.jp/sc/funabashi/shop/store/service-243.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/funabashi/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "795ec5c58f5e81709a12807251c734f08e2c5e784333b676977487949e43db21",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/funabashi/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "1e1a934597cd5af00ff046161c6627f3d109051601f39520c57bcbcae5855c39",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/skidsgarden/shoplist/shop5442/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "d02857efefc57d6318b0e7b69642b49d57501565068d927f21f901c9220dfd3f",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeon.jp/sc/funabashi/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["prefecture", "area", "website"],
+          "basis": "所在地を公式アクセスで確認。",
+          "sha256": "a4b8d2ca0dd2f030959ee0dc7ed6d25e6d3e5f311df17767aad1a4ca757cf46f",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-89dd8a35a650",
+      "name": "ビビット南船橋",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.vivit-sc.jp/shop/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://fantasyresort.jp/funabashi/attraction/",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "bcc63f1fecd2f753dd6b2f60d595c4f3fb5c5c135645878b5e979e399a15532e",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://fantasyresort.jp/funabashi/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["name", "prefecture", "area", "website", "parking"],
+          "basis": "現営業中の公式店舗アクセスでNorth Gateの名称・住所、P12/P13無料時間を確認。既存IDを維持して旧施設名を併記。",
+          "sha256": "d0c5127a391a4a029565f3e845f3e6dd5a69e9a48b6e2d1c1e8e8e4b42bbecd1",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.mitsuifudosan.co.jp/corporate/news/2025/0916/",
+          "kind": "施設運営会社公式発表",
+          "supports": ["name"],
+          "basis": "北館I期開業に合わせたビビット南船橋からNorth Gateへの名称変更を告知。現在営業中のテナント公式アクセスの新名称と照合。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-362838edeaa5",
+      "name": "テラスモール松戸",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://terracemall.com/matsudo/shopguide/?floor=1f",
+          "kind": "施設公式フロア・施設案内",
+          "supports": ["映画館"],
+          "basis": "館内公式掲載と既存の公式確認済み情報を照合して維持。個別機種の未確認情報は追加しない。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/matsudo-terracemall/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "cbd3ba7a353da17f55b6ec8ae1832ad81568f8ee7d10d458b18f82d1ec3cf39a",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/matsudo-terracemall/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "eb0540b2cacbd037fcf5bf591bce4de4a44fa12f785e962f41ce76145ba659a3",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-2fdc32ab8675",
+      "name": "セブンパーク アリオ柏",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "confirmed",
+        "スポーツ／アクティビティ": "confirmed",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://sevenpark-kashiwa.ario.jp/shop/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": ["ゲームセンター", "映画館"],
+          "basis": "館内公式掲載と既存の公式確認済み情報を照合して維持。個別機種の未確認情報は追加しない。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.round1.co.jp/shop/facility/chiba-kashiwa.html",
+          "kind": "施設・テナント公式",
+          "supports": [
+            "クレーンゲーム",
+            "ボウリング",
+            "スポーツ／アクティビティ",
+            "キッズ施設",
+            "室内遊具"
+          ],
+          "basis": "セブンパーク アリオ柏館内にボウリング・ギガクレーン・スポッチャ・専用キッズ遊具エリアを明記。",
+          "sha256": "a36105aace30e3abbdaf8f6066dc427acf1d994011a67c9d03af4cc55242ee6b",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-a9746bead9bf",
+      "name": "モラージュ柏",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.mallage-kashiwa.com/floor1_guide",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/kashiwa-oyamadai",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム", "コインゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーン・メダルを明記。メダルをコインゲームとして登録。",
+          "sha256": "fab6ff456f6e94e024ef008d046401344576a88316850b83cf95d329c8e16edf",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.mallage-kashiwa.com/access",
+          "kind": "施設・テナント公式",
+          "supports": ["prefecture", "area", "website", "parking"],
+          "basis": "公式アクセスに無料駐車場967台と柏市大山台2-3を明記。",
+          "sha256": "603c81e3bf383a0459c163ddf1ccabf2d2f94af178e1d4770d74459fadbe1161",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-c86d96a63f86",
+      "name": "流山おおたかの森S・C",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "confirmed",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/nagareyama/?p=game_info",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/nagareyama/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "2c21bd54537e4e1b1734a335880023089f0239a6fcde4f05ab826afa27a40377",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/nagareyama/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "433c172d8ed56387ba9d5c608dc985cc43851e3d4da198547abcfc6da5297142",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.tohotheater.jp/theater/035/access.html",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "6f9f0c763b3bbecdd4c42f003f1f13b377d7946a2a27c7d4d30cc7f695afe2f3",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/nagareyama/",
+          "kind": "施設・テナント公式",
+          "supports": ["prefecture", "area"],
+          "basis": "当該店公式にショッピングセンター所在地を明記。",
+          "sha256": "d1fc6ba94bbc02c9924c795a3ad41c726f7f9c29816cdf0ab1688a22d4231416",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.otakanomori-sc.com/sc_kids/playground",
+          "kind": "施設・テナント公式",
+          "supports": ["website"],
+          "basis": "ショッピングセンター自身の公式サイトURLを確認。閉店済みボーネルンドの記載は遊びタグの根拠にしない。",
+          "sha256": "009652d4e6be264cebd16e95a9c5a6ed5905f457da19ddaae67cb7c1bdac3449",
+          "status": "reviewed"
+        }
+      ],
+      "notes": [
+        "ボーネルンドは公式に2026-08-16閉店告知。旧館内紹介だけを根拠にキッズ施設を追加しない。"
+      ]
+    },
+    {
+      "id": "place-added-e4a4f86d57fd",
+      "name": "アクロスモール新鎌ヶ谷",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.karzoc.co.jp/store/storeinfo/shinkamagaya/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.karzoc.co.jp/store/storeinfo/shinkamagaya/",
+          "kind": "施設・テナント公式",
+          "supports": [
+            "ゲームセンター",
+            "コインゲーム",
+            "クレーンゲーム",
+            "キッズ施設"
+          ],
+          "basis": "NICOPA新鎌ヶ谷の館内所在地とクレーン・メダル・無料子ども遊び場を明記。",
+          "sha256": "0d3209986690e4871ff3aa11c4cf6dad85592c4d2059772696e812845eb2f047",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-15669cf406ca",
+      "name": "イオンモール千葉ニュータウン",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "confirmed",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://chibanewtown.aeonmall.jp/kids",
+          "kind": "施設公式フロア・施設案内",
+          "supports": ["キッズ施設"],
+          "basis": "館内公式掲載と既存の公式確認済み情報を照合して維持。個別機種の未確認情報は追加しない。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.fantasy.co.jp/molly-fantasy/shoplist/shop3463/",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター"],
+          "basis": "モーリーファンタジー千葉ニュータウンの館内店舗を確認。個別メダル・クレーンは未確認。",
+          "sha256": "3b57eb6b3956964d0f94bffbf2fa8f8b96a6c751d07fd41c938eb00d28afd425",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.aeoncinema.com/chiba/access/",
+          "kind": "施設・テナント公式",
+          "supports": ["映画館"],
+          "basis": "映画館公式の当該館案内・アクセスまたは施設公式の館内映画館掲載を確認。",
+          "sha256": "53955881bc5a4a4cdbed1067ff1eb5cf9dfe214bd75439a367cba7561621a71c",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-dbd1093400e9",
+      "name": "イオンモール八千代緑が丘",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.aeon.jp/sc/yachiyomidorigaoka/shop/floor/ebook/yachiyomidorigaoka/pageindices/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yachiyo-midorigaoka/?p=game_info",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム"],
+          "basis": "当該店の設置機種一覧にメダル分類の実機を掲載（共通ナビゲーションは除外）。",
+          "sha256": "0bd19309a004bec012ad6edfb64c67f43f0ef201f3f65f9fc5a3c878d02eb3d1",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yachiyo-midorigaoka/?p=prize_info",
+          "kind": "施設・テナント公式",
+          "supports": ["クレーンゲーム"],
+          "basis": "当該店舗専用の入荷景品・プライズ一覧を確認。公式のプライズをクレーンゲームに統一。全国共通のオンラインクレーンへのリンクは根拠にしない。",
+          "sha256": "cc5fca33952d56047feae2037fa05eaacb4d4982b4d95ba47faf98ab4ac94ba3",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://bandainamco-am.co.jp/game_center/loc/yachiyo-midorigaoka/",
+          "kind": "施設・テナント公式",
+          "supports": ["prefecture", "area"],
+          "basis": "公式店舗情報に千葉県八千代市緑が丘2-1-3・館内4Fを明記。",
+          "sha256": "41ae3b1bf156dd71795af8db49e93207365f33649cb91e2ecfbedc9af0c8b4c7",
+          "status": "reviewed"
+        }
+      ],
+      "notes": ["近隣映画館は別所在地のため映画館タグを追加しない。"]
+    },
+    {
+      "id": "place-added-5394b5ebbbe7",
+      "name": "アリオ葛西",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "confirmed",
+        "スポーツ／アクティビティ": "confirmed",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://kasai.ario.jp/shop/1600000044/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://kasai.ario.jp/shop/1600000044/",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+          "basis": "施設公式のGiGO紹介にクレーン・メダル・音楽ゲームを明記。",
+          "sha256": "3154f68e520373c10c25c42513ebcb8e73f83c118c13d0e7a54592d1c45367df",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/bowl-kasai",
+          "kind": "施設・テナント公式",
+          "supports": ["ボウリング", "スポーツ／アクティビティ"],
+          "basis": "GiGO BOWLアリオ葛西の店舗公式で館内3Fのボウリング場を確認。",
+          "sha256": "dda96cacc39d9b1df2234a1421cba4d4c924996cb0687ed4d14bcd660156d565",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-371139a8f229",
+      "name": "SUNAMO",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "confirmed",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "confirmed",
+        "子ども向け遊び場": "confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.sunamo.jp/floor/category.html",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.sunamo.jp/floor/shop_detail.html?UC=4_052",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム"],
+          "basis": "館内タイトーステーションの公式説明で約250台のクレーンゲームを明記。",
+          "sha256": "953216eb97768591f6633eebf200a6606e08febd80a06c6559418f376edfadf6",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.sunamo.jp/floor/shop_detail.html?UC=4_053",
+          "kind": "施設・テナント公式",
+          "supports": ["キッズ施設", "室内遊具"],
+          "basis": "当該施設内の常設子ども向け遊び場・屋内遊具を公式案内で確認。衣料品店や期間限定イベントを除外。",
+          "sha256": "b3a4a530d7c332f7dffd4a40c155e936190957754a7b002ded74ddbee9ee2e3a",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.sunamo.jp/floor/shop_detail.html?UC=4_053",
+          "kind": "施設・テナント公式",
+          "supports": ["子ども向け体験"],
+          "basis": "常設のキャラクター育成プレイグラウンドの創作・遊具連動体験を確認。",
+          "sha256": "b3a4a530d7c332f7dffd4a40c155e936190957754a7b002ded74ddbee9ee2e3a",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-484051286eee",
+      "name": "アリオ北砂",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "confirmed",
+        "コインゲーム": "confirmed",
+        "クレーンゲーム": "confirmed",
+        "映画館": "unknown",
+        "キッズ施設": "unknown",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://kitasuna.ario.jp/shop/1400000166/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": [],
+          "basis": "当該施設の常設テナントと子ども向けサービスを監査。取得できない部分や記載のない設備は未確認扱い。",
+          "status": "reviewed"
+        },
+        {
+          "url": "https://www.gigo.co.jp/shops/kitasuna",
+          "kind": "施設・テナント公式",
+          "supports": ["ゲームセンター", "クレーンゲーム", "コインゲーム"],
+          "basis": "当該店舗のゲーム種類にクレーン・メダルを明記。メダルをコインゲームとして登録。",
+          "sha256": "53d35350b87e22ab6b4311542d0fa16c798cceaa4082cfcd9d315bb73c7f91b8",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "place-added-15a45a24de42",
+      "name": "カメイドクロック",
+      "checkedAt": "2026-10-12",
+      "features": {
+        "ゲームセンター": "unknown",
+        "コインゲーム": "unknown",
+        "クレーンゲーム": "unknown",
+        "映画館": "unknown",
+        "キッズ施設": "confirmed",
+        "室内遊具": "unknown",
+        "ボウリング": "unknown",
+        "スポーツ／アクティビティ": "unknown",
+        "子ども向け体験": "unknown",
+        "子ども向け遊び場": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.kameidoclock.jp/facility/",
+          "kind": "施設公式フロア・施設案内",
+          "supports": ["キッズ施設"],
+          "basis": "館内公式掲載と既存の公式確認済み情報を照合して維持。個別機種の未確認情報は追加しない。",
+          "status": "reviewed"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

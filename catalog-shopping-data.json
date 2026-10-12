@@ -1,0 +1,297 @@
+{
+  "place-mitsui-toyosu": {
+    "tags": ["キッズ施設", "子ども向け体験", "映画館"],
+    "subcategories": ["遊ぶ"],
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 60,
+      "fee": null,
+      "capacity": null,
+      "note": "ららぽーと豊洲1・2：最初の1時間無料、以降30分ごと400円。キッザニア利用等の追加サービスあり。豊洲3はサービス対象外のため別途公式案内を確認。"
+    }
+  },
+  "place-mitsui-tokyo-bay": {
+    "tags": [
+      "ゲームセンター",
+      "クレーンゲーム",
+      "コインゲーム",
+      "キッズ施設",
+      "子ども向け体験",
+      "映画館"
+    ],
+    "subcategories": ["遊ぶ"],
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 60,
+      "fee": null,
+      "capacity": 7000,
+      "note": "最初の1時間無料。映画鑑賞で追加3時間（最大4時間）無料などのサービスあり。駐車区画別・以降の料金は公式案内を確認。"
+    }
+  },
+  "place-mitsui-shinmisato": {
+    "tags": [
+      "ゲームセンター",
+      "クレーンゲーム",
+      "ボウリング",
+      "スポーツ／アクティビティ"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-mitsui-kashiwa": {
+    "tags": ["ゲームセンター", "クレーンゲーム", "コインゲーム", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-mitsui-fujimi": {
+    "tags": ["ゲームセンター", "クレーンゲーム", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-mitsui-ebina": {
+    "tags": ["キッズ施設", "室内遊具"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-mitsui-tachikawa": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-mitsui-yokohama": {
+    "tags": ["ゲームセンター", "クレーンゲーム", "映画館"],
+    "subcategories": ["遊ぶ"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 4600,
+      "note": "通常平日無料、土日祝200円/30分。年末年始・GW等は平日も有料の場合あり。映画鑑賞で最大4時間サービス。"
+    }
+  },
+  "place-makuhari-aeon": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-laketown": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "キッズ施設",
+      "室内遊具",
+      "映画館"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-minamiosawa": {
+    "tags": ["キッズ施設"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-aeon-kawaguchi": {
+    "tags": ["ゲームセンター", "クレーンゲーム", "映画館"],
+    "subcategories": ["遊ぶ"],
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": 2800,
+      "note": "駐車場2800台。料金・無料サービスは施設公式で確認。"
+    }
+  },
+  "place-aeon-musashimurayama": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "キッズ施設",
+      "室内遊具",
+      "映画館"
+    ],
+    "subcategories": ["遊ぶ"],
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": 4000,
+      "note": "イオンモールむさし村山の駐車場は無料。営業時間外の入場経路は公式案内を確認。"
+    }
+  },
+  "place-northport": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "キッズ施設",
+      "室内遊具"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-vinawalk": {
+    "tags": ["ゲームセンター"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-lala-hiratsuka": {
+    "tags": ["キッズ施設", "室内遊具"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-lala-sagamihara": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-aeon-narita": {
+    "tags": ["ゲームセンター", "キッズ施設", "室内遊具"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-lala-yokosuka": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "ボウリング",
+      "スポーツ／アクティビティ"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-terrace-tsujido": {
+    "tags": ["キッズ施設", "室内遊具"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-shonan-mall": {
+    "tags": ["ゲームセンター", "キッズ施設"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-hinode": {
+    "tags": ["ゲームセンター", "コインゲーム", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-2af7e42b4c15": {
+    "tags": ["トランポリン", "スポーツ／アクティビティ"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-138e423f61ea": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-baf0472c5d3a": {
+    "tags": ["キッズ施設", "室内遊具", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-33e02e66ba4c": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "キッズ施設",
+      "室内遊具"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-c7e1085140cb": {
+    "tags": ["映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-e5f4bc0aa4ed": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "キッズ施設",
+      "室内遊具"
+    ],
+    "subcategories": ["遊ぶ"],
+    "prefecture": "千葉県",
+    "area": "船橋市山手1-1-8",
+    "website": "https://www.aeon.jp/sc/funabashi/"
+  },
+  "place-added-89dd8a35a650": {
+    "tags": ["キッズ施設", "室内遊具"],
+    "subcategories": ["遊ぶ"],
+    "name": "ららぽーとTOKYO-BAY North Gate（旧ビビット南船橋）",
+    "prefecture": "千葉県",
+    "area": "船橋市浜町2-2-7",
+    "website": "https://mitsui-shopping-park.com/lalaport/tokyo-bay/",
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "freeMinutes": 60,
+      "fee": null,
+      "capacity": null,
+      "note": "North GateのP12・P13駐車場：平日は4時間、土日祝日は1時間無料。以降の料金・買い物によるサービスは公式案内を確認。"
+    }
+  },
+  "place-added-362838edeaa5": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-2fdc32ab8675": {
+    "tags": [
+      "クレーンゲーム",
+      "ボウリング",
+      "スポーツ／アクティビティ",
+      "キッズ施設",
+      "室内遊具"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-a9746bead9bf": {
+    "tags": ["ゲームセンター", "クレーンゲーム", "コインゲーム"],
+    "subcategories": ["遊ぶ"],
+    "prefecture": "千葉県",
+    "area": "柏市大山台2-3",
+    "website": "https://www.mallage-kashiwa.com/",
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": 967,
+      "note": "無料駐車場967台。混雑時の案内・利用時間は施設公式を確認。"
+    }
+  },
+  "place-added-c86d96a63f86": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム", "映画館"],
+    "subcategories": ["遊ぶ"],
+    "prefecture": "千葉県",
+    "area": "流山市おおたかの森南1-5-1",
+    "website": "https://www.otakanomori-sc.com/"
+  },
+  "place-added-e4a4f86d57fd": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム", "キッズ施設"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-15669cf406ca": {
+    "tags": ["ゲームセンター", "映画館"],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-dbd1093400e9": {
+    "tags": ["ゲームセンター", "コインゲーム", "クレーンゲーム"],
+    "subcategories": ["遊ぶ"],
+    "prefecture": "千葉県",
+    "area": "八千代市緑が丘2-1-3"
+  },
+  "place-added-5394b5ebbbe7": {
+    "tags": [
+      "ゲームセンター",
+      "コインゲーム",
+      "クレーンゲーム",
+      "ボウリング",
+      "スポーツ／アクティビティ"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-371139a8f229": {
+    "tags": [
+      "ゲームセンター",
+      "クレーンゲーム",
+      "キッズ施設",
+      "室内遊具",
+      "子ども向け体験"
+    ],
+    "subcategories": ["遊ぶ"]
+  },
+  "place-added-484051286eee": {
+    "tags": ["ゲームセンター", "クレーンゲーム", "コインゲーム"],
+    "subcategories": ["遊ぶ"]
+  }
+}

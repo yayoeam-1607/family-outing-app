@@ -1,0 +1,223 @@
+{
+  "catalogRevision": 8,
+  "total": 350,
+  "audited": 48,
+  "counts": [
+    {
+      "label": "ショッピング総数",
+      "before": 48,
+      "after": 48
+    },
+    {
+      "label": "遊ぶ",
+      "before": 8,
+      "after": 40
+    },
+    {
+      "label": "ゲームセンター",
+      "before": 4,
+      "after": 30
+    },
+    {
+      "label": "コインゲーム",
+      "before": 2,
+      "after": 20
+    },
+    {
+      "label": "クレーンゲーム",
+      "before": 1,
+      "after": 25
+    },
+    {
+      "label": "映画館",
+      "before": 5,
+      "after": 17
+    },
+    {
+      "label": "キッズ施設",
+      "before": 3,
+      "after": 20
+    },
+    {
+      "label": "その他遊び",
+      "before": 0,
+      "after": 19
+    }
+  ],
+  "newPlay": [
+    {
+      "id": "place-mitsui-toyosu",
+      "name": "アーバンドック ららぽーと豊洲"
+    },
+    {
+      "id": "place-mitsui-shinmisato",
+      "name": "ららぽーと新三郷"
+    },
+    {
+      "id": "place-mitsui-kashiwa",
+      "name": "ららぽーと柏の葉"
+    },
+    {
+      "id": "place-mitsui-fujimi",
+      "name": "ららぽーと富士見"
+    },
+    {
+      "id": "place-mitsui-ebina",
+      "name": "ららぽーと海老名"
+    },
+    {
+      "id": "place-mitsui-tachikawa",
+      "name": "ららぽーと立川立飛"
+    },
+    {
+      "id": "place-mitsui-yokohama",
+      "name": "ららぽーと横浜"
+    },
+    {
+      "id": "place-makuhari-aeon",
+      "name": "イオンモール幕張新都心"
+    },
+    {
+      "id": "place-laketown",
+      "name": "イオンレイクタウン"
+    },
+    {
+      "id": "place-minamiosawa",
+      "name": "三井アウトレットパーク 多摩南大沢"
+    },
+    {
+      "id": "place-aeon-kawaguchi",
+      "name": "イオンモール川口"
+    },
+    {
+      "id": "place-aeon-musashimurayama",
+      "name": "イオンモールむさし村山"
+    },
+    {
+      "id": "place-northport",
+      "name": "ノースポート・モール"
+    },
+    {
+      "id": "place-vinawalk",
+      "name": "ビナウォーク"
+    },
+    {
+      "id": "place-lala-hiratsuka",
+      "name": "ららぽーと湘南平塚"
+    },
+    {
+      "id": "place-lala-sagamihara",
+      "name": "アリオ橋本"
+    },
+    {
+      "id": "place-aeon-narita",
+      "name": "イオンモール成田"
+    },
+    {
+      "id": "place-lala-yokosuka",
+      "name": "コースカ ベイサイド ストアーズ"
+    },
+    {
+      "id": "place-terrace-tsujido",
+      "name": "テラスモール湘南"
+    },
+    {
+      "id": "place-shonan-mall",
+      "name": "湘南モールフィル"
+    },
+    {
+      "id": "place-hinode",
+      "name": "イオンモール日の出"
+    },
+    {
+      "id": "place-added-2af7e42b4c15",
+      "name": "SOCOLA南行徳"
+    },
+    {
+      "id": "place-added-33e02e66ba4c",
+      "name": "ニューコースト新浦安"
+    },
+    {
+      "id": "place-added-e5f4bc0aa4ed",
+      "name": "イオンモール船橋"
+    },
+    {
+      "id": "place-added-89dd8a35a650",
+      "name": "ららぽーとTOKYO-BAY North Gate（旧ビビット南船橋）"
+    },
+    {
+      "id": "place-added-a9746bead9bf",
+      "name": "モラージュ柏"
+    },
+    {
+      "id": "place-added-c86d96a63f86",
+      "name": "流山おおたかの森S・C"
+    },
+    {
+      "id": "place-added-e4a4f86d57fd",
+      "name": "アクロスモール新鎌ヶ谷"
+    },
+    {
+      "id": "place-added-dbd1093400e9",
+      "name": "イオンモール八千代緑が丘"
+    },
+    {
+      "id": "place-added-5394b5ebbbe7",
+      "name": "アリオ葛西"
+    },
+    {
+      "id": "place-added-371139a8f229",
+      "name": "SUNAMO"
+    },
+    {
+      "id": "place-added-484051286eee",
+      "name": "アリオ北砂"
+    }
+  ],
+  "travelUpperLimits": {
+    "car": [
+      {
+        "max": 30,
+        "count": 47
+      },
+      {
+        "max": 60,
+        "count": 99
+      },
+      {
+        "max": 90,
+        "count": 138
+      },
+      {
+        "max": 120,
+        "count": 189
+      },
+      {
+        "max": 180,
+        "count": 250
+      }
+    ],
+    "train": [
+      {
+        "max": 30,
+        "count": 6
+      },
+      {
+        "max": 60,
+        "count": 65
+      },
+      {
+        "max": 90,
+        "count": 106
+      },
+      {
+        "max": 120,
+        "count": 144
+      },
+      {
+        "max": 180,
+        "count": 220
+      }
+    ]
+  }
+}

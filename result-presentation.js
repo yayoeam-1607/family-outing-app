@@ -5,6 +5,7 @@ import {
   fishingFields,
   saunaFields,
 } from "./taxonomy.js";
+import { normalizeSearchText } from "./search-synonyms.js";
 import { matchesSpot, matchesBudget } from "./search.js";
 export function resultPresentation(spot, criteria) {
   const all = effectiveTags(spot),
@@ -62,16 +63,10 @@ export function resultPresentation(spot, criteria) {
     }
   }
   const words =
-    criteria.query
-      ?.normalize("NFKC")
-      .toLowerCase()
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean) ?? [];
+    normalizeSearchText(criteria.query).trim().split(/\s+/).filter(Boolean) ??
+    [];
   for (const tag of all)
-    if (
-      words.some((word) => tag.normalize("NFKC").toLowerCase().includes(word))
-    ) {
+    if (words.some((word) => normalizeSearchText(tag).includes(word))) {
       matched.push(tag);
       points.push(tag);
     }

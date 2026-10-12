@@ -56,12 +56,10 @@ function merge(current, old, latest) {
   }
   return current;
 }
-export function mergeInformation(spot, latest) {
-  const old = originals.get(spot.id),
-    patch = information[spot.id];
-  if (spot.source !== "builtin" || !latest || !old || !patch) return spot;
+export function mergeConfirmedFields(spot, latest, old, fields) {
+  if (spot.source !== "builtin" || !latest || !old) return spot;
   const result = { ...spot };
-  for (const field of Object.keys(patch)) {
+  for (const field of fields) {
     if (
       ["tags", "subcategories"].includes(field) &&
       spot.mainCategory !== old.mainCategory
@@ -73,4 +71,16 @@ export function mergeInformation(spot, latest) {
     result[field] = merge(spot[field], old[field], latest[field]);
   }
   return result;
+}
+
+export function mergeInformation(spot, latest) {
+  const patch = information[spot.id];
+  return patch
+    ? mergeConfirmedFields(
+        spot,
+        latest,
+        originals.get(spot.id),
+        Object.keys(patch),
+      )
+    : spot;
 }

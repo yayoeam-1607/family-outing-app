@@ -1,4 +1,5 @@
 import { taxonomy, seasons, effectiveTags } from "./taxonomy.js";
+import { normalizeSearchText } from "./search-synonyms.js";
 import { matchesRegion } from "./spots.js";
 const specified = (v) =>
   v !== undefined && v !== null && v !== "" && v !== "any";
@@ -18,23 +19,20 @@ export function matchesBudget(s, min, max) {
 }
 export function matchesSpot(s, c) {
   const related = (s.seasons ?? []).flatMap((x) => [seasons[x], x]);
-  const text = [
-    s.name,
-    s.description,
-    taxonomy[s.mainCategory]?.label,
-    s.mainCategory,
-    ...(s.subcategories ?? []),
-    ...effectiveTags(s),
-    ...related,
-  ]
-    .join(" ")
-    .normalize("NFKC")
-    .toLowerCase();
+  const text = normalizeSearchText(
+    [
+      s.name,
+      s.description,
+      taxonomy[s.mainCategory]?.label,
+      s.mainCategory,
+      ...(s.subcategories ?? []),
+      ...effectiveTags(s),
+      ...related,
+    ].join(" "),
+  );
   if (
     c.query?.trim() &&
-    !c.query
-      .normalize("NFKC")
-      .toLowerCase()
+    !normalizeSearchText(c.query)
       .trim()
       .split(/\s+/)
       .every((q) => text.includes(q))

@@ -1,0 +1,856 @@
+[
+  {
+    "id": "place-mitsui-toyosu",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "東京都",
+    "area": "東京都江東区豊洲2-4-9",
+    "website": "https://mitsui-shopping-park.com/lalaport/toyosu/",
+    "name": "アーバンドック ららぽーと豊洲"
+  },
+  {
+    "id": "place-mitsui-tokyo-bay",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["ショッピングモール", "ゲームセンター", "コインゲーム"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "千葉県",
+    "area": "千葉県船橋市浜町 2-1-1",
+    "website": "https://mitsui-shopping-park.com/lalaport/tokyo-bay/",
+    "name": "ららぽーとTOKYO-BAY"
+  },
+  {
+    "id": "place-mitsui-shinmisato",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "埼玉県",
+    "area": "埼玉県三郷市新三郷ららシティ3-1-1",
+    "website": "https://mitsui-shopping-park.com/lalaport/shinmisato/",
+    "name": "ららぽーと新三郷"
+  },
+  {
+    "id": "place-mitsui-kashiwa",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "千葉県",
+    "area": "千葉県柏市若柴175",
+    "website": "https://mitsui-shopping-park.com/lalaport/kashiwa/",
+    "name": "ららぽーと柏の葉"
+  },
+  {
+    "id": "place-mitsui-fujimi",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "埼玉県",
+    "area": "埼玉県富士見市山室1-1313",
+    "website": "https://mitsui-shopping-park.com/lalaport/fujimi/",
+    "name": "ららぽーと富士見"
+  },
+  {
+    "id": "place-mitsui-ebina",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "神奈川県海老名市扇町13-1",
+    "website": "https://mitsui-shopping-park.com/lalaport/ebina/",
+    "name": "ららぽーと海老名"
+  },
+  {
+    "id": "place-mitsui-tachikawa",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "東京都",
+    "area": "東京都立川市泉町935番地の1",
+    "website": "https://mitsui-shopping-park.com/lalaport/tachikawa/",
+    "name": "ららぽーと立川立飛"
+  },
+  {
+    "id": "place-mitsui-yokohama",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "神奈川県横浜市都筑区池辺町4035-1",
+    "website": "https://mitsui-shopping-park.com/lalaport/yokohama/",
+    "name": "ららぽーと横浜"
+  },
+  {
+    "id": "place-kisarazu-outlet",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "千葉県",
+    "area": "木更津市",
+    "website": "https://mitsui-shopping-park.com/mop/kisarazu/",
+    "name": "三井アウトレットパーク 木更津"
+  },
+  {
+    "id": "place-makuhari-aeon",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "千葉県",
+    "area": "千葉市美浜区",
+    "website": "https://makuharishintoshin-aeonmall.com/",
+    "name": "イオンモール幕張新都心"
+  },
+  {
+    "id": "place-laketown",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "埼玉県",
+    "area": "越谷市",
+    "website": "https://www.aeon-laketown.jp/",
+    "name": "イオンレイクタウン"
+  },
+  {
+    "id": "place-minamiosawa",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "東京都",
+    "area": "八王子市",
+    "website": "https://mitsui-shopping-park.com/mop/tama/",
+    "name": "三井アウトレットパーク 多摩南大沢"
+  },
+  {
+    "id": "place-iruma",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "埼玉県",
+    "area": "入間市",
+    "website": "https://mitsui-shopping-park.com/mop/iruma/",
+    "name": "三井アウトレットパーク 入間"
+  },
+  {
+    "id": "place-shonan-hiratsuka",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "平塚市",
+    "website": "https://the-outlets-shonan-hiratsuka.aeonmall.com/",
+    "name": "THE OUTLETS SHONAN HIRATSUKA"
+  },
+  {
+    "id": "place-yokohama-outlet",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "横浜市金沢区",
+    "website": "https://mitsui-shopping-park.com/mop/yokohama/",
+    "name": "三井アウトレットパーク 横浜ベイサイド"
+  },
+  {
+    "id": "place-sakeya",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "千葉県",
+    "area": "酒々井町",
+    "website": "https://www.premiumoutlets.co.jp/shisui/",
+    "name": "酒々井プレミアム・アウトレット"
+  },
+  {
+    "id": "place-laketown-outlet",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["アウトレット"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "埼玉県",
+    "area": "越谷市",
+    "website": "https://laketown-outlet.jp/",
+    "name": "レイクタウンアウトレット"
+  },
+  {
+    "id": "place-aeon-kawaguchi",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "埼玉県",
+    "area": "川口市",
+    "website": "https://kawaguchi-aeonmall.com/",
+    "name": "イオンモール川口"
+  },
+  {
+    "id": "place-aeon-musashimurayama",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "東京都",
+    "area": "武蔵村山市",
+    "website": "https://musashimurayama-aeonmall.com/",
+    "name": "イオンモールむさし村山"
+  },
+  {
+    "id": "place-northport",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "横浜市都筑区",
+    "website": "https://www.northport.jp/",
+    "name": "ノースポート・モール"
+  },
+  {
+    "id": "place-vinawalk",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "海老名市",
+    "website": "https://www.odakyu-sc.com/vinawalk/",
+    "name": "ビナウォーク"
+  },
+  {
+    "id": "place-lala-hiratsuka",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "平塚市",
+    "website": "https://mitsui-shopping-park.com/lalaport/hiratsuka/",
+    "name": "ららぽーと湘南平塚"
+  },
+  {
+    "id": "place-lala-sagamihara",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "相模原市緑区",
+    "website": "https://hashimoto.ario.jp/",
+    "name": "アリオ橋本"
+  },
+  {
+    "id": "place-aeon-narita",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "千葉県",
+    "area": "成田市",
+    "website": "https://narita-aeonmall.com/",
+    "name": "イオンモール成田"
+  },
+  {
+    "id": "place-lala-yokosuka",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "横須賀市",
+    "website": "https://coaska.jp/",
+    "name": "コースカ ベイサイド ストアーズ"
+  },
+  {
+    "id": "place-terrace-tsujido",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "神奈川県",
+    "area": "藤沢市",
+    "website": "https://shonan.terracemall.com/",
+    "name": "テラスモール湘南"
+  },
+  {
+    "id": "place-shonan-mall",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": true,
+      "type": "free",
+      "freeMinutes": null,
+      "fee": 0,
+      "capacity": null,
+      "note": "前回取得した公式資料で無料駐車場を確認。最新条件は公式で確認。"
+    },
+    "prefecture": "神奈川県",
+    "area": "藤沢市",
+    "website": "https://www.shonan-fill.com/",
+    "name": "湘南モールフィル"
+  },
+  {
+    "id": "place-hinode",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["ショッピングモール"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "freeMinutes": null,
+      "fee": null,
+      "capacity": null,
+      "note": null
+    },
+    "prefecture": "東京都",
+    "area": "日の出町",
+    "website": "https://hinode-aeonmall.com/",
+    "name": "イオンモール日の出"
+  },
+  {
+    "id": "place-added-2af7e42b4c15",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設", "洋服", "子ども服"],
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "fee": null,
+      "note": "最初の2時間無料、以降30分220円。24時間770円。税込3,000円以上の購入で追加1時間無料。",
+      "freeMinutes": 120,
+      "capacity": 680
+    },
+    "prefecture": "千葉県",
+    "area": "市川市南行徳2-20-25",
+    "website": "https://minami-gyotoku.socola-sc.jp/access/",
+    "name": "SOCOLA南行徳"
+  },
+  {
+    "id": "place-added-138e423f61ea",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "ゲームセンター", "コインゲーム"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "fee": null,
+      "note": "立体665台・平面527台。直営売場1,000円以上購入または映画館利用で3時間無料、最大6時間。無料サービス後30分200円。購入条件付きサービスで、無条件の無料時間は未確認。",
+      "freeMinutes": null,
+      "capacity": 1192
+    },
+    "prefecture": "千葉県",
+    "area": "市川市妙典5-3-1",
+    "website": "https://www.aeon.com/store/イオン/イオン市川妙典店/shop_info/hours/",
+    "name": "イオン市川妙典店"
+  },
+  {
+    "id": "place-added-baf0472c5d3a",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "アウトドア用品", "洋服", "キッズ施設", "映画館"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "fee": null,
+      "note": "60分ごと200円。購入金額・映画・対象施設・コルトンクラブ会員による無料サービスあり。区画ごとに最大料金・高さ制限が異なります。",
+      "freeMinutes": null,
+      "capacity": null
+    },
+    "prefecture": "千葉県",
+    "area": "市川市",
+    "website": "https://www.nikke-cp.gr.jp/guide/parking.jsp",
+    "name": "ニッケコルトンプラザ"
+  },
+  {
+    "id": "place-added-e7121f95379f",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "fee": null,
+      "note": "最初の1時間600円、以降30分250円。当日最大は平日1,000円・土日祝1,300円。購入金額に応じ最大3時間無料。",
+      "freeMinutes": null,
+      "capacity": 300
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市入船1-5-1",
+    "website": "https://www.e-mona.jp/shop/access.jsp",
+    "name": "MONA新浦安"
+  },
+  {
+    "id": "place-added-0ec4adabf5f1",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "fee": null,
+      "note": "10:00〜24:30は30分200円、深夜は60分100円。最大1,500円（土日祝は最大なし）。購入金額に応じ最大3時間無料。",
+      "freeMinutes": null,
+      "capacity": 73
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市入船1-1-1",
+    "website": "https://www.atre.co.jp/shin_urayasu/access/",
+    "name": "アトレ新浦安"
+  },
+  {
+    "id": "place-added-33e02e66ba4c",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設", "家電"],
+    "parking": {
+      "available": true,
+      "type": "free",
+      "fee": 0,
+      "note": "施設利用者に限り無料。平置・立体の合計930台。",
+      "freeMinutes": null,
+      "capacity": 930
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市明海4-1-1",
+    "website": "https://www.newcoast.jp/access/",
+    "name": "ニューコースト新浦安"
+  },
+  {
+    "id": "place-added-c7e1085140cb",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "映画館"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "fee": null,
+      "note": "基本は最初の1時間800円、以降30分400円。屋外アネックス・R5は最初の1時間無料（12/31除く）。カード・購入・映画利用で割引。屋外限定の無料時間は全区画共通と扱わない。",
+      "freeMinutes": null,
+      "capacity": null
+    },
+    "prefecture": "千葉県",
+    "area": "浦安市舞浜1-4",
+    "website": "https://www.ikspiari.com/info/access/",
+    "name": "イクスピアリ"
+  },
+  {
+    "id": "place-added-e5f4bc0aa4ed",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "name": "イオンモール船橋"
+  },
+  {
+    "id": "place-added-89dd8a35a650",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "name": "ビビット南船橋"
+  },
+  {
+    "id": "place-added-362838edeaa5",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "ゲームセンター", "クレーンゲーム", "映画館"],
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "fee": null,
+      "note": "最初の4時間無料、以降20分100円・上限なし。当面は平日のみ6時間無料。映画とアプリ会員の追加サービスあり。",
+      "freeMinutes": 240,
+      "capacity": 2000
+    },
+    "prefecture": "千葉県",
+    "area": "松戸市",
+    "website": "https://terracemall.com/matsudo/access/",
+    "name": "テラスモール松戸"
+  },
+  {
+    "id": "place-added-2fdc32ab8675",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "映画館", "ゲームセンター"],
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "fee": null,
+      "note": "約4,000台の駐車場を確認。駐車料金は未確認。",
+      "freeMinutes": null,
+      "capacity": 4000
+    },
+    "prefecture": "千葉県",
+    "area": "柏市大島田1-6-1",
+    "website": "https://sevenpark-kashiwa.ario.jp/information/access/",
+    "name": "セブンパーク アリオ柏"
+  },
+  {
+    "id": "place-added-a9746bead9bf",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "name": "モラージュ柏"
+  },
+  {
+    "id": "place-added-c86d96a63f86",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "prefecture": "",
+    "area": "",
+    "website": "",
+    "name": "流山おおたかの森S・C"
+  },
+  {
+    "id": "place-added-e4a4f86d57fd",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "fee": null,
+      "note": "来店客は入庫から3時間無料。以降の料金は公式の駐車場案内画像をご確認ください。",
+      "freeMinutes": 180,
+      "capacity": 700
+    },
+    "prefecture": "千葉県",
+    "area": "鎌ケ谷市新鎌ヶ谷2-12-1",
+    "website": "https://shinkama.acrossmall.jp/access/",
+    "name": "アクロスモール新鎌ヶ谷"
+  },
+  {
+    "id": "place-added-15669cf406ca",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "映画館", "キッズ施設"],
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "fee": null,
+      "note": "直営・提携駐車場を確認。基本料金・無条件無料時間は本文で確認できず不明。対象店舗利用による無料サービスあり。",
+      "freeMinutes": null,
+      "capacity": null
+    },
+    "prefecture": "千葉県",
+    "area": "印西市中央北3-2",
+    "website": "https://chibanewtown.aeonmall.jp/access",
+    "name": "イオンモール千葉ニュータウン"
+  },
+  {
+    "id": "place-added-dbd1093400e9",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": true,
+      "type": "free-limited",
+      "fee": null,
+      "note": "購入金額によらず最初の3時間無料。税込3,000円以上購入でさらに2時間無料。以降1時間100円。",
+      "freeMinutes": 180,
+      "capacity": null
+    },
+    "prefecture": "",
+    "area": "",
+    "website": "https://www.aeon.jp/sc/yachiyomidorigaoka/access/parking_info.html",
+    "name": "イオンモール八千代緑が丘"
+  },
+  {
+    "id": "place-added-5394b5ebbbe7",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "fee": null,
+      "note": "駐車場1,850台。料金は未確認。",
+      "freeMinutes": null,
+      "capacity": 1850
+    },
+    "prefecture": "東京都",
+    "area": "江戸川区東葛西9-3-3",
+    "website": "https://kasai.ario.jp/information/access/",
+    "name": "アリオ葛西"
+  },
+  {
+    "id": "place-added-371139a8f229",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": null,
+      "type": "unknown",
+      "fee": null,
+      "note": null
+    },
+    "prefecture": "東京都",
+    "area": "江東区新砂3-4-31",
+    "website": "https://www.sunamo.jp/access/",
+    "name": "SUNAMO"
+  },
+  {
+    "id": "place-added-484051286eee",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物"],
+    "tags": ["大型商業施設"],
+    "parking": {
+      "available": true,
+      "type": "unknown",
+      "fee": null,
+      "note": "駐車場2,150台。料金は未確認。",
+      "freeMinutes": null,
+      "capacity": 2150
+    },
+    "prefecture": "東京都",
+    "area": "江東区北砂2-17-1",
+    "website": "https://kitasuna.ario.jp/information/access/",
+    "name": "アリオ北砂"
+  },
+  {
+    "id": "place-added-15a45a24de42",
+    "mainCategory": "shopping",
+    "subcategories": ["施設タイプ", "買い物", "遊ぶ"],
+    "tags": ["大型商業施設", "キッズ施設"],
+    "parking": {
+      "available": true,
+      "type": "paid",
+      "fee": null,
+      "note": "30分250円。24時間最大は平日1,000円・土日祝1,700円。購入金額による1〜3時間無料サービスあり。",
+      "freeMinutes": null,
+      "capacity": 300
+    },
+    "prefecture": "東京都",
+    "area": "江東区亀戸6-31-6",
+    "website": "https://www.kameidoclock.jp/",
+    "name": "カメイドクロック"
+  }
+]
