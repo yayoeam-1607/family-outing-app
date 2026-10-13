@@ -32,17 +32,63 @@
   <body>
     <header class="site-header">
       <a href="#" class="brand" aria-label="探す画面へ"
-        >今日どこ行く？<span>FAMILY DAYS</span></a
+        ><img
+          src="/family-outing-app/icons/icon-192.png"
+          width="36"
+          height="36"
+          alt=""
+        /><span class="brand-copy"
+          >今日どこ行く？<span>FAMILY DAYS</span></span
+        ></a
       ><button id="backup-toggle" class="quiet">データ管理</button>
     </header>
     <main id="main">
       <section id="search-view" class="view">
-        <div class="intro">
-          <p class="eyebrow">A LITTLE ADVENTURE, TOGETHER</p>
-          <h1>今日どこ行く？</h1>
-          <p>瑞江駅から家族のおでかけ先を探す</p>
+        <div class="intro hero">
+          <div class="hero-copy">
+            <p class="eyebrow">小さな発見が、家族の思い出に。</p>
+            <h1>今日どこ行く？</h1>
+            <p class="hero-subtitle">家族のおでかけ先を見つけよう</p>
+            <span class="hero-origin">瑞江駅から、休日の行き先探し。</span>
+          </div>
+          <svg
+            class="hero-art landscape-art"
+            viewBox="0 0 200 180"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <circle cx="151" cy="37" r="22" fill="#edb094" />
+            <path
+              d="M0 123Q42 33 82 92L117 44Q150 70 200 122V180H0Z"
+              fill="#cfdbc6"
+            />
+            <path d="M0 139Q39 96 79 131T200 120V180H0Z" fill="#9db897" />
+            <path d="M0 168q51-46 102-13t98 4v21H0Z" fill="#708e70" />
+            <path
+              d="M105 103q34 30 7 49t-8 28"
+              fill="none"
+              stroke="#f9f3dd"
+              stroke-width="9"
+            />
+            <path d="m40 101-13 26h26Zm0 16-17 26h34Z" fill="#4d7255" />
+            <path
+              d="M40 143v13"
+              stroke="#4d7255"
+              stroke-width="5"
+              stroke-linecap="round"
+            />
+          </svg>
+          <button id="picker-open" class="picker-entry">
+            <span class="picker-symbol" aria-hidden="true">✦</span
+            ><span
+              ><strong>おまかせで決める</strong
+              ><small
+                >今日はどこにする？ 家族のおでかけ先をおまかせ</small
+              ></span
+            ><span class="entry-arrow" aria-hidden="true">→</span>
+          </button>
         </div>
-        <label class="search-label" for="query">今日は何したい？</label>
+        <label class="search-label" for="query">行き先・キーワードで検索</label>
         <div class="search-box">
           <span aria-hidden="true">⌕</span
           ><input
@@ -52,15 +98,21 @@
             autocomplete="off"
           />
         </div>
-        <button id="picker-open" class="picker-entry">
-          🎯 おまかせで決める
-        </button>
         <div id="suggestions" class="chips suggestions"></div>
+        <div class="section-heading">
+          <h2>カテゴリから探す</h2>
+          <span>好きな過ごし方を選んで</span>
+        </div>
         <div id="categories" class="category-grid"></div>
         <div id="hierarchy"></div>
         <div class="filter-bar">
-          <button id="filter-toggle" aria-expanded="false">
-            ☷ さらに絞り込む</button
+          <button
+            id="filter-toggle"
+            aria-expanded="false"
+            aria-controls="common-filters"
+          >
+            <span aria-hidden="true">☷</span> さらに絞り込む
+            <span class="accordion-chevron" aria-hidden="true">⌄</span></button
           ><label class="sort-label"
             >並び順
             <select id="sort">
@@ -72,18 +124,18 @@
         </div>
         <section id="common-filters" class="panel" hidden></section>
         <div class="results-header">
-          <h2 id="result-count">350件</h2>
+          <h2 id="result-count">358件</h2>
           <button id="clear" class="quiet">すべてクリア</button>
         </div>
         <div id="selected-filters" class="chips"></div>
         <div id="results" class="spot-list"></div>
         <button id="more" class="more" hidden>もっと見る</button>
         <p class="data-note">
-          350件の候補を掲載。追加100件はご提供の名称を使用し、未確認の料金・設備・所在地は「不明」としています。移動時間は旧版の計画用目安です。
+          358件の候補を掲載。追加100件はご提供の名称を使用し、未確認の料金・設備・所在地は「不明」としています。移動時間は旧版の計画用目安です。
         </p>
       </section>
       <section id="favorites-view" class="view" hidden>
-        <p class="eyebrow">SAVED FOR ANOTHER DAY</p>
+        <p class="eyebrow">次の休日の、行きたいリスト。</p>
         <h1>お気に入り</h1>
         <p class="muted">気になる場所を、家族のリストに。</p>
         <div id="favorites" class="spot-list"></div>
@@ -91,8 +143,9 @@
       <section id="memories-view" class="view memories" hidden>
         <div class="memory-heading">
           <div>
-            <p class="eyebrow">OUR FAMILY JOURNAL</p>
-            <h1 id="memory-title">家族の思い出</h1>
+            <p class="eyebrow">あの日の「楽しかった」を、ここに。</p>
+            <h1 id="memory-title">思い出</h1>
+            <p class="muted album-subtitle">家族のおでかけアルバム</p>
           </div>
           <label
             >年を選ぶ
@@ -142,10 +195,13 @@
       </section>
     </main>
     <nav class="bottom-nav" aria-label="メインナビ">
-      <button data-view="search" class="active"><span>⌕</span>探す</button
-      ><button data-view="favorites"><span>♡</span>お気に入り</button
-      ><button data-view="memories"><span>▤</span>思い出</button
-      ><button data-view="add"><span>＋</span>追加</button>
+      <button data-view="search" class="active" aria-current="page">
+        <span aria-hidden="true">⌕</span>探す</button
+      ><button data-view="favorites">
+        <span aria-hidden="true">♡</span>お気に入り</button
+      ><button data-view="memories">
+        <span aria-hidden="true">▤</span>思い出</button
+      ><button data-view="add"><span aria-hidden="true">＋</span>追加</button>
     </nav>
     <div id="notice" role="status" aria-live="polite" hidden></div>
     <dialog id="picker-dialog" aria-labelledby="picker-title">

@@ -30,9 +30,13 @@ const pattern = new RegExp(
     .join("|"),
   "g",
 );
-export function normalizeSearchText(value) {
+export function normalizeSearchText(value, { category } = {}) {
   return String(value ?? "")
     .normalize("NFKC")
     .toLowerCase()
-    .replace(pattern, (alias) => canonical.get(alias));
+    .replace(pattern, (alias) =>
+      category === "leisure" && alias === "スポッチャ"
+        ? "スポッチャ"
+        : canonical.get(alias),
+    );
 }

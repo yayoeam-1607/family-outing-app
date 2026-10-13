@@ -30,10 +30,11 @@ export function matchesSpot(s, c) {
       ...(s.shopping?.highlights ?? []),
       ...related,
     ].join(" "),
+    { category: s.mainCategory },
   );
   if (
     c.query?.trim() &&
-    !normalizeSearchText(c.query)
+    !normalizeSearchText(c.query, { category: s.mainCategory })
       .trim()
       .split(/\s+/)
       .every((q) => text.includes(q))

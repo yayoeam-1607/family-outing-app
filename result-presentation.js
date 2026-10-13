@@ -63,10 +63,18 @@ export function resultPresentation(spot, criteria) {
     }
   }
   const words =
-    normalizeSearchText(criteria.query).trim().split(/\s+/).filter(Boolean) ??
-    [];
+    normalizeSearchText(criteria.query, { category: spot.mainCategory })
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean) ?? [];
   for (const tag of all)
-    if (words.some((word) => normalizeSearchText(tag).includes(word))) {
+    if (
+      words.some((word) =>
+        normalizeSearchText(tag, { category: spot.mainCategory }).includes(
+          word,
+        ),
+      )
+    ) {
       matched.push(tag);
       points.push(tag);
     }

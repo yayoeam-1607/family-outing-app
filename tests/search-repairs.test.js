@@ -1,3 +1,4 @@
+import { expectedCatalogSize } from "../catalog.js";
 import test from "node:test";
 import assert from "node:assert/strict";
 import baseline from "../catalog-baseline-v3.json" with { type: "json" };
@@ -14,7 +15,7 @@ const criteria = (extra = {}) => ({
 });
 test("ショッピングの3中カテゴリは施設データで一致し、未確認タグは一致しない", () => {
   const state = initialState();
-  assert.equal(state.spots.length, 350);
+  assert.equal(state.spots.length, expectedCatalogSize);
   assert.equal(searchResults(state, criteria()).length, 48);
   for (const sub of ["買い物", "施設タイプ"])
     assert.equal(
@@ -105,7 +106,7 @@ test("revision 5の保存データに分類修正を反映し、編集・登録�
   const input = JSON.stringify(state),
     updated = prepareState(JSON.parse(input));
   assert.equal(JSON.stringify(state), input);
-  assert.equal(updated.spots.length, 350);
+  assert.equal(updated.spots.length, expectedCatalogSize);
   assert.deepEqual(updated.visits, state.visits);
   assert.deepEqual(updated.favorites, state.favorites);
   assert.deepEqual(updated.removedBuiltinIds, state.removedBuiltinIds);

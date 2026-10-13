@@ -1,3 +1,4 @@
+import { expectedCatalogSize } from "../catalog.js";
 import { shoppingSections } from "../shopping-presentation.js";
 import test from "node:test";
 import assert from "node:assert/strict";
@@ -62,8 +63,8 @@ const cases = [
 ];
 test("提供情報65施設・350固定IDを維持し、全カテゴリの検索・カード・抽選に連携する", () => {
   const state = initialState();
-  assert.equal(catalogRevision, 9);
-  assert.equal(state.spots.length, 350);
+  assert.equal(catalogRevision, 10);
+  assert.equal(state.spots.length, expectedCatalogSize);
   assert.equal(Object.keys(patches).length, 65);
   for (const [id, patch] of Object.entries(patches)) {
     const spot = state.spots.find((s) => s.id === id);
@@ -225,6 +226,7 @@ test("shopping詳細と店舗名は検索・同義語・カード・JSON往復�
     ["アウトドア用品", ["アウトドアショップ"]],
     ["キッズ施設", ["キッズパーク", "室内遊園地"]],
     ["室内アクティビティ", ["スポッチャ"]],
+
   ]) {
     const expected = searchResults(
       state,
@@ -345,7 +347,7 @@ test("revision8→9は分類を安全に修正し、手入力・非表示・記�
   state.spots.push(user);
   const normalized = validateState(state),
     next = prepareState(state);
-  assert.equal(next.catalogRevision, 9);
+  assert.equal(next.catalogRevision, 10);
   assert.deepEqual(next.favorites, state.favorites);
   assert.deepEqual(next.visits, state.visits);
   assert.deepEqual(next.removedBuiltinIds, state.removedBuiltinIds);

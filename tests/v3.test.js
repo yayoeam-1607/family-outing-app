@@ -1,3 +1,4 @@
+import { expectedCatalogSize } from "../catalog.js";
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -62,11 +63,11 @@ const specimen = () => ({
   },
 });
 test("350件・10大カテゴリ・既存250ID維持と2バッチの独立性", () => {
-  assert.equal(verifiedSpots.length, 350);
-  assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, 350);
+  assert.equal(verifiedSpots.length, expectedCatalogSize);
+  assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, expectedCatalogSize);
   assert.equal(
     new Set(verifiedSpots.map((s) => s.name.normalize("NFKC"))).size,
-    350,
+    expectedCatalogSize,
   );
   for (const s of old)
     assert.ok(verifiedSpots.some((x) => x.id === s.id && x.name === s.name));
@@ -118,7 +119,7 @@ test("v2→v3で編集・追加・非表示・お気に入り・思い出を保�
   const raw = JSON.stringify(data),
     next = prepareState(data);
   assert.equal(next.version, 3);
-  assert.equal(next.spots.length, 350);
+  assert.equal(next.spots.length, expectedCatalogSize);
   assert.deepEqual(next.favorites, data.favorites);
   assert.deepEqual(next.visits, data.visits);
   assert.equal(next.spots[0].description, "編集済み");
@@ -146,7 +147,7 @@ test("非表示で履歴・お気に入り・施設名を保持し、同じIDで
   assert.deepEqual(next.favorites, [id]);
   assert.ok(next.archivedSpots.some((s) => s.id === id));
   assert.ok(!next.spots.some((s) => s.id === id));
-  assert.equal(restoreSpot(next, id).spots.length, 350);
+  assert.equal(restoreSpot(next, id).spots.length, expectedCatalogSize);
   assert.equal(yearMemories(next, 2026).outings, 1);
 });
 test("自由検索・大カテゴリ・中カテゴリ・タグのANDと同グループOR", () => {

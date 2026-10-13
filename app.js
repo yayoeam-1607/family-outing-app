@@ -1,3 +1,8 @@
+import {
+  spotBadges,
+  categoryGlyph,
+  categoryArtwork,
+} from "./ui-presentation.js";
 import { installPwa } from "./pwa.js";
 import { shoppingSections } from "./shopping-presentation.js";
 import { emptyShopping } from "./taxonomy.js";
@@ -189,9 +194,15 @@ function cardFor(s, c) {
     { tags, points } = resultPresentation(s, c);
   if (c.unvisited && count === 0) points.unshift("まだ行ってない");
   points.splice(4);
-  if (c.unvisited && count === 0) points.unshift("まだ行ってない");
-  points.splice(4);
-  return `<article class="spot-card" tabindex="0" role="button" aria-label="${esc(s.name)}の詳細" data-detail="${esc(s.id)}"><div class="card-heading"><h3>${esc(s.name)}</h3><button class="favorite ${state.favorites.includes(s.id) ? "selected" : ""}" data-favorite="${esc(s.id)}" aria-label="${esc(s.name)}を${state.favorites.includes(s.id) ? "お気に入り解除" : "お気に入りに追加"}" aria-pressed="${state.favorites.includes(s.id)}">${state.favorites.includes(s.id) ? "♥" : "♡"}</button></div><div class="card-location"><span class="card-category">${esc(taxonomy[s.mainCategory].label)}</span>${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${isArchived(s.id) ? " · 非表示の場所" : ""}</div><div class="card-facts"><span title="瑞江駅からの目安">${c.transport === "train" ? "🚃" : "🚗"} 瑞江駅から<br>${timeLabel(minutes)}${minutes == null ? "" : "（目安）"}</span><span>家族4人 ${priceLabel(s)}</span><span>${c.parking && c.parking !== "any" ? "<strong>" : ""}🅿 ${parkingLabel(s)}${c.parking && c.parking !== "any" ? "</strong>" : ""}</span><span>${weatherLabel(s)}</span></div><div class="card-tags">${tags.map((t) => `<span>#${esc(t)}</span>`).join("")}</div>${points.length ? `<div class="match-points">${points.map((p) => `<span>✓ ${esc(p)}</span>`).join("")}</div>` : ""}<div class="visit-status">${v ? `<strong>✓ ${esc(v.date.replaceAll("-", "/"))}に行った</strong>　訪問${count}回` : "まだ行っていない"}</div></article>`;
+  const meta = taxonomy[s.mainCategory];
+  return `<article class="spot-card" data-category-style="${esc(s.mainCategory)}" tabindex="0" role="button" aria-label="${esc(s.name)}の詳細" data-detail="${esc(s.id)}">${categoryArtwork(s.mainCategory)}<div class="card-heading"><div><h3>${esc(s.name)}</h3><span class="card-category">${meta.icon} ${esc(meta.label)}</span></div><button class="favorite ${state.favorites.includes(s.id) ? "selected" : ""}" data-favorite="${esc(s.id)}" aria-label="${esc(s.name)}を${state.favorites.includes(s.id) ? "お気に入り解除" : "お気に入りに追加"}" aria-pressed="${state.favorites.includes(s.id)}">${state.favorites.includes(s.id) ? "♥" : "♡"}</button></div><div class="card-location">${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${isArchived(s.id) ? " · 非表示の場所" : ""}</div><div class="card-facts"><span class="travel-fact" title="瑞江駅からの目安"><span aria-hidden="true">${c.transport === "train" ? "🚃" : "🚗"}</span><span><small>瑞江駅から</small><strong>${timeLabel(minutes)}</strong>${minutes == null ? "" : "<small>片道の目安</small>"}</span></span><span><span aria-hidden="true">🅿</span><span><small>駐車場</small>${parkingLabel(s)}</span></span><span><span aria-hidden="true">￥</span><span><small>家族4人</small>${priceLabel(s)}</span></span><span><span aria-hidden="true">☀</span><span><small>天候</small>${weatherLabel(s)}</span></span></div><div class="spot-badges">${spotBadges(
+    s,
+    c.transport,
+  )
+    .map((b) => `<span class="spot-badge ${b.kind}">${esc(b.text)}</span>`)
+    .join(
+      "",
+    )}</div><div class="card-tags">${tags.map((t) => `<span>#${esc(t)}</span>`).join("")}</div>${points.length ? `<div class="match-points">${points.map((p) => `<span>✓ ${esc(p)}</span>`).join("")}</div>` : ""}<div class="visit-status">${v ? `<strong>✓ ${esc(v.date.replaceAll("-", "/"))}に行った</strong><span>訪問${count}回</span>` : '<span class="unvisited-dot"></span>まだ行っていない'}<span class="card-more" aria-hidden="true">詳細を見る ↗</span></div></article>`;
 }
 function renderResults() {
   const result = searchResults(state, criteria);
@@ -199,7 +210,7 @@ function renderResults() {
     `${result.length}件<span>家族の次のおでかけ</span>`;
   $("results").innerHTML =
     result.slice(0, limit).map(card).join("") ||
-    '<div class="empty">条件に合う場所が見つかりませんでした。<br>条件を少しゆるめて探してみましょう。</div>';
+    '<div class="empty empty-search"><span class="empty-symbol" aria-hidden="true">⌕</span><h3>この条件では、まだ候補がありません</h3><p>移動時間や条件を、少し広げてみてください。</p><button data-reset-search>条件をクリアして探す</button></div>';
   $("more").hidden = result.length <= limit;
   renderSelected();
 }
@@ -293,7 +304,7 @@ function renderHierarchy() {
   $("categories").innerHTML = Object.entries(taxonomy)
     .map(
       ([k, v]) =>
-        `<button data-category="${k}" class="${criteria.mainCategory === k ? "active" : ""}" aria-pressed="${criteria.mainCategory === k}"><span aria-hidden="true">${v.icon}</span>${v.label}</button>`,
+        `<button data-category="${k}" class="${criteria.mainCategory === k ? "active" : ""}" aria-pressed="${criteria.mainCategory === k}"><span class="category-icon" aria-hidden="true">${categoryGlyph(k)}</span><span class="category-label">${v.label}</span>${criteria.mainCategory === k ? '<span class="category-check" aria-hidden="true">✓</span>' : ""}</button>`,
     )
     .join("");
   if (!cat) {
@@ -306,7 +317,7 @@ function renderHierarchy() {
       .filter(({ count, selected }) => count > 0 || selected)
       .map(
         ({ value, count, selected }) =>
-          `<button class="chip ${selected ? "active" : ""}" data-${attribute}="${esc(value)}" ${count === 0 && !selected ? "disabled" : ""}>${esc(value)} (${count})</button>`,
+          `<button class="chip ${selected ? "active" : ""}" data-${attribute}="${esc(value)}" ${count === 0 && !selected ? "disabled" : ""} aria-pressed="${selected}">${selected ? '<span class="chip-check" aria-hidden="true">✓</span>' : ""}<span>${esc(value)}</span> <small class="chip-count">${count}</small></button>`,
       )
       .join("");
   let html = `<section class="hierarchy-section"><h3>${cat.label}で何をする？ <small>複数選択はOR</small></h3><div class="chips">${facetButtons(facets.subcategories, "subcategory")}</div></section>`;
@@ -455,7 +466,7 @@ function renderMemories() {
     $("memory-title").textContent = "家族の思い出";
     $("memory-summary").innerHTML = "";
     $("timeline").innerHTML =
-      '<div class="empty">家族のアルバムを、ここから。<br>スポットの「行った！」から思い出を残せます。</div>';
+      '<div class="empty empty-memories"><span class="empty-symbol" aria-hidden="true">▤</span><h3>家族のアルバムを、ここから。</h3><p>おでかけ先の「行った！」から、<br>楽しかった一日を残してみよう。</p><button data-view="search">次のおでかけを探す</button></div>';
     return;
   }
   const m = yearMemories(state, year);
@@ -468,10 +479,10 @@ function renderMemories() {
     const key = v.date.slice(5, 7);
     if (key !== month) {
       month = key;
-      html += `<h2 class="month-title">${Number(month)}月</h2>`;
+      html += `<h2 class="month-title"><span>${year}年${Number(month)}月</span><small>${year} / ${month}</small></h2>`;
     }
     const s = spotById(v.spotId);
-    html += `<article class="journal-entry"><div class="journal-date">${Number(month)}/${Number(v.date.slice(8))}</div><div class="journal-content"><button data-detail="${esc(v.spotId)}">${esc(s?.name ?? "保管した場所")}</button><div><span class="stars">${"★".repeat(v.rating) + "☆".repeat(5 - v.rating)}</span><span class="intention">${esc(v.intention)}</span></div>${v.comment ? `<p>${esc(v.comment)}</p>` : ""}</div></article>`;
+    html += `<article class="journal-entry"><div class="journal-date"><small>${Number(month)}月</small><strong>${Number(v.date.slice(8))}</strong></div><div class="journal-content"><button data-detail="${esc(v.spotId)}">${esc(s?.name ?? "保管した場所")}</button><div><span class="stars">${"★".repeat(v.rating) + "☆".repeat(5 - v.rating)}</span><span class="intention">${esc(v.intention)}</span></div>${v.comment ? `<p>${esc(v.comment)}</p>` : ""}</div></article>`;
   }
   $("timeline").innerHTML = html;
 }
@@ -481,7 +492,7 @@ function renderAll() {
   renderResults();
   $("favorites").innerHTML =
     collection(state, "favorites").map(card).join("") ||
-    '<div class="empty">気になる場所の♡を押して、お気に入りに。</div>';
+    '<div class="empty empty-favorites"><span class="empty-symbol" aria-hidden="true">♡</span><h3>まだお気に入りはありません</h3><p>気になる場所を見つけたら、<br>ハートを押して保存してみよう。</p><button data-view="search">おでかけ先を探す</button></div>';
   renderMemories();
   $("archives").innerHTML =
     (state.archivedSpots ?? [])
@@ -498,9 +509,13 @@ function showView(next) {
   view = next;
   for (const v of ["search", "favorites", "memories", "add"])
     $(v + "-view").hidden = v !== next;
-  document
-    .querySelectorAll("[data-view]")
-    .forEach((b) => b.classList.toggle("active", b.dataset.view === next));
+  document.querySelectorAll("[data-view]").forEach((b) => {
+    b.classList.toggle("active", b.dataset.view === next);
+    if (b.closest(".bottom-nav")) {
+      if (b.dataset.view === next) b.setAttribute("aria-current", "page");
+      else b.removeAttribute("aria-current");
+    }
+  });
   renderAll();
   window.scrollTo({ top: 0, behavior: "instant" });
 }
@@ -509,7 +524,7 @@ function detailsTable(group, fields, data) {
     ([key]) => data[key] !== null && data[key] !== undefined,
   );
   if (!known.length) return "";
-  return `<h3>${group}</h3><div class="detail-table">${known
+  return `<h4>${group}</h4><div class="detail-table">${known
     .map(
       ([k, v]) =>
         `<div><span>${v}</span><span>${esc(detailLabel(data[k]))}</span></div>`,
@@ -522,30 +537,78 @@ function showDetail(id) {
   if (!s) return;
   detailId = s.id;
   const archived = isArchived(s.id);
-  let html = `<p class="eyebrow">YOUR NEXT FAMILY DAY</p><h2 class="detail-title">${esc(s.name)}</h2><p class="detail-category">${esc(taxonomy[s.mainCategory].label)} · ${esc([...s.subcategories].join(" / "))}</p><p class="muted">${esc([s.prefecture, s.area].filter(Boolean).join(" ") || "所在地未確認")}${archived ? " · 候補から非表示" : ""}</p><p class="detail-description">${esc(s.description)}</p><div class="chips">${effectiveTags(
-    s,
+  const meta = taxonomy[s.mainCategory];
+  let html = `<header class="detail-header"><p class="eyebrow">家族の次のおでかけ</p><span class="card-category">${meta.icon} ${esc(meta.label)}</span><h2 class="detail-title">${esc(s.name)}</h2><p class="detail-category">${esc(s.subcategories.join(" / "))}</p>${s.prefecture || s.area ? `<p class="detail-location">${esc([s.prefecture, s.area].filter(Boolean).join(" "))}</p>` : ""}${archived ? '<p class="form-note">候補から非表示にした場所</p>' : ""}${s.description ? `<p class="detail-description">${esc(s.description)}</p>` : ""}</header>`;
+  const facts = [];
+  const fact = (label, value) =>
+    facts.push(`<p><small>${label}</small><strong>${esc(value)}</strong></p>`);
+  if (s.travel.carMinutes != null)
+    fact("🚗 瑞江駅から車", timeLabel(s.travel.carMinutes) + "（片道の目安）");
+  if (s.travel.trainMinutes != null)
+    fact(
+      "🚃 瑞江駅から電車",
+      timeLabel(s.travel.trainMinutes) + "（片道の目安）",
+    );
+  if (
+    s.price.free === true ||
+    [s.price.family4Typical, s.price.family4Min, s.price.family4Max].some(
+      (v) => v != null,
+    )
   )
-    .map((t) => `<span class="chip">${esc(t)}</span>`)
-    .join(
-      "",
-    )}</div><div class="detail-facts">${s.travel.carMinutes == null ? "" : `<p><small>瑞江駅から車の目安</small>${timeLabel(s.travel.carMinutes)}</p>`}${s.travel.trainMinutes == null ? "" : `<p><small>瑞江駅から電車の目安</small>${timeLabel(s.travel.trainMinutes)}</p>`}${s.price.free === true || [s.price.family4Typical, s.price.family4Min, s.price.family4Max].some((v) => v != null) ? `<p><small>家族4人の料金目安</small>${priceLabel(s)}</p>` : ""}<p><small>駐車場</small>${parkingLabel(s)}</p>${s.parking.available == null ? "" : `<p><small>駐車場の有無</small>${detailLabel(s.parking.available)}</p>`}${s.parking.freeMinutes == null ? "" : `<p><small>無料時間</small>${s.parking.freeMinutes}分</p>`}${s.parking.fee == null ? "" : `<p><small>駐車料金</small>${yen(s.parking.fee)}</p>`}${s.parking.capacity == null ? "" : `<p><small>駐車台数</small>約${s.parking.capacity}台</p>`}${s.weather.length ? `<p><small>天候</small>${weatherLabel(s)}</p>` : ""}${s.seasons.length ? `<p><small>おすすめの季節</small>${s.seasons.map((x) => seasons[x]).join("・")}</p>` : ""}${s.stayDuration.length ? `<p><small>滞在時間目安</small>${s.stayDuration.map((x) => ({ 2: "1〜2時間", 4: "半日", 8: "1日" })[x]).join("・")}</p>` : ""}<p><small>訪問回数</small>${visitCount(state, s.id)}回</p><p><small>最後に行った日</small>${esc(latest(s.id)?.date ?? "未訪問")}</p></div>${s.price.note ? `<p class="form-note">${esc(s.price.note)}</p>` : ""}${s.parking.note ? `<p class="form-note">駐車場：${esc(s.parking.note)}</p>` : ""}`;
-  for (const { title, values } of shoppingSections(s)) {
-    html += `<section class="shopping-detail"><h3>${title}</h3><div class="chips">${values.map((v) => `<span class="chip">${esc(v)}</span>`).join("")}</div></section>`;
-  }
+    fact("￥ 家族4人の料金目安", priceLabel(s));
+  if (s.parking.type !== "unknown" || s.parking.available != null)
+    fact("🅿 駐車場", parkingLabel(s));
+  if (s.parking.available != null)
+    fact("駐車場の有無", detailLabel(s.parking.available));
+  if (s.parking.freeMinutes != null)
+    fact("最初の無料時間", s.parking.freeMinutes + "分");
+  if (s.parking.fee != null) fact("駐車料金", yen(s.parking.fee));
+  if (s.parking.capacity != null)
+    fact("駐車台数", "約" + s.parking.capacity + "台");
+  if (s.weather.length) fact("☀ 天候", weatherLabel(s));
+  if (s.stayDuration.length)
+    fact(
+      "⏱ 滞在時間目安",
+      s.stayDuration
+        .map((x) => ({ 2: "1〜2時間", 4: "半日", 8: "1日" })[x])
+        .join("・"),
+    );
+  if (s.seasons.length)
+    fact("おすすめの季節", s.seasons.map((x) => seasons[x]).join("・"));
+  if (facts.length || s.price.note || s.parking.note)
+    html += `<section class="detail-section"><h3><span aria-hidden="true">01</span> おでかけ情報</h3><div class="detail-facts">${facts.join("")}</div>${s.price.note ? `<p class="detail-note">料金：${esc(s.price.note)}</p>` : ""}${s.parking.note ? `<p class="detail-note">駐車場：${esc(s.parking.note)}</p>` : ""}</section>`;
+  const tags = effectiveTags(s);
+  if (tags.length)
+    html += `<section class="detail-section"><h3><span aria-hidden="true">02</span> 楽しめること</h3><div class="chips detail-tags">${tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div></section>`;
+  let facilities = "";
+  for (const { title, values } of shoppingSections(s))
+    facilities += `<section class="shopping-detail"><h4>${title}</h4><div class="chips">${values.map((v) => `<span class="chip">${esc(v)}</span>`).join("")}</div></section>`;
   if (s.camping)
-    html +=
+    facilities +=
       detailsTable("キャンプ・BBQ", campingFields, s.camping) +
       (s.camping.reservation && s.camping.reservation !== "unknown"
-        ? `<p class="form-note">予約：${detailLabel(s.camping.reservation)}</p>`
+        ? `<p class="detail-note">予約：${esc(detailLabel(s.camping.reservation))}</p>`
         : "");
-  if (s.fishing) html += detailsTable("釣り", fishingFields, s.fishing);
-  if (s.sauna)
-    html +=
-      detailsTable("サウナ", saunaFields, s.sauna) +
-      `<p class="form-note">${[s.sauna.familyUse !== "unknown" ? "家族利用：" + detailLabel(s.sauna.familyUse) : "", s.sauna.childUse !== "unknown" ? "子ども：" + detailLabel(s.sauna.childUse) : "", s.sauna.childAgeRule ? "年齢条件：" + esc(s.sauna.childAgeRule) : ""].filter(Boolean).join(" / ")}</p>`;
-  html += s.website
-    ? `<p><a href="${esc(s.website)}" target="_blank" rel="noopener noreferrer">公式サイトを見る ↗</a></p>`
-    : '<p class="form-note">公式サイト未提供・営業状況未確認</p>';
+  if (s.fishing) facilities += detailsTable("釣り", fishingFields, s.fishing);
+  if (s.sauna) {
+    facilities += detailsTable("サウナ", saunaFields, s.sauna);
+    const notes = [
+      s.sauna.familyUse !== "unknown"
+        ? "家族利用：" + detailLabel(s.sauna.familyUse)
+        : "",
+      s.sauna.childUse !== "unknown"
+        ? "子ども：" + detailLabel(s.sauna.childUse)
+        : "",
+      s.sauna.childAgeRule ? "年齢条件：" + s.sauna.childAgeRule : "",
+    ].filter(Boolean);
+    if (notes.length)
+      facilities += `<p class="detail-note">${esc(notes.join(" / "))}</p>`;
+  }
+  if (facilities)
+    html += `<section class="detail-section"><h3><span aria-hidden="true">03</span> 施設詳細</h3>${facilities}</section>`;
+  if (s.website)
+    html += `<section class="detail-section detail-official"><h3>公式サイト</h3><a class="official-link" href="${esc(s.website)}" target="_blank" rel="noopener noreferrer">公式サイトを見る <span aria-hidden="true">↗</span></a></section>`;
+  html += `<section class="detail-section detail-memories"><h3>家族の思い出</h3><div class="detail-facts"><p><small>行った回数</small><strong>${visitCount(state, s.id)}回</strong></p><p><small>最後に行った日</small><strong>${esc(latest(s.id)?.date ?? "まだ行っていない")}</strong></p></div></section>`;
   html += `<div class="detail-actions"><button class="primary" data-visit="${esc(s.id)}">✓ 行った！</button><button data-favorite="${esc(s.id)}">${state.favorites.includes(s.id) ? "♥ 保存済み" : "♡ お気に入り"}</button></div><div class="management actions">${s.source === "legacy" ? "" : `<button data-edit="${esc(s.id)}">編集</button><button data-${archived ? "restore" : "hide"}="${esc(s.id)}">${archived ? "候補に戻す" : "候補から非表示"}</button>`}${archived ? `<details><summary>完全削除の操作</summary><p class="form-note">この場所のすべての思い出とお気に入りも消えます。</p><button class="danger" data-purge="${esc(s.id)}">思い出も含め完全に削除</button></details>` : ""}</div>`;
   $("detail-content").innerHTML = html;
   if (!$("detail-dialog").open) $("detail-dialog").showModal();
@@ -1178,3 +1241,7 @@ installPicker({
 });
 
 installPwa();
+
+document.addEventListener("click", (event) => {
+  if (event.target.closest("[data-reset-search]")) $("clear").click();
+});

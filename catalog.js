@@ -1,3 +1,4 @@
+import { createLeisureSpots } from "./catalog-leisure.js";
 import { enrichInterests } from "./catalog-interests.js";
 import { verifiedSpots as previous } from "./catalog-v2.js";
 import { additionalSpots } from "./catalog-additions.js";
@@ -10,9 +11,9 @@ const unknownPriceIds = new Set([
   "place-matsudo-komorebi",
   "place-kidzania",
 ]);
-export const catalogRevision = 9;
-export const expectedCatalogSize = 350;
-export const verifiedSpots = [
+export const catalogRevision = 10;
+export const expectedCatalogSize = 358;
+export const prior350Spots = [
   ...previous.map((s) => {
     const upgraded = upgradeSpot(s);
     if (s.tent === true) upgraded.tags.push("テントOK");
@@ -56,6 +57,10 @@ export const verifiedSpots = [
   .map(enrichSpot)
   .map(enrichShopping)
   .map(enrichInterests);
+export const verifiedSpots = [
+  ...prior350Spots,
+  ...createLeisureSpots(prior350Spots),
+];
 export const catalogReady =
   verifiedSpots.length === expectedCatalogSize &&
   new Set(verifiedSpots.map((s) => s.id)).size === expectedCatalogSize;

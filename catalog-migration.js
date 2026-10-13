@@ -52,7 +52,9 @@ export function migrateCatalogue(state, catalogue, revision) {
       updated = mergeInformation(updated, current);
     if ((state.catalogRevision ?? 0) < 8)
       updated = mergeShopping(updated, current);
-    return mergeInterests(updated, current);
+    if ((state.catalogRevision ?? 0) < 9)
+      updated = mergeInterests(updated, current);
+    return updated;
   };
   return {
     ...state,

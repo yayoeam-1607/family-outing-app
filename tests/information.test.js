@@ -1,3 +1,4 @@
+import { expectedCatalogSize } from "../catalog.js";
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
@@ -184,13 +185,13 @@ test("revision 6更新は未知情報を補完し、手入力・非表示・履�
   assert.deepEqual(updated.favorites, state.favorites);
   assert.deepEqual(updated.visits, state.visits);
   assert.deepEqual(updated.removedBuiltinIds, state.removedBuiltinIds);
-  assert.equal(updated.spots.length, 350);
+  assert.equal(updated.spots.length, expectedCatalogSize);
   assert.equal(updated.spots.find((s) => s.id === user.id).name, user.name);
   assert.deepEqual(prepareState(updated), updated);
 });
 test("情報補完には施設ごとの公式出典があり、350件の固定IDを保持する", () => {
-  assert.equal(verifiedSpots.length, 350);
-  assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, 350);
+  assert.equal(verifiedSpots.length, expectedCatalogSize);
+  assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, expectedCatalogSize);
   for (const id of Object.keys(information))
     assert.ok(
       sources.some((s) => s.id === id && /^https:\/\//.test(s.source)),

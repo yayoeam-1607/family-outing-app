@@ -1,3 +1,4 @@
+import { expectedCatalogSize } from "../catalog.js";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { verifiedSpots, catalogRevision } from "../catalog.js";
@@ -18,9 +19,9 @@ const ids = (spots) => spots.map((s) => s.id).sort();
 const find = (name) => verifiedSpots.find((s) => s.name === name);
 
 test("48施設を個別監査し、公式根拠のあるタグだけを固定350件へ補完する", () => {
-  assert.equal(catalogRevision, 9);
-  assert.equal(verifiedSpots.length, 350);
-  assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, 350);
+  assert.equal(catalogRevision, 10);
+  assert.equal(verifiedSpots.length, expectedCatalogSize);
+  assert.equal(new Set(verifiedSpots.map((s) => s.id)).size, expectedCatalogSize);
   assert.equal(baseline.length, 48);
   const shopping = verifiedSpots.filter((s) => s.mainCategory === "shopping");
   assert.deepEqual(ids(shopping), ids(baseline));
@@ -194,7 +195,7 @@ test("revision7から8へ補完し、ユーザー編集・削除済みタグ・�
   state.spots.push(user);
   const before = structuredClone(state),
     next = prepareState(state);
-  assert.equal(next.catalogRevision, 9);
+  assert.equal(next.catalogRevision, 10);
   assert.deepEqual(next.favorites, before.favorites);
   assert.deepEqual(next.visits, before.visits);
   assert.deepEqual(next.removedBuiltinIds, before.removedBuiltinIds);
@@ -257,6 +258,6 @@ test("移動時間の上限を広げると近場をすべて含み、車・電�
   }
   assert.equal(
     searchResults(state, c({ mainCategory: "any", travelRange: "any" })).length,
-    350,
+    expectedCatalogSize,
   );
 });
