@@ -1,3 +1,4 @@
+import { recommendToday } from "./recommendations.js";
 import {
   spotBadges,
   categoryGlyph,
@@ -486,7 +487,17 @@ function renderMemories() {
   }
   $("timeline").innerHTML = html;
 }
+let recommendations = [], recommendationState = null;
+function renderRecommendations(refresh = false) {
+  const previousIds = recommendations.map(r => r.spot.id);
+  if (refresh || recommendationState !== state || !recommendations.length || recommendations.some(r => !state.spots.some(s => s.id === r.spot.id)))
+    recommendations = recommendToday(state, { previousIds: refresh ? previousIds : [] });
+  recommendationState = state;
+  const labels = {near:"📍 近場で気軽に", far:"🚗 ちょっと遠出", different:"✨ いつもと違う"};
+  $("today-recommendations").innerHTML = recommendations.map(({role,spot,reason}) => `<button class="recommendation-card ${role}" data-detail="${esc(spot.id)}"><span class="recommendation-role">${labels[role]}</span><strong>${esc(spot.name)}</strong><span class="recommendation-area">${esc([spot.prefecture,spot.area].filter(Boolean).join(" "))}</span><span class="recommendation-facts">🚗 瑞江駅から${spot.travel.carMinutes == null ? "の車時間は未確認" : `約${spot.travel.carMinutes}分（目安）`} · 🅿 ${parkingLabel(spot)}</span><span class="card-tags">${effectiveTags(spot).slice(0,2).map(t=>`<span>#${esc(t)}</span>`).join("")}</span><span class="recommendation-reason">${esc(reason)}</span></button>`).join("") || `<p class="form-note">おすすめできる施設がありません。</p>`;
+}
 function renderAll() {
+  renderRecommendations();
   renderHierarchy();
   renderCommon();
   renderResults();
@@ -1245,3 +1256,5 @@ installPwa();
 document.addEventListener("click", (event) => {
   if (event.target.closest("[data-reset-search]")) $("clear").click();
 });
+
+$("recommendations-refresh").addEventListener("click", () => renderRecommendations(true));
