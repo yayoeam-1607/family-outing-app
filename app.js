@@ -538,7 +538,7 @@ function showDetail(id) {
   detailId = s.id;
   const archived = isArchived(s.id);
   const meta = taxonomy[s.mainCategory];
-  let html = `<header class="detail-header"><p class="eyebrow">家族の次のおでかけ</p><span class="card-category">${meta.icon} ${esc(meta.label)}</span><h2 class="detail-title">${esc(s.name)}</h2><p class="detail-category">${esc(s.subcategories.join(" / "))}</p>${s.prefecture || s.area ? `<p class="detail-location">${esc([s.prefecture, s.area].filter(Boolean).join(" "))}</p>` : ""}${archived ? '<p class="form-note">候補から非表示にした場所</p>' : ""}${s.description ? `<p class="detail-description">${esc(s.description)}</p>` : ""}</header>`;
+  let html = `${categoryArtwork(s.mainCategory)}<header class="detail-header"><p class="eyebrow">家族の次のおでかけ</p><span class="card-category">${meta.icon} ${esc(meta.label)}</span><h2 class="detail-title">${esc(s.name)}</h2><p class="detail-category">${esc(s.subcategories.join(" / "))}</p>${s.prefecture || s.area ? `<p class="detail-location">${esc([s.prefecture, s.area].filter(Boolean).join(" "))}</p>` : ""}${archived ? '<p class="form-note">候補から非表示にした場所</p>' : ""}${s.description ? `<p class="detail-description">${esc(s.description)}</p>` : ""}</header>`;
   const facts = [];
   const fact = (label, value) =>
     facts.push(`<p><small>${label}</small><strong>${esc(value)}</strong></p>`);

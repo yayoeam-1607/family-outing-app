@@ -33,6 +33,9 @@ const glyphs = {
 export function categoryGlyph(category) {
   return `<svg viewBox="0 0 68 76" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">${glyphs[category] ?? glyphs.nature}</svg>`;
 }
+// Decorative category art is intentionally labelled: it is not a photograph of the venue.
+const artPositions = {outdoor:[0,0], shopping:[1,0], leisure:[0,1], animals:[1,1], indoor:[0,2], learning:[1,2], activity:[0,3], relax:[1,3], sightseeing:[0,4], nature:[1,4]};
 export function categoryArtwork(category) {
-  return `<div class="card-visual" aria-hidden="true"><span class="art-sun"></span><span class="art-hill art-hill-back"></span><span class="art-hill"></span><span class="art-glyph">${categoryGlyph(category)}</span><span class="art-route"></span></div>`;
+  const [x,y] = artPositions[category] ?? artPositions.nature;
+  return `<div class="card-visual category-scene" style="--scene-x:${x*100}%;--scene-y:${y*25}%" aria-hidden="true"><span class="scene-caption">カテゴリのイメージ</span></div>`;
 }

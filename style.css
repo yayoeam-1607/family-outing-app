@@ -2363,3 +2363,76 @@ a:focus-visible {
     height: 87px;
   }
 }
+
+/* Reference direction: warm travel journal, illustrated scenery, light cards. */
+:root { --deep:#285e49; --sage:#4f8967; --text:#303d37; }
+body { background: #fbf8f0; color:#303d37; }
+.site-header { background:#fbf8f0ed; border-bottom:0; }
+.hero.reference-hero { min-height:350px; padding:27px 24px 18px; border:0; border-radius:24px; background:#e8f0df url('/family-outing-app/art/family-day.webp') center 47% / cover no-repeat; display:flex; flex-direction:column; justify-content:space-between; margin-bottom:18px; }
+.hero.reference-hero::before { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(#fffaf0d9 0%,#fffaf07a 31%,transparent 65%); }
+.hero.reference-hero .hero-copy { text-align:center; }
+.hero.reference-hero h1 { font-family:'Hiragino Maru Gothic ProN','Yu Gothic',sans-serif; font-size:38px; letter-spacing:.025em; font-weight:750; margin-bottom:8px; text-shadow:0 1px 0 #fff9; }
+.hero.reference-hero .eyebrow { font-size:10px; margin-bottom:9px; color:#46644e; }
+.hero.reference-hero .hero-subtitle { font-size:12px; font-weight:500; color:#304e3d; }
+.hero.reference-hero .hero-origin { display:none; }
+.hero.reference-hero .picker-entry { background:linear-gradient(120deg,#ffa16e,#ff876b); border:1px solid #ffb394; color:#fff; border-radius:19px; padding:13px 16px; box-shadow:0 6px 15px #bd754126,inset 0 1px 0 #fff7; margin-top:170px; }
+.picker-entry .picker-symbol { background:#fff2; color:white; border-radius:12px; font-size:29px; }
+.picker-entry small { color:#fff; font-size:10px; line-height:1.6; }
+.picker-entry .entry-arrow { color:#fff; }
+.search-label { font-size:12px; margin-top:20px; }
+.search-box { border-radius:26px; box-shadow:0 3px 12px #56674c0b; padding:5px 14px; background:white; }
+.search-box input { border:0; background:transparent; }
+.purpose-chips { gap:7px; }
+.category-grid { gap:13px 8px; }
+.category-grid button { border:0; border-radius:14px; background:transparent; flex-direction:column; justify-content:flex-start; align-items:center; gap:7px; padding:7px 2px; box-shadow:none; min-height:98px; }
+.category-grid button .category-icon { width:52px; height:52px; border-radius:17px; background:linear-gradient(135deg,#e8efdc,#f0f4e9); display:grid; place-items:center; }
+.category-grid button:nth-child(2n) .category-icon { background:linear-gradient(135deg,#fff1e7,#fbe3d5); }
+.category-grid button:nth-child(4n) .category-icon { background:linear-gradient(135deg,#e8f5fa,#dfecef); }
+.category-grid button .category-label { font-size:11px; text-align:center; line-height:1.55; max-width:100%; color:#354d3f; }
+.category-grid button .category-icon svg { width:30px; height:34px; }
+.category-grid button.active { background:#eaf0df; border:1px solid #c5d5b7; }
+.category-grid button .category-check { right:3px; top:3px; }
+.section-heading { margin-top:24px; margin-bottom:12px; }
+.section-heading h2 { font-size:15px; color:#253c30; }
+.filter-toggle { background:#fffdf6; border:1px solid #e7e7dc; border-radius:13px; }
+.spot-card { position:relative; padding:0 15px 12px; border:1px solid #e8e9de; border-radius:19px; background:#fffefb; box-shadow:0 4px 12px #4a503c0a; overflow:hidden; }
+.spot-card .card-visual.category-scene { height:176px; margin:0 -15px 11px; border-radius:0; background-image:url('/family-outing-app/art/category-scenes.webp'); background-size:200% 500%; background-position:var(--scene-x) var(--scene-y); position:relative; }
+.scene-caption { position:absolute; right:8px; bottom:7px; color:#fff; background:#2c433d99; font-size:9px; border-radius:5px; padding:3px 6px; }
+.card-heading { margin-bottom:3px; }
+.card-heading h3 { font-size:19px; margin:0 0 5px; line-height:1.4; color:#223e30; }
+.card-category { border-radius:20px; padding:2px 8px; font-size:9px; font-weight:500; }
+.spot-card .favorite { position:absolute; top:12px; right:12px; background:#fffef9ed; border:0; box-shadow:0 2px 8px #304c4024; color:#657c6c; z-index:2; }
+.spot-card .favorite.selected { color:#ff7e66; }
+.card-location { margin:3px 0 10px; font-size:11px; color:#526359; }
+.card-facts { background:transparent; padding:0; gap:8px; margin:0 0 11px; }
+.card-facts > span { font-size:11px; gap:4px; }
+.card-facts strong { font-size:12px; }
+.card-facts small { font-size:9px; color:#647568; }
+.card-facts > span > span:first-child { width:15px; font-size:12px; }
+.card-facts .travel-fact small:last-child { display:none; }
+.card-tags { gap:5px; }
+.card-tags span { background:#eaf5fb; color:#266985; border-radius:12px; padding:5px 8px; font-size:10px; }
+.match-points { padding-top:9px; border-top:0; color:#4d7358; font-size:10px; }
+.visit-status { border-top:1px solid #edf0e6; padding-top:9px; margin-top:10px; font-size:10px; }
+.spot-badge { border-radius:10px; }
+#detail-content > .category-scene { height:240px; border-radius:20px; background-image:url('/family-outing-app/art/category-scenes.webp'); background-size:200% 500%; background-position:var(--scene-x) var(--scene-y); position:relative; }
+.detail-header { background:transparent; padding:20px 0; border-radius:0; }
+.detail-title { color:#234b37; }
+.detail-section { border-top:1px solid #e7eade; padding-top:20px; }
+.detail-section h3 { color:#3a7755; }
+.journal-entry { background:#fffefb; box-shadow:0 3px 12px #4a503c08; border-radius:17px; border:1px solid #eeeadd; }
+.empty { background:linear-gradient(160deg,#fffaf0,#f2f5e9); border:0; border-radius:22px; }
+.empty-symbol { color:#52845e; background:#e7efd9; }
+.bottom-nav { background:#fffef9f5; border-top:1px solid #eee9dc; box-shadow:0 -3px 15px #63552d04; }
+.bottom-nav button.active { color:#31724f; background:#eff4e8; }
+@media(max-width:600px) {
+ .hero.reference-hero { margin:0 -3px 16px; min-height:340px; padding:22px 16px 15px; border-radius:20px; }
+ .hero.reference-hero h1 { font-size:34px; }
+ .hero.reference-hero .picker-entry { margin-top:163px; }
+ .category-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
+ .category-grid button .category-label { font-size:10px; }
+ .section-heading small { font-size:10px; }
+ .spot-card .card-visual.category-scene { height:174px; }
+}
+@media(min-width:700px) { .category-grid { grid-template-columns:repeat(5,minmax(0,1fr)); } .hero.reference-hero { min-height:390px; background-position:center 49%; } }
+@media(max-width:350px) { .hero.reference-hero h1 {font-size:29px;} .category-grid button .category-label { font-size:9px; } .category-grid button .category-icon {width:46px;height:46px;} }
